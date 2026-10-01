@@ -1,0 +1,3 @@
+8bc2ed8a5c280b165218b484f42dbc8c065880b6b9f3f6c90d63a6f6dbe5dced  WulinToyBox-v1.1.0-plugin.zip
+7485a194c1446b75c5d5198f1d0443bea5d01e1edcf956e9a5778ab6f21d8aa9  WulinToyBox-v1.1.0-source.zip
+af8b7facedacc1d547f0bcc26582b6a77a76d954dd57b8348788be1c7cbcd615  BepInEx/plugins/HaxxToyBox/HaxxToyBox.dll

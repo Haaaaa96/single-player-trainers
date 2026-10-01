@@ -1,0 +1,3 @@
+74a44a6804bb38a7db6031da5e7373737a19d5351680ece58976647d693eb44f  WorldApartTrainer-v1.3-new-win64.zip
+f4a016d7e00c61fde812dbf832c6ac9e04696892b0f2bce6e79c1445bd6cf70e  WorldApartTrainer-Frida-17.7.3-sources.zip
+bed5bd18a201998c3c84811e7efa7eb412868b636ef04b8cc38d65b569d41f05  WorldApartTrainer.exe

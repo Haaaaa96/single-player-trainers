@@ -1,0 +1,12 @@
+{
+  "frida_version": "17.7.3",
+  "official_wheel_url": "https://files.pythonhosted.org/packages/ce/70/59a2f9cf7af96c104c70ee85082827dfee926528f6d4803197d4f520536f/frida-17.7.3-cp37-abi3-win_amd64.whl",
+  "official_wheel_sha256": "a54a0784a63aa0d3206c87975e9e242d58eed9aed5ce64ab1644af34e3d1f03b",
+  "native_library_sha256": "ff14cdd333eb2be0a76fa5bb71fcd5ed70fcb2a6b49cb718ffd337d1f7731efb",
+  "native_library_bytes": 118038016,
+  "matches_shipped_native_library": true,
+  "upstream_wheel_license_entries": [
+    "frida-17.7.3.dist-info/licenses/COPYING"
+  ],
+  "unmodified_upstream_binary": true
+}

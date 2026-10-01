@@ -1,0 +1,1044 @@
+{
+  "format": 1,
+  "frida_version": "17.7.3",
+  "releng_commit": "7ed66fe6870f2881f9b663942e90db2757ba0682",
+  "deps_url": "https://raw.githubusercontent.com/frida/releng/7ed66fe6870f2881f9b663942e90db2757ba0682/deps.toml",
+  "deps_sha256": "1a29b1e061bc105f59790486437d5eb4e7adcf7d317ed819434439dfd5c09dae",
+  "scope": "upstream Windows x64 SDK/toolchain source superset; not a binary SBOM",
+  "components": [
+    {
+      "name": "brotli",
+      "repository": "https://github.com/frida/brotli",
+      "revision": "01d9e2922ca878965ebcd71ee8965d2a7aadb47a",
+      "archive_url": "https://codeload.github.com/frida/brotli/tar.gz/01d9e2922ca878965ebcd71ee8965d2a7aadb47a",
+      "archive": "sources/brotli-01d9e2922ca878965ebcd71ee8965d2a7aadb47a.tar.gz",
+      "archive_sha256": "9e5350b4b1d12d71d7b7599494959c2859232c3c203bd3c5cb4ccf4a9e15471c",
+      "archive_bytes": 513617,
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+          "bytes": 1084
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "capstone",
+      "repository": "https://github.com/frida/capstone",
+      "revision": "fecd93b6e54c0a1df285841620192ffff916a031",
+      "archive_url": "https://codeload.github.com/frida/capstone/tar.gz/fecd93b6e54c0a1df285841620192ffff916a031",
+      "archive": "sources/capstone-fecd93b6e54c0a1df285841620192ffff916a031.tar.gz",
+      "archive_sha256": "13081b5d7d5df31189041f0fe7c62b7722a47fdedd52564094af62d43547ef26",
+      "archive_bytes": 7668395,
+      "notices": [
+        {
+          "path": "LICENSE.TXT",
+          "sha256": "65e9ed46a59976eda8f5bd1ea79a680dea38dd299c760bc9a8d87a764ef5029b",
+          "bytes": 1687
+        },
+        {
+          "path": "LICENSE_LLVM.TXT",
+          "sha256": "dfdca2d7fdbabfd937f9dc41b7f61647b0e6cb1f9ee767ecb4520f979ebe91da",
+          "bytes": 3331
+        },
+        {
+          "path": "bindings/python/LICENSE.TXT",
+          "sha256": "65e9ed46a59976eda8f5bd1ea79a680dea38dd299c760bc9a8d87a764ef5029b",
+          "bytes": 1687
+        },
+        {
+          "path": "suite/regress/LICENSE",
+          "sha256": "2b16ef2d08597fccc3ffa8a8872e387e4b08e333e11b29c0bbb24f9d2167ac41",
+          "bytes": 1688
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "frida",
+      "repository": "https://github.com/frida/frida",
+      "revision": "17.7.3",
+      "archive_url": "https://codeload.github.com/frida/frida/tar.gz/17.7.3",
+      "archive": "sources/frida-17.7.3.tar.gz",
+      "archive_sha256": "eed1d2de235c4e197959cba72e4f31bdf8ed30cd0fce2e126fe54b86cd53fec1",
+      "archive_bytes": 28020,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "5ea1544b51a28bc823b03159190d4108f9fb4f4ef912389f5137c6d295e175b2",
+          "bytes": 2416
+        }
+      ],
+      "submodule_metadata": [
+        ".gitmodules"
+      ]
+    },
+    {
+      "name": "frida-core",
+      "repository": "https://github.com/frida/frida-core",
+      "revision": "3f3457b249e41a98944f3262e8424580d3d595cc",
+      "archive_url": "https://codeload.github.com/frida/frida-core/tar.gz/3f3457b249e41a98944f3262e8424580d3d595cc",
+      "archive": "sources/frida-core-3f3457b249e41a98944f3262e8424580d3d595cc.tar.gz",
+      "archive_sha256": "8a5558d4e7b9f2b9717090e66f036bbf409caa3604639af2f71dfba66a11c025",
+      "archive_bytes": 3713257,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "5ea1544b51a28bc823b03159190d4108f9fb4f4ef912389f5137c6d295e175b2",
+          "bytes": 2416
+        }
+      ],
+      "submodule_metadata": [
+        ".gitmodules"
+      ]
+    },
+    {
+      "name": "frida-gum",
+      "repository": "https://github.com/frida/frida-gum",
+      "revision": "33bca639d2d86051cb61517935cf1ad0e76829e4",
+      "archive_url": "https://codeload.github.com/frida/frida-gum/tar.gz/33bca639d2d86051cb61517935cf1ad0e76829e4",
+      "archive": "sources/frida-gum-33bca639d2d86051cb61517935cf1ad0e76829e4.tar.gz",
+      "archive_sha256": "b7cd7e776dbbbdbd34f9b132552cc43a24c386b013b5397548c1ee1e09fa2b6a",
+      "archive_bytes": 14291243,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "00764fcc23f0f2ac6d2619a1f9192e55176ecaaa525e76a47aaabc5d87fb087f",
+          "bytes": 5696
+        }
+      ],
+      "submodule_metadata": [
+        ".gitmodules"
+      ]
+    },
+    {
+      "name": "frida-python",
+      "repository": "https://github.com/frida/frida-python",
+      "revision": "0fccd75bc75b267dee5602d6ed38272e71534d68",
+      "archive_url": "https://codeload.github.com/frida/frida-python/tar.gz/0fccd75bc75b267dee5602d6ed38272e71534d68",
+      "archive": "sources/frida-python-0fccd75bc75b267dee5602d6ed38272e71534d68.tar.gz",
+      "archive_sha256": "d435899f8df39fd58e942aff7d133d0b1b640a456069cc7c75f29db9c6b0fa3b",
+      "archive_bytes": 338243,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "5ea1544b51a28bc823b03159190d4108f9fb4f4ef912389f5137c6d295e175b2",
+          "bytes": 2416
+        }
+      ],
+      "submodule_metadata": [
+        ".gitmodules"
+      ]
+    },
+    {
+      "name": "glib",
+      "repository": "https://github.com/frida/glib",
+      "revision": "81b631758fe5c665ade9d869554148f6160fe681",
+      "archive_url": "https://codeload.github.com/frida/glib/tar.gz/81b631758fe5c665ade9d869554148f6160fe681",
+      "archive": "sources/glib-81b631758fe5c665ade9d869554148f6160fe681.tar.gz",
+      "archive_sha256": "6339bcafe522aa6e7c4760e104325d694fda8d55c95b5772fe790e2bb349ef8e",
+      "archive_bytes": 9216384,
+      "notices": [
+        {
+          "path": "LICENSES/Apache-2.0.txt",
+          "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff",
+          "bytes": 10280
+        },
+        {
+          "path": "LICENSES/CC0-1.0.txt",
+          "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+          "bytes": 7048
+        },
+        {
+          "path": "LICENSES/GPL-2.0-or-later.txt",
+          "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3",
+          "bytes": 17337
+        },
+        {
+          "path": "LICENSES/LGPL-2.1-or-later.txt",
+          "sha256": "fa6f36630bb1e0c571d34b2bbdf188d08495c9dbf58f28cac112f303fc1f58fb",
+          "bytes": 25967
+        },
+        {
+          "path": "LICENSES/LLVM-exception.txt",
+          "sha256": "e34c58338bd89d43e709e226610d8f32b3e3c47f4ad9a99a8dc1d4ac7842488e",
+          "bytes": 919
+        },
+        {
+          "path": "LICENSES/LicenseRef-old-glib-tests.txt",
+          "sha256": "fb261b2d5dbe76c4850f90da763210bc385e52428df6bbfd7b06295ac8a32914",
+          "bytes": 841
+        },
+        {
+          "path": "LICENSES/MIT.txt",
+          "sha256": "b85dcd3e453d05982552c52b5fc9e0bdd6d23c6f8e844b984a88af32570b0cc0",
+          "bytes": 1078
+        },
+        {
+          "path": "docs/reference/AUTHORS",
+          "sha256": "b4f60a02b2b1f82764f8295b2eafbfcd4c33f596d70abcf5cb3c3623b1cfbc6d",
+          "bytes": 122
+        },
+        {
+          "path": "docs/reference/COPYING",
+          "sha256": "b1ec1d0e5947f81e815d8771f7d4d90671a94bb10a42dc687fb566de461a57aa",
+          "bytes": 1698
+        },
+        {
+          "path": "gmodule/AUTHORS",
+          "sha256": "28073c8c65c072387b778ba00b6c24a2ff1b573ca4415e151aa91fab5a6454be",
+          "bytes": 25
+        },
+        {
+          "path": "proxy-libintl-static/COPYING.LIB.txt",
+          "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5",
+          "bytes": 25292
+        }
+      ],
+      "submodule_metadata": [
+        ".gitmodules"
+      ]
+    },
+    {
+      "name": "glib-networking",
+      "repository": "https://github.com/frida/glib-networking",
+      "revision": "af4b017028e695528951c749a7096e96359521d8",
+      "archive_url": "https://codeload.github.com/frida/glib-networking/tar.gz/af4b017028e695528951c749a7096e96359521d8",
+      "archive": "sources/glib-networking-af4b017028e695528951c749a7096e96359521d8.tar.gz",
+      "archive_sha256": "f7eaa902897af55224bd73dfc251325d9ae2104118ccaf089a87ed3a638415ee",
+      "archive_bytes": 372659,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+          "bytes": 26530
+        },
+        {
+          "path": "LICENSE_EXCEPTION",
+          "sha256": "85685a53e87aa7d3a70016856b646ad1b09c8e636295241f9f7c2d55cd7f05ce",
+          "bytes": 706
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "json-glib",
+      "repository": "https://github.com/frida/json-glib",
+      "revision": "1a39cbe151b02c4192987c8fcc98997a59db2154",
+      "archive_url": "https://codeload.github.com/frida/json-glib/tar.gz/1a39cbe151b02c4192987c8fcc98997a59db2154",
+      "archive": "sources/json-glib-1a39cbe151b02c4192987c8fcc98997a59db2154.tar.gz",
+      "archive_sha256": "da733d01080eca5f985cda182017e94bbe8ffaed4bc3b17cd08f6abcf79d534b",
+      "archive_bytes": 235334,
+      "notices": [
+        {
+          "path": "LICENSES/CC0-1.0.txt",
+          "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+          "bytes": 7048
+        },
+        {
+          "path": "LICENSES/LGPL-2.1-or-later.txt",
+          "sha256": "fa6f36630bb1e0c571d34b2bbdf188d08495c9dbf58f28cac112f303fc1f58fb",
+          "bytes": 25967
+        },
+        {
+          "path": "LICENSES/MIT.txt",
+          "sha256": "b85dcd3e453d05982552c52b5fc9e0bdd6d23c6f8e844b984a88af32570b0cc0",
+          "bytes": 1078
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "libffi",
+      "repository": "https://github.com/frida/libffi",
+      "revision": "cca9fc2909f67d340f4a13ae274587eaf273371d",
+      "archive_url": "https://codeload.github.com/frida/libffi/tar.gz/cca9fc2909f67d340f4a13ae274587eaf273371d",
+      "archive": "sources/libffi-cca9fc2909f67d340f4a13ae274587eaf273371d.tar.gz",
+      "archive_sha256": "f3c73c56e24108a3267e1f2e73137fd2f669c503ede42a01471111bd44dbd5cc",
+      "archive_bytes": 587024,
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "2c9c2acb9743e6b007b91350475308aee44691d96aa20eacef8e199988c8c388",
+          "bytes": 1132
+        },
+        {
+          "path": "LICENSE-BUILDTOOLS",
+          "sha256": "e67978cd18816c0cb7d29aaaacde7b7447402c2fb321a051698890a8eaedda94",
+          "bytes": 18698
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "libgee",
+      "repository": "https://github.com/frida/libgee",
+      "revision": "ad17ed847039469fcc2dc711ecfee2bbf7d2bf87",
+      "archive_url": "https://codeload.github.com/frida/libgee/tar.gz/ad17ed847039469fcc2dc711ecfee2bbf7d2bf87",
+      "archive": "sources/libgee-ad17ed847039469fcc2dc711ecfee2bbf7d2bf87.tar.gz",
+      "archive_sha256": "59817deaa4db678727a3150cbdc14adebff78fa7011b42f7af7574e64598bfb5",
+      "archive_bytes": 142779,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "b1f6a64763debb62e9deb22cfe7272e1141bd43cdf2da2d92838535201beda93",
+          "bytes": 29
+        },
+        {
+          "path": "COPYING",
+          "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+          "bytes": 26436
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "libnice",
+      "repository": "https://github.com/frida/libnice",
+      "revision": "e12567b0a16a0c2eb5dfe5e0782baba8496772ff",
+      "archive_url": "https://codeload.github.com/frida/libnice/tar.gz/e12567b0a16a0c2eb5dfe5e0782baba8496772ff",
+      "archive": "sources/libnice-e12567b0a16a0c2eb5dfe5e0782baba8496772ff.tar.gz",
+      "archive_sha256": "07afe69167330db1d4bab6a4c28220ccf7f3e09347fa41cbd6ab5e3cb27f5e8b",
+      "archive_bytes": 454975,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "d72eb6fa9d5e93abb11d13b6c6f04fda2ba183d0705e703887cda243f6f1eead",
+          "bytes": 187
+        },
+        {
+          "path": "COPYING",
+          "sha256": "9246b2ee8b1db30cf03d5d9719ad8bb5edce1cadc85f8cfef319c23d24d950b5",
+          "bytes": 237
+        },
+        {
+          "path": "COPYING.LGPL",
+          "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861",
+          "bytes": 26527
+        },
+        {
+          "path": "COPYING.MPL",
+          "sha256": "3b3c75ae6c663c4f93987647eb5463d33dc1602a1aded3ac479773f2c3928e3a",
+          "bytes": 25657
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "libpsl",
+      "repository": "https://github.com/frida/libpsl",
+      "revision": "b76c0fed2e27353d5fbb067ecdfdf76d2281eb91",
+      "archive_url": "https://codeload.github.com/frida/libpsl/tar.gz/b76c0fed2e27353d5fbb067ecdfdf76d2281eb91",
+      "archive": "sources/libpsl-b76c0fed2e27353d5fbb067ecdfdf76d2281eb91.tar.gz",
+      "archive_sha256": "a2e67a5876d565999252c7f949be2f8429f0e9bb7ce7fc59cd1a529ce38feaa2",
+      "archive_bytes": 6992424,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "f8583862f775c397643c7eac9c6645abfdd3f6d2918311e35f0fba719f8fa818",
+          "bytes": 916
+        },
+        {
+          "path": "COPYING",
+          "sha256": "7903413e7aa0bbcb77aa19150a3f1034edc0a760cff174f9a53efe4de6f056a4",
+          "bytes": 1060
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "9700db7093c3db54dc9519506ba2a4cdfd43df77a7805ce8c6d600dd134a6b10",
+          "bytes": 1060
+        },
+        {
+          "path": "src/LICENSE.chromium",
+          "sha256": "1d7f52747a9169751cdf2641a8299c0098e9ecdf9429296ffd55bdb14c9ed5b3",
+          "bytes": 1664
+        }
+      ],
+      "submodule_metadata": [
+        ".gitmodules"
+      ]
+    },
+    {
+      "name": "libsoup",
+      "repository": "https://github.com/frida/libsoup",
+      "revision": "80dc080951c9037aef51a40ffbe4508d3ce98d1b",
+      "archive_url": "https://codeload.github.com/frida/libsoup/tar.gz/80dc080951c9037aef51a40ffbe4508d3ce98d1b",
+      "archive": "sources/libsoup-80dc080951c9037aef51a40ffbe4508d3ce98d1b.tar.gz",
+      "archive_sha256": "788ba73187c4c97b6caf59e887f6943a9fa7963ce2d251acca6e8733321d4bdd",
+      "archive_bytes": 1864604,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "f8776285b4556368878a1b903a1f0e6d6cee342284961562a7716a2dacc28321",
+          "bytes": 189
+        },
+        {
+          "path": "COPYING",
+          "sha256": "b7993225104d90ddd8024fd838faf300bea5e83d91203eab98e29512acebd69c",
+          "bytes": 25383
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "libusb",
+      "repository": "https://github.com/frida/libusb",
+      "revision": "ffff4bdfe8faa38cecfad5aab106cae923502d55",
+      "archive_url": "https://codeload.github.com/frida/libusb/tar.gz/ffff4bdfe8faa38cecfad5aab106cae923502d55",
+      "archive": "sources/libusb-ffff4bdfe8faa38cecfad5aab106cae923502d55.tar.gz",
+      "archive_sha256": "0ef44b0ff83d42f35ffbf5ad9066222cc65725741ee787fc96b17b65b217c7d0",
+      "archive_bytes": 420644,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "1c0aa75d6b849856bc6124d6e0775d17ed6a0629a98b550a3ab29a9afc5d6362",
+          "bytes": 3700
+        },
+        {
+          "path": "COPYING",
+          "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+          "bytes": 26436
+        },
+        {
+          "path": "LICENSE.build",
+          "sha256": "7939f4c45423cec4a18236ad0a88570e33508dd7462e07b1038001f90ece65fb",
+          "bytes": 1070
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "libxml2",
+      "repository": "https://github.com/frida/libxml2",
+      "revision": "f09ad5551829b7f2df3666759e701644a0ea8558",
+      "archive_url": "https://codeload.github.com/frida/libxml2/tar.gz/f09ad5551829b7f2df3666759e701644a0ea8558",
+      "archive": "sources/libxml2-f09ad5551829b7f2df3666759e701644a0ea8558.tar.gz",
+      "archive_sha256": "b4aca62bd914a6d5c63e37c3e37179111d02e3a04827638e76f4bf203a0cb40e",
+      "archive_bytes": 3816747,
+      "notices": [
+        {
+          "path": "Copyright",
+          "sha256": "c5c63674f8a83c4d2e385d96d1c670a03cb871ba2927755467017317878574bd",
+          "bytes": 1289
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "lwip",
+      "repository": "https://github.com/frida/lwip",
+      "revision": "334ebb20a22023db2f0d5017e96eb0c7798082fd",
+      "archive_url": "https://codeload.github.com/frida/lwip/tar.gz/334ebb20a22023db2f0d5017e96eb0c7798082fd",
+      "archive": "sources/lwip-334ebb20a22023db2f0d5017e96eb0c7798082fd.tar.gz",
+      "archive_sha256": "b67be0e01657866531ce9a02559e5bbf9528c9c343301a6a8a4e59234640d0a6",
+      "archive_bytes": 1606312,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "ef4aac92e05e87cd1cdc140870ed52206ba03d4a7fe46c1e11d7ffa6c87d252b",
+          "bytes": 1425
+        },
+        {
+          "path": "contrib/apps/LwipMibCompiler/SharpSnmpLib/license.txt",
+          "sha256": "ef1f7505cfdff240e72602bc50ef1cdba37c681c84611cdf30e4371320c70942",
+          "bytes": 24383
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "lzfse",
+      "repository": "https://github.com/frida/lzfse",
+      "revision": "5cfb7c86919d3c2c636d0d7552b51855a611ba1c",
+      "archive_url": "https://codeload.github.com/frida/lzfse/tar.gz/5cfb7c86919d3c2c636d0d7552b51855a611ba1c",
+      "archive": "sources/lzfse-5cfb7c86919d3c2c636d0d7552b51855a611ba1c.tar.gz",
+      "archive_sha256": "5574b75c0e567582f5d138bfc13865a408516f1b932a4c241c2878c89cb7c006",
+      "archive_bytes": 51096,
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "2a20082c2219edbbdb2e862a0566ba4f762a564ade7c04b09250ae4464bc4b32",
+          "bytes": 1514
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "meson",
+      "repository": "https://github.com/frida/meson",
+      "revision": "6620128a0fc86218dd8d2843c7e9a3513772448e",
+      "archive_url": "https://codeload.github.com/frida/meson/tar.gz/6620128a0fc86218dd8d2843c7e9a3513772448e",
+      "archive": "sources/meson-6620128a0fc86218dd8d2843c7e9a3513772448e.tar.gz",
+      "archive_sha256": "0a3aea10ead38789287804ac1aba25e43a78cc17e193f51bbdcc65cd7cfbdc29",
+      "archive_bytes": 4770259,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358
+        },
+        {
+          "path": "docs/theme/extra/templates/license.html",
+          "sha256": "15fcbcade0003df4b37350f12bea7dfeb25d4d2ac9e99d12d893773c4d5359fd",
+          "bytes": 168
+        },
+        {
+          "path": "packaging/License.rtf",
+          "sha256": "e3e8d7b15b2021c994047314ad0ac5e367561f64771a60a85a9c0952d8cd4c3a",
+          "bytes": 11098
+        },
+        {
+          "path": "packaging/macpages/English.lproj/license.html",
+          "sha256": "bca11d525505d21cdfb021e634b0f1d48ece827f9bedcf8cd41356c48a09be24",
+          "bytes": 10921
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "minizip-ng",
+      "repository": "https://github.com/frida/minizip-ng",
+      "revision": "dfc1ccc070ff7bb50726c80215cac515253a8ba0",
+      "archive_url": "https://codeload.github.com/frida/minizip-ng/tar.gz/dfc1ccc070ff7bb50726c80215cac515253a8ba0",
+      "archive": "sources/minizip-ng-dfc1ccc070ff7bb50726c80215cac515253a8ba0.tar.gz",
+      "archive_sha256": "4cfb1c4a934acb9cd8ed1241aa7e024d48e17c319e4c51cae08cd165ee1e80b5",
+      "archive_bytes": 645072,
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "675181c03fc1302a1c8554c00f7be9bb420c5dbc9dcc2013433cec144413de03",
+          "bytes": 877
+        },
+        {
+          "path": "test/fuzz/unzip_fuzzer_seed_corpus/license_zstd.zip",
+          "sha256": "b55bbd300e031bb60717c6481d7c2fa1bd45f334be5b94345997832942f3d7c1",
+          "bytes": 734
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "nghttp2",
+      "repository": "https://github.com/frida/nghttp2",
+      "revision": "ae13d24ea59c30e36ca53d1b22c4e664588d0445",
+      "archive_url": "https://codeload.github.com/frida/nghttp2/tar.gz/ae13d24ea59c30e36ca53d1b22c4e664588d0445",
+      "archive": "sources/nghttp2-ae13d24ea59c30e36ca53d1b22c4e664588d0445.tar.gz",
+      "archive_sha256": "207362cb9d439bb325ba9eda2eca75ab95b559f4b94d8e8f1a293183c6326c0d",
+      "archive_bytes": 3888162,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "d732d42e493c16524b11ec676e4cc5534ceb402d3ebe02e0f17133e63bede2c0",
+          "bytes": 2479
+        },
+        {
+          "path": "COPYING",
+          "sha256": "6b94f3abc1aabd0c72a7c7d92a77f79dda7c8a0cb3df839a97890b4116a2de2a",
+          "bytes": 1156
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "f0518afc0a555337bac2f0fb37d33cdee6111983da69aaa504a1876beeddfde0",
+          "bytes": 12
+        },
+        {
+          "path": "doc/_exts/rubydomain/LICENSE.rubydomain",
+          "sha256": "2dee6027d254030e382dd8e9f0f1b4ac2c186bd409c85ca2bef80d38b4da283c",
+          "bytes": 1418
+        },
+        {
+          "path": "third-party/llhttp/LICENSE-MIT",
+          "sha256": "ebca854e0134cd256d673627c20499f42577eb74bacf08b9f25b626a73c91277",
+          "bytes": 1105
+        },
+        {
+          "path": "third-party/url-parser/AUTHORS",
+          "sha256": "d1a15fcf0453796ee31e900dd5edff35ae86fb6ae4375c2afda8bde0f6fd2f03",
+          "bytes": 2502
+        },
+        {
+          "path": "third-party/url-parser/LICENSE-MIT",
+          "sha256": "79e6ba8b687cb54786207342b9b6fcee0ac10218453ed9009b84d949b2233cc0",
+          "bytes": 1077
+        }
+      ],
+      "submodule_metadata": [
+        ".gitmodules"
+      ]
+    },
+    {
+      "name": "ngtcp2",
+      "repository": "https://github.com/frida/ngtcp2",
+      "revision": "828dcaed498b40954e1b496664a3309796968db6",
+      "archive_url": "https://codeload.github.com/frida/ngtcp2/tar.gz/828dcaed498b40954e1b496664a3309796968db6",
+      "archive": "sources/ngtcp2-828dcaed498b40954e1b496664a3309796968db6.tar.gz",
+      "archive_sha256": "8850161ce940b0d08907c276a4a0a28eb234920c02bad7901dc468051ce01b5e",
+      "archive_bytes": 601303,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "8b2a10925cbfc94e021bb82390be1e1f1eff0185e779da8296b0ad6401de99ca",
+          "bytes": 645
+        },
+        {
+          "path": "COPYING",
+          "sha256": "542dd526d2ea23565f0571cc68df6f05ed11248a90ff0f32de19d8ba589db513",
+          "bytes": 1080
+        },
+        {
+          "path": "third-party/http-parser/AUTHORS",
+          "sha256": "d1a15fcf0453796ee31e900dd5edff35ae86fb6ae4375c2afda8bde0f6fd2f03",
+          "bytes": 2502
+        },
+        {
+          "path": "third-party/http-parser/LICENSE-MIT",
+          "sha256": "2996a1c43ee757f9c997a829d82bdd584052323e73cf02ff8126c6fbd95c2d87",
+          "bytes": 1251
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "ninja",
+      "repository": "https://github.com/frida/ninja",
+      "revision": "516800b093d1a2e5589ee1cdd7393dffdf9c702e",
+      "archive_url": "https://codeload.github.com/frida/ninja/tar.gz/516800b093d1a2e5589ee1cdd7393dffdf9c702e",
+      "archive": "sources/ninja-516800b093d1a2e5589ee1cdd7393dffdf9c702e.tar.gz",
+      "archive_sha256": "02bdd8a1077847dea7738a9f271f33b7ba5d4497b616e70763df966b317c91f7",
+      "archive_bytes": 230764,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "eb7e9ab9690124c5c9f42bdc81383d886a3dede26345b6ed15bbad7caf81f7ea",
+          "bytes": 11358
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "openssl",
+      "repository": "https://github.com/frida/openssl",
+      "revision": "fa60a1c8c704e4ca0cc0dcb289c3be1fea1b50ff",
+      "archive_url": "https://codeload.github.com/frida/openssl/tar.gz/fa60a1c8c704e4ca0cc0dcb289c3be1fea1b50ff",
+      "archive": "sources/openssl-fa60a1c8c704e4ca0cc0dcb289c3be1fea1b50ff.tar.gz",
+      "archive_sha256": "53559857d58383256efe59ca7cb55caa0a6635c9680a3c8a5d29fec78f20be71",
+      "archive_bytes": 29148918,
+      "notices": [
+        {
+          "path": "AUTHORS.md",
+          "sha256": "5076ca441daef7fb35e904c2ac070880c7b3d58300a5a6aecac41e8f525f4412",
+          "bytes": 990
+        },
+        {
+          "path": "LICENSE.build",
+          "sha256": "7939f4c45423cec4a18236ad0a88570e33508dd7462e07b1038001f90ece65fb",
+          "bytes": 1070
+        },
+        {
+          "path": "LICENSE.txt",
+          "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+          "bytes": 10175
+        },
+        {
+          "path": "external/perl/Text-Template-1.56/LICENSE",
+          "sha256": "9837f05336ef3cbacb6a96e1672a0426d81ad01191f214b8d48e22ca62338181",
+          "bytes": 18412
+        },
+        {
+          "path": "util/perl/OpenSSL/copyright.pm",
+          "sha256": "04213b69dbebc8ba0dd8a6216af1d9422f9b63619c1cf2f1d8aa107b83bbb608",
+          "bytes": 1145
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "pcre2",
+      "repository": "https://github.com/frida/pcre2",
+      "revision": "b47486922fdc3486499b310dc9cf903449700474",
+      "archive_url": "https://codeload.github.com/frida/pcre2/tar.gz/b47486922fdc3486499b310dc9cf903449700474",
+      "archive": "sources/pcre2-b47486922fdc3486499b310dc9cf903449700474.tar.gz",
+      "archive_sha256": "6dfae668d6e887a552358270cd215bfa13ab3864a4304f7cd7026474c48d36c5",
+      "archive_bytes": 2754591,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "430c8e1ae1c643cef5b14af882ada140bd8f675198d704cf88aa65addac3ab78",
+          "bytes": 749
+        },
+        {
+          "path": "COPYING",
+          "sha256": "99272c55f3dcfa07a8a7e15a5c1a33096e4727de74241d65fa049fccfdd59507",
+          "bytes": 97
+        },
+        {
+          "path": "LICENCE",
+          "sha256": "87d884eceb7fc54611470ce9f74280d28612b0c877adfc767e9676892a638987",
+          "bytes": 3477
+        },
+        {
+          "path": "LICENSE.build",
+          "sha256": "7939f4c45423cec4a18236ad0a88570e33508dd7462e07b1038001f90ece65fb",
+          "bytes": 1070
+        },
+        {
+          "path": "cmake/COPYING-CMAKE-SCRIPTS",
+          "sha256": "46cde7dc11e64c78d650b4851b88f6704b4665ff60f22a1caf68ceb15e217e5b",
+          "bytes": 1327
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "pkg-config",
+      "repository": "https://github.com/frida/pkg-config",
+      "revision": "4696795673d1d3dec46b663df48f8cbf66461d14",
+      "archive_url": "https://codeload.github.com/frida/pkg-config/tar.gz/4696795673d1d3dec46b663df48f8cbf66461d14",
+      "archive": "sources/pkg-config-4696795673d1d3dec46b663df48f8cbf66461d14.tar.gz",
+      "archive_sha256": "a7199634c06369e811c0b7fbc1cf0ef7d52e36724359f4ea538eaac0d66b3713",
+      "archive_bytes": 1201087,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "28b8e4097e7b6566c0f3055418ac00864d2162492b4ee1e770b2cfab49cd95b4",
+          "bytes": 359
+        },
+        {
+          "path": "COPYING",
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+          "bytes": 18092
+        },
+        {
+          "path": "glib/AUTHORS",
+          "sha256": "d4635e1b6975b421eab63cea9962254d61306f8575f17827b4332da9a7261db0",
+          "bytes": 1344
+        },
+        {
+          "path": "glib/COPYING",
+          "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5",
+          "bytes": 25292
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "quickjs",
+      "repository": "https://github.com/frida/quickjs",
+      "revision": "f48e71e5240106dbca136e60f751e206d15cdb3f",
+      "archive_url": "https://codeload.github.com/frida/quickjs/tar.gz/f48e71e5240106dbca136e60f751e206d15cdb3f",
+      "archive": "sources/quickjs-f48e71e5240106dbca136e60f751e206d15cdb3f.tar.gz",
+      "archive_sha256": "0b41d667e124caaa6f647d4c1b361a6b60da056d1ec3409ca1361b825bb38d96",
+      "archive_bytes": 619209,
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "f41baf09eef895d468d18c23055d74f711e4b8b2641cef279b5d71285c07bfe8",
+          "bytes": 1131
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "releng",
+      "repository": "https://github.com/frida/releng",
+      "revision": "7ed66fe6870f2881f9b663942e90db2757ba0682",
+      "archive_url": "https://codeload.github.com/frida/releng/tar.gz/7ed66fe6870f2881f9b663942e90db2757ba0682",
+      "archive": "sources/releng-7ed66fe6870f2881f9b663942e90db2757ba0682.tar.gz",
+      "archive_sha256": "df82f719ab43b166f4bcda8b95a3643f052dc28871c593477f2110ed08150e6f",
+      "archive_bytes": 52669,
+      "notices": [],
+      "submodule_metadata": [
+        ".gitmodules"
+      ]
+    },
+    {
+      "name": "sqlite",
+      "repository": "https://github.com/frida/sqlite",
+      "revision": "9337327a50008f2d2236112ccb6f44059b1bafbd",
+      "archive_url": "https://codeload.github.com/frida/sqlite/tar.gz/9337327a50008f2d2236112ccb6f44059b1bafbd",
+      "archive": "sources/sqlite-9337327a50008f2d2236112ccb6f44059b1bafbd.tar.gz",
+      "archive_sha256": "8658fa9cd33ea0a14ab3d8efa59fc9c65a8d6c1361f8c6ae1faa6dbc31f2e65a",
+      "archive_bytes": 2557225,
+      "notices": [],
+      "submodule_metadata": []
+    },
+    {
+      "name": "tinycc",
+      "repository": "https://github.com/frida/tinycc",
+      "revision": "86c2ba69e97af8f311dff04fcf517b760b3e4491",
+      "archive_url": "https://codeload.github.com/frida/tinycc/tar.gz/86c2ba69e97af8f311dff04fcf517b760b3e4491",
+      "archive": "sources/tinycc-86c2ba69e97af8f311dff04fcf517b760b3e4491.tar.gz",
+      "archive_sha256": "70937f5fba2a9fe1513564f008953fe6cfd1a506f03d98adb5f15cd25bce486b",
+      "archive_bytes": 850835,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "512d2d21b6b3384ba64781abb0208a1b87740bc31e2df48e2b206ddb7e4d5779",
+          "bytes": 26428
+        },
+        {
+          "path": "tests/tests2/LICENSE",
+          "sha256": "9aedc94c459a3774eacbb88452c7f7816010a06d8bef776c93d2e4fac91fd3ca",
+          "bytes": 1837
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "tomlkit",
+      "repository": "https://github.com/sdispater/tomlkit",
+      "revision": "911cccd630965ff423316e25b4685ecf7df0ec0a",
+      "archive_url": "https://codeload.github.com/sdispater/tomlkit/tar.gz/911cccd630965ff423316e25b4685ecf7df0ec0a",
+      "archive": "sources/tomlkit-911cccd630965ff423316e25b4685ecf7df0ec0a.tar.gz",
+      "archive_sha256": "2f9e579cb4f88c4425554e74451e0cedefe39b3f8e9fc04407f196c62a8eff74",
+      "archive_bytes": 177082,
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "f2f9b460ba719da6626add264d3782f275a4ff7aab677beda08b330911e23adb",
+          "bytes": 1062
+        },
+        {
+          "path": "tests/toml-spec-tests/LICENSE",
+          "sha256": "69752953eeed33bbd30534d9327b97ed9eef85534b700bcb56f73f148b926fad",
+          "bytes": 742
+        }
+      ],
+      "submodule_metadata": [
+        ".gitmodules"
+      ]
+    },
+    {
+      "name": "usrsctp",
+      "repository": "https://github.com/frida/usrsctp",
+      "revision": "f459ae9d3700c06e59d709901e92c08e31c6e623",
+      "archive_url": "https://codeload.github.com/frida/usrsctp/tar.gz/f459ae9d3700c06e59d709901e92c08e31c6e623",
+      "archive": "sources/usrsctp-f459ae9d3700c06e59d709901e92c08e31c6e623.tar.gz",
+      "archive_sha256": "9b44394a1042a443a75cf97cbe2fb4139c2ffa9d9275dbdc60a90cd216f96d0f",
+      "archive_bytes": 773633,
+      "notices": [
+        {
+          "path": "LICENSE.md",
+          "sha256": "fa53711b25af4b9a9b8dadfea3cb38166ec4b96760c8d62b284055554537d9ef",
+          "bytes": 1500
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "v8",
+      "repository": "https://github.com/frida/v8",
+      "revision": "a07af892420dfd873b33bd4ce4ba9d963072e1b9",
+      "archive_url": "https://codeload.github.com/frida/v8/tar.gz/a07af892420dfd873b33bd4ce4ba9d963072e1b9",
+      "archive": "sources/v8-a07af892420dfd873b33bd4ce4ba9d963072e1b9.tar.gz",
+      "archive_sha256": "64e4b80de58df9cfbd79ac284af9a7e77b9195589a0582104388a13e3b7be1ae",
+      "archive_bytes": 28674069,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "8d8e691ade2f987bbf73e5d702efede57ff97c6069ff478af0bedb6c59710039",
+          "bytes": 10382
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "81680185f0cb339021e3b73714499264de72f33b17cfdb0c14f400de6d95cf0e",
+          "bytes": 3098
+        },
+        {
+          "path": "LICENSE.fdlibm",
+          "sha256": "e7115e18444dae09d17f361ddc365fb1d342640fe500796209c63f7c80dfae10",
+          "bytes": 250
+        },
+        {
+          "path": "LICENSE.strongtalk",
+          "sha256": "6a585a9f466654abc8fc0829d56b1bc987e3a073d31faa03bba37d33640a23cd",
+          "bytes": 1482
+        },
+        {
+          "path": "LICENSE.v8",
+          "sha256": "4af93c12062c58058378de2397dc1c92bbff9ddfb1d583a01c84127557ce97ca",
+          "bytes": 1527
+        },
+        {
+          "path": "src/third_party/siphash/LICENSE",
+          "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+          "bytes": 6555
+        },
+        {
+          "path": "src/third_party/utf8-decoder/LICENSE",
+          "sha256": "3f712e5fbdfdbd5ee7d9b8c8152580220df55de47f4eba2f26c95c4de19ad096",
+          "bytes": 1087
+        },
+        {
+          "path": "src/third_party/valgrind/LICENSE",
+          "sha256": "ebf25b8ce59c9e8883acd1ca75b6fc121937ca034f666c4077d2be739d2e1622",
+          "bytes": 2439
+        },
+        {
+          "path": "src/third_party/vtune/LICENSE",
+          "sha256": "cfe7599e45f340a35b4635090382897ca1526bc49b5e1889047f0168d131c415",
+          "bytes": 2731
+        },
+        {
+          "path": "test/js-perf-test/SixSpeed/LICENSE.sixspeed",
+          "sha256": "f915aef5cdb93903ae8850c4a1efb638ee1195b1380b6e446a583c1d0eef3ff7",
+          "bytes": 1147
+        },
+        {
+          "path": "test/mjsunit/third_party/object-keys/LICENSE",
+          "sha256": "b5e27ca8c92bf5748046345e3c5621a97542abd931ad5870b2057c4e20e2ece8",
+          "bytes": 1492
+        },
+        {
+          "path": "test/mjsunit/third_party/regexp-pcre/LICENSE",
+          "sha256": "f55e9e4ba1ce2ae3b0f21577d9dfd3cea376123cb69e444b891f2f0fc1f9069a",
+          "bytes": 2491
+        },
+        {
+          "path": "test/wasm-js/third_party/LICENSE.testharness",
+          "sha256": "5a7b465d39b5e018bc40cc34162176269f7c476989cb4dbcf0ec0b81701545a7",
+          "bytes": 1502
+        },
+        {
+          "path": "third_party/colorama/LICENSE",
+          "sha256": "15137d6c822e3ab097093a33c3a39a9df699f373f6438867ad534ff60762a947",
+          "bytes": 1492
+        },
+        {
+          "path": "third_party/inspector_protocol/LICENSE",
+          "sha256": "450ebb9e9e50c2809d9ca581931fc8946d8d5aa0c8c35aae9ac471342fe4a88e",
+          "bytes": 1537
+        },
+        {
+          "path": "third_party/jinja2/LICENSE.rst",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+          "bytes": 1475
+        },
+        {
+          "path": "third_party/jsoncpp/LICENSE",
+          "sha256": "76c45ece83a26117f86f4e349e7df118708e061e87225328fb478ce1e8b3eb86",
+          "bytes": 2665
+        },
+        {
+          "path": "third_party/markupsafe/AUTHORS",
+          "sha256": "bca90e12c0bf6998d25eb74bc0aa76f1f781493ff81a8a71ad6fb0d692248c45",
+          "bytes": 248
+        },
+        {
+          "path": "third_party/markupsafe/LICENSE",
+          "sha256": "0bbe88228fd63d20ec097f64e58d5a0a465123ae139140a18d406c60b48824b5",
+          "bytes": 1582
+        },
+        {
+          "path": "third_party/test262-harness/LICENSE",
+          "sha256": "6f773009a428850c799150b7e0f1806796486dc40302aac5c2fbf4d69a6e1839",
+          "bytes": 2273
+        },
+        {
+          "path": "third_party/v8/builtins/LICENSE",
+          "sha256": "b9a6d9320b8f2693e8d41e496ce56caadacaddcca9be2a64a61749278f425cf2",
+          "bytes": 12763
+        },
+        {
+          "path": "third_party/wasm-api/LICENSE",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+          "bytes": 11358
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "vala",
+      "repository": "https://github.com/frida/vala",
+      "revision": "9feabf0f8076c33b702d7cba612edfe0c1e45a00",
+      "archive_url": "https://codeload.github.com/frida/vala/tar.gz/9feabf0f8076c33b702d7cba612edfe0c1e45a00",
+      "archive": "sources/vala-9feabf0f8076c33b702d7cba612edfe0c1e45a00.tar.gz",
+      "archive_sha256": "fb303e7131fb7a6713ed440869cf74464611a0b889a257920d573d607fdcc2f6",
+      "archive_bytes": 3680551,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "fdd2b1a69524bb7c5379cfa139278a9eb4ccc4a77a4342f6a1becee33338a395",
+          "bytes": 108
+        },
+        {
+          "path": "COPYING",
+          "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+          "bytes": 26436
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "xz",
+      "repository": "https://github.com/frida/xz",
+      "revision": "e70f5800ab5001c9509d374dbf3e7e6b866c43fe",
+      "archive_url": "https://codeload.github.com/frida/xz/tar.gz/e70f5800ab5001c9509d374dbf3e7e6b866c43fe",
+      "archive": "sources/xz-e70f5800ab5001c9509d374dbf3e7e6b866c43fe.tar.gz",
+      "archive_sha256": "1bea42439c243d72fca1b5f9782e809f43d2f9722d24c399325d641a369f03a0",
+      "archive_bytes": 951457,
+      "notices": [
+        {
+          "path": "AUTHORS",
+          "sha256": "c07ea89b85db044f5e4a28fcc18a1dd900541737fb5ef8a69df1e1eb603f5966",
+          "bytes": 1076
+        },
+        {
+          "path": "COPYING",
+          "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c",
+          "bytes": 2775
+        },
+        {
+          "path": "COPYING.GPLv2",
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+          "bytes": 18092
+        },
+        {
+          "path": "COPYING.GPLv3",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+          "bytes": 35147
+        },
+        {
+          "path": "COPYING.LGPLv2.1",
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+          "bytes": 26530
+        },
+        {
+          "path": "LICENSE.build",
+          "sha256": "7939f4c45423cec4a18236ad0a88570e33508dd7462e07b1038001f90ece65fb",
+          "bytes": 1070
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "zlib",
+      "repository": "https://github.com/frida/zlib",
+      "revision": "171a3eacaea8b731ef1fc586e7777b77742e2a1d",
+      "archive_url": "https://codeload.github.com/frida/zlib/tar.gz/171a3eacaea8b731ef1fc586e7777b77742e2a1d",
+      "archive": "sources/zlib-171a3eacaea8b731ef1fc586e7777b77742e2a1d.tar.gz",
+      "archive_sha256": "3d9fec0b58e66e0733c6276edd2ea52f7a1c12ead56b2be78506ccaffc2d9fa2",
+      "archive_bytes": 1598800,
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "0f854f426019c475697e17f1b0fa638270f6e700bc756d9bfe50d17268bd3281",
+          "bytes": 1002
+        },
+        {
+          "path": "LICENSE.build",
+          "sha256": "cb3101cb814ef48ae95cdbdb74ef44a335484f4e190837fc8df38e3c3c1f9361",
+          "bytes": 1070
+        },
+        {
+          "path": "contrib/dotzlib/LICENSE_1_0.txt",
+          "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951",
+          "bytes": 1359
+        }
+      ],
+      "submodule_metadata": []
+    }
+  ],
+  "errors": []
+}

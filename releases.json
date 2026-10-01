@@ -1,0 +1,41 @@
+[
+  {
+    "game": "worldapart",
+    "filename": "WorldApartTrainer-v1.3-new-win64.zip",
+    "bytes": 57964093,
+    "sha256": "74a44a6804bb38a7db6031da5e7373737a19d5351680ece58976647d693eb44f",
+    "payload_sha256": {
+      "WorldApartTrainer.exe": "bed5bd18a201998c3c84811e7efa7eb412868b636ef04b8cc38d65b569d41f05"
+    }
+  },
+  {
+    "game": "house-of-legacy",
+    "filename": "HouseOfLegacyTrainer-v0.3.0.zip",
+    "bytes": 33476,
+    "sha256": "2cf8cd664a4ef5c8abefcbaba2aa5ea111257dbf66d441a9ec201270da005825",
+    "payload_sha256": {
+      "HouseOfLegacyTrainer.dll": "91d2597667581e59df8d40dbd7d624143f2561e0b5c788897cb2882eff831510"
+    }
+  },
+  {
+    "game": "worldapart",
+    "filename": "WorldApartTrainer-Frida-17.7.3-sources.zip",
+    "bytes": 190817155,
+    "sha256": "f4a016d7e00c61fde812dbf832c6ac9e04696892b0f2bce6e79c1445bd6cf70e",
+    "kind": "third-party-source-materials"
+  },
+  {
+    "game": "wulin-toybox",
+    "filename": "WulinToyBox-v1.1.0-plugin.zip",
+    "bytes": 767541,
+    "sha256": "8bc2ed8a5c280b165218b484f42dbc8c065880b6b9f3f6c90d63a6f6dbe5dced",
+    "kind": "plugin-update"
+  },
+  {
+    "game": "wulin-toybox",
+    "filename": "WulinToyBox-v1.1.0-source.zip",
+    "bytes": 773421,
+    "sha256": "7485a194c1446b75c5d5198f1d0443bea5d01e1edcf956e9a5778ab6f21d8aa9",
+    "kind": "source"
+  }
+]

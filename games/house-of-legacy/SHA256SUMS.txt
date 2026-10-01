@@ -1,0 +1,2 @@
+2cf8cd664a4ef5c8abefcbaba2aa5ea111257dbf66d441a9ec201270da005825  HouseOfLegacyTrainer-v0.3.0.zip
+91d2597667581e59df8d40dbd7d624143f2561e0b5c788897cb2882eff831510  HouseOfLegacyTrainer.dll

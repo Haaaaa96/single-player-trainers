@@ -1,0 +1,553 @@
+{
+  "format": 1,
+  "scope": "fixed GLib subdependency plus Windows applicable compiler/barebone lockfile packages",
+  "components": [
+    {
+      "name": "gvdb",
+      "repository": "https://github.com/GNOME/gvdb",
+      "revision": "0854af0fdb6d527a8d1999835ac2c5059976c210",
+      "archive_url": "https://codeload.github.com/GNOME/gvdb/tar.gz/0854af0fdb6d527a8d1999835ac2c5059976c210",
+      "archive": "sources/gvdb-0854af0fdb6d527a8d1999835ac2c5059976c210.tar.gz",
+      "archive_sha256": "08352e54e8216d9001820c627c62858585465b51dc557cc22f0f4770ed182ebd",
+      "archive_bytes": 20837,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "bdbcdaa7858872393e9d6b216bbdc8a23e99d98dd6cdb7cda19458025b9e19fc",
+          "bytes": 26445
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "proxy-libintl",
+      "repository": "https://github.com/frida/proxy-libintl",
+      "revision": "c03e1a74b17fa7ec467e110130775409e4828a4c",
+      "archive_url": "https://codeload.github.com/frida/proxy-libintl/tar.gz/c03e1a74b17fa7ec467e110130775409e4828a4c",
+      "archive": "sources/proxy-libintl-c03e1a74b17fa7ec467e110130775409e4828a4c.tar.gz",
+      "archive_sha256": "b2be1569c4e6b0131a446d857665a192674d36185e2fa534614eece0b0ea70c3",
+      "archive_bytes": 13034,
+      "notices": [
+        {
+          "path": "COPYING",
+          "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5",
+          "bytes": 25292
+        }
+      ],
+      "submodule_metadata": []
+    },
+    {
+      "name": "publicsuffix-list",
+      "repository": "https://github.com/publicsuffix/list",
+      "revision": "06a4956ac640e9f93499fda6b2113846687adfb2",
+      "archive_url": "https://codeload.github.com/publicsuffix/list/tar.gz/06a4956ac640e9f93499fda6b2113846687adfb2",
+      "archive": "sources/publicsuffix-list-06a4956ac640e9f93499fda6b2113846687adfb2.tar.gz",
+      "archive_sha256": "98acf348052a8618956da5dd32dd6062f44fc53ae64f4f16a4be11987a765951",
+      "archive_bytes": 110502,
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172",
+          "bytes": 16727
+        }
+      ],
+      "submodule_metadata": []
+    }
+  ],
+  "npm": [
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.25.5",
+      "archive_url": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.5.tgz",
+      "archive": "sources/npm-esbuild__win32-x64-0.25.5.tgz",
+      "integrity": "sha512-TXv6YnJ8ZMVdX+SXWVBo/0p8LTcrUYngpWjvm91TMjjBQii7Oz11Lw5lbDV5Y0TzuhSJHwiH4hEtC1I42mMS0g==",
+      "archive_sha256": "52c37fb9aab0dac0bef9fd829821df978db59053b7f6aa1adc3bdba32c216bc9",
+      "notices": []
+    },
+    {
+      "name": "@types/frida-gum",
+      "version": "19.0.1",
+      "archive_url": "https://registry.npmjs.org/@types/frida-gum/-/frida-gum-19.0.1.tgz",
+      "archive": "sources/npm-types__frida-gum-19.0.1.tgz",
+      "integrity": "sha512-mp8BpWWkQFJH86ZN5uXZuDiA7KY/+jDknrw0a06x0/+F5ucPwctHrCuV6iT+LLCp/GyICc36ssedF33B1WoLsw==",
+      "archive_sha256": "0c96c83ac1fcd310c34cf829b303c9736d8892a08ec5f9141d20f7ed5a063856",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "esbuild",
+      "version": "0.25.5",
+      "archive_url": "https://registry.npmjs.org/esbuild/-/esbuild-0.25.5.tgz",
+      "archive": "sources/npm-esbuild-0.25.5.tgz",
+      "integrity": "sha512-P8OtKZRv/5J5hhz0cUAdu/cLuPIKXpQl1R9pZtvmHWQvrAUVd0UNIPT4IB4W3rNOqVO0rlqHmCIbSwxh/c9yUQ==",
+      "archive_sha256": "7b72463848bbdb5da3385fb9dfffae3c1f0bbb14141b635294877789d0ec28b1",
+      "notices": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "typescript",
+      "version": "5.8.3",
+      "archive_url": "https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz",
+      "archive": "sources/npm-typescript-5.8.3.tgz",
+      "integrity": "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==",
+      "archive_sha256": "72e75dbeb92c2e6eb9a34cb59d74fab5c2ee6f32a0324a89405f6165d5a08374",
+      "notices": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "@frida/assert",
+      "version": "3.0.2",
+      "archive_url": "https://registry.npmjs.org/@frida/assert/-/assert-3.0.2.tgz",
+      "archive": "sources/npm-frida__assert-3.0.2.tgz",
+      "integrity": "sha512-JXJq5SbXGrM5EkjrZKfRmB29zOoEOix02NC6A5TSJ+C1GE/X051EinJJsuOO2pEOx7KZwpvAHvS0WXW0+levKg==",
+      "archive_sha256": "27b33a3814c2ba74e448752f5852db009e738a68309d769d638c942e5bfb7eac",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/base64-js",
+      "version": "2.0.3",
+      "archive_url": "https://registry.npmjs.org/@frida/base64-js/-/base64-js-2.0.3.tgz",
+      "archive": "sources/npm-frida__base64-js-2.0.3.tgz",
+      "integrity": "sha512-2w0F+1TynOTCZ/v7du9LdHPWwq0lJhazjo2fF9upMyQmA1zHetT14fLuQ1v/6T0qPgyeEGkiSrybstU8EsgeUA==",
+      "archive_sha256": "a6df62a8b3f75a4269095678c6343cd8ab01bdb4c340fa44cf1d403451e5f724",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/buffer",
+      "version": "7.0.4",
+      "archive_url": "https://registry.npmjs.org/@frida/buffer/-/buffer-7.0.4.tgz",
+      "archive": "sources/npm-frida__buffer-7.0.4.tgz",
+      "integrity": "sha512-RxQ1lZRRiCJj7nhcCiD8xeJx0NsLpGGnjqsmTg7jShGmbnVFMN5W7+J+3gqdPSQhc/IxNBIWc6zRXVp4+qnYHg==",
+      "archive_sha256": "2ea09d8f8b2e57a3f2a117d8a14fb2021aa28821e510a90796fbc5cd49140c44",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/crypto",
+      "version": "1.0.1",
+      "archive_url": "https://registry.npmjs.org/@frida/crypto/-/crypto-1.0.1.tgz",
+      "archive": "sources/npm-frida__crypto-1.0.1.tgz",
+      "integrity": "sha512-WXTkVjESvX8TIVXIynJJv9BKSIdQP0Iis04StIXknkDi1ULdMlrypA9p5C4KW1H6GCkNsVnKbybpzsulYCTvag==",
+      "archive_sha256": "c5c1fff0b2bc98e91f70b95fd5979413f14e91f6aa007586b8cc732925ea85cf",
+      "notices": []
+    },
+    {
+      "name": "@frida/diagnostics_channel",
+      "version": "1.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/diagnostics_channel/-/diagnostics_channel-1.0.0.tgz",
+      "archive": "sources/npm-frida__diagnostics_channel-1.0.0.tgz",
+      "integrity": "sha512-mYX1jp/5Bpk24tHArJNx65iCk7qSuV8YJkdU0gFNVtJUXxfV8BG5WuPa4mL+ynxsbWWpsg/cwKZbLAepYKTdQQ==",
+      "archive_sha256": "39b7a7f242c41e6fd3d418908ad286f44b974fa34ca0f63c9ba36a509410ae0b",
+      "notices": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "@frida/events",
+      "version": "4.0.4",
+      "archive_url": "https://registry.npmjs.org/@frida/events/-/events-4.0.4.tgz",
+      "archive": "sources/npm-frida__events-4.0.4.tgz",
+      "integrity": "sha512-qJVQ6VWHf9sjUKuiJzoCAC00frbpcwxeYfvQ+PP9LU/d70j+QvjWgYe98Qa3ekLaBU6r/AvWm8ThKCDUCLWrQQ==",
+      "archive_sha256": "d8e538420905e50de48fdb5313a0ff858b68619e591cdc78c4d402be206d24ea",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/http",
+      "version": "4.0.2",
+      "archive_url": "https://registry.npmjs.org/@frida/http/-/http-4.0.2.tgz",
+      "archive": "sources/npm-frida__http-4.0.2.tgz",
+      "integrity": "sha512-cvkc7ex7GmVXVOWqtjXKBWUUbYEBgpNRKZbEEoMeI8KiIs8zejKwg+N7rx7296Ao+EP3+xcUr4wBVr3xLaUVfQ==",
+      "archive_sha256": "3cedc6ee7c6183342a1da73e1db6eb4fd0b0cfbe186721c766286b8d350e86bf",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/http-parser-js",
+      "version": "1.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/http-parser-js/-/http-parser-js-1.0.0.tgz",
+      "archive": "sources/npm-frida__http-parser-js-1.0.0.tgz",
+      "integrity": "sha512-2nMrNXt/OeTlWbqnE8AH4Sfz4I2+BGoN206dzKEyC/g2svtn83Xu+zuv/V3TkwrA27s26Mcy84ZwsXeNlqNxUQ==",
+      "archive_sha256": "a48d59dca27709b72b7b5068634f150a0c8d642b56c835b354bc984a13bd148d",
+      "notices": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "@frida/https",
+      "version": "1.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/https/-/https-1.0.0.tgz",
+      "archive": "sources/npm-frida__https-1.0.0.tgz",
+      "integrity": "sha512-OiqQ6qsALcWOktRLq07oJ0i6sH8eX6MXb/MdZS1qVKDRf6wchH4Pjn6fiLB+pt/OlYbggk+DOfpHwSdjTwuHMQ==",
+      "archive_sha256": "f0d3e1914b511bcb374b0eeb60f4e53d68cd1c20144953b358aabd4c244d3cae",
+      "notices": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "@frida/ieee754",
+      "version": "2.0.2",
+      "archive_url": "https://registry.npmjs.org/@frida/ieee754/-/ieee754-2.0.2.tgz",
+      "archive": "sources/npm-frida__ieee754-2.0.2.tgz",
+      "integrity": "sha512-wlcUebnne4ENN7GDr5pTH598ZDLMVOsh0FjenxeVOe6u7ewZkz9gGRnLnZKJAm9kl5G6XhdxhI0cSXVQK/rQUw==",
+      "archive_sha256": "690c2fb186206abd4917e7c8c6139091b8cc469cc717e3495f47fa7f55e109c4",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/net",
+      "version": "5.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/net/-/net-5.0.0.tgz",
+      "archive": "sources/npm-frida__net-5.0.0.tgz",
+      "integrity": "sha512-czsyNauuAJ3Udzbg3xm9abaK/AKaMnqgZkIPeO0kVYRah9d1tCHMXTnWi+d8vJaDzB/bIXOcfmV2VX0hCDlfJw==",
+      "archive_sha256": "912cfe7e140c3325674554f2e51918296a3613c4fcb47aaf93ed677e96d066a8",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/os",
+      "version": "1.0.2",
+      "archive_url": "https://registry.npmjs.org/@frida/os/-/os-1.0.2.tgz",
+      "archive": "sources/npm-frida__os-1.0.2.tgz",
+      "integrity": "sha512-3ISAiGNiyIya3QN2EHBCz1wqP0enTdSxP99wUeroeh8+AQRmgoOr/5TRnrVry8pe378anay3fmV/tdUMMSkehQ==",
+      "archive_sha256": "483f4f73648db54dca39620335939826bd9ba247b3223b53b4c591fe35d9c767",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/path",
+      "version": "2.0.3",
+      "archive_url": "https://registry.npmjs.org/@frida/path/-/path-2.0.3.tgz",
+      "archive": "sources/npm-frida__path-2.0.3.tgz",
+      "integrity": "sha512-2RQy36QatoC846fzBhBhV8sXMsSOBGoYvwTHeaE1zUdz7F4RNScP4QEekTTooBYWYX/XjiF36KQpYAzc9OYFtg==",
+      "archive_sha256": "79c480b42fdf8b3297f0dfc032f0c3f58a6c2c7678dec37ae456326dec264add",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/process",
+      "version": "1.2.1",
+      "archive_url": "https://registry.npmjs.org/@frida/process/-/process-1.2.1.tgz",
+      "archive": "sources/npm-frida__process-1.2.1.tgz",
+      "integrity": "sha512-nvCu22DstFW2ttGFtOKekHM7vnjbZm+XgtvavOt427GNT6uV7k0JYK9tnMbcLMRWv57DG6udAmuJlWs8Paq1ag==",
+      "archive_sha256": "0598151a28638b5e9a4c8db47b234b9ebf9d6188de338396b243db278f17c2e9",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/punycode",
+      "version": "3.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/punycode/-/punycode-3.0.0.tgz",
+      "archive": "sources/npm-frida__punycode-3.0.0.tgz",
+      "integrity": "sha512-XVSDY2KamDs1D5/fTVgHcOSNxdU4kTboxzqJMBbTjcQC7XScIT9c0EfbwKCq7Kci6gWQdsHSCr7lU+9Oc4KAdg==",
+      "archive_sha256": "a0aa827f61ea5898eb7253efc904378b38b6cce9622961730cbaeec7aef9717b",
+      "notices": [
+        "LICENSE-MIT.txt"
+      ]
+    },
+    {
+      "name": "@frida/querystring",
+      "version": "1.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/querystring/-/querystring-1.0.0.tgz",
+      "archive": "sources/npm-frida__querystring-1.0.0.tgz",
+      "integrity": "sha512-15m1fOZPmoO/vWlgPJrG/J9/BJDz6a2/JpVGpS8ynNzo+fBhTznaStX5nHxUs24mVTqh/OqLo0EiYJM5WWHXxg==",
+      "archive_sha256": "1055ff70cabda6e81f6685e2d93519dcbae6cf2ecd41dd43e3afdd82990dd3cd",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/readable-stream",
+      "version": "4.1.3",
+      "archive_url": "https://registry.npmjs.org/@frida/readable-stream/-/readable-stream-4.1.3.tgz",
+      "archive": "sources/npm-frida__readable-stream-4.1.3.tgz",
+      "integrity": "sha512-ntGUFmi+CryRGRJIK13a/VST2Ad19uivbln8Xd92vKPAARq+6vMIASDyZIqyl5BLRccfiyCHdYgrgQ6RI5rUig==",
+      "archive_sha256": "21cf57482a7193ca063ea598534509ee647999b61a53d9e8d85a858d2f70ff23",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/reserved-words",
+      "version": "1.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/reserved-words/-/reserved-words-1.0.0.tgz",
+      "archive": "sources/npm-frida__reserved-words-1.0.0.tgz",
+      "integrity": "sha512-2yG/XxJlsGlk/mm6eZTb4OAaQEhkTI2qaFfZFtAsrA/XuCpuMWkS4y/guyBlsRu4hAuhK2HPmNM8+OLLK1zM9Q==",
+      "archive_sha256": "a46c84bb7b2ee4a197cd7b72a9b86efea84e774513aef7bd7a853ee5efd0a68a",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/stream",
+      "version": "1.0.2",
+      "archive_url": "https://registry.npmjs.org/@frida/stream/-/stream-1.0.2.tgz",
+      "archive": "sources/npm-frida__stream-1.0.2.tgz",
+      "integrity": "sha512-4OuaC1ztmEKgTq3WeBhsy8Oq+AwW9n9cYnvLklcC9jwD93AEwgbWpecLlxJCVuALvTMdhKPg0nQVfyGYP/i9Bw==",
+      "archive_sha256": "a0caffdedea8afc8047a7f557d251b8b0eeeb29e8dcb9b8d4938482feca0cc1d",
+      "notices": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "@frida/string_decoder",
+      "version": "2.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/string_decoder/-/string_decoder-2.0.0.tgz",
+      "archive": "sources/npm-frida__string_decoder-2.0.0.tgz",
+      "integrity": "sha512-in371tYZMHQiW9HF5MS3JDw6Ao6tyBoq34UWy2rzOswYyMG1rpizh85ofi/yVkxDiaqybEZefxzkVittpPGT6g==",
+      "archive_sha256": "e75d268aa86814cc7d08b51ec0e16bf87949f417c2ddc04ccb42fdbab03e80a5",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/timers",
+      "version": "3.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/timers/-/timers-3.0.0.tgz",
+      "archive": "sources/npm-frida__timers-3.0.0.tgz",
+      "integrity": "sha512-3b+0igv10aT8TMxefrTAd06rActqbxJLY2Xkkq9vYcPBffB/yHszl0NYIp/5ko8WC3ecDYPU6bQiY6fjs72zTA==",
+      "archive_sha256": "1d9bab660050c320093869181560f5452db461e191c4d97384ad4f441dfe154f",
+      "notices": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "@frida/tty",
+      "version": "1.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/tty/-/tty-1.0.0.tgz",
+      "archive": "sources/npm-frida__tty-1.0.0.tgz",
+      "integrity": "sha512-p/kjLnKYxEAB1MdYP8+5rKv9CsHzyA+0jg9BcGETzjQVKHHcroHDULRxDYUh+DC7qs6cpX8QdDQh9E+a6ydgsQ==",
+      "archive_sha256": "cdc20a5a81e0fbe8d1a011c056903a8f7d509e47afcde3f25119d3e12134a7c5",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/url",
+      "version": "1.0.2",
+      "archive_url": "https://registry.npmjs.org/@frida/url/-/url-1.0.2.tgz",
+      "archive": "sources/npm-frida__url-1.0.2.tgz",
+      "integrity": "sha512-ZKunbKJHMr8w2Eb/5K1avy0MzK1B998S17wYXNv3RmzBGxMm8S5T0F3qEpRxkU7/72P8m4izyQU87fWl+FjQsQ==",
+      "archive_sha256": "728af447877d85534815c70e45ddc053566a864c691f2ec5f00e37589d2726ea",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/util",
+      "version": "1.0.3",
+      "archive_url": "https://registry.npmjs.org/@frida/util/-/util-1.0.3.tgz",
+      "archive": "sources/npm-frida__util-1.0.3.tgz",
+      "integrity": "sha512-htcG3uDiRXv89ERVNNYhfase39kJ2X75ZARfrYcYEtJLFEsSk0nemM1YnEIR4CjrHvdvkWHrwgKkS+acOyoNEg==",
+      "archive_sha256": "4022fba8164bfdd2e320ea6f8853a772d7e12328d81972e5d29aab19a6ae2a52",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@frida/vm",
+      "version": "2.0.0",
+      "archive_url": "https://registry.npmjs.org/@frida/vm/-/vm-2.0.0.tgz",
+      "archive": "sources/npm-frida__vm-2.0.0.tgz",
+      "integrity": "sha512-7fsjLWscZT5odNIBtg6qbLNI+vAk1xmii6H5W2kaYkMYt0vRohQEcDSUWacA+eaWlu5SvMjZI82Yibj/3G9pJw==",
+      "archive_sha256": "a4dead29fb4c758baf25ef0697e9626f78bdbaf3254d432005e5480b34c94306",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "@types/node",
+      "version": "18.19.103",
+      "archive_url": "https://registry.npmjs.org/@types/node/-/node-18.19.103.tgz",
+      "archive": "sources/npm-types__node-18.19.103.tgz",
+      "integrity": "sha512-hHTHp+sEz6SxFsp+SA+Tqrua3AbmlAw+Y//aEwdHrdZkYVRWdvWD3y5uPZ0flYOkgskaFWqZ/YGFm3FaFQ0pRw==",
+      "archive_sha256": "f527da17929b09ceb05e4828b31fc1fbc200ad4716414aa01d2ca2d7d9d89723",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "archive_url": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
+      "archive": "sources/npm-base64-js-1.5.1.tgz",
+      "integrity": "sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==",
+      "archive_sha256": "b1b7a945b52685269083425216d6597e33d97bf21699d656e92fdb3eb5210a85",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "frida-fs",
+      "version": "7.0.0",
+      "archive_url": "https://registry.npmjs.org/frida-fs/-/frida-fs-7.0.0.tgz",
+      "archive": "sources/npm-frida-fs-7.0.0.tgz",
+      "integrity": "sha512-95m7LCjuFMZObrR/37tlEUHAKC0UP82vWBtcaFntUSFr5MuqhoZG6FDCXKl58FhTf0SwOCYvwctCYPLV3/pHgw==",
+      "archive_sha256": "73682f5fe8634c58da914a58acdef9a2931ef9fced4307cec64e869e43bd70a8",
+      "notices": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "http-parser-js",
+      "version": "0.5.10",
+      "archive_url": "https://registry.npmjs.org/http-parser-js/-/http-parser-js-0.5.10.tgz",
+      "archive": "sources/npm-http-parser-js-0.5.10.tgz",
+      "integrity": "sha512-Pysuw9XpUq5dVc/2SMHpuTY01RFl8fttgcyunjL7eEMhGM3cI4eOmiCycJDVCo/7O7ClfQD3SaI6ftDzqOXYMA==",
+      "archive_sha256": "ab1672c31c6392825adaf4b61796a979beeea0daaffb10484f0da20238fd94e4",
+      "notices": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "ieee754",
+      "version": "1.2.1",
+      "archive_url": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz",
+      "archive": "sources/npm-ieee754-1.2.1.tgz",
+      "integrity": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==",
+      "archive_sha256": "8ef14b9b397e339db89db97881fb714f49319d8f0eb1275901f45567b28f9dac",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "undici-types",
+      "version": "5.26.5",
+      "archive_url": "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz",
+      "archive": "sources/npm-undici-types-5.26.5.tgz",
+      "integrity": "sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==",
+      "archive_sha256": "503bffdea1bee0526fb2ac75a4ac01ee5e712f251fabdeb8da4b408a519ed465",
+      "notices": []
+    }
+  ],
+  "go": [
+    {
+      "name": "github.com/dlclark/regexp2",
+      "version": "v1.11.5",
+      "archive_url": "https://proxy.golang.org/github.com/dlclark/regexp2/@v/v1.11.5.zip",
+      "archive": "sources/go-github.com__dlclark__regexp2-v1.11.5.zip",
+      "archive_sha256": "cb2418e33b59eaaf5f57874db895cb620833e7a5e6eaf5a2c2deef7d47b70610",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "github.com/evanw/esbuild",
+      "version": "v0.25.5",
+      "archive_url": "https://proxy.golang.org/github.com/evanw/esbuild/@v/v0.25.5.zip",
+      "archive": "sources/go-github.com__evanw__esbuild-v0.25.5.zip",
+      "archive_sha256": "c8de1a09baac671423b900f672612033c8b67078b549c5ffbe8e4645ab0d6454",
+      "notices": [
+        "LICENSE.md",
+        "internal/xxhash/LICENSE.txt",
+        "npm/esbuild-wasm/LICENSE.md",
+        "npm/esbuild/LICENSE.md"
+      ]
+    },
+    {
+      "name": "github.com/frida/typescript-go",
+      "version": "v0.0.0-20250601212135-a4721f45f19c",
+      "archive_url": "https://proxy.golang.org/github.com/frida/typescript-go/@v/v0.0.0-20250601212135-a4721f45f19c.zip",
+      "archive": "sources/go-github.com__frida__typescript-go-v0.0.0-20250601212135-a4721f45f19c.zip",
+      "archive_sha256": "f721d8d17192302fe63823e4ee133ef6eced0d1d26f78f0a21158eb246ba2859",
+      "notices": [
+        "LICENSE",
+        "NOTICE.txt",
+        "_extension/LICENSE",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithNewLine1.errors.txt",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithNewLine1.js",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithNewLine1.js.diff",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithNewLine1.symbols",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithNewLine1.symbols.diff",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithNewLine1.types",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithNewLine1.types.diff",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithoutNewLine1.errors.txt",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithoutNewLine1.js",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithoutNewLine1.js.diff",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithoutNewLine1.symbols",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithoutNewLine1.symbols.diff",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithoutNewLine1.types",
+        "testdata/baselines/reference/submodule/compiler/copyrightWithoutNewLine1.types.diff",
+        "testdata/baselines/reference/submoduleAccepted/compiler/copyrightWithNewLine1.errors.txt.diff",
+        "testdata/baselines/reference/submoduleAccepted/compiler/copyrightWithoutNewLine1.errors.txt.diff"
+      ]
+    },
+    {
+      "name": "github.com/go-json-experiment/json",
+      "version": "v0.0.0-20250517221953-25912455fbc8",
+      "archive_url": "https://proxy.golang.org/github.com/go-json-experiment/json/@v/v0.0.0-20250517221953-25912455fbc8.zip",
+      "archive": "sources/go-github.com__go-json-experiment__json-v0.0.0-20250517221953-25912455fbc8.zip",
+      "archive_sha256": "f73ab73be8d8580bc1017f4e5cccd0b528c81bb2a35078dbb110031a9ce53b95",
+      "notices": [
+        "AUTHORS",
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "github.com/google/go-cmp",
+      "version": "v0.7.0",
+      "archive_url": "https://proxy.golang.org/github.com/google/go-cmp/@v/v0.7.0.zip",
+      "archive": "sources/go-github.com__google__go-cmp-v0.7.0.zip",
+      "archive_sha256": "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "github.com/peter-evans/patience",
+      "version": "v0.3.0",
+      "archive_url": "https://proxy.golang.org/github.com/peter-evans/patience/@v/v0.3.0.zip",
+      "archive": "sources/go-github.com__peter-evans__patience-v0.3.0.zip",
+      "archive_sha256": "c906874fce4ff10415a537779adbad62414240af8e3be1db0170fa50360a5f90",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "golang.org/x/sys",
+      "version": "v0.33.0",
+      "archive_url": "https://proxy.golang.org/golang.org/x/sys/@v/v0.33.0.zip",
+      "archive": "sources/go-golang.org__x__sys-v0.33.0.zip",
+      "archive_sha256": "182df79c87135f6dbd0d45656b6527e9221e28899ee44cc6cc7e7a396aedaef9",
+      "notices": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "gotest.tools/v3",
+      "version": "v3.5.2",
+      "archive_url": "https://proxy.golang.org/gotest.tools/v3/@v/v3.5.2.zip",
+      "archive": "sources/go-gotest.tools__v3-v3.5.2.zip",
+      "archive_sha256": "d7c40ae135e4a34dee9ca4847ad18208f138847721e693647b897259287a1d4b",
+      "notices": [
+        "LICENSE",
+        "internal/difflib/LICENSE"
+      ]
+    }
+  ],
+  "npm_lockfiles": [
+    {
+      "path": "src/barebone/package-lock.json",
+      "sha256": "9c7b85f782fd305cb1f4bc1ed3d2114e255b95a1d5ed86a002cc09c2f3487687"
+    },
+    {
+      "path": "src/compiler/package-lock.json",
+      "sha256": "e812e3566c74ec39639e77dedb00a17d7a11a1bee2f46a68c04f355a856cc8ac"
+    }
+  ]
+}
