@@ -1,6 +1,6 @@
 # 第三方组件与许可
 
-原创内容的免费分享约定不覆盖第三方许可证；请保留各组件署名与许可文本。
+原创内容的归档与使用约定不覆盖第三方许可证；请保留各组件署名与许可文本。
 
 ## 不问凡尘
 
@@ -12,11 +12,11 @@
 - [锁定来源及校验值](third_party/sources-lock.json)
 - [对应第三方源码材料](https://github.com/Haaaaa96/single-player-trainers/releases/tag/worldapart-v1.3-new)
 
-第三方源码 ZIP 供开发者查看、修改或重新链接运行库；普通玩家只需修改器分享包。
+第三方源码 ZIP 供开发者查看、修改或重新链接运行库；它与可执行程序归档分别保存。
 
 ## 吾今有世家
 
-分享包只包含 HouseOfLegacyTrainer.dll 和 README，不附游戏代码或 BepInEx 加载器。前置框架通过 [BepInEx 官方项目](https://github.com/BepInEx/BepInEx) 获取，遵循其原有许可。
+归档包只包含 HouseOfLegacyTrainer.dll 和 README，不附游戏代码或 BepInEx 加载器。前置框架通过 [BepInEx 官方项目](https://github.com/BepInEx/BepInEx) 获取，遵循其原有许可。
 
 ## 大侠立志传
 

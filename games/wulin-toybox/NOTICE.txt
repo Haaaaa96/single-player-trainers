@@ -6,7 +6,7 @@ HaxxToyBox v1.1.0 插件更新包来源与变更
 本版变更：修复人物读取、物品与天赋搜索、武学列表、升级按钮、输入及中文显示。
 对应本地源码提交：f7a4f7b2d21fd8dbfcdd1b1a0ad09960c734da2d。源码另附 WulinToyBox-v1.1.0-source.zip。
 
-GitHub 分享包仅分发修订后的 HaxxToyBox.dll，不附第三方加载器或其他模块。
+GitHub 归档包仅分发修订后的 HaxxToyBox.dll，不附第三方加载器或其他模块。
 原 EnhanceGameplay 作者630444540 / gmhaxx：https://mod.3dmgame.com/mod/195081
 所据整合帖作者 masterZP.：https://bbs.3dmgame.com/thread-6489560-1-1.html
 上述组件请从原作者来源取得，各自适用原有条款，不套用本插件 Apache 许可。

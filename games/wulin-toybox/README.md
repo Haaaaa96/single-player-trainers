@@ -1,10 +1,12 @@
 # 大侠立志传多功能修改器 v1.1.0
 
-免费分享。基于 HaxxToyBox 及原整合包进行功能修复和界面优化，原作者与来源见文末。
+本页为个人研究记录，所列结果仅限当时的测试环境；不保证在他人电脑上的兼容性或实际效果。自行取用并承担风险，不提供适配、问题反馈或使用支持，也不承诺后续更新。
 
-更新时间：2026-09-30。实测：Steam《大侠立志传》V1.2.0818 75（build 24794582），Windows 11 64 位。其它游戏版本、系统及 MOD 组合未逐一验证。
+个人修订研究记录。基于 HaxxToyBox 及原整合包进行功能修复和界面优化，原作者与来源见文末。
 
-[v1.1.0 插件更新包下载页](https://github.com/Haaaaa96/single-player-trainers/releases/tag/wulin-toybox-v1.1.0) · [完整使用说明](GUIDE.md)
+版本记录日期：2026-09-30。实测：Steam《大侠立志传》V1.2.0818 75（build 24794582），Windows 11 64 位。其它游戏版本、系统及 MOD 组合未逐一验证。
+
+[v1.1.0插件版本归档](https://github.com/Haaaaa96/single-player-trainers/releases/tag/wulin-toybox-v1.1.0) · [操作记录与限制](GUIDE.md)
 
 ## 本版修复与优化
 
@@ -15,7 +17,7 @@
 - 优化中文字体、字号与提示排版，减少文字模糊和按钮遮挡。
 - 修复快捷键短按后卡在录入状态、按 Esc 取消却误保存的问题。
 
-## 功能介绍
+## 已实现的功能范围
 
 - 人物与队友：查看及编辑当前队伍成员的基础属性，添加、移除天赋。
 - 物品：名称搜索、跨分类查找、指定数量添加。
@@ -27,7 +29,7 @@
 
 ## 安装步骤（GitHub 插件更新包）
 
-本页提供 **WulinToyBox-v1.1.0-plugin.zip**，适合已装好原修改器前置环境的玩家。它不是完整加载器包，不包含 BepInEx、.NET、UniverseLib、EnhanceGameplay 或 Unity 库。
+本页归档 **WulinToyBox-v1.1.0-plugin.zip**，运行前提是已有原修改器前置环境。它不是完整加载器包，不包含 BepInEx、.NET、UniverseLib、EnhanceGameplay 或 Unity 库。
 
 1. 正常退出游戏，备份存档和原 HaxxToyBox.dll。
 2. 若未安装原前置环境，先阅读[原整合帖](https://bbs.3dmgame.com/thread-6489560-1-1.html)，从原作者来源取得并按其说明安装。不要将本插件当作可直接启动的完整包。
