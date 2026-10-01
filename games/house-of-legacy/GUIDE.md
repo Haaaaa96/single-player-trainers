@@ -1,95 +1,57 @@
-《吾今有世家》多功能修改器 v0.3.0（内置版）
+# House of Legacy v0.3.0 — Guide
 
-本页为个人研究记录，所列结果仅限当时的测试环境；不保证在他人电脑上的兼容性或实际效果。自行取用并承担风险，不提供适配、问题反馈或使用支持，也不承诺后续更新。
+**English** | [简体中文](GUIDE_ZH.md)
 
-实验版本，记录日期：2026-10-01。
-随游戏加载，没有单独启动的修改器 EXE。以下按默认 Tab 说明；使用自定义 ToggleKey 时，以配置键代替。
+[Overview](README.md) · [Development notes](DEVLOG.md) · [Terms](../../TERMS.md)
 
-一、适用环境与包内文件
+Historical reference: 2026-10-01, game V0.9.03 / Steam Build 22970665, Windows x64, Unity Mono and BepInEx 5.4.23.5. The ZIP contains HouseOfLegacyTrainer.dll (internal version 0.3.0.0) and README-v0.3.0.txt. It contains no game, save, loader, personal configuration or logs; .NET SDK and Python are not required to use it.
 
-参考实测：游戏 V0.9.03 / Steam build 22970665，Windows x64，Unity Mono，BepInEx 5.4.23.5。
-版本差异仅作提醒；是否能操作取决于实际游戏结构与输入保护能否初始化。其它游戏构建、电脑、操作系统及 MOD 组合未完整实测。
+## Install or update
 
-本压缩包仅有两项：
-1. HouseOfLegacyTrainer.dll：插件，内部版本 0.3.0.0。
-2. README-v0.3.0.txt：本说明。
+1. Save and exit the game normally. Back up the whole save directory, commonly %USERPROFILE%/AppData/LocalLow/S3Studio/House of Legacy; do not back up only GameData.es3.
+2. In Steam, use Manage → Browse local files to locate House of Legacy.exe.
+3. If needed, extract [BepInEx_win_x64_5.4.23.5.zip](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5) beside the game EXE, with BepInEx, winhttp.dll and doorstop_config.ini at that level. Do not choose x86, IL2CPP or BepInEx 6. Check any existing MOD loader before replacing files; preserve its files and licenses.
+4. Place HouseOfLegacyTrainer.dll in BepInEx/plugins/HouseOfLegacyTrainer. For an update, back up the previous DLL and configuration outside the game directory, then replace that DLL. Do not leave duplicate versions under plugins.
+5. Start the game, load a save and press Tab during normal play or on the original character page.
 
-本包不含游戏、存档、加载器、个人配置或日志。必须先安装适用的 BepInEx；不需要 .NET SDK、Python 或开发工具。
-加载器请从官方发布页获取：
-https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
-本版验证使用 BepInEx_win_x64_5.4.23.5.zip。不要选 x86、IL2CPP 或 BepInEx 6 包。
-已有其它 MOD 的加载器时先核对版本，不要直接覆盖或混装。
+A protected installation directory may require Windows authorization to copy files. Check the actual destination; do not change broad directory permissions or force routine game sessions to run as administrator.
 
-二、安装／升级
+## Use
 
-1. 先正常保存并退出游戏，备份整个游戏存档目录。Windows 常见位置为：
-   %USERPROFILE%\AppData\LocalLow\S3Studio\House of Legacy
-   不要只备份单个 GameData.es3。
-2. 在 Steam 库中打开本游戏的“管理 → 浏览本地文件”，找到 House of Legacy.exe 所在目录。
-3. 尚未安装 BepInEx 时，把官方 x64 包的内容解压到该目录。BepInEx 文件夹、winhttp.dll、doorstop_config.ini 应与游戏 EXE 同级，不要多套一层压缩包目录。保留官方包原有文件与许可。
-4. 建立 BepInEx\plugins\HouseOfLegacyTrainer 文件夹，将本包的 HouseOfLegacyTrainer.dll 复制进去。
-5. 升级时先把旧插件和对应配置备份到游戏目录以外，再替换同一位置的 DLL。不要把新旧 DLL 同时留在 plugins 的不同子目录中。
-6. 启动游戏、加载存档。在正常游戏或原人物属性页按 Tab。
+Opening the plugin pauses the game. Choose a page, refresh, and check the selected character's name, ID, current value and input meaning before applying. The original character page refreshes if it still shows the same character and identity checks pass; otherwise reopen that page to confirm.
 
-游戏目录在 Program Files 等受保护位置时，复制可能需要 Windows 授权；没有写入权限会安装失败。不要修改整个目录权限，也不需要为日常游戏强制管理员运行。请核对 DLL 确已复制到实际游戏目录。
+Press Tab or “关闭” (Close), then release the keyboard and mouse. Closing restores the prior run/pause state and speed. Save through the game to keep a change. Closing or disabling the plugin does not undo changes, and it does not save automatically.
 
-三、基本用法
+The default left-side layout was checked at 1280×720 and 1920×1080; overflow can be scrolled. Title-bar dragging did not move the window in the recorded automated check, and manual dragging remains unconfirmed. Tab also closes the window inside text fields; select fields with the mouse. While open, the plugin isolates game clicks, scrolling and shortcuts. Switching away closes it and restores the earlier state; release held keys before reopening after switching back.
 
-1. 正常游戏或人物页直接按 Tab，修改器自动暂停游戏，无需先 Esc。
-2. 选功能，先刷新，核对人物姓名、ID、当前值和目标值，再应用。
-3. 查看工具读回。同一人物仍在原属性页且身份检查通过时，该页同步刷新；若提示刷新未完成，关窗后重开人物页核对。
-4. 按 Tab 或点击“关闭”，松开键鼠后继续游戏。关闭恢复开窗前的运行／暂停及速度状态。
-5. 需要保留改值时，用游戏原菜单正常保存。插件不自动保存，关闭或停用不会撤销已经修改、保存的数值。
+## Inputs: 14 one-time operations
 
-窗口默认靠左，已检查 1280×720 和 1920×1080。内容超出时可滚动。标题栏拖动在自动化检查中未见位移，手动拖动仍待确认，请以默认位置使用。
-默认 Tab 在文本框中也用于开关，不切换输入焦点；请用鼠标选择输入框。
-工具打开时隔离原游戏点击、滚轮和快捷键；关闭后要松开键鼠，输入才恢复。切出游戏会自动关窗并恢复开窗前状态，切回后松键再重新按热键。
+| Operation | Input |
+| --- | --- |
+| Money | Nonzero integer change, −1,000,000 to 1,000,000; resulting balance cannot be negative |
+| Family reputation | Amount to add, from 1 to the displayed remaining reputation for this level; at most one level per operation, with game funding and upgrade conditions retained |
+| Literary, martial, business and artistic talent; renown | Target 0–100; decimals allowed |
+| Mood | Integer target −100–100 |
+| Health | Integer target 1–100; not a cure, lifespan extension or immortality |
+| Charm and scheming | Integer target 0–100 |
+| Stamina | One-time restore button; target depends on age and current state |
+| Remaining creation trait points | Integer target 0–1000, only on the trait-selection page; choose traits and confirm the character through the game |
+| Already-owned vegetables | Add 1–1000, within remaining storage capacity; quantity and available capacity change together |
 
-四、功能与输入范围（14项单次操作）
+Attributes apply to the selected member of the player's family. Creation points do not edit existing characters' traits; vegetables cannot create an unowned item. A target replaces the value; a money input is a change. Some game attribute displays round down. The top money/reputation display may update only after closing and resuming; check readback before submitting again.
 
-家族（2项）：
-- 铜钱：填变化量，非零整数，单次 -1,000,000～1,000,000。输入100是加100，不能扣成负余额。
-- 家族声望：填新增量，1～页面显示的本级剩余声望。单次最多升一级，仍受原游戏资金条件及升级联动影响。
+Refresh after applying, changing saves/characters/scenes, data changes or a long wait. Wait for loading, saving, scene changes and transactions to finish. If a result is uncertain, inspect it rather than repeating the operation. These controls do not lock values; growth, consumption and events continue.
 
-族人（10项）：
-- 文才、武才、商才、艺才、声名：填目标值，0～100，可用小数。
-- 心情：整数目标，-100～100。
-- 健康：整数目标，1～100；不代表治病、延寿或永生。
-- 魅力、心机：整数目标，0～100。
-- 体力：使用恢复按钮，目标依当前年龄和状态确定。
+## Keys, disabling and rollback
 
-开局（1项）：
-- 特质剩余点数：目标值0～1000，只在创建页生效。关窗后按原游戏方式选特质，插件不代选或确认角色，也不修改已有角色特质。
+After exiting, edit ToggleKey in BepInEx/config/local.houseoflegacy.trainer.cfg; it applies on the next launch. Old default F8 configurations migrate to Tab, other custom keys remain, and HotkeySchema needs no manual change. The game also uses Tab for construction/edit mode; rebind that game action or the plugin as needed.
 
-仓库（1项）：
-- 已有蔬菜：新增1～1000份，且不超过剩余容量。必须已经持有蔬菜，数量与剩余库容同步变化；不能凭空生成未持有物品。
+To disable, exit normally and move the whole BepInEx/plugins/HouseOfLegacyTrainer folder outside the game directory. Renaming it inside plugins is insufficient. Move it back to restore the plugin. To roll back, restore the earlier DLL and matching configuration after exit; v0.2.0 used Esc followed by F8. Rolling back a plugin does not undo saved progress. Never replace a DLL while the game is running or remove other MODs/the entire loader.
 
-例如文才20填21，结果为21；铜钱17填10，结果为27。原人物页部分数值向下取整。铜钱、声望的游戏顶部显示可能要关窗恢复游戏后才更新，请先看工具读回再核对，不要重复提交。
-每次应用后重新刷新；换档、换人、换场景、数据变化或等待过久后也须重新读取。失败或结果不明时先核对实际数值，不连续重试。
-加载、保存、切场景、交易等受保护页面不可编辑，等待完成或关闭相应页面再开工具。游戏成长、消耗和事件仍会发生，所有功能都不是持续锁定。
+If no window appears, check loader version, DLL location, scene and configured key. BepInEx/LogOutput.log records loading and rejection reasons; look for HouseOfLegacyTrainer 0.3.0. If the loader generated no configuration/log, check the loader before copying the plugin again. Do not install duplicate copies from different packages.
 
-五、已验证与仍待确认的边界
+The [development notes](DEVLOG.md) separate historical checks from unverified fields, state boundaries and MOD combinations. Version/file differences alone are reminders; incompatible structures or failed input protection stop relevant operations.
 
-已实测：正常游戏／人物页直接 Tab、文本框 Tab、重复开关、点击／滚轮／Esc 输入隔离、关闭恢复；两种上述分辨率；加载期间拒绝；1倍速与3倍速开关暂停、保持原速度；文才22保存重启后读回。
-本次隔离存档补测：铜钱17→18、声望12→13（未跨级）、魅力13→14，原人物页同步刷新；正常保存退出、重新启动读档后，铜钱18、声望13、魅力14均保持，原人物页与工具一致。停用启动、从干净解压包恢复安装及再次加载已验证。
-创建页剩余点数0→10、选择特质扣6后剩4已实测，未确认生成新角色。
+## Licensing
 
-仍待确认：其它人物字段写入及持久化、多人物快速切换、声望跨级、已有蔬菜增量／容量、新角色生成后保存、长时间成长结算；物理长按热键、持键切回、5／10倍速及单日推进边界、保存瞬间与交易页面实际拒绝、其它 MOD 共存。
-以上未测内容不能视为已通过。请先备份，在副本中小幅修改并核对。本版不承诺所有版本、全部功能或所有电脑都兼容。
-
-六、改键、停用与回退
-
-配置在游戏目录 BepInEx\config\local.houseoflegacy.trainer.cfg。
-正常退出后编辑 ToggleKey，下次启动生效。首次从旧默认 F8 配置升级会迁移到 Tab，其它自定义键保留；HotkeySchema 无需手动更改。
-原游戏 Tab 也用于建造／编辑模式。默认配置下该键由修改器使用；需要原快捷键时，可修改原游戏建造键或本插件 ToggleKey。
-
-停用：正常退出，把 BepInEx\plugins\HouseOfLegacyTrainer 整个文件夹移到游戏目录以外。不要仅改文件夹名后仍留在 plugins 下。放回即可恢复。
-回退：退出后，换回你先前备份的 DLL 与对应配置。不要混用多份插件；0.2.0使用旧的先 Esc、再 F8 操作。回退插件不会回退已保存的数值或进度。
-不要在游戏运行中替换 DLL，不要删除其它 MOD 或整套 BepInEx。
-
-七、加载与日志记录
-
-没有窗口时，确认加载器版本、DLL位置、当前页面和配置热键；松开其它键后重试。日志位于 BepInEx\LogOutput.log，可查找 HouseOfLegacyTrainer 0.3.0 的加载记录及拒绝原因。
-首次启动应由加载器生成 config／日志；未生成时先排查加载器，不要反复复制插件。不要同时安装自用包、旧版包和本包中的多份相同 DLL。
-
-本插件独立编写，运行时引用游戏与 BepInEx 提供的组件，本包不内嵌第三方 DLL。加载器和相关组件的许可由各原项目提供，安装和分发它们时保留原许可。
+The independently written plugin references game/BepInEx components at runtime and embeds no third-party DLLs. Preserve each dependency's original license.

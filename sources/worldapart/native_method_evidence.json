@@ -1,0 +1,868 @@
+{
+  "schema": 1,
+  "dll_sha256": "ede8a956051c0c831f79e0874aff28297f41d3fa18c18ad2ca2ff16c33d0938d",
+  "methods": {
+    "100695898": {
+      "name": "get_BaseScale",
+      "token": 100695953,
+      "rva": 22326560,
+      "prefix": "4883ec28803d5d3c0107007513488d0d",
+      "parameters": 0,
+      "flags": 2198,
+      "legacy_rva": 22117920,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100695900": {
+      "name": "get_EffectiveScale",
+      "token": 100695955,
+      "rva": 22326640,
+      "prefix": "4883ec28803d0f3c010700752b488d0d",
+      "parameters": 0,
+      "flags": 2198,
+      "legacy_rva": 22118000,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100695902": {
+      "name": "SetBaseScale",
+      "token": 100695957,
+      "rva": 22325856,
+      "prefix": "4883ec38803d213f0107000f29742420",
+      "parameters": 1,
+      "flags": 150,
+      "legacy_rva": 22117216,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100696637": {
+      "name": "ForceSetSpecialState",
+      "token": 100696694,
+      "rva": 22560640,
+      "prefix": "48895c2410574883ec30803d99abfd06",
+      "parameters": 2,
+      "flags": 134,
+      "legacy_rva": 22351600,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100696649": {
+      "name": "SetSpecialState",
+      "token": 100696706,
+      "rva": 22578944,
+      "prefix": "48895c24084889742410574883ec2041",
+      "parameters": 3,
+      "flags": 145,
+      "legacy_rva": 22369904,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100696664": {
+      "name": "MeetsSpecialEntryRequirements",
+      "token": 100696721,
+      "rva": 22566432,
+      "prefix": "4053565741564881eca8000000450fb6",
+      "parameters": 3,
+      "flags": 145,
+      "legacy_rva": 22357392,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100701440": {
+      "name": "CheckEffectActivation",
+      "token": 100701468,
+      "rva": 23960832,
+      "prefix": "405657415641574883ec58803dd558e8",
+      "parameters": 1,
+      "flags": 129,
+      "legacy_rva": 23759920,
+      "review": "Same ordinary control flow; additional unreachable exception-tail calls."
+    },
+    "100701454": {
+      "name": "GetBonusRatio",
+      "token": 100701482,
+      "rva": 23975504,
+      "prefix": "40534883ec30803d961fe80600488bd9",
+      "parameters": 0,
+      "flags": 134,
+      "legacy_rva": 23774592,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100708041": {
+      "name": "OnPersuadeEnded",
+      "token": 100708101,
+      "rva": 26288064,
+      "prefix": "4889742420574881ecc0000000803dbb",
+      "parameters": 2,
+      "flags": 129,
+      "legacy_rva": 26080912,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100725105": {
+      "name": "IsRecipePoiEnabled",
+      "token": 100725183,
+      "rva": 30396304,
+      "prefix": "4883ec584c8b81c00100004d85c0745d",
+      "parameters": 1,
+      "flags": 129,
+      "legacy_rva": 30170992,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100726096": {
+      "name": "FinishQte",
+      "token": 100726177,
+      "rva": 30691232,
+      "prefix": "4889742420574883ec30803d9edd8106",
+      "parameters": 0,
+      "flags": 129,
+      "legacy_rva": 30476464,
+      "review": "Same QTE branch graph; validated coherent eight-byte field-layout shift."
+    },
+    "100729416": {
+      "name": "RevealSolutionPathForEditor",
+      "token": 100729431,
+      "rva": 10881008,
+      "prefix": "40534883ec20803d368aaf0700488bd9",
+      "parameters": 0,
+      "flags": 134,
+      "legacy_rva": 10799856,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100730244": {
+      "name": "RevealAll",
+      "token": 100730323,
+      "rva": 11225024,
+      "prefix": "40534883ec3033d2488bd9e8106fffff",
+      "parameters": 0,
+      "flags": 134,
+      "legacy_rva": 11035152,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100732162": {
+      "name": "OnGameCompleted",
+      "token": 100732275,
+      "rva": 11483568,
+      "prefix": "40565741574883ec50803d005ea60700",
+      "parameters": 1,
+      "flags": 129,
+      "legacy_rva": 11318992,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100732300": {
+      "name": "Complete",
+      "token": 100732413,
+      "rva": 11472352,
+      "prefix": "48895c2418554883ec30803d058aa607",
+      "parameters": 1,
+      "flags": 129,
+      "legacy_rva": 11307776,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100739785": {
+      "name": "OnBtnComplete",
+      "token": 100739906,
+      "rva": 13345040,
+      "prefix": "48897c242041564883ec50803d95068a",
+      "parameters": 0,
+      "flags": 129,
+      "legacy_rva": 12962048,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100744803": {
+      "name": "SetInteractAttributeValue",
+      "token": 100744875,
+      "rva": 14635200,
+      "prefix": "48895c2418554883ec20803d0f64760700",
+      "parameters": 2,
+      "flags": 134,
+      "legacy_rva": 14442208,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100744804": {
+      "name": "get_CurrentAge",
+      "token": 100744876,
+      "rva": 14639904,
+      "prefix": "48895c2408574883ec20803db0517607",
+      "parameters": 0,
+      "flags": 2182,
+      "legacy_rva": 14446944,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100744805": {
+      "name": "get_MaxLifespan",
+      "token": 100744877,
+      "rva": 14640480,
+      "prefix": "4883ec384883794800750733c04883c4",
+      "parameters": 0,
+      "flags": 2182,
+      "legacy_rva": 14447520,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100744814": {
+      "name": "ModifyMaxLifespan",
+      "token": 100744886,
+      "rva": 14627248,
+      "prefix": "40534883ec20488bd9488b49484885c9",
+      "parameters": 1,
+      "flags": 134,
+      "legacy_rva": 14434224,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100746239": {
+      "name": "OnPersuadeResult",
+      "token": 100746313,
+      "rva": 15023296,
+      "prefix": "40535556574883ec28803d467b700700",
+      "parameters": 2,
+      "flags": 129,
+      "legacy_rva": 14794480,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748032": {
+      "name": "ModifyStamina",
+      "token": 100748131,
+      "rva": 15324784,
+      "prefix": "4883ec380f28d948c744242000000000bac800000041b8c9000000e820fbffff",
+      "parameters": 1,
+      "flags": 134,
+      "legacy_rva": 15094688,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748033": {
+      "name": "ModifyHealth",
+      "token": 100748132,
+      "rva": 15323968,
+      "prefix": "4883ec380f28d948c744242000000000ba0100000041b804000000e850feffff",
+      "parameters": 1,
+      "flags": 134,
+      "legacy_rva": 15093872,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748034": {
+      "name": "ModifyMana",
+      "token": 100748133,
+      "rva": 15324016,
+      "prefix": "4883ec380f28d948c744242000000000ba1900000041b816000000e820feffff",
+      "parameters": 1,
+      "flags": 134,
+      "legacy_rva": 15093920,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748039": {
+      "name": "GetCurrentStamina",
+      "token": 100748138,
+      "rva": 15303024,
+      "prefix": "40534883ec20803d52396c0700488bd97513",
+      "parameters": 0,
+      "flags": 134,
+      "legacy_rva": 15072928,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748040": {
+      "name": "GetMaxStamina",
+      "token": 100748139,
+      "rva": 15306080,
+      "prefix": "4883ec284533c0bac9000000e88febffff",
+      "parameters": 0,
+      "flags": 134,
+      "legacy_rva": 15075984,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748041": {
+      "name": "GetCurrentHealth",
+      "token": 100748140,
+      "rva": 15302800,
+      "prefix": "40534883ec20803d333a6c0700488bd97513",
+      "parameters": 0,
+      "flags": 134,
+      "legacy_rva": 15072704,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748042": {
+      "name": "GetMaxHealth",
+      "token": 100748141,
+      "rva": 15305920,
+      "prefix": "4883ec284533c0ba04000000e82fecffff",
+      "parameters": 0,
+      "flags": 134,
+      "legacy_rva": 15075824,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748043": {
+      "name": "GetCurrentMana",
+      "token": 100748142,
+      "rva": 15302912,
+      "prefix": "40534883ec20803dc4396c0700488bd97513",
+      "parameters": 0,
+      "flags": 134,
+      "legacy_rva": 15072816,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748044": {
+      "name": "GetMaxMana",
+      "token": 100748143,
+      "rva": 15306032,
+      "prefix": "4883ec284533c0ba16000000e8bfebffff",
+      "parameters": 0,
+      "flags": 134,
+      "legacy_rva": 15075936,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748140": {
+      "name": "SetGrowthAttr",
+      "token": 100748239,
+      "rva": 15334592,
+      "prefix": "48895c2408574883ec30803d52be6b0700",
+      "parameters": 2,
+      "flags": 134,
+      "legacy_rva": 15104496,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100748919": {
+      "name": "SetTalentRank",
+      "token": 100749018,
+      "rva": 15463984,
+      "prefix": "48896c2418564883ec20803d2fc66907",
+      "parameters": 2,
+      "flags": 134,
+      "legacy_rva": 15264720,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100749727": {
+      "name": "ResolveItemStackMax",
+      "token": 100749826,
+      "rva": 15571072,
+      "prefix": "48895c24105556574883ec50803dcc24",
+      "parameters": 2,
+      "flags": 145,
+      "legacy_rva": 15339472,
+      "review": "Entry instruction shapes match with relocation-only direct references; runtime signature and owner remain required."
+    },
+    "100751271": {
+      "name": "TeleportTo",
+      "token": 100751370,
+      "rva": 16194080,
+      "prefix": "488bc45356574881eca00000000f2970",
+      "parameters": 1,
+      "flags": 134,
+      "legacy_rva": 15993440,
+      "review": "Same normal movement/callback flow; extra terminal exception call."
+    },
+    "100751304": {
+      "name": "CheckPoiConsumption",
+      "token": 100751403,
+      "rva": 16179120,
+      "prefix": "40534881ecd0000000803d5ce15e0700",
+      "parameters": 0,
+      "flags": 129,
+      "legacy_rva": 15978480,
+      "review": "Same normal POI consume flow; extra terminal exception call."
+    },
+    "100710988": {
+      "name": "<RunAsync>b__4",
+      "token": 100711054,
+      "rva": 27248480,
+      "prefix": "48895c24084889742410574883ec2080",
+      "parameters": 0,
+      "flags": 131,
+      "legacy_rva": 27037888,
+      "review": "Role identified from actual RunAsync delegate registration, not lambda sequence number; see build/persuasion-callback-review.json."
+    },
+    "100710989": {
+      "name": "<RunAsync>b__5",
+      "token": 100711055,
+      "rva": 27248624,
+      "prefix": "48895c24084889742410574883ec2080",
+      "parameters": 0,
+      "flags": 131,
+      "legacy_rva": 27038032,
+      "review": "Role identified from actual RunAsync delegate registration, not lambda sequence number; see build/persuasion-callback-review.json."
+    },
+    "100710990": {
+      "name": "<RunAsync>b__6",
+      "token": 100711056,
+      "rva": 27247808,
+      "prefix": "4883ec2880791000751a66c741100100",
+      "parameters": 0,
+      "flags": 131,
+      "legacy_rva": 27037216,
+      "review": "Role identified from actual RunAsync delegate registration, not lambda sequence number; see build/persuasion-callback-review.json."
+    },
+    "100710991": {
+      "name": "<RunAsync>b__7",
+      "token": 100711057,
+      "rva": 27248768,
+      "prefix": "40534883ec20803dc044b60600488bd9",
+      "parameters": 0,
+      "flags": 131,
+      "legacy_rva": 27038176,
+      "review": "Role identified from actual RunAsync delegate registration, not lambda sequence number; see build/persuasion-callback-review.json."
+    },
+    "100729204": {
+      "name": "RevealSolutionPathForEditor",
+      "token": 100729219,
+      "rva": 10927456,
+      "prefix": "48895c241848896c2420415441564157",
+      "parameters": 0,
+      "flags": 131,
+      "legacy_rva": 31115312,
+      "review": "Reviewed inlined MedCell reveal matches original cell state/rotation algorithm; changed status string construction is now MedGameText.get_StatusRevealBatch. Still delegates connectivity and Win to the game."
+    },
+    "100729242": {
+      "name": "RefreshConnectivity",
+      "token": 100729257,
+      "rva": 10923872,
+      "prefix": "44884c24204488442418488954241055",
+      "parameters": 4,
+      "flags": 129,
+      "legacy_rva": 31111888,
+      "review": "Reviewed connectivity/claim-bonus/Win control flow and object fields preserved; register allocation and localized text getters changed."
+    },
+    "100729272": {
+      "name": "Win",
+      "token": 100729287,
+      "rva": 10933440,
+      "prefix": "48895c2408574883ec40803d35bdae07",
+      "parameters": 1,
+      "flags": 129,
+      "legacy_rva": 31121856,
+      "review": "Reviewed completion flags, animation cancellation and callback preserved; repeated localized text construction extracted to MedGameText getters."
+    },
+    "100730582": {
+      "name": "RevealAll",
+      "token": 100730692,
+      "rva": 11316176,
+      "prefix": "48895c2408574881ecc0000000803dd3",
+      "parameters": 2,
+      "flags": 150,
+      "legacy_rva": 11125056,
+      "review": "Normal reveal list clearing and ratio call unchanged; exception tail fully included in current evidence."
+    },
+    "100730585": {
+      "name": "SetRevealRatio",
+      "token": 100730695,
+      "rva": 11318976,
+      "prefix": "488bc44c8948204c8940184889480853",
+      "parameters": 7,
+      "flags": 150,
+      "legacy_rva": 11127856,
+      "review": "Normal stone feature visibility/ratio update body unchanged; prior disassembly ended before exception blocks that current method range includes."
+    },
+    "100730612": {
+      "name": "WriteStoneState",
+      "token": 100730722,
+      "rva": 11327104,
+      "prefix": "488bc448895810488970204889480857",
+      "parameters": 1,
+      "flags": 145,
+      "legacy_rva": 11135984,
+      "review": "Stone serialization path unchanged; additional terminal exception call."
+    },
+    "100732174": {
+      "name": "ShowSettlement",
+      "token": 100732287,
+      "rva": 11485440,
+      "prefix": "4053574883ec7880b9f000000000488b",
+      "parameters": 1,
+      "flags": 129,
+      "legacy_rva": 11320864,
+      "review": "Normal settlement path unchanged; additional terminal exception call."
+    },
+    "100732176": {
+      "name": "ShowSuccessSettlement",
+      "token": 100732289,
+      "rva": 11486176,
+      "prefix": "40535556574883ec68803dd653a60700",
+      "parameters": 1,
+      "flags": 129,
+      "legacy_rva": 11321600,
+      "review": "Success settlement path unchanged; additional terminal exception calls."
+    },
+    "100749713": {
+      "name": "AddItem",
+      "token": 100749812,
+      "rva": 15549920,
+      "prefix": "44894c24204489442418895424104889",
+      "parameters": 5,
+      "flags": 134,
+      "legacy_rva": 15318480,
+      "review": "Five-argument AddItem ABI and bag/callback branches reviewed; auto-use routes to ExecuteWithResult and discards its result instead of Execute. Inventory readback and no-retry remain required."
+    }
+  },
+  "fields": {
+    "LubanDatas.data.Item:67114381": {
+      "name": "<id>k__BackingField",
+      "token": 67114389
+    },
+    "LubanDatas.data.Item:67114388": {
+      "name": "<itemType>k__BackingField",
+      "token": 67114396
+    },
+    "LubanDatas.data.Item:67114394": {
+      "name": "<autoUse>k__BackingField",
+      "token": 67114402
+    },
+    "LubanDatas.data.Item:67114397": {
+      "name": "<maxCntPerGrid>k__BackingField",
+      "token": 67114405
+    },
+    "LubanDatas.data.NpcInteractGameEntry:67114957": {
+      "name": "<npcId>k__BackingField",
+      "token": 67114965
+    },
+    "LubanDatas.data.NpcInteractGameEntry:67114958": {
+      "name": "<subId>k__BackingField",
+      "token": 67114966
+    },
+    "LubanDatas.data.NpcInteractGameEntry:67114959": {
+      "name": "<dependsSubId>k__BackingField",
+      "token": 67114967
+    },
+    "LubanDatas.data.NpcInteractGameEntry:67114960": {
+      "name": "<UnlockIntimacy>k__BackingField",
+      "token": 67114968
+    },
+    "LubanDatas.data.NpcInteractGameEntry:67114963": {
+      "name": "<maxSuccessCount>k__BackingField",
+      "token": 67114971
+    },
+    "LubanDatas.data.NpcInteractGameEntry:67114964": {
+      "name": "<interactGameType>k__BackingField",
+      "token": 67114972
+    },
+    "LubanDatas.data.NpcInteractGameEntry:67114965": {
+      "name": "<interactGameParam>k__BackingField",
+      "token": 67114973
+    },
+    "LubanDatas.data.NpcInteractGameEntry:67114977": {
+      "name": "<triggerPriority>k__BackingField",
+      "token": 67114985
+    },
+    "LubanDatas.data.NpcPersuadeTopic:67115051": {
+      "name": "<id>k__BackingField",
+      "token": 67115059
+    },
+    "LubanDatas.data.NpcPersuadeTopic:67115053": {
+      "name": "<maxRounds>k__BackingField",
+      "token": 67115061
+    },
+    "LubanDatas.data.NpcPersuadeTopic:67115058": {
+      "name": "<npcId>k__BackingField",
+      "token": 67115066
+    },
+    "LubanDatas.data.NpcPersuadeTopic:67115059": {
+      "name": "<autoExitDelayMs>k__BackingField",
+      "token": 67115067
+    },
+    "LubanDatas.data.SignatureArtifact:67115723": {
+      "name": "<lore>k__BackingField",
+      "token": 67115731
+    },
+    "LubanDatas.data.Skill:67115733": {
+      "name": "<ability_kind>k__BackingField",
+      "token": 67115741
+    },
+    "LubanDatas.data.Skill:67115734": {
+      "name": "<skill_availability>k__BackingField",
+      "token": 67115742
+    },
+    "LubanDatas.data.Skill:67115735": {
+      "name": "<levels>k__BackingField",
+      "token": 67115743
+    },
+    "LubanDatas.data.Skill:67115736": {
+      "name": "<element>k__BackingField",
+      "token": 67115744
+    },
+    "LubanDatas.data.Skill:67115737": {
+      "name": "<costs>k__BackingField",
+      "token": 67115745
+    },
+    "LubanDatas.data.Skill:67115738": {
+      "name": "<script>k__BackingField",
+      "token": 67115746
+    },
+    "LubanDatas.data.Skill:67115739": {
+      "name": "<xmlLink>k__BackingField",
+      "token": 67115747
+    },
+    "LubanDatas.data.Space:67115789": {
+      "name": "<behaviorTreeAsset>k__BackingField",
+      "token": 67115797
+    },
+    "LubanDatas.data.Space:67115790": {
+      "name": "<btAssetRandomAction>k__BackingField",
+      "token": 67115798
+    },
+    "LubanDatas.data.Space:67115791": {
+      "name": "<stage_id>k__BackingField",
+      "token": 67115799
+    },
+    "LubanDatas.data.Space:67115792": {
+      "name": "<enter_play_type>k__BackingField",
+      "token": 67115800
+    },
+    ".QuestSpecialStateOwner:67122930": {
+      "name": "QuestId",
+      "token": 67122943
+    },
+    "Game.NpcLogicManager:67122918": {
+      "name": "_questSpecialStateOwners",
+      "token": 67122931
+    },
+    "Game.NpcLogicManager:67122921": {
+      "name": "_isExecutingNpcInteractAction",
+      "token": 67122934
+    },
+    "Game.GameTime:67127608": {
+      "name": "Year",
+      "token": 67127585
+    },
+    "Game.GameTime:67127609": {
+      "name": "Month",
+      "token": 67127586
+    },
+    "Game.GameTime:67127610": {
+      "name": "Day",
+      "token": 67127587
+    },
+    "Game.GameTime:67127611": {
+      "name": "Unit",
+      "token": 67127588
+    },
+    "Game.DialogueInputPanel:67128360": {
+      "name": "m_CanSubmit",
+      "token": 67128344
+    },
+    "Game.DialogueInputPanel:67128361": {
+      "name": "m_SubmitAvailable",
+      "token": 67128345
+    },
+    "Game.NpcPersuadePanel:67130397": {
+      "name": "DialogueInput",
+      "token": 67130412
+    },
+    "Game.NpcPersuadePanel:67130405": {
+      "name": "_subscribedNpc",
+      "token": 67130420
+    },
+    "Game.NpcPersuadePanel:67130407": {
+      "name": "_persuadeEnded",
+      "token": 67130422
+    },
+    "Game.NpcPersuadePanel:67130408": {
+      "name": "_persuadeResultNotified",
+      "token": 67130423
+    },
+    "Game.NpcPersuadePanel:67130409": {
+      "name": "_settlementDelayCts",
+      "token": 67130424
+    },
+    "Game.NpcPersuadePanel:67130410": {
+      "name": "_settlementIsWin",
+      "token": 67130425
+    },
+    "Game.NpcPersuadePanel:67130411": {
+      "name": "_userInitiatedClose",
+      "token": 67130426
+    },
+    "Game.NpcPersuadePanel:67130412": {
+      "name": "_isFlowAlive",
+      "token": 67130427
+    },
+    "Game.NpcPersuadePanel:67130413": {
+      "name": "_npcId",
+      "token": 67130428
+    },
+    "Game.NpcPersuadePanel:67130414": {
+      "name": "_topicId",
+      "token": 67130429
+    },
+    "Game.NpcPersuadePanel:67130415": {
+      "name": "_actionOnWin",
+      "token": 67130430
+    },
+    "Game.NpcPersuadePanel:67130416": {
+      "name": "_actionOnLose",
+      "token": 67130431
+    },
+    "Game.NpcPersuadePanel:67130417": {
+      "name": "_actionOnClose",
+      "token": 67130432
+    },
+    "Game.NpcPersuadePanel:67130418": {
+      "name": "_peekLoadingCo",
+      "token": 67130433
+    },
+    "Game.NpcPersuadePanel:67130419": {
+      "name": "_peekRequestToken",
+      "token": 67130434
+    },
+    ".<>c__DisplayClass5_0:67132410": {
+      "name": "notified",
+      "token": 67132430
+    },
+    ".<>c__DisplayClass5_0:67132411": {
+      "name": "win",
+      "token": 67132431
+    },
+    ".<>c__DisplayClass5_0:67132413": {
+      "name": "<>4__this",
+      "token": 67132433
+    },
+    ".<>c__DisplayClass5_0:67132414": {
+      "name": "ctx",
+      "token": 67132434
+    },
+    "Game.MiniGamePersuadeCommand:67132407": {
+      "name": "_npcId",
+      "token": 67132427
+    },
+    "Game.MiniGamePersuadeCommand:67132408": {
+      "name": "_topicId",
+      "token": 67132428
+    },
+    "Game.MiniGamePersuadeCommand:67132409": {
+      "name": "_subId",
+      "token": 67132429
+    },
+    ".PlacementSettlementData:67148441": {
+      "name": "ClearedCells",
+      "token": 67148611
+    },
+    ".PlacementSettlementData:67148442": {
+      "name": "AddedCells",
+      "token": 67148612
+    },
+    ".PlacementSettlementData:67148443": {
+      "name": "ScoreBefore",
+      "token": 67148613
+    },
+    ".PlacementSettlementData:67148444": {
+      "name": "ScoreAfter",
+      "token": 67148614
+    },
+    ".PlacementSettlementData:67148445": {
+      "name": "ElementType",
+      "token": 67148615
+    },
+    "Game.UI.UPFLogic.Alchemy.UPFAlchemyPanel:67148371": {
+      "name": "_isPlayingFlyInAnimation",
+      "token": 67148541
+    },
+    "Game.UI.UPFLogic.Alchemy.UPFAlchemyPanel:67148373": {
+      "name": "_pendingSettlement",
+      "token": 67148543
+    },
+    "Game.Model.GameWorldModel:67151846": {
+      "name": "<PlayerModel>k__BackingField",
+      "token": 67151959
+    },
+    "Game.Model.GameWorldModel:67151848": {
+      "name": "<CurrentGameTime>k__BackingField",
+      "token": 67151961
+    },
+    "Game.Model.GameWorldModel:67151850": {
+      "name": "<NpcModels>k__BackingField",
+      "token": 67151963
+    },
+    "Game.Model.GameWorldModel:67151852": {
+      "name": "<StaticNpcIds>k__BackingField",
+      "token": 67151965
+    },
+    "Game.Model.NpcInteractionRuntimeState:67152051": {
+      "name": "<SpecialSubId>k__BackingField",
+      "token": 67152164
+    },
+    "Game.Model.NpcInteractionRuntimeState:67152053": {
+      "name": "<ActionUsageRecords>k__BackingField",
+      "token": 67152166
+    },
+    "Game.Model.NpcInteractionActionUsageRecord:67152054": {
+      "name": "<UsedCount>k__BackingField",
+      "token": 67152167
+    },
+    "Game.Model.NpcInteractionActionUsageRecord:67152055": {
+      "name": "<CycleKey>k__BackingField",
+      "token": 67152168
+    },
+    "Game.Model.NpcModel:67152092": {
+      "name": "<IsProcessingChatMessage>k__BackingField",
+      "token": 67152205
+    },
+    "Game.Model.NpcModel:67152093": {
+      "name": "<IsSummarizingChatHistory>k__BackingField",
+      "token": 67152206
+    },
+    "Game.Model.NpcModel:67152098": {
+      "name": "<LastPersuadeEndReason>k__BackingField",
+      "token": 67152211
+    },
+    "Game.Model.NpcModel:67152099": {
+      "name": "<CurrentPersuadeTopicId>k__BackingField",
+      "token": 67152212
+    },
+    "Game.Model.NpcModel:67152100": {
+      "name": "<PersuadeRound>k__BackingField",
+      "token": 67152213
+    },
+    "Game.Model.NpcModel:67152101": {
+      "name": "<PersuadeChatMessages>k__BackingField",
+      "token": 67152214
+    },
+    "Game.Model.NpcModel:67152102": {
+      "name": "<PersuadeEmotionValue>k__BackingField",
+      "token": 67152215
+    },
+    "Game.Model.NpcModel:67152104": {
+      "name": "IsProcessingPersuadeMessage",
+      "token": 67152217
+    },
+    "Game.Model.NpcModel:67152105": {
+      "name": "_persuadeProcessingToken",
+      "token": 67152218
+    },
+    "Game.Model.NpcModel:67152107": {
+      "name": "_persuadeLedger",
+      "token": 67152220
+    },
+    "Game.Model.NpcModel:67152110": {
+      "name": "<PersuadeSessionId>k__BackingField",
+      "token": 67152223
+    },
+    "Game.Model.NpcModel:67152114": {
+      "name": "OnPersuadeEnded",
+      "token": 67152227
+    },
+    "Game.Model.NpcModel:67152126": {
+      "name": "<NpcCfgId>k__BackingField",
+      "token": 67152239
+    },
+    "Game.Model.NpcModel:67152128": {
+      "name": "<WorldStatus>k__BackingField",
+      "token": 67152241
+    },
+    "Game.Model.NpcModel:67152129": {
+      "name": "<GameWorld>k__BackingField",
+      "token": 67152242
+    },
+    "Game.Model.NpcModel:67152147": {
+      "name": "<MiniGameStatistics>k__BackingField",
+      "token": 67152260
+    },
+    "Game.Model.NpcModel:67152148": {
+      "name": "<NpcInteractionRuntime>k__BackingField",
+      "token": 67152261
+    },
+    "Game.Model.Components.BagItemBase:67153914": {
+      "name": "ItemId",
+      "token": 67154039
+    },
+    "Game.Model.Components.BagItemBase:67153915": {
+      "name": "Count",
+      "token": 67154040
+    },
+    "Game.Model.Components.BagItemBase:67153917": {
+      "name": "IsEquipped",
+      "token": 67154042
+    },
+    "Game.Model.Components.BagModel:67153979": {
+      "name": "<Items>k__BackingField",
+      "token": 67154104
+    }
+  }
+}

@@ -1,0 +1,1795 @@
+{
+  "classes": {
+    "LubanDatas.AlchemyArtifactAffixSlot": {
+      "type_definition_offset": 28772932,
+      "token": 33554863,
+      "field_count": 8,
+      "fields": [
+        {
+          "name": "<effect_type>k__BackingField",
+          "token": 67109448
+        },
+        {
+          "name": "<effect_id>k__BackingField",
+          "token": 67109449
+        },
+        {
+          "name": "<element_type>k__BackingField",
+          "token": 67109450
+        },
+        {
+          "name": "<required_energy>k__BackingField",
+          "token": 67109451
+        },
+        {
+          "name": "<sort>k__BackingField",
+          "token": 67109452
+        },
+        {
+          "name": "<material_id>k__BackingField",
+          "token": 67109453
+        },
+        {
+          "name": "<material_count>k__BackingField",
+          "token": 67109454
+        },
+        {
+          "name": "__ID__",
+          "token": 67109455
+        }
+      ]
+    },
+    "LubanDatas.AlchemyScoreTierEntry": {
+      "type_definition_offset": 28774252,
+      "token": 33554878,
+      "field_count": 6,
+      "fields": [
+        {
+          "name": "<tier_id>k__BackingField",
+          "token": 67109495
+        },
+        {
+          "name": "<score_min>k__BackingField",
+          "token": 67109496
+        },
+        {
+          "name": "<output_item_id>k__BackingField",
+          "token": 67109497
+        },
+        {
+          "name": "<talent_point_reward>k__BackingField",
+          "token": 67109498
+        },
+        {
+          "name": "<attributes>k__BackingField",
+          "token": 67109499
+        },
+        {
+          "name": "__ID__",
+          "token": 67109500
+        }
+      ]
+    },
+    "LubanDatas.data.AlchemyPrototype": {
+      "type_definition_offset": 28862780,
+      "token": 33555884,
+      "field_count": 14,
+      "fields": [
+        {
+          "name": "<id>k__BackingField",
+          "token": 67112860
+        },
+        {
+          "name": "<board_size>k__BackingField",
+          "token": 67112861
+        },
+        {
+          "name": "<board_layout_id>k__BackingField",
+          "token": 67112862
+        },
+        {
+          "name": "<material_requirements>k__BackingField",
+          "token": 67112863
+        },
+        {
+          "name": "<skill_type>k__BackingField",
+          "token": 67112864
+        },
+        {
+          "name": "<skill_id>k__BackingField",
+          "token": 67112865
+        },
+        {
+          "name": "<energy_cost>k__BackingField",
+          "token": 67112866
+        },
+        {
+          "name": "<min_complete_tier_id>k__BackingField",
+          "token": 67112867
+        },
+        {
+          "name": "<recommended_spirit>k__BackingField",
+          "token": 67112868
+        },
+        {
+          "name": "<recommended_total_spirit>k__BackingField",
+          "token": 67112869
+        },
+        {
+          "name": "<effects>k__BackingField",
+          "token": 67112870
+        },
+        {
+          "name": "<score_tiers>k__BackingField",
+          "token": 67112871
+        },
+        {
+          "name": "<slot_type>k__BackingField",
+          "token": 67112872
+        },
+        {
+          "name": "__ID__",
+          "token": 67112873
+        }
+      ]
+    },
+    "Game.AlchemyEffectState": {
+      "type_definition_offset": 29019596,
+      "token": 33557667,
+      "field_count": 4,
+      "fields": [
+        {
+          "name": "Config",
+          "token": 67126110
+        },
+        {
+          "name": "IsActivated",
+          "token": 67126111
+        },
+        {
+          "name": "AffixConfigId",
+          "token": 67126112
+        },
+        {
+          "name": "AffixValue",
+          "token": 67126113
+        }
+      ]
+    },
+    "Game.AlchemyGameLogic": {
+      "type_definition_offset": 29020476,
+      "token": 33557669,
+      "field_count": 30,
+      "fields": [
+        {
+          "name": "IMMORTAL_SCORE_TIER_ID",
+          "token": 67126125
+        },
+        {
+          "name": "<Prototype>k__BackingField",
+          "token": 67126126
+        },
+        {
+          "name": "<Layout>k__BackingField",
+          "token": 67126127
+        },
+        {
+          "name": "<BoardSize>k__BackingField",
+          "token": 67126128
+        },
+        {
+          "name": "<Board>k__BackingField",
+          "token": 67126129
+        },
+        {
+          "name": "<Spirit>k__BackingField",
+          "token": 67126130
+        },
+        {
+          "name": "<SpiritMax>k__BackingField",
+          "token": 67126131
+        },
+        {
+          "name": "<Energy>k__BackingField",
+          "token": 67126132
+        },
+        {
+          "name": "<Effects>k__BackingField",
+          "token": 67126133
+        },
+        {
+          "name": "<ShopSlots>k__BackingField",
+          "token": 67126134
+        },
+        {
+          "name": "<Score>k__BackingField",
+          "token": 67126135
+        },
+        {
+          "name": "<PlacedCellsTotal>k__BackingField",
+          "token": 67126136
+        },
+        {
+          "name": "<TrueFire>k__BackingField",
+          "token": 67126137
+        },
+        {
+          "name": "<SelectedSlot>k__BackingField",
+          "token": 67126138
+        },
+        {
+          "name": "<CurrentRotation>k__BackingField",
+          "token": 67126139
+        },
+        {
+          "name": "<CurrentChains>k__BackingField",
+          "token": 67126140
+        },
+        {
+          "name": "<HasCompletedAnyLinkedChainEver>k__BackingField",
+          "token": 67126141
+        },
+        {
+          "name": "<HasClearedAnyLineEver>k__BackingField",
+          "token": 67126142
+        },
+        {
+          "name": "<HasPlacedAnyEssenceEver>k__BackingField",
+          "token": 67126143
+        },
+        {
+          "name": "_undoStack",
+          "token": 67126144
+        },
+        {
+          "name": "_redoStack",
+          "token": 67126145
+        },
+        {
+          "name": "_unlockedTalentTypes",
+          "token": 67126146
+        },
+        {
+          "name": "_lifetimePlacementEnergy",
+          "token": 67126147
+        },
+        {
+          "name": "_lifetimeLinkEnergy",
+          "token": 67126148
+        },
+        {
+          "name": "_muteLogDepth",
+          "token": 67126149
+        },
+        {
+          "name": "_lastLinkExtraTotal",
+          "token": 67126150
+        },
+        {
+          "name": "OnLog",
+          "token": 67126151
+        },
+        {
+          "name": "OnLineClear",
+          "token": 67126152
+        },
+        {
+          "name": "OnEnergyChanged",
+          "token": 67126153
+        },
+        {
+          "name": "_essenceElementMap",
+          "token": 67126154
+        }
+      ]
+    },
+    "Game.AlchemyTalentPanel": {
+      "type_definition_offset": 29025052,
+      "token": 33557727,
+      "field_count": 16,
+      "fields": [
+        {
+          "name": "LogTag",
+          "token": 67126493
+        },
+        {
+          "name": "_spawnedNodes",
+          "token": 67126494
+        },
+        {
+          "name": "_learnedTalentIds",
+          "token": 67126495
+        },
+        {
+          "name": "_learnedTalentTypes",
+          "token": 67126496
+        },
+        {
+          "name": "_currentLevel",
+          "token": 67126497
+        },
+        {
+          "name": "_talentPointBalance",
+          "token": 67126498
+        },
+        {
+          "name": "_isInitialized",
+          "token": 67126499
+        },
+        {
+          "name": "_hasContext",
+          "token": 67126500
+        },
+        {
+          "name": "_inputLayer",
+          "token": 67126501
+        },
+        {
+          "name": "btnBlankClose",
+          "token": 67126502
+        },
+        {
+          "name": "txtTalentPointValue",
+          "token": 67126503
+        },
+        {
+          "name": "timelineScrollRect",
+          "token": 67126504
+        },
+        {
+          "name": "timelineContent",
+          "token": 67126505
+        },
+        {
+          "name": "levelNodeTemplate",
+          "token": 67126506
+        },
+        {
+          "name": "txtEmpty",
+          "token": 67126507
+        },
+        {
+          "name": "<BindData>k__BackingField",
+          "token": 67126508
+        }
+      ]
+    },
+    "Game.UI.UPFLogic.Alchemy.AlchemyLaunchCostReceipt": {
+      "type_definition_offset": 29281132,
+      "token": 33560639,
+      "field_count": 9,
+      "fields": [
+        {
+          "name": "_bag",
+          "token": 67148061
+        },
+        {
+          "name": "_combat",
+          "token": 67148062
+        },
+        {
+          "name": "_itemCosts",
+          "token": 67148063
+        },
+        {
+          "name": "_energyCost",
+          "token": 67148064
+        },
+        {
+          "name": "_prototypeSnapshot",
+          "token": 67148065
+        },
+        {
+          "name": "_prototypeItemId",
+          "token": 67148066
+        },
+        {
+          "name": "_hasPrototypeCost",
+          "token": 67148067
+        },
+        {
+          "name": "_launchCommitted",
+          "token": 67148068
+        },
+        {
+          "name": "_sessionCompleted",
+          "token": 67148069
+        }
+      ]
+    },
+    "Game.UI.UPFLogic.Alchemy.UPFAlchemyPanel": {
+      "type_definition_offset": 29286236,
+      "token": 33560669,
+      "field_count": 119,
+      "fields": [
+        {
+          "name": "_breathingEffectHandle",
+          "token": 67148308
+        },
+        {
+          "name": "CLEAR_EFFECT_ADDITIVE_COMPOSITE_MATERIAL_PATH",
+          "token": 67148309
+        },
+        {
+          "name": "CLEAR_EFFECT_PREMULTIPLIED_COMPOSITE_MATERIAL_PATH",
+          "token": 67148310
+        },
+        {
+          "name": "CLEAR_EFFECT_PREMULTIPLIED_COVERAGE_MATERIAL_PATH",
+          "token": 67148311
+        },
+        {
+          "name": "CLEAR_EFFECT_CHANNEL_KEY",
+          "token": 67148312
+        },
+        {
+          "name": "CLEAR_EFFECT_MAXIMUM_CAPACITY",
+          "token": 67148313
+        },
+        {
+          "name": "_clearEffectHost",
+          "token": 67148314
+        },
+        {
+          "name": "_clearEffectChannel",
+          "token": 67148315
+        },
+        {
+          "name": "_clearEffectPrefabHandle",
+          "token": 67148316
+        },
+        {
+          "name": "_clearEffectProfile",
+          "token": 67148317
+        },
+        {
+          "name": "_clearEffectRegistrationFailed",
+          "token": 67148318
+        },
+        {
+          "name": "PREWARM_BOARD_BATCH_SIZE",
+          "token": 67148319
+        },
+        {
+          "name": "PREWARM_BOARD_VISUAL_BATCH_SIZE",
+          "token": 67148320
+        },
+        {
+          "name": "PREWARM_SMALL_LIST_BATCH_SIZE",
+          "token": 67148321
+        },
+        {
+          "name": "_logic",
+          "token": 67148322
+        },
+        {
+          "name": "_vm",
+          "token": 67148323
+        },
+        {
+          "name": "_selectedProtoItemId",
+          "token": 67148324
+        },
+        {
+          "name": "_hoverX",
+          "token": 67148325
+        },
+        {
+          "name": "_hoverY",
+          "token": 67148326
+        },
+        {
+          "name": "_placementPreview",
+          "token": 67148327
+        },
+        {
+          "name": "_inputLayer",
+          "token": 67148328
+        },
+        {
+          "name": "_sessionCostReceipt",
+          "token": 67148329
+        },
+        {
+          "name": "_alchemySessionTerminated",
+          "token": 67148330
+        },
+        {
+          "name": "_reforgeTargetUid",
+          "token": 67148331
+        },
+        {
+          "name": "_consumedMaterials",
+          "token": 67148332
+        },
+        {
+          "name": "_logEntries",
+          "token": 67148333
+        },
+        {
+          "name": "MaxLog",
+          "token": 67148334
+        },
+        {
+          "name": "_rightPanelCanvasGroup",
+          "token": 67148335
+        },
+        {
+          "name": "_pendingSessionCoroutine",
+          "token": 67148336
+        },
+        {
+          "name": "_prewarmCoroutine",
+          "token": 67148337
+        },
+        {
+          "name": "_prewarmCompletedCallbacks",
+          "token": 67148338
+        },
+        {
+          "name": "_pendingSessionFailed",
+          "token": 67148339
+        },
+        {
+          "name": "_pendingSessionStarted",
+          "token": 67148340
+        },
+        {
+          "name": "_hasPendingSession",
+          "token": 67148341
+        },
+        {
+          "name": "_prewarmComplete",
+          "token": 67148342
+        },
+        {
+          "name": "_preactivatedForPrewarm",
+          "token": 67148343
+        },
+        {
+          "name": "_sessionInteractionEnabled",
+          "token": 67148344
+        },
+        {
+          "name": "_pendingProtoItemId",
+          "token": 67148345
+        },
+        {
+          "name": "_pendingSessionCostReceipt",
+          "token": 67148346
+        },
+        {
+          "name": "_prewarmProtoItemId",
+          "token": 67148347
+        },
+        {
+          "name": "_prewarmGeneration",
+          "token": 67148348
+        },
+        {
+          "name": "_pendingReforgeTargetUid",
+          "token": 67148349
+        },
+        {
+          "name": "_pendingSpiritInputs",
+          "token": 67148350
+        },
+        {
+          "name": "_pendingConsumedMaterials",
+          "token": 67148351
+        },
+        {
+          "name": "_boardViewSize",
+          "token": 67148352
+        },
+        {
+          "name": "_prewarmCanvasGroup",
+          "token": 67148353
+        },
+        {
+          "name": "_prewarmCanvasOriginalAlpha",
+          "token": 67148354
+        },
+        {
+          "name": "_prewarmCanvasOriginalInteractable",
+          "token": 67148355
+        },
+        {
+          "name": "_prewarmCanvasOriginalBlocksRaycasts",
+          "token": 67148356
+        },
+        {
+          "name": "_prewarmPresentersBound",
+          "token": 67148357
+        },
+        {
+          "name": "_prewarmBoardPresenter",
+          "token": 67148358
+        },
+        {
+          "name": "_prewarmShopPresenter",
+          "token": 67148359
+        },
+        {
+          "name": "_prewarmSpiritPresenter",
+          "token": 67148360
+        },
+        {
+          "name": "_prewarmEffectPresenter",
+          "token": 67148361
+        },
+        {
+          "name": "CursorPreviewMinCellSize",
+          "token": 67148362
+        },
+        {
+          "name": "CursorPreviewMaxCellSize",
+          "token": 67148363
+        },
+        {
+          "name": "CursorPreviewAlpha",
+          "token": 67148364
+        },
+        {
+          "name": "CursorPreviewSortingOffset",
+          "token": 67148365
+        },
+        {
+          "name": "_cursorPreview",
+          "token": 67148366
+        },
+        {
+          "name": "_cursorPreviewSlot",
+          "token": 67148367
+        },
+        {
+          "name": "_cursorPreviewRotation",
+          "token": 67148368
+        },
+        {
+          "name": "_cursorPreviewElement",
+          "token": 67148369
+        },
+        {
+          "name": "_cursorPreviewCellSize",
+          "token": 67148370
+        },
+        {
+          "name": "_isPlayingFlyInAnimation",
+          "token": 67148371
+        },
+        {
+          "name": "_flyInMotionHandle",
+          "token": 67148372
+        },
+        {
+          "name": "_pendingSettlement",
+          "token": 67148373
+        },
+        {
+          "name": "BoardAreaSize",
+          "token": 67148374
+        },
+        {
+          "name": "BoardCellGap",
+          "token": 67148375
+        },
+        {
+          "name": "PreviewCellSize",
+          "token": 67148376
+        },
+        {
+          "name": "PreviewCellGap",
+          "token": 67148377
+        },
+        {
+          "name": "ShapeBoxSize",
+          "token": 67148378
+        },
+        {
+          "name": "HorizontalLinkRotation",
+          "token": 67148379
+        },
+        {
+          "name": "VerticalLinkRotation",
+          "token": 67148380
+        },
+        {
+          "name": "AtlasDir",
+          "token": 67148381
+        },
+        {
+          "name": "SmithingDir",
+          "token": 67148382
+        },
+        {
+          "name": "Refine5CellDir",
+          "token": 67148383
+        },
+        {
+          "name": "CellEmpty",
+          "token": 67148384
+        },
+        {
+          "name": "CellBlocked",
+          "token": 67148385
+        },
+        {
+          "name": "NormalCellMetal",
+          "token": 67148386
+        },
+        {
+          "name": "NormalCellWood",
+          "token": 67148387
+        },
+        {
+          "name": "NormalCellWater",
+          "token": 67148388
+        },
+        {
+          "name": "NormalCellFire",
+          "token": 67148389
+        },
+        {
+          "name": "NormalCellEarth",
+          "token": 67148390
+        },
+        {
+          "name": "Refine5CellPlaceableMetal",
+          "token": 67148391
+        },
+        {
+          "name": "Refine5CellPlaceableWood",
+          "token": 67148392
+        },
+        {
+          "name": "Refine5CellPlaceableWater",
+          "token": 67148393
+        },
+        {
+          "name": "Refine5CellPlaceableFire",
+          "token": 67148394
+        },
+        {
+          "name": "Refine5CellPlaceableEarth",
+          "token": 67148395
+        },
+        {
+          "name": "LinkedCellMetal",
+          "token": 67148396
+        },
+        {
+          "name": "LinkedCellWood",
+          "token": 67148397
+        },
+        {
+          "name": "LinkedCellWater",
+          "token": 67148398
+        },
+        {
+          "name": "LinkedCellFire",
+          "token": 67148399
+        },
+        {
+          "name": "LinkedCellEarth",
+          "token": 67148400
+        },
+        {
+          "name": "ActiveCellMetal",
+          "token": 67148401
+        },
+        {
+          "name": "ActiveCellWood",
+          "token": 67148402
+        },
+        {
+          "name": "ActiveCellWater",
+          "token": 67148403
+        },
+        {
+          "name": "ActiveCellFire",
+          "token": 67148404
+        },
+        {
+          "name": "ActiveCellEarth",
+          "token": 67148405
+        },
+        {
+          "name": "LinkLineMetal",
+          "token": 67148406
+        },
+        {
+          "name": "LinkLineWood",
+          "token": 67148407
+        },
+        {
+          "name": "LinkLineWater",
+          "token": 67148408
+        },
+        {
+          "name": "LinkLineFire",
+          "token": 67148409
+        },
+        {
+          "name": "LinkLineEarth",
+          "token": 67148410
+        },
+        {
+          "name": "_boardNodeVisuals",
+          "token": 67148411
+        },
+        {
+          "name": "NormalCellSprites",
+          "token": 67148412
+        },
+        {
+          "name": "PlaceableCellSprites",
+          "token": 67148413
+        },
+        {
+          "name": "LinkPointSprites",
+          "token": 67148414
+        },
+        {
+          "name": "ActiveCellSprites",
+          "token": 67148415
+        },
+        {
+          "name": "LinkLineSprites",
+          "token": 67148416
+        },
+        {
+          "name": "RingOrbPositions",
+          "token": 67148417
+        },
+        {
+          "name": "m_AlchemySettlementStarted",
+          "token": 67148418
+        },
+        {
+          "name": "_boardHover",
+          "token": 67148419
+        },
+        {
+          "name": "_boardCellRectSync",
+          "token": 67148420
+        },
+        {
+          "name": "_boardNodeRenderer",
+          "token": 67148421
+        },
+        {
+          "name": "_effectCardSpriteCache",
+          "token": 67148422
+        },
+        {
+          "name": "CHECK_COMPLETE",
+          "token": 67148423
+        },
+        {
+          "name": "CHECK_APPLY_SETTLEMENT",
+          "token": 67148424
+        },
+        {
+          "name": "_clearEffectTemplate",
+          "token": 67148425
+        },
+        {
+          "name": "_animatingClearedLinkedCells",
+          "token": 67148426
+        }
+      ]
+    },
+    "Game.UI.UPFLogic.Alchemy.UPFAlchemyTalentPanel": {
+      "type_definition_offset": 29289668,
+      "token": 33560736,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "TIMELINE_HORIZONTAL_PADDING_WIDTH",
+          "token": 67148897
+        },
+        {
+          "name": "_vm",
+          "token": 67148898
+        },
+        {
+          "name": "_inputLayer",
+          "token": 67148899
+        }
+      ]
+    },
+    "Game.Model.Player.Components.AlchemyModel": {
+      "type_definition_offset": 29388228,
+      "token": 33561854,
+      "field_count": 15,
+      "fields": [
+        {
+          "name": "CURRENT_WASH_PITY_STATE_VERSION",
+          "token": 67153084
+        },
+        {
+          "name": "<Level>k__BackingField",
+          "token": 67153085
+        },
+        {
+          "name": "<Exp>k__BackingField",
+          "token": 67153086
+        },
+        {
+          "name": "<BestScore>k__BackingField",
+          "token": 67153087
+        },
+        {
+          "name": "<HighestCraftedTierId>k__BackingField",
+          "token": 67153088
+        },
+        {
+          "name": "<TalentPoints>k__BackingField",
+          "token": 67153089
+        },
+        {
+          "name": "<UnlockedTalentIds>k__BackingField",
+          "token": 67153090
+        },
+        {
+          "name": "<LearnedTalentIds>k__BackingField",
+          "token": 67153091
+        },
+        {
+          "name": "<TalentStateVersion>k__BackingField",
+          "token": 67153092
+        },
+        {
+          "name": "<LegacyManualRecipeIds>k__BackingField",
+          "token": 67153093
+        },
+        {
+          "name": "<LegacyRecipeCraftCounts>k__BackingField",
+          "token": 67153094
+        },
+        {
+          "name": "<LegacyManualStateVersion>k__BackingField",
+          "token": 67153095
+        },
+        {
+          "name": "<PillTalentRanks>k__BackingField",
+          "token": 67153096
+        },
+        {
+          "name": "<WashPityCounters>k__BackingField",
+          "token": 67153097
+        },
+        {
+          "name": "<WashPityStateVersion>k__BackingField",
+          "token": 67153098
+        }
+      ]
+    },
+    "Game.UIManager": {
+      "type_definition_offset": 28993284,
+      "token": 33557356,
+      "field_count": 49,
+      "fields": [
+        {
+          "name": "UI_LAYER_WIDTH",
+          "token": 67124314
+        },
+        {
+          "name": "UI_LAYER_HEIGHT",
+          "token": 67124315
+        },
+        {
+          "name": "AssetReadyMarker",
+          "token": 67124316
+        },
+        {
+          "name": "s_CloseInternalMarker",
+          "token": 67124317
+        },
+        {
+          "name": "s_CloseSortingMarker",
+          "token": 67124318
+        },
+        {
+          "name": "s_UnregisterInputOrderMarker",
+          "token": 67124319
+        },
+        {
+          "name": "s_UnregisterCanvasMarker",
+          "token": 67124320
+        },
+        {
+          "name": "s_CloseVisibilityMarker",
+          "token": 67124321
+        },
+        {
+          "name": "s_CloseWillHideMarker",
+          "token": 67124322
+        },
+        {
+          "name": "s_CloseDidHideMarker",
+          "token": 67124323
+        },
+        {
+          "name": "s_CloseEventMarker",
+          "token": 67124324
+        },
+        {
+          "name": "s_RetryDeferredOpensMarker",
+          "token": 67124325
+        },
+        {
+          "name": "InstantiateCompletedMarker",
+          "token": 67124326
+        },
+        {
+          "name": "<IsWorldUiTeardown>k__BackingField",
+          "token": 67124327
+        },
+        {
+          "name": "m_IsShuttingDown",
+          "token": 67124328
+        },
+        {
+          "name": "_panelConfigs",
+          "token": 67124329
+        },
+        {
+          "name": "_panelRegistry",
+          "token": 67124330
+        },
+        {
+          "name": "_historyStack",
+          "token": 67124331
+        },
+        {
+          "name": "_visibilitySystem",
+          "token": 67124332
+        },
+        {
+          "name": "_popupManager",
+          "token": 67124333
+        },
+        {
+          "name": "_backHandler",
+          "token": 67124334
+        },
+        {
+          "name": "_guards",
+          "token": 67124335
+        },
+        {
+          "name": "_deferredOpens",
+          "token": 67124336
+        },
+        {
+          "name": "_isRetryingDeferred",
+          "token": 67124337
+        },
+        {
+          "name": "dict_Panels",
+          "token": 67124338
+        },
+        {
+          "name": "uiRoot",
+          "token": 67124339
+        },
+        {
+          "name": "_panels",
+          "token": 67124340
+        },
+        {
+          "name": "rootCanvas",
+          "token": 67124341
+        },
+        {
+          "name": "uiCamera",
+          "token": 67124342
+        },
+        {
+          "name": "uiPath",
+          "token": 67124343
+        },
+        {
+          "name": "layerRoots",
+          "token": 67124344
+        },
+        {
+          "name": "_layerCanvasGroups",
+          "token": 67124345
+        },
+        {
+          "name": "uiDict",
+          "token": 67124346
+        },
+        {
+          "name": "uiStack",
+          "token": 67124347
+        },
+        {
+          "name": "_commonFunctionRegistry",
+          "token": 67124348
+        },
+        {
+          "name": "_canvasSortingManager",
+          "token": 67124349
+        },
+        {
+          "name": "m_RenderingSuspension",
+          "token": 67124350
+        },
+        {
+          "name": "m_UICameraEnabledBeforeGlobalHide",
+          "token": 67124351
+        },
+        {
+          "name": "_panelBlockers",
+          "token": 67124352
+        },
+        {
+          "name": "LAYER_COUNT",
+          "token": 67124353
+        },
+        {
+          "name": "_layerState",
+          "token": 67124354
+        },
+        {
+          "name": "_newLayerStateCache",
+          "token": 67124355
+        },
+        {
+          "name": "_forceHiddenLayers",
+          "token": 67124356
+        },
+        {
+          "name": "_uiSceneRoot",
+          "token": 67124357
+        },
+        {
+          "name": "_sceneLayerRoots",
+          "token": 67124358
+        },
+        {
+          "name": "_sceneLayerCanvasGroups",
+          "token": 67124359
+        },
+        {
+          "name": "_sceneModeCache",
+          "token": 67124360
+        },
+        {
+          "name": "uiIntroductions",
+          "token": 67124361
+        },
+        {
+          "name": "_cachedUILayer",
+          "token": 67124362
+        }
+      ]
+    },
+    "Game.BaseUI": {
+      "type_definition_offset": 29007716,
+      "token": 33557531,
+      "field_count": 34,
+      "fields": [
+        {
+          "name": "s_HideMarker",
+          "token": 67125214
+        },
+        {
+          "name": "s_HideInputScopeMarker",
+          "token": 67125215
+        },
+        {
+          "name": "s_HideAudioMarker",
+          "token": 67125216
+        },
+        {
+          "name": "s_HideCallbackMarker",
+          "token": 67125217
+        },
+        {
+          "name": "s_HideParticlesMarker",
+          "token": 67125218
+        },
+        {
+          "name": "s_HideInputLayersMarker",
+          "token": 67125219
+        },
+        {
+          "name": "s_HideGuideMarker",
+          "token": 67125220
+        },
+        {
+          "name": "s_VisualHideMarker",
+          "token": 67125221
+        },
+        {
+          "name": "_audioConfig",
+          "token": 67125222
+        },
+        {
+          "name": "<UILayer>k__BackingField",
+          "token": 67125223
+        },
+        {
+          "name": "<ThisPanelId>k__BackingField",
+          "token": 67125224
+        },
+        {
+          "name": "<IsRootPanel>k__BackingField",
+          "token": 67125225
+        },
+        {
+          "name": "<IsAttachedAsChild>k__BackingField",
+          "token": 67125226
+        },
+        {
+          "name": "isShowing",
+          "token": 67125227
+        },
+        {
+          "name": "isInitialized",
+          "token": 67125228
+        },
+        {
+          "name": "_redDotSubscriptions",
+          "token": 67125229
+        },
+        {
+          "name": "_uiReddotViewModels",
+          "token": 67125230
+        },
+        {
+          "name": "<IsInVisualHide>k__BackingField",
+          "token": 67125231
+        },
+        {
+          "name": "bgmLayer",
+          "token": 67125232
+        },
+        {
+          "name": "_inputScopeHost",
+          "token": 67125233
+        },
+        {
+          "name": "_overlayNativeParticleAutoPresenter",
+          "token": 67125234
+        },
+        {
+          "name": "_overlayNativeParticleAutoScanCompleted",
+          "token": 67125235
+        },
+        {
+          "name": "_animation",
+          "token": 67125236
+        },
+        {
+          "name": "_exitAnimCo",
+          "token": 67125237
+        },
+        {
+          "name": "delayedShow",
+          "token": 67125238
+        },
+        {
+          "name": "_destroyOnVisualHide",
+          "token": 67125239
+        },
+        {
+          "name": "<IsInteractable>k__BackingField",
+          "token": 67125240
+        },
+        {
+          "name": "<IsPaused>k__BackingField",
+          "token": 67125241
+        },
+        {
+          "name": "<InputGroup>k__BackingField",
+          "token": 67125242
+        },
+        {
+          "name": "<RuntimeOwner>k__BackingField",
+          "token": 67125243
+        },
+        {
+          "name": "<HandleToken>k__BackingField",
+          "token": 67125244
+        },
+        {
+          "name": "childPanels",
+          "token": 67125245
+        },
+        {
+          "name": "lastUpdate01Time",
+          "token": 67125246
+        },
+        {
+          "name": "_hotkeyButtonEntries",
+          "token": 67125247
+        }
+      ]
+    },
+    "Game.PanelRegistry": {
+      "type_definition_offset": 29009124,
+      "token": 33557548,
+      "field_count": 2,
+      "fields": [
+        {
+          "name": "_instances",
+          "token": 67125310
+        },
+        {
+          "name": "_layerIndex",
+          "token": 67125311
+        }
+      ]
+    },
+    "System.Collections.Generic.List`1": {
+      "type_definition_offset": 29896604,
+      "token": 33556056,
+      "field_count": 6,
+      "fields": [
+        {
+          "name": "DefaultCapacity",
+          "token": 67115810
+        },
+        {
+          "name": "_items",
+          "token": 67115811
+        },
+        {
+          "name": "_size",
+          "token": 67115812
+        },
+        {
+          "name": "_version",
+          "token": 67115813
+        },
+        {
+          "name": "_syncRoot",
+          "token": 67115814
+        },
+        {
+          "name": "s_emptyArray",
+          "token": 67115815
+        }
+      ]
+    },
+    "Game.Model.PlayerModel": {
+      "type_definition_offset": 29341676,
+      "token": 33561326,
+      "field_count": 66,
+      "fields": [
+        {
+          "name": "<ForestEvents>k__BackingField",
+          "token": 67151365
+        },
+        {
+          "name": "<BloodAltar>k__BackingField",
+          "token": 67151366
+        },
+        {
+          "name": "<RandomEventSettlements>k__BackingField",
+          "token": 67151367
+        },
+        {
+          "name": "citySceneQuestTaskbarHud",
+          "token": 67151368
+        },
+        {
+          "name": "PLAYER_NAME_PLACEHOLDER",
+          "token": 67151369
+        },
+        {
+          "name": "DEFAULT_PROP_EVIL",
+          "token": 67151370
+        },
+        {
+          "name": "MIN_PROP_EVIL",
+          "token": 67151371
+        },
+        {
+          "name": "MAX_PROP_EVIL",
+          "token": 67151372
+        },
+        {
+          "name": "playerName",
+          "token": 67151373
+        },
+        {
+          "name": "bag",
+          "token": 67151374
+        },
+        {
+          "name": "combat",
+          "token": 67151375
+        },
+        {
+          "name": "alchemy",
+          "token": 67151376
+        },
+        {
+          "name": "refiningPillsRecipeManual",
+          "token": 67151377
+        },
+        {
+          "name": "refiningPills",
+          "token": 67151378
+        },
+        {
+          "name": "refiningPillsCraftHistory",
+          "token": 67151379
+        },
+        {
+          "name": "talentPath",
+          "token": 67151380
+        },
+        {
+          "name": "soulBanner",
+          "token": 67151381
+        },
+        {
+          "name": "demonicCultivator",
+          "token": 67151382
+        },
+        {
+          "name": "chuanYin",
+          "token": 67151383
+        },
+        {
+          "name": "npcRelation",
+          "token": 67151384
+        },
+        {
+          "name": "scenePassiveBehavior",
+          "token": 67151385
+        },
+        {
+          "name": "npcTeachGuide",
+          "token": 67151386
+        },
+        {
+          "name": "learnGongfaTip",
+          "token": 67151387
+        },
+        {
+          "name": "innMessage",
+          "token": 67151388
+        },
+        {
+          "name": "signatureArtifact",
+          "token": 67151389
+        },
+        {
+          "name": "normalArtifact",
+          "token": 67151390
+        },
+        {
+          "name": "gambleStone",
+          "token": 67151391
+        },
+        {
+          "name": "spiritSpotRuntime",
+          "token": 67151392
+        },
+        {
+          "name": "divinationFortune",
+          "token": 67151393
+        },
+        {
+          "name": "auctionComponent",
+          "token": 67151394
+        },
+        {
+          "name": "tournamentComponent",
+          "token": 67151395
+        },
+        {
+          "name": "achievementComponent",
+          "token": 67151396
+        },
+        {
+          "name": "gameDifficultyState",
+          "token": 67151397
+        },
+        {
+          "name": "gameDifficultyUnlockRetryPending",
+          "token": 67151398
+        },
+        {
+          "name": "deathRescueCooldownUntilTotalDay",
+          "token": 67151399
+        },
+        {
+          "name": "realmBreakthroughDifficultyProgress",
+          "token": 67151400
+        },
+        {
+          "name": "guideComponent",
+          "token": 67151401
+        },
+        {
+          "name": "questComponent",
+          "token": 67151402
+        },
+        {
+          "name": "sectComponent",
+          "token": 67151403
+        },
+        {
+          "name": "reputation",
+          "token": 67151404
+        },
+        {
+          "name": "newbie",
+          "token": 67151405
+        },
+        {
+          "name": "dialogueChoice",
+          "token": 67151406
+        },
+        {
+          "name": "normalDungeonRuntime",
+          "token": 67151407
+        },
+        {
+          "name": "rogueDungeonRuntime",
+          "token": 67151408
+        },
+        {
+          "name": "questDetailPanelData",
+          "token": 67151409
+        },
+        {
+          "name": "ainpcChatReward",
+          "token": 67151410
+        },
+        {
+          "name": "visitedSpaces",
+          "token": 67151411
+        },
+        {
+          "name": "leftSpaces",
+          "token": 67151412
+        },
+        {
+          "name": "watchedVideoTimelines",
+          "token": 67151413
+        },
+        {
+          "name": "currentSectId",
+          "token": 67151414
+        },
+        {
+          "name": "currentSectPositionId",
+          "token": 67151415
+        },
+        {
+          "name": "everJoinedSect",
+          "token": 67151416
+        },
+        {
+          "name": "everJoinedSectIds",
+          "token": 67151417
+        },
+        {
+          "name": "sectContributionTotal",
+          "token": 67151418
+        },
+        {
+          "name": "playerPropEvil",
+          "token": 67151419
+        },
+        {
+          "name": "spar_monthly_count",
+          "token": 67151420
+        },
+        {
+          "name": "interactAttributes",
+          "token": 67151421
+        },
+        {
+          "name": "_interactAttributeCappedTipFrames",
+          "token": 67151422
+        },
+        {
+          "name": "m_HandlingLifespanExhaustion",
+          "token": 67151423
+        },
+        {
+          "name": "<LifespanExhaustionHandledAge>k__BackingField",
+          "token": 67151424
+        },
+        {
+          "name": "<LifespanExhaustionHandledMax>k__BackingField",
+          "token": 67151425
+        },
+        {
+          "name": "MaxRewardDropResolveDepth",
+          "token": 67151426
+        },
+        {
+          "name": "RewardDropParseMarker",
+          "token": 67151427
+        },
+        {
+          "name": "RewardDropGrantMarker",
+          "token": 67151428
+        },
+        {
+          "name": "RewardDropCallbackMarker",
+          "token": 67151429
+        },
+        {
+          "name": "RewardDropLogMarker",
+          "token": 67151430
+        }
+      ]
+    },
+    "SimpleSave.StoredEntityComponent": {
+      "type_definition_offset": 31314812,
+      "token": 33554455,
+      "field_count": 1,
+      "fields": [
+        {
+          "name": "<entity>k__BackingField",
+          "token": 67108923
+        }
+      ]
+    },
+    ".PlacementSettlementData": {
+      "type_definition_offset": 29283948,
+      "token": 33560672,
+      "field_count": 5,
+      "fields": [
+        {
+          "name": "ClearedCells",
+          "token": 67148441
+        },
+        {
+          "name": "AddedCells",
+          "token": 67148442
+        },
+        {
+          "name": "ScoreBefore",
+          "token": 67148443
+        },
+        {
+          "name": "ScoreAfter",
+          "token": 67148444
+        },
+        {
+          "name": "ElementType",
+          "token": 67148445
+        }
+      ]
+    },
+    "Emei.NotifiableList`1": {
+      "type_definition_offset": 31342356,
+      "token": 33554458,
+      "field_count": 5,
+      "fields": [
+        {
+          "name": "<OnElementChanged>k__BackingField",
+          "token": 67108874
+        },
+        {
+          "name": "<OnElementAdded>k__BackingField",
+          "token": 67108875
+        },
+        {
+          "name": "<OnElementRemoved>k__BackingField",
+          "token": 67108876
+        },
+        {
+          "name": "<OnListCleared>k__BackingField",
+          "token": 67108877
+        },
+        {
+          "name": "indexesToRemove",
+          "token": 67108878
+        }
+      ]
+    },
+    "LubanDatas.AlchemyEffect": {
+      "type_definition_offset": 28773812,
+      "token": 33554873,
+      "field_count": 6,
+      "fields": [
+        {
+          "name": "<effect_type>k__BackingField",
+          "token": 67109482
+        },
+        {
+          "name": "<effect_id>k__BackingField",
+          "token": 67109483
+        },
+        {
+          "name": "<element_type>k__BackingField",
+          "token": 67109484
+        },
+        {
+          "name": "<required_energy>k__BackingField",
+          "token": 67109485
+        },
+        {
+          "name": "<sort>k__BackingField",
+          "token": 67109486
+        },
+        {
+          "name": "__ID__",
+          "token": 67109487
+        }
+      ]
+    }
+  },
+  "methods": {
+    "complete": {
+      "name": "OnBtnComplete",
+      "token": 100739785,
+      "rva": 12962048,
+      "prefix": "48897c242041564883ec50803d53ba8e",
+      "parameters": [],
+      "return_kind": 1,
+      "argc": 0,
+      "returns": 1
+    },
+    "activate": {
+      "name": "CheckEffectActivation",
+      "token": 100701440,
+      "rva": 23759920,
+      "prefix": "405657415641574883ec58803d6245ea",
+      "parameters": [
+        2
+      ],
+      "return_kind": 1,
+      "argc": 1,
+      "returns": 1
+    },
+    "bonus": {
+      "name": "GetBonusRatio",
+      "token": 100701454,
+      "rva": 23774592,
+      "prefix": "40534883ec30803d230cea0600488bd9",
+      "parameters": [],
+      "return_kind": 12,
+      "argc": 0,
+      "returns": 12
+    }
+  },
+  "proofs": [
+    {
+      "type": "AlchemyGameLogic",
+      "name": "CheckEffectActivation",
+      "rva": "0x16a8c30",
+      "prefix": "405657415641574883ec58803d6245ea"
+    },
+    {
+      "type": "AlchemyGameLogic",
+      "name": "GetScoreTierForScore",
+      "rva": "0x16ad360",
+      "prefix": "48895c242048894c2408565741564881"
+    },
+    {
+      "type": "AlchemyArtifactSettlementService",
+      "name": "TryApplyResult",
+      "rva": "0x16c6940",
+      "prefix": "488974242057415641574883ec40803d"
+    },
+    {
+      "type": "UPFAlchemyPanel",
+      "name": "ApplyAlchemySettlement",
+      "rva": "0xc53380",
+      "prefix": "48895c24184c894c2420565741564883"
+    },
+    {
+      "type": "AlchemyModel",
+      "name": "set_TalentPoints",
+      "rva": "0x678310",
+      "prefix": "895128c3cccccccccccccccccccccccc"
+    }
+  ]
+}

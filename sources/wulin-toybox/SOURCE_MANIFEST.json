@@ -1,0 +1,247 @@
+{
+  "snapshot_date": "2026-10-02",
+  "game": "wulin-toybox",
+  "scope": "Privacy-edited source snapshot; see BUILD.md for omitted inputs. Not a claim of a byte-identical rebuild.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 57,
+      "sha256": "e0fb2e98ab0492f78a2721519fe858b16d1e6781e050c419d8e72c83cf06ef47"
+    },
+    {
+      "path": "BUILD.md",
+      "bytes": 2858,
+      "sha256": "5ce0909cb74e1432f7fd59ad732f5a1438378f0ece52ccd5840f5f64c7a59686"
+    },
+    {
+      "path": "build.ps1",
+      "bytes": 2553,
+      "sha256": "bf198fd7370c6400937149e034533524a965962cc062cb967d6ec45b30c6e1d4"
+    },
+    {
+      "path": "BUILD_ZH.md",
+      "bytes": 2489,
+      "sha256": "21a32e56d9bc8d5fb2f126f0678f80ab0c4542e9764625c8c558560e9c32f7e6"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11560,
+      "sha256": "c9dba8e6b2e175a7714bffcd61cd155ae3ddf081ea6363623ada9157f125dbb0"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 2117,
+      "sha256": "e244a57de79759f5e03aecb7ad1275a7c84aedaff5f465d0566047002012289e"
+    },
+    {
+      "path": "src/AssemblyInfo.cs",
+      "bytes": 321,
+      "sha256": "02e225a95cb10b7e4adb41edce064a4dea2b2d288512f9b00761948c4ed2e84f"
+    },
+    {
+      "path": "src/Assets/toybox",
+      "bytes": 712502,
+      "sha256": "746dada617bdb07933f77c79a7110156e232e4acc4af5c0ebf9e9c6ebd11eaf8"
+    },
+    {
+      "path": "src/Config/ConfigElement.cs",
+      "bytes": 1294,
+      "sha256": "be3f1ee2cfd7947d58ccc3d79329b843532f7fb6963711f39ab475e202d44841"
+    },
+    {
+      "path": "src/Config/ConfigHandler.cs",
+      "bytes": 1672,
+      "sha256": "0a489083fc85e2228301ea68170e24d79103fa9a6e3a22f628d6cc2350f40929"
+    },
+    {
+      "path": "src/Config/ConfigManager.cs",
+      "bytes": 1470,
+      "sha256": "2b210d615591f53e6642b7c1aacdca00ba714960f6b05c2aa702119c7e268f3c"
+    },
+    {
+      "path": "src/GUI/CjkFontFaceLoader.cs",
+      "bytes": 4261,
+      "sha256": "0c9b605f4b5fc420ea26f0a08cd75c578d3ea417113adc05cf8986ac713c3501"
+    },
+    {
+      "path": "src/GUI/Componet/FadeButtonWrapper.cs",
+      "bytes": 1342,
+      "sha256": "1aa66a55b6d3080823072cc5eae58c898881ad96e1d9d789aa80bd7a768c00fd"
+    },
+    {
+      "path": "src/GUI/Componet/InfinityScroll.cs",
+      "bytes": 3349,
+      "sha256": "5d9c200af61da1623d4e09eb6335374cea09e5baddab1046ce7bbce00d2dd9ed"
+    },
+    {
+      "path": "src/GUI/Componet/InfinityScrollBase.cs",
+      "bytes": 3796,
+      "sha256": "467440b7cfde3779da5a119968b795efd9345b1c2eb4cabb0dabe3984a9f7fd6"
+    },
+    {
+      "path": "src/GUI/Componet/InfinityScrollItemData.cs",
+      "bytes": 1572,
+      "sha256": "fd5ac68116495abc1daded779918bddab1980053646423ffcb09102070dba37b"
+    },
+    {
+      "path": "src/GUI/Componet/InfinityScrollKungfuData.cs",
+      "bytes": 1431,
+      "sha256": "c5bbd928f1004566d1e0e3f81bad5d96925b020a7adfc7340ab05cf123728faa"
+    },
+    {
+      "path": "src/GUI/Componet/InfinityScrollTraitData.cs",
+      "bytes": 1425,
+      "sha256": "a0d6922d6b9f8e6aeb1a54f9c68e41206395842e0f02b8f9bce1d06cad2a4cc2"
+    },
+    {
+      "path": "src/GUI/Componet/InputKeyUGUI.cs",
+      "bytes": 7270,
+      "sha256": "8ba53387a7629aacf077449c829e18aefc20df9096c91d8ac4daf7238a1cbbce"
+    },
+    {
+      "path": "src/GUI/Componet/PopupPanel.cs",
+      "bytes": 1373,
+      "sha256": "65f9dd91809d5a464fb15587e91b80df3cd2462716bc19560c2039ee86515a0c"
+    },
+    {
+      "path": "src/GUI/Componet/SliderAmountText.cs",
+      "bytes": 1049,
+      "sha256": "24a8cb41837fce1db33dd4c3cb17eae201ec36d84f584bb661ee2563f8b10f8b"
+    },
+    {
+      "path": "src/GUI/Componet/Switch.cs",
+      "bytes": 1951,
+      "sha256": "2959593d876dadd6a538699493518bd7aedfe52b99bcb204970b4a3d2a151303"
+    },
+    {
+      "path": "src/GUI/InputBinding.cs",
+      "bytes": 858,
+      "sha256": "e3df83a543649d99c880e9c7464aa402dcd371f40448598cba072ede306d7ad0"
+    },
+    {
+      "path": "src/GUI/ItemEntry.cs",
+      "bytes": 4364,
+      "sha256": "dc84e39373f489a151f5de3751b93ea2bb643e0f1318c295ba04d27b88cb57f5"
+    },
+    {
+      "path": "src/GUI/ItemPanel.cs",
+      "bytes": 14144,
+      "sha256": "d4b8487cd7d0c0acf8074aafd2b5c256cfad6b6577be49c15a007a4a21884054"
+    },
+    {
+      "path": "src/GUI/MartialEntry.cs",
+      "bytes": 6906,
+      "sha256": "77a6ef1a35f901d8a1565906f0ce2d7be13358760f1e63a6d6bfdb30a6145d9a"
+    },
+    {
+      "path": "src/GUI/MartialPanel.cs",
+      "bytes": 8225,
+      "sha256": "031bb261e399ac69ee1a4bae594adbf047255a2247f0960a2594c7cc7780b215"
+    },
+    {
+      "path": "src/GUI/MiscPanel.cs",
+      "bytes": 19434,
+      "sha256": "3975f0d3d57ffeed894ea4d0ef124a133071383ec4eff820b68386da3de9a82c"
+    },
+    {
+      "path": "src/GUI/RolePanel.cs",
+      "bytes": 9269,
+      "sha256": "cf5ac7a4a818925b2843222580d928e5adf12c95b46bad5513074d94389d7072"
+    },
+    {
+      "path": "src/GUI/SearchText.cs",
+      "bytes": 935,
+      "sha256": "c3f131302402420f54c154276360bbafb5dbdb6397dbf10b37e2d8224e5e918e"
+    },
+    {
+      "path": "src/GUI/TraitEntry.cs",
+      "bytes": 4191,
+      "sha256": "ef85978fe6a2e2eba326a814343191c88171533c4090544b730cfb0333a03573"
+    },
+    {
+      "path": "src/GUI/TraitPanel.cs",
+      "bytes": 4740,
+      "sha256": "1cd177b679ff5b4c3a1d9c0823b11171f553a693e8955dd8fd27e98809607b04"
+    },
+    {
+      "path": "src/GUI/UiPolish.cs",
+      "bytes": 9777,
+      "sha256": "3a58d1adf5b7a733254b807bc27a8fab34b2bbb2d86f51bfb72f7491c039d88c"
+    },
+    {
+      "path": "src/GUI/Utils.cs",
+      "bytes": 2031,
+      "sha256": "ce527e0e72b31706de3523724e2619f5ae9eb26c543fecd90aeb4d3d8e859407"
+    },
+    {
+      "path": "src/LICENSE.txt",
+      "bytes": 11560,
+      "sha256": "c9dba8e6b2e175a7714bffcd61cd155ae3ddf081ea6363623ada9157f125dbb0"
+    },
+    {
+      "path": "src/Patches/KungfuLayoutDiagnostics.cs",
+      "bytes": 15588,
+      "sha256": "88717eabe9d1d3110b7c534e0c10bd824f1165b86d52813f98c3c79b2abc136e"
+    },
+    {
+      "path": "src/Patches/MiscPatch.cs",
+      "bytes": 5228,
+      "sha256": "06513ebe7b781891f30c21410be8fc5880aa04c81fd39095e1ab92ca92ffad1c"
+    },
+    {
+      "path": "src/Patches/TestPatch.cs",
+      "bytes": 522,
+      "sha256": "bbaacef1c04117f6936996750d67901c3c447e73288c7ebbe0b3ca7abb2f117d"
+    },
+    {
+      "path": "src/PluginInfo.cs",
+      "bytes": 258,
+      "sha256": "ac3784bab1a11b3c922027df24dc307300a01f47c95b8364fa3f3d91b33caa24"
+    },
+    {
+      "path": "src/ToyBox.cs",
+      "bytes": 2874,
+      "sha256": "5e060e72dceb42e127866bd62f512a372893d1dc6a0d9a2925adf6661c72f685"
+    },
+    {
+      "path": "src/ToyBoxBehaviour.cs",
+      "bytes": 8410,
+      "sha256": "693f3aef383ab55fb3edfa492e64e0f589576e29c1b3e0cafe2d9ae42313fe0c"
+    },
+    {
+      "path": "src/Utilities/AssetBundleManager.cs",
+      "bytes": 2217,
+      "sha256": "a6e5db3b06a84a903327eda2d489cf80689b1f2b561e92900da953eb79b2bf8e"
+    },
+    {
+      "path": "src/Utilities/Attributes/RegisterInIl2CppAttribute.cs",
+      "bytes": 2227,
+      "sha256": "4a73e47685b3fa2097828b79c09f4ec451c724d89d667132b75f4acaffe43101"
+    },
+    {
+      "path": "src/Utilities/Extensions/CollectionExtensions.cs",
+      "bytes": 420,
+      "sha256": "9d13e0a816e9da37f4c273f142f5d2663d5d6db473f3a17dfe69c54867600294"
+    },
+    {
+      "path": "src/Utilities/Extensions/Il2CppInteropExtensions.cs",
+      "bytes": 368,
+      "sha256": "85beb4f8b09258665a520e9958ccb42bb4d51eaa46dac2a00cd868ca50b58db2"
+    },
+    {
+      "path": "src/Utilities/InputKeyUtils.cs",
+      "bytes": 10998,
+      "sha256": "95567e9d5e18966f8a00281624e7f76bf651b5b6964eb37c0f8954ed4e3147e8"
+    },
+    {
+      "path": "tests/check-item-search.ps1",
+      "bytes": 232,
+      "sha256": "d4cb9d6fe09520b89caa847d59b5e7249b711db202d1009ead8bf3c97fb337b8"
+    },
+    {
+      "path": "tests/SearchTextChecks.cs",
+      "bytes": 1552,
+      "sha256": "bef85d58108ddc6dee7da7633994f81b78574213b04d4d87bfbc6fd277584139"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "Game.A1Main": {
+    "type_definition_offset": 28915404,
+    "token": 33556474,
+    "field_count": 13,
+    "fields": [
+      {
+        "name": "_instance",
+        "token": 67120284
+      },
+      {
+        "name": "<IsInitialized>k__BackingField",
+        "token": 67120285
+      },
+      {
+        "name": "_isDestroying",
+        "token": 67120286
+      },
+      {
+        "name": "TestCoreObj",
+        "token": 67120287
+      },
+      {
+        "name": "PersistentDataPath",
+        "token": 67120288
+      },
+      {
+        "name": "_managers",
+        "token": 67120289
+      },
+      {
+        "name": "_audioManager",
+        "token": 67120290
+      },
+      {
+        "name": "editorFrameRate",
+        "token": 67120291
+      },
+      {
+        "name": "SHUTDOWN_WAIT_SECONDS",
+        "token": 67120292
+      },
+      {
+        "name": "m_IsStarting",
+        "token": 67120293
+      },
+      {
+        "name": "m_QuitRequested",
+        "token": 67120294
+      },
+      {
+        "name": "m_QuitAllowed",
+        "token": 67120295
+      },
+      {
+        "name": "m_ManagersDestroyed",
+        "token": 67120296
+      }
+    ]
+  },
+  "Game.GameLifecycleManager": {
+    "type_definition_offset": 28948404,
+    "token": 33556856,
+    "field_count": 6,
+    "fields": [
+      {
+        "name": "_bootstrapConfig",
+        "token": 67122246
+      },
+      {
+        "name": "loadSlotRequest",
+        "token": 67122247
+      },
+      {
+        "name": "pendingStorageTermination",
+        "token": 67122248
+      },
+      {
+        "name": "m_SaveUpload",
+        "token": 67122249
+      },
+      {
+        "name": "m_IsLeaving",
+        "token": 67122250
+      },
+      {
+        "name": "m_ShuttingDown",
+        "token": 67122251
+      }
+    ]
+  },
+  "Game.SpaceManager": {
+    "type_definition_offset": 28983164,
+    "token": 33557234,
+    "field_count": 19,
+    "fields": [
+      {
+        "name": "FLOW_BATTLE_FORCE_EXIT_PRIORITY",
+        "token": 67123693
+      },
+      {
+        "name": "SpaceContextChanged",
+        "token": 67123694
+      },
+      {
+        "name": "<PreviousSpaceId>k__BackingField",
+        "token": 67123695
+      },
+      {
+        "name": "<CurrentSpaceId>k__BackingField",
+        "token": 67123696
+      },
+      {
+        "name": "<PreviousSpaceHandler>k__BackingField",
+        "token": 67123697
+      },
+      {
+        "name": "_handlersByUuid",
+        "token": 67123698
+      },
+      {
+        "name": "_childUuidsByParent",
+        "token": 67123699
+      },
+      {
+        "name": "_currentSpaceHandler",
+        "token": 67123700
+      },
+      {
+        "name": "_spaceEntryMediaCache",
+        "token": 67123701
+      },
+      {
+        "name": "_pendingChangeSpaceRequest",
+        "token": 67123702
+      },
+      {
+        "name": "_entryAdmission",
+        "token": 67123703
+      },
+      {
+        "name": "_isTransitioning",
+        "token": 67123704
+      },
+      {
+        "name": "m_TransitionPreparation",
+        "token": 67123705
+      },
+      {
+        "name": "m_IsUnloadingWorld",
+        "token": 67123706
+      },
+      {
+        "name": "_preparedSpaceEnterActionSpaceId",
+        "token": 67123707
+      },
+      {
+        "name": "_preparedSpaceEnterActionEntry",
+        "token": 67123708
+      },
+      {
+        "name": "_lastCallbackOnLeave",
+        "token": 67123709
+      },
+      {
+        "name": "WorldFloorCurtainSettleTimeout",
+        "token": 67123710
+      },
+      {
+        "name": "m_PuzzleBySpaceId",
+        "token": 67123711
+      }
+    ]
+  },
+  "Game.SpaceHandlers.BaseSpaceHandler": {
+    "type_definition_offset": 29321612,
+    "token": 33561088,
+    "field_count": 6,
+    "fields": [
+      {
+        "name": "<Model>k__BackingField",
+        "token": 67150753
+      },
+      {
+        "name": "<SpaceId>k__BackingField",
+        "token": 67150754
+      },
+      {
+        "name": "DEFAULT_SCENE_STATE",
+        "token": 67150755
+      },
+      {
+        "name": "_randomActionBtGo",
+        "token": 67150756
+      },
+      {
+        "name": "_randomActionBtRunner",
+        "token": 67150757
+      },
+      {
+        "name": "<PreparedVideoBundlePath>k__BackingField",
+        "token": 67150758
+      }
+    ]
+  },
+  "Game.SpaceHandlers.MainSpaceHandler": {
+    "type_definition_offset": 29322844,
+    "token": 33561113,
+    "field_count": 1,
+    "fields": [
+      {
+        "name": "m_SpaceTipLifetime",
+        "token": 67150876
+      }
+    ]
+  },
+  "Game.Logic.Combat.WaveCombatManager": {
+    "type_definition_offset": 29472708,
+    "token": 33562780,
+    "field_count": 56,
+    "fields": [
+      {
+        "name": "m_HasTalentPathEscapeGuarantee",
+        "token": 67157387
+      },
+      {
+        "name": "MonsterGroundProbeHalfDistance",
+        "token": 67157388
+      },
+      {
+        "name": "m_AnalyticsBattleUuid",
+        "token": 67157389
+      },
+      {
+        "name": "m_AnalyticsBattleStartRealtime",
+        "token": 67157390
+      },
+      {
+        "name": "m_AnalyticsBattleEndRealtime",
+        "token": 67157391
+      },
+      {
+        "name": "m_HasSentBattleFlowStart",
+        "token": 67157392
+      },
+      {
+        "name": "m_HasSentBattleFlowEnd",
+        "token": 67157393
+      },
+      {
+        "name": "m_IsRechallengeSelected",
+        "token": 67157394
+      },
+      {
+        "name": "m_AnalyticsActionSequence",
+        "token": 67157395
+      },
+      {
+        "name": "m_AnalyticsCompletedRoundCount",
+        "token": 67157396
+      },
+      {
+        "name": "m_AnalyticsRoleDetailJson",
+        "token": 67157397
+      },
+      {
+        "name": "m_AnalyticsMonsters",
+        "token": 67157398
+      },
+      {
+        "name": "m_AnalyticsActions",
+        "token": 67157399
+      },
+      {
+        "name": "PHASE_TRANSITION_TIME_SCALE",
+        "token": 67157400
+      },
+      {
+        "name": "ESCAPE_CASTER_ANIMATION_TRACK_NAME",
+        "token": 67157401
+      },
+      {
+        "name": "BattleEndInitialMarker",
+        "token": 67157402
+      },
+      {
+        "name": "BattleEndInitialAnalyticsMarker",
+        "token": 67157403
+      },
+      {
+        "name": "BattleEndInitialCloseTrialHudMarker",
+        "token": 67157404
+      },
+      {
+        "name": "BattleEndInitialResultDataMarker",
+        "token": 67157405
+      },
+      {
+        "name": "BattleEndInitialConfiguredRewardMarker",
+        "token": 67157406
+      },
+      {
+        "name": "BattleEndInitialMonsterKillRewardMarker",
+        "token": 67157407
+      },
+      {
+        "name": "BattleEndDispatchMarker",
+        "token": 67157408
+      },
+      {
+        "name": "BattleEndInitialCreateFeatureCleanupMarker",
+        "token": 67157409
+      },
+      {
+        "name": "BattleEndPostCleanupSettlementMarker",
+        "token": 67157410
+      },
+      {
+        "name": "BattleEndFinalizeNotificationsMarker",
+        "token": 67157411
+      },
+      {
+        "name": "BattleEndFinalizeLeaveSpaceMarker",
+        "token": 67157412
+      },
+      {
+        "name": "BattleEndFinalizeCleanupMarker",
+        "token": 67157413
+      },
+      {
+        "name": "BattleOpeningDispatchMarker",
+        "token": 67157414
+      },
+      {
+        "name": "<Instance>k__BackingField",
+        "token": 67157415
+      },
+      {
+        "name": "_waveEffects",
+        "token": 67157416
+      },
+      {
+        "name": "_summonManager",
+        "token": 67157417
+      },
+      {
+        "name": "<BattleEnd>k__BackingField",
+        "token": 67157418
+      },
+      {
+        "name": "_config",
+        "token": 67157419
+      },
+      {
+        "name": "_gameplayEventManager",
+        "token": 67157420
+      },
+      {
+        "name": "_team1",
+        "token": 67157421
+      },
+      {
+        "name": "_team2",
+        "token": 67157422
+      },
+      {
+        "name": "_currentWaveIndex",
+        "token": 67157423
+      },
+      {
+        "name": "_battleOver",
+        "token": 67157424
+      },
+      {
+        "name": "_playerWin",
+        "token": 67157425
+      },
+      {
+        "name": "battleResult",
+        "token": 67157426
+      },
+      {
+        "name": "_completedEnemyNormalTurns",
+        "token": 67157427
+      },
+      {
+        "name": "_runAttemptCount",
+        "token": 67157428
+      },
+      {
+        "name": "m_PhaseTransitionTimeScaleOverrideHandle",
+        "token": 67157429
+      },
+      {
+        "name": "m_IsWaitingToRestorePhaseTransitionTimeScale",
+        "token": 67157430
+      },
+      {
+        "name": "_sceneLoaded",
+        "token": 67157431
+      },
+      {
+        "name": "_battleResultData",
+        "token": 67157432
+      },
+      {
+        "name": "_statsTracker",
+        "token": 67157433
+      },
+      {
+        "name": "ManualPlayerControl",
+        "token": 67157434
+      },
+      {
+        "name": "UseMonsterBehaviorTree",
+        "token": 67157435
+      },
+      {
+        "name": "_playerController",
+        "token": 67157436
+      },
+      {
+        "name": "_aiController",
+        "token": 67157437
+      },
+      {
+        "name": "_btController",
+        "token": 67157438
+      },
+      {
+        "name": "BasicAttackAbilityId",
+        "token": 67157439
+      },
+      {
+        "name": "VSMReadyTag",
+        "token": 67157440
+      },
+      {
+        "name": "m_CombatPreparationRun",
+        "token": 67157441
+      },
+      {
+        "name": "m_AreOpeningActorsReady",
+        "token": 67157442
+      }
+    ]
+  },
+  "System.Collections.Generic.List`1": {
+    "type_definition_offset": 29896604,
+    "token": 33556056,
+    "field_count": 6,
+    "fields": [
+      {
+        "name": "DefaultCapacity",
+        "token": 67115810
+      },
+      {
+        "name": "_items",
+        "token": 67115811
+      },
+      {
+        "name": "_size",
+        "token": 67115812
+      },
+      {
+        "name": "_version",
+        "token": 67115813
+      },
+      {
+        "name": "_syncRoot",
+        "token": 67115814
+      },
+      {
+        "name": "s_emptyArray",
+        "token": 67115815
+      }
+    ]
+  }
+}

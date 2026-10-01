@@ -1,18 +1,23 @@
-# 研究归档与使用边界
+English | [简体中文](TERMS_ZH.md)
 
-本仓库用于记录个人单机游戏修改器研究、开发、修复与实验过程。程序和说明是各阶段留下的研究材料，按现状归档。
+# Archive terms and boundaries
 
-## 适用范围
+This repository records personal trainer research, implementation, repairs and experiments. Programs and notes are archived as-is.
 
-文中的游戏版本、系统、测试结果和已知问题，仅描述当时已经观察到的情况，不构成对其他电脑、游戏版本、存档或 MOD 组合的适配承诺。归档文件可能含缺陷、未完成部分或已经失效的功能。
+## Scope
 
-对他人使用的兼容性、实际效果以及可能产生的损失不作保证，也不承担适配、排错或售后支持责任。取用者自行评估风险、备份数据并决定是否运行；历史测试记录和文件校验值不能代替这种判断。
+Game versions, systems, results and known issues describe the environments observed at the time. They are not commitments of compatibility with another computer, save, game version or mod combination. Artifacts may be incomplete, defective or obsolete.
 
-本专区不提供问题反馈渠道，不受理功能请求，也不承诺持续维护、修复、更新或回复。是否继续研究取决于个人兴趣与时间。
+No guarantee is made for other users' compatibility, results or losses, and no adaptation, troubleshooting or after-sales support is offered. Anyone choosing to run an artifact is responsible for assessing the risk and backing up data. Neither test records nor file hashes replace that judgment.
 
-## 文件与权利
+There is no issue intake, feature request channel or commitment to maintenance, fixes, updates or replies. Further research depends on personal interest and time.
 
-- 既有版本附件按原样保存，包内历史分享说明不代表当前提供支持服务。版本、校验值、操作前置与已知限制用于说明文件身份及研究边界。
-- 原创成品既有的个人使用、原样无偿转发约定不变；转发应保留文件身份、原有说明与许可，不得冒用作者身份或作为收费软件售卖、捆绑收费下载。公开可下载不等于所有原创源码已采用开源许可证。
-- 第三方作品保留原作者署名，按各自许可证授权；本页不限制这些许可证已授予的复制、修改、替换、再分发及相应调试权利。详见[第三方组件与许可](THIRD_PARTY_NOTICES.md)。
-- 游戏名称、商标与游戏内容归相应权利人所有。本研究与游戏开发商、发行商无隶属或官方合作关系，归档包不含游戏本体与存档。
+## Files and rights
+
+- Historical release assets retain their original contents. Older distribution wording does not establish a current support commitment.
+- Existing permission for personal use and unchanged, no-charge redistribution of original binary artifacts remains. Keep their identity, documentation and licenses; do not impersonate the author or sell them as paid software or bundled paid downloads.
+- Selected, sanitized source snapshots are now readable in this repository. Original code without a separate license is not automatically licensed under MIT or another open-source license by this publication.
+- Third-party works retain their authors and licenses. These terms do not restrict rights already granted by those licenses to copy, modify, replace, redistribute or debug those components.
+- Game names, trademarks and content belong to their respective owners. This research is not affiliated with the developers or publishers; archived packages do not include the games or saves.
+
+See each project's build notes for missing inputs and [privacy boundaries](docs/PRIVACY.md) for the export scope.

@@ -1,0 +1,82 @@
+{
+  "snapshot_date": "2026-10-02",
+  "game": "house-of-legacy",
+  "scope": "Privacy-edited source snapshot; see BUILD.md for omitted inputs. Not a claim of a byte-identical rebuild.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 40,
+      "sha256": "aebbc343a62de80f6864c42172581c860eb6f3c1f49a7ab0b96e70861d37913d"
+    },
+    {
+      "path": "BUILD.md",
+      "bytes": 2437,
+      "sha256": "db7243bc281fee53eb7da55dcd68a7fc66bf1e77616ea0936dd8762accaac1ed"
+    },
+    {
+      "path": "BUILD_ZH.md",
+      "bytes": 2114,
+      "sha256": "b30b4b5ab637c7397b906a4020cec5a978790481ca443dfc9dbb1bc35187e801"
+    },
+    {
+      "path": "src/AssemblyInfo.cs",
+      "bytes": 288,
+      "sha256": "126df9fe2e16765d07175cffaa17eff74baa97ebc9aafa6717c2209e228399cc"
+    },
+    {
+      "path": "src/Family.cs",
+      "bytes": 11801,
+      "sha256": "a778bf08b148ad0cdfafc38c4d985b61432bd78d9dbd1008deed950515a81606"
+    },
+    {
+      "path": "src/GameContext.cs",
+      "bytes": 4338,
+      "sha256": "565caea7d8a5914815ef7a0c5e865ef79115ab796935af17c54a6eff0d0708c6"
+    },
+    {
+      "path": "src/Interaction.cs",
+      "bytes": 9690,
+      "sha256": "790195ac1f8b1afa3fc4143f2169b067f981932cf25157a87a49ce143f8c7c00"
+    },
+    {
+      "path": "src/Inventory.cs",
+      "bytes": 12214,
+      "sha256": "75b0d2950ea5b51447170434a218571d0855eda0c01a889499fee8448bc6a233"
+    },
+    {
+      "path": "src/MemberPanel.cs",
+      "bytes": 2290,
+      "sha256": "9da69615f3138aa33f0517c5361b55210cb3374bbef707338373385a946f19bc"
+    },
+    {
+      "path": "src/Members.cs",
+      "bytes": 15119,
+      "sha256": "4ca853adbd1308f5a327015901287ddea766de72daa488d1d6996e819cdefacf"
+    },
+    {
+      "path": "src/Plugin.cs",
+      "bytes": 18315,
+      "sha256": "1a4a200d76f35055c2671743cd319ca7de782981ee2a00b6d76a962bcb3fffd2"
+    },
+    {
+      "path": "src/Traits.cs",
+      "bytes": 12502,
+      "sha256": "e4d266606ab64855c17ec88506444af687a53dabfa44a9858cb0e5e2357b4711"
+    },
+    {
+      "path": "tests/Test-Guards.ps1",
+      "bytes": 14580,
+      "sha256": "f9ae540c3b8323232d9229c25a2a21905724a6cdd244521f516f2110069f889e"
+    },
+    {
+      "path": "tests/Test-Inventory.ps1",
+      "bytes": 6382,
+      "sha256": "8db945dfd2109cd45a46cbb28db22def9f73db3ab4263de232927023bfc91d51"
+    },
+    {
+      "path": "tools/Build.ps1",
+      "bytes": 2302,
+      "sha256": "8b5d1103c783ebd3a972e834a7b9151c90365fb7e9abaab16a63d094b83a979f"
+    }
+  ]
+}

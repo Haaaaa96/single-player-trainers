@@ -1,0 +1,26 @@
+{
+  "current_health": {
+    "name": "生命", "attr_id": 1, "max_attr_id": 4, "minimum": 1, "operation": "current_health_set",
+    "methods": {
+      "current": {"name": "GetCurrentHealth", "token": 100748041, "rva": 15072704, "parameters": 0, "return_kind": 12, "prefix": "40534883ec20803d79986e0700488bd97513"},
+      "max": {"name": "GetMaxHealth", "token": 100748042, "rva": 15075824, "parameters": 0, "return_kind": 12, "prefix": "4883ec284533c0ba04000000e82fecffff"},
+      "modify": {"name": "ModifyHealth", "token": 100748033, "rva": 15093872, "parameters": 1, "return_kind": 2, "prefix": "4883ec380f28d948c744242000000000ba0100000041b804000000e850feffff"}
+    }
+  },
+  "current_mana": {
+    "name": "灵力", "attr_id": 25, "max_attr_id": 22, "minimum": 0, "operation": "current_mana_set",
+    "methods": {
+      "current": {"name": "GetCurrentMana", "token": 100748043, "rva": 15072816, "parameters": 0, "return_kind": 12, "prefix": "40534883ec20803d0a986e0700488bd97513"},
+      "max": {"name": "GetMaxMana", "token": 100748044, "rva": 15075936, "parameters": 0, "return_kind": 12, "prefix": "4883ec284533c0ba16000000e8bfebffff"},
+      "modify": {"name": "ModifyMana", "token": 100748034, "rva": 15093920, "parameters": 1, "return_kind": 2, "prefix": "4883ec380f28d948c744242000000000ba1900000041b816000000e820feffff"}
+    }
+  },
+  "current_stamina": {
+    "name": "精力", "attr_id": 200, "max_attr_id": 201, "minimum": 0, "operation": "current_stamina_set",
+    "methods": {
+      "current": {"name": "GetCurrentStamina", "token": 100748039, "rva": 15072928, "parameters": 0, "return_kind": 12, "prefix": "40534883ec20803d98976e0700488bd97513"},
+      "max": {"name": "GetMaxStamina", "token": 100748040, "rva": 15075984, "parameters": 0, "return_kind": 12, "prefix": "4883ec284533c0bac9000000e88febffff"},
+      "modify": {"name": "ModifyStamina", "token": 100748032, "rva": 15094688, "parameters": 1, "return_kind": 2, "prefix": "4883ec380f28d948c744242000000000bac800000041b8c9000000e820fbffff"}
+    }
+  }
+}

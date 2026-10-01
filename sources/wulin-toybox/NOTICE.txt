@@ -1,0 +1,51 @@
+HaxxToyBox / WulinToyBox 1.1.0 source snapshot
+
+Upstream author: Haxx / neeetman.
+Copyright 2023 Haxx (upstream README).
+The original LICENSE.txt retains its original 2021 copyright notice.
+Upstream source: https://github.com/neeetman/WuLinToyBoxMod/tree/b2aee7a4be4c1254910ca1f13897d40853a5f20e
+License: Apache License 2.0; see LICENSE.txt.
+
+The local revision changes character reads, item and trait search, martial-art
+list and button layout, input handling, confirmation behavior, and Chinese UI
+rendering. Product-source reference: f7a4f7b2d21fd8dbfcdd1b1a0ad09960c734da2d.
+The 2026-10-02 export generalizes the build script's default game path and adds
+neutral modification comments to the modified upstream C# files listed below.
+It does not rebuild or replace the existing release binary.
+
+No game assembly, loader, runtime dependency, EnhanceGameplay module, font,
+save, log, or generated interop/cache file is included in this source snapshot.
+The license above does not extend to such external components.
+
+Verified local upstream baseline: b2aee7a4be4c1254910ca1f13897d40853a5f20e.
+The baseline checkout was clean during the comparison. Text comparison ignores
+CRLF/LF differences. The public files with added comments are no longer byte-for-byte
+identical to historical release sources; executable statements were not changed.
+
+Modified upstream files:
+- src/ToyBox.cs
+- src/ToyBoxBehaviour.cs
+- src/GUI/ItemEntry.cs
+- src/GUI/ItemPanel.cs
+- src/GUI/MartialEntry.cs
+- src/GUI/MartialPanel.cs
+- src/GUI/MiscPanel.cs
+- src/GUI/RolePanel.cs
+- src/GUI/TraitEntry.cs
+- src/GUI/TraitPanel.cs
+- src/GUI/Componet/InfinityScrollBase.cs
+- src/GUI/Componet/InfinityScrollItemData.cs
+- src/GUI/Componet/InfinityScrollKungfuData.cs
+- src/GUI/Componet/InfinityScrollTraitData.cs
+- src/GUI/Componet/InputKeyUGUI.cs
+- src/GUI/Componet/PopupPanel.cs
+- src/Patches/MiscPatch.cs
+
+Added local source files (not present in that baseline):
+- src/AssemblyInfo.cs
+- src/PluginInfo.cs
+- src/GUI/CjkFontFaceLoader.cs
+- src/GUI/InputBinding.cs
+- src/GUI/SearchText.cs
+- src/GUI/UiPolish.cs
+- src/Patches/KungfuLayoutDiagnostics.cs

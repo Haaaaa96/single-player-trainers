@@ -1,43 +1,53 @@
-《不问凡尘》修改器 v1.3 使用说明
+# WorldApart Trainer v1.3 — Guide
 
-本页为个人研究记录，所列结果仅限当时的测试环境；不保证在他人电脑上的兼容性或实际效果。自行取用并承担风险，不提供适配、问题反馈或使用支持，也不承诺后续更新。
+**English** | [简体中文](GUIDE_ZH.md)
 
-个人独立修改器研究的阶段归档。
-更新：2026-10-01｜当时验证的游戏：Steam Build 25617557｜Windows x64
-压缩包包含 WorldApartTrainer.exe 和 README-v1.3.txt，解压即可使用。
+[Overview](README.md) · [Development notes](DEVLOG.md) · [Terms](../../TERMS.md)
 
-开始使用
-1. 先备份存档，启动游戏并进入存档，等待读档完成。
-2. 运行 WorldApartTrainer.exe，点击“连接游戏”；可自动识别位置，也可手动选择 WorldApart.exe。
-3. 选择功能页，先读取／刷新，再选择目标、填写数值并执行。首次连接可能需要数十秒。
-4. 回游戏核对结果，需要保留时在游戏内保存。读档、突破或换局后重新读取。
+Operating notes for the archived release, recorded on 2026-10-01 with Steam Build 25617557 on Windows x64. The ZIP contains WorldApartTrainer.exe and README-v1.3.txt. UI labels remain Chinese.
 
-功能一览
-54项修改功能、18个模块，另有留影清单、角色位置和疏经路线提示。
-• 角色：灵根点、道途点、16项成长属性；灵机、体魄、神识、辩道、医术经验；丹田灵气储备、增加寿元。
-• 背包与资源：分类修改数量、货币；添加未持有物品和秘籍；当前生命、灵力、精力。
-• 游戏辅助：功法领悟与顿悟、一键疏通、0.5～2倍速度、留影激活与重玩、秒说服。
-• 生活技艺：炼丹火候与天赋、丹方探索、炼器完成与天赋点、双修、刮玉。
+## Start
 
-数值怎么填
-“目标值”是修改后的数值；“新增数量”是本次增加量。例如原有2件，背包数量填20是改为20件，物品获取填20是再加20件。
-灵石单次最多增减／新增1亿，总余额最多999,999,999；游戏上限更低时从低，超限拒绝。城镇、宗门贡献单次新增最多100万。
-普通物品单次新增最多999，部分独立物品最多256；每格仍按游戏上限分堆。其他输入范围见页面。
-人物属性是成长加成，不是最终面板值；五项资质技艺填累计经验。生命、灵力、精力修改当前值，不持续锁定。寿元只能增加，不改年龄。
+1. Back up the save. Start the game, load a save and wait for loading to finish.
+2. Run WorldApartTrainer.exe and click “连接游戏” (Connect). Use automatic detection or select WorldApart.exe manually.
+3. Select a page and read/refresh it before choosing a target and applying a value. Initial connection may take tens of seconds.
+4. Check the result in the game. Save through the game if you want to keep it. Read again after loading, a breakthrough or a new activity round.
 
-常用辅助
-• 炼丹：正常投料，按游戏要求添加灵力，开始控火后再读取并辅助。最高火候不消除丹毒。
-• 留影：回到稳定普通场景，刷新清单、选中阶段，点击上方激活或“强制开启 / 重玩…”。激活后仍需找角色互动，并满足前置、精力等条件。
-• 强制重玩：弹窗内查看影响，勾选确认后执行。会清除所选阶段成功记录，失败、退出或不开始不会自动恢复，可能影响后续内容或再次发奖。
-• 秒说服：正常进入对局，等AI回复等处理结束再读取；成功后等待游戏原有倒计时和结算。
-• 功法学习：填满本局领悟后由游戏结算，不改变心魔；心魔满时失败判定优先。
-• 疏经：一键疏通需等棋盘和动画完成，并关闭退出确认框。手动改资源则停在退出确认框，修改后取消退出。
-• 炼器：正常投料并进入棋盘后读取，词条仍随机。炼丹／炼器天赋修改前关闭小游戏及天赋界面。
-• 丹方探索：本局尚无丹方且轨迹停止时读取，只收集已显示范围内符合条件的丹方，不等于永久解锁。
-• 双修：先开始本局再读取。刮玉：松开鼠标、等待刮痕处理完再读取；保留天然品质和裂纹，不保证能兑换。
+The release covers 54 modification functions in 18 modules: character growth and experience, inventory/currency, current resources, learning, meridians, speed, memory stones, persuasion, alchemy, forging, recipe exploration, dual cultivation and jade scraping. The checklist, character locations and route hints are additional readouts.
 
-注意与排错
-普通数值、物品请在稳定普通场景修改，不在战斗、转场或结算时操作。游戏可能自动保存；退出修改器不会恢复速度，需要时先调回1倍。
-按钮灰色时按页面提示进入场景、等待动画结束后刷新；游戏面板未更新可关闭后重新打开。
-报错或结果不明时先核对游戏结果，不要反复执行；若明确提示需要重启，请正常保存后重启游戏，不删除日志绕过保护。
-当前已适配版本不再显示旧兼容提醒。未来更新或其他MOD组合可能使部分功能失效；版本差异不直接限制使用，仍按实际结构检查。
+## Input meanings and limits
+
+| Input | Meaning and boundary |
+| --- | --- |
+| “目标值” (target value) | The resulting value, not an increment |
+| “新增数量” (quantity to add) | The amount added in this operation |
+| Spirit stones | At most 100,000,000 added/subtracted per operation; total at most 999,999,999, or the lower game limit |
+| Town/sect contribution | At most 1,000,000 added per operation |
+| Ordinary items | At most 999 added per operation; some individual items are limited to 256; stacks still follow game limits |
+| Character attributes | Growth bonuses, not the final displayed totals |
+| Five aptitude/skill values | Cumulative experience |
+| Health, spiritual energy, stamina | Current values, without a persistent lock |
+| Lifespan | Added lifespan only; age is not edited |
+
+For example, setting a stack quantity to 20 produces 20 items; adding 20 produces 20 additional items. Other limits appear on the relevant page. Inputs above a supported limit are rejected.
+
+## Activity notes
+
+- **Alchemy:** add ingredients normally, then add spiritual energy when the game asks. Read and use assistance after fire control starts. Maximum heat assistance does not remove pill toxicity.
+- **Memory stones:** return to a stable normal scene, refresh the list and select a stage. Activation and “强制开启 / 重玩…” (Force open / Replay) are above the list. After activation, interact with the relevant character and satisfy the remaining prerequisites and stamina requirements.
+- **Forced replay:** review and confirm the dialog. It clears the selected stage's success record; failure, exit or not starting does not restore it automatically. Later content may be affected, and success may award rewards again.
+- **Persuasion:** enter the round normally and wait for AI responses or other processing before reading. After success is set, wait for the game's countdown and settlement.
+- **Technique learning:** filling the current round's comprehension still leaves settlement to the game. Inner demons are unchanged; a full inner-demon meter can take priority and cause failure.
+- **Meridians:** wait for the board and animation to finish and close the exit confirmation before one-click completion. For manual resource editing, remain at the exit confirmation, apply the change, then cancel exiting.
+- **Forging:** add ingredients normally and enter the board before reading. Affixes remain random. Close the minigame and talent pages before editing alchemy/forging talents.
+- **Recipe exploration:** read when there is no recipe in the current round and the trajectory has stopped. It collects eligible recipes within the revealed area; it is not permanent unlocking.
+- **Dual cultivation:** start the current round before reading.
+- **Jade scraping:** release the mouse and wait for scratch processing to finish. Full reveal preserves natural quality and cracks and does not guarantee the exchange threshold.
+
+## State changes and uncertain results
+
+Use ordinary values/items only in a stable normal scene, away from combat, transitions and settlement. The game may autosave. Closing the trainer does not reset game speed; restore 1× first when needed.
+
+For a disabled button, follow the page's scene requirements, wait for animations and refresh. Close and reopen a game panel if its display has not updated. If an operation reports an error or its result is unclear, inspect the game before repeating it.
+
+If a message explicitly requires a restart, save normally and restart the game; do not delete records to bypass protection. Game-version or MOD-file differences alone do not reject a connection, but incompatible runtime structures stop affected operations. The reference build no longer shows the obsolete compatibility notice.

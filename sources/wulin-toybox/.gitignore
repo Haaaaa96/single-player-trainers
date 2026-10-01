@@ -1,0 +1,9 @@
+build/
+bin/
+obj/
+upstream/
+*.dll
+*.exe
+*.pdb
+*.log
+*.bak

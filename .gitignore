@@ -1,0 +1,18 @@
+# Public source archive: generated and private data stay local.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.build-venv/
+bin/
+obj/
+build/
+dist/
+logs/
+*.log
+.env
+.env.*
+!.env.example
+*.pdb
+*.user
+*.suo

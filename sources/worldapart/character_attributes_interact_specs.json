@@ -1,0 +1,2657 @@
+{
+  "metadata": {
+    "Game.Model.PlayerModel": {
+      "type_definition_offset": 29341676,
+      "token": 33561326,
+      "field_count": 66,
+      "fields": [
+        {
+          "name": "<ForestEvents>k__BackingField",
+          "token": 67151365
+        },
+        {
+          "name": "<BloodAltar>k__BackingField",
+          "token": 67151366
+        },
+        {
+          "name": "<RandomEventSettlements>k__BackingField",
+          "token": 67151367
+        },
+        {
+          "name": "citySceneQuestTaskbarHud",
+          "token": 67151368
+        },
+        {
+          "name": "PLAYER_NAME_PLACEHOLDER",
+          "token": 67151369
+        },
+        {
+          "name": "DEFAULT_PROP_EVIL",
+          "token": 67151370
+        },
+        {
+          "name": "MIN_PROP_EVIL",
+          "token": 67151371
+        },
+        {
+          "name": "MAX_PROP_EVIL",
+          "token": 67151372
+        },
+        {
+          "name": "playerName",
+          "token": 67151373
+        },
+        {
+          "name": "bag",
+          "token": 67151374
+        },
+        {
+          "name": "combat",
+          "token": 67151375
+        },
+        {
+          "name": "alchemy",
+          "token": 67151376
+        },
+        {
+          "name": "refiningPillsRecipeManual",
+          "token": 67151377
+        },
+        {
+          "name": "refiningPills",
+          "token": 67151378
+        },
+        {
+          "name": "refiningPillsCraftHistory",
+          "token": 67151379
+        },
+        {
+          "name": "talentPath",
+          "token": 67151380
+        },
+        {
+          "name": "soulBanner",
+          "token": 67151381
+        },
+        {
+          "name": "demonicCultivator",
+          "token": 67151382
+        },
+        {
+          "name": "chuanYin",
+          "token": 67151383
+        },
+        {
+          "name": "npcRelation",
+          "token": 67151384
+        },
+        {
+          "name": "scenePassiveBehavior",
+          "token": 67151385
+        },
+        {
+          "name": "npcTeachGuide",
+          "token": 67151386
+        },
+        {
+          "name": "learnGongfaTip",
+          "token": 67151387
+        },
+        {
+          "name": "innMessage",
+          "token": 67151388
+        },
+        {
+          "name": "signatureArtifact",
+          "token": 67151389
+        },
+        {
+          "name": "normalArtifact",
+          "token": 67151390
+        },
+        {
+          "name": "gambleStone",
+          "token": 67151391
+        },
+        {
+          "name": "spiritSpotRuntime",
+          "token": 67151392
+        },
+        {
+          "name": "divinationFortune",
+          "token": 67151393
+        },
+        {
+          "name": "auctionComponent",
+          "token": 67151394
+        },
+        {
+          "name": "tournamentComponent",
+          "token": 67151395
+        },
+        {
+          "name": "achievementComponent",
+          "token": 67151396
+        },
+        {
+          "name": "gameDifficultyState",
+          "token": 67151397
+        },
+        {
+          "name": "gameDifficultyUnlockRetryPending",
+          "token": 67151398
+        },
+        {
+          "name": "deathRescueCooldownUntilTotalDay",
+          "token": 67151399
+        },
+        {
+          "name": "realmBreakthroughDifficultyProgress",
+          "token": 67151400
+        },
+        {
+          "name": "guideComponent",
+          "token": 67151401
+        },
+        {
+          "name": "questComponent",
+          "token": 67151402
+        },
+        {
+          "name": "sectComponent",
+          "token": 67151403
+        },
+        {
+          "name": "reputation",
+          "token": 67151404
+        },
+        {
+          "name": "newbie",
+          "token": 67151405
+        },
+        {
+          "name": "dialogueChoice",
+          "token": 67151406
+        },
+        {
+          "name": "normalDungeonRuntime",
+          "token": 67151407
+        },
+        {
+          "name": "rogueDungeonRuntime",
+          "token": 67151408
+        },
+        {
+          "name": "questDetailPanelData",
+          "token": 67151409
+        },
+        {
+          "name": "ainpcChatReward",
+          "token": 67151410
+        },
+        {
+          "name": "visitedSpaces",
+          "token": 67151411
+        },
+        {
+          "name": "leftSpaces",
+          "token": 67151412
+        },
+        {
+          "name": "watchedVideoTimelines",
+          "token": 67151413
+        },
+        {
+          "name": "currentSectId",
+          "token": 67151414
+        },
+        {
+          "name": "currentSectPositionId",
+          "token": 67151415
+        },
+        {
+          "name": "everJoinedSect",
+          "token": 67151416
+        },
+        {
+          "name": "everJoinedSectIds",
+          "token": 67151417
+        },
+        {
+          "name": "sectContributionTotal",
+          "token": 67151418
+        },
+        {
+          "name": "playerPropEvil",
+          "token": 67151419
+        },
+        {
+          "name": "spar_monthly_count",
+          "token": 67151420
+        },
+        {
+          "name": "interactAttributes",
+          "token": 67151421
+        },
+        {
+          "name": "_interactAttributeCappedTipFrames",
+          "token": 67151422
+        },
+        {
+          "name": "m_HandlingLifespanExhaustion",
+          "token": 67151423
+        },
+        {
+          "name": "<LifespanExhaustionHandledAge>k__BackingField",
+          "token": 67151424
+        },
+        {
+          "name": "<LifespanExhaustionHandledMax>k__BackingField",
+          "token": 67151425
+        },
+        {
+          "name": "MaxRewardDropResolveDepth",
+          "token": 67151426
+        },
+        {
+          "name": "RewardDropParseMarker",
+          "token": 67151427
+        },
+        {
+          "name": "RewardDropGrantMarker",
+          "token": 67151428
+        },
+        {
+          "name": "RewardDropCallbackMarker",
+          "token": 67151429
+        },
+        {
+          "name": "RewardDropLogMarker",
+          "token": 67151430
+        }
+      ]
+    },
+    "Game.Model.Player.Components.CombatModel": {
+      "type_definition_offset": 29391660,
+      "token": 33561881,
+      "field_count": 42,
+      "fields": [
+        {
+          "name": "LEGACY_DEFAULT_CRIT_CHANCE",
+          "token": 67153183
+        },
+        {
+          "name": "CURRENT_CRITICAL_ATTRIBUTE_STATE_VERSION",
+          "token": 67153184
+        },
+        {
+          "name": "AddCultivateExpMarker",
+          "token": 67153185
+        },
+        {
+          "name": "CultivateExpFeedbackMarker",
+          "token": 67153186
+        },
+        {
+          "name": "AutoLevelMarker",
+          "token": 67153187
+        },
+        {
+          "name": "AutoLevelAdvanceMarker",
+          "token": 67153188
+        },
+        {
+          "name": "CultivationSaveRequestMarker",
+          "token": 67153189
+        },
+        {
+          "name": "BREAKTHROUGH_LIFESPAN_GAIN_ATTRIBUTE_ID",
+          "token": 67153190
+        },
+        {
+          "name": "LIFESPAN_ATTRIBUTE_ID",
+          "token": 67153191
+        },
+        {
+          "name": "FULL_VALUE_EPSILON",
+          "token": 67153192
+        },
+        {
+          "name": "SyncedCurrentAttrs",
+          "token": 67153193
+        },
+        {
+          "name": "TIER5_UNLOCK_TARGET_LAYER_ID",
+          "token": 67153194
+        },
+        {
+          "name": "<ActorType>k__BackingField",
+          "token": 67153195
+        },
+        {
+          "name": "<CriticalAttributeStateVersion>k__BackingField",
+          "token": 67153196
+        },
+        {
+          "name": "<BaseAttrs>k__BackingField",
+          "token": 67153197
+        },
+        {
+          "name": "<GrowthAttrs>k__BackingField",
+          "token": 67153198
+        },
+        {
+          "name": "<ArtifactAttrs>k__BackingField",
+          "token": 67153199
+        },
+        {
+          "name": "<Talents>k__BackingField",
+          "token": 67153200
+        },
+        {
+          "name": "<Skills>k__BackingField",
+          "token": 67153201
+        },
+        {
+          "name": "<ItemModifiers>k__BackingField",
+          "token": 67153202
+        },
+        {
+          "name": "<Buffs>k__BackingField",
+          "token": 67153203
+        },
+        {
+          "name": "<PermanentAttrs>k__BackingField",
+          "token": 67153204
+        },
+        {
+          "name": "<CurrentLayerId>k__BackingField",
+          "token": 67153205
+        },
+        {
+          "name": "_CultivateExp",
+          "token": 67153206
+        },
+        {
+          "name": "_cultivateInjectBatchDepth",
+          "token": 67153207
+        },
+        {
+          "name": "_cultivateInjectBatchLayerChanged",
+          "token": 67153208
+        },
+        {
+          "name": "_cultivateInjectBatchPendingSave",
+          "token": 67153209
+        },
+        {
+          "name": "_cultivateInjectBatchPreLayerId",
+          "token": 67153210
+        },
+        {
+          "name": "<CultivateReserveExp>k__BackingField",
+          "token": 67153211
+        },
+        {
+          "name": "<PendingRealmBreakthrough>k__BackingField",
+          "token": 67153212
+        },
+        {
+          "name": "<IsPhaseBreakthroughBlocked>k__BackingField",
+          "token": 67153213
+        },
+        {
+          "name": "<IsRealmBreakthroughBlocked>k__BackingField",
+          "token": 67153214
+        },
+        {
+          "name": "<CorePassiveSlots>k__BackingField",
+          "token": 67153215
+        },
+        {
+          "name": "<ActiveCorePassiveIndex>k__BackingField",
+          "token": 67153216
+        },
+        {
+          "name": "<CorePassiveSkillConfigs>k__BackingField",
+          "token": 67153217
+        },
+        {
+          "name": "<LearnedCorePassives>k__BackingField",
+          "token": 67153218
+        },
+        {
+          "name": "<LearnedSkills>k__BackingField",
+          "token": 67153219
+        },
+        {
+          "name": "<SupportSkillSlots>k__BackingField",
+          "token": 67153220
+        },
+        {
+          "name": "<LearnedSupportSkills>k__BackingField",
+          "token": 67153221
+        },
+        {
+          "name": "<EverObtainedResonanceSkill>k__BackingField",
+          "token": 67153222
+        },
+        {
+          "name": "<DefaultDisplayMode>k__BackingField",
+          "token": 67153223
+        },
+        {
+          "name": "CultivateRestoreCurrentAttrs",
+          "token": 67153224
+        }
+      ]
+    },
+    "Game.Model.Player.Components.CombatAttrId": {
+      "type_definition_offset": 29392540,
+      "token": 33561905,
+      "field_count": 44,
+      "fields": [
+        {
+          "name": "value__",
+          "token": 67153333
+        },
+        {
+          "name": "Health",
+          "token": 67153334
+        },
+        {
+          "name": "Attack",
+          "token": 67153335
+        },
+        {
+          "name": "Defense",
+          "token": 67153336
+        },
+        {
+          "name": "MaxHealth",
+          "token": 67153337
+        },
+        {
+          "name": "Luck",
+          "token": 67153338
+        },
+        {
+          "name": "Charm",
+          "token": 67153339
+        },
+        {
+          "name": "MoveSpeed",
+          "token": 67153340
+        },
+        {
+          "name": "Lifespan",
+          "token": 67153341
+        },
+        {
+          "name": "HealthPercent",
+          "token": 67153342
+        },
+        {
+          "name": "AttackPercent",
+          "token": 67153343
+        },
+        {
+          "name": "DefensePercent",
+          "token": 67153344
+        },
+        {
+          "name": "Speed",
+          "token": 67153345
+        },
+        {
+          "name": "MaxMana",
+          "token": 67153346
+        },
+        {
+          "name": "Resilence",
+          "token": 67153347
+        },
+        {
+          "name": "ResilenceMax",
+          "token": 67153348
+        },
+        {
+          "name": "Mana",
+          "token": 67153349
+        },
+        {
+          "name": "Resonance",
+          "token": 67153350
+        },
+        {
+          "name": "MaxResonance",
+          "token": 67153351
+        },
+        {
+          "name": "Shield",
+          "token": 67153352
+        },
+        {
+          "name": "MetalDamageBonus",
+          "token": 67153353
+        },
+        {
+          "name": "WoodDamageBonus",
+          "token": 67153354
+        },
+        {
+          "name": "WaterDamageBonus",
+          "token": 67153355
+        },
+        {
+          "name": "FireDamageBonus",
+          "token": 67153356
+        },
+        {
+          "name": "EarthDamageBonus",
+          "token": 67153357
+        },
+        {
+          "name": "DamageBonus",
+          "token": 67153358
+        },
+        {
+          "name": "DamageReduction",
+          "token": 67153359
+        },
+        {
+          "name": "LifeStealEfficiency",
+          "token": 67153360
+        },
+        {
+          "name": "HealEfficiency",
+          "token": 67153361
+        },
+        {
+          "name": "ResilienceBreakEfficiency",
+          "token": 67153362
+        },
+        {
+          "name": "CritChance",
+          "token": 67153363
+        },
+        {
+          "name": "CritDamage",
+          "token": 67153364
+        },
+        {
+          "name": "CritResist",
+          "token": 67153365
+        },
+        {
+          "name": "CritDamageReduction",
+          "token": 67153366
+        },
+        {
+          "name": "HitRate",
+          "token": 67153367
+        },
+        {
+          "name": "DodgeRate",
+          "token": 67153368
+        },
+        {
+          "name": "DefenseIgnore",
+          "token": 67153369
+        },
+        {
+          "name": "DefenseIgnoreResist",
+          "token": 67153370
+        },
+        {
+          "name": "FollowUpChance",
+          "token": 67153371
+        },
+        {
+          "name": "CounterattackChance",
+          "token": 67153372
+        },
+        {
+          "name": "CounterDamageBonus",
+          "token": 67153373
+        },
+        {
+          "name": "CounterDamageResistance",
+          "token": 67153374
+        },
+        {
+          "name": "Stamina",
+          "token": 67153375
+        },
+        {
+          "name": "StaminaMax",
+          "token": 67153376
+        }
+      ]
+    },
+    "Game.Model.Player.Components.PermanentAttrEntry": {
+      "type_definition_offset": 29396324,
+      "token": 33561948,
+      "field_count": 7,
+      "fields": [
+        {
+          "name": "<SourceType>k__BackingField",
+          "token": 67153533
+        },
+        {
+          "name": "<SourceId>k__BackingField",
+          "token": 67153534
+        },
+        {
+          "name": "<InstanceId>k__BackingField",
+          "token": 67153535
+        },
+        {
+          "name": "<AttrId>k__BackingField",
+          "token": 67153536
+        },
+        {
+          "name": "<Value>k__BackingField",
+          "token": 67153537
+        },
+        {
+          "name": "<CreateTimeTicks>k__BackingField",
+          "token": 67153538
+        },
+        {
+          "name": "<Description>k__BackingField",
+          "token": 67153539
+        }
+      ]
+    },
+    "System.Collections.Generic.Dictionary`2": {
+      "type_definition_offset": 29894756,
+      "token": 33556030,
+      "field_count": 14,
+      "fields": [
+        {
+          "name": "_buckets",
+          "token": 67115775
+        },
+        {
+          "name": "_entries",
+          "token": 67115776
+        },
+        {
+          "name": "_count",
+          "token": 67115777
+        },
+        {
+          "name": "_freeList",
+          "token": 67115778
+        },
+        {
+          "name": "_freeCount",
+          "token": 67115779
+        },
+        {
+          "name": "_version",
+          "token": 67115780
+        },
+        {
+          "name": "_comparer",
+          "token": 67115781
+        },
+        {
+          "name": "_keys",
+          "token": 67115782
+        },
+        {
+          "name": "_values",
+          "token": 67115783
+        },
+        {
+          "name": "_syncRoot",
+          "token": 67115784
+        },
+        {
+          "name": "VersionName",
+          "token": 67115785
+        },
+        {
+          "name": "HashSizeName",
+          "token": 67115786
+        },
+        {
+          "name": "KeyValuePairsName",
+          "token": 67115787
+        },
+        {
+          "name": "ComparerName",
+          "token": 67115788
+        }
+      ]
+    },
+    ".Entry": {
+      "type_definition_offset": 29894228,
+      "token": 33556031,
+      "field_count": 4,
+      "fields": [
+        {
+          "name": "hashCode",
+          "token": 67115789
+        },
+        {
+          "name": "next",
+          "token": 67115790
+        },
+        {
+          "name": "key",
+          "token": 67115791
+        },
+        {
+          "name": "value",
+          "token": 67115792
+        }
+      ]
+    },
+    "LubanDatas.InteractAttributeLevelConfig": {
+      "type_definition_offset": 28781732,
+      "token": 33554963,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "<maxExp>k__BackingField",
+          "token": 67110090
+        },
+        {
+          "name": "<realmId>k__BackingField",
+          "token": 67110091
+        },
+        {
+          "name": "__ID__",
+          "token": 67110092
+        }
+      ]
+    },
+    "LubanDatas.L10nText": {
+      "type_definition_offset": 28782788,
+      "token": 33554976,
+      "field_count": 1,
+      "fields": [
+        {
+          "name": "<Languages>k__BackingField",
+          "token": 67110237
+        }
+      ]
+    },
+    "LubanDatas.Tables": {
+      "type_definition_offset": 28794228,
+      "token": 33555106,
+      "field_count": 242,
+      "fields": [
+        {
+          "name": "Current",
+          "token": 67110912
+        },
+        {
+          "name": "<TbAttribute>k__BackingField",
+          "token": 67110913
+        },
+        {
+          "name": "<TbConstants>k__BackingField",
+          "token": 67110914
+        },
+        {
+          "name": "<TbCombatConstants>k__BackingField",
+          "token": 67110915
+        },
+        {
+          "name": "<TbMessageTip>k__BackingField",
+          "token": 67110916
+        },
+        {
+          "name": "<TbCommunityLink>k__BackingField",
+          "token": 67110917
+        },
+        {
+          "name": "<TbEaStatusConfig>k__BackingField",
+          "token": 67110918
+        },
+        {
+          "name": "<TbMainMenuButton>k__BackingField",
+          "token": 67110919
+        },
+        {
+          "name": "<TbMiniGameResonance>k__BackingField",
+          "token": 67110920
+        },
+        {
+          "name": "<TbMiniGameDualCultivate>k__BackingField",
+          "token": 67110921
+        },
+        {
+          "name": "<TbDualCultivateConsentRule>k__BackingField",
+          "token": 67110922
+        },
+        {
+          "name": "<TbMiniGameShooting>k__BackingField",
+          "token": 67110923
+        },
+        {
+          "name": "<TbMiniGameMedical>k__BackingField",
+          "token": 67110924
+        },
+        {
+          "name": "<TbGambleStoneRawTemplate>k__BackingField",
+          "token": 67110925
+        },
+        {
+          "name": "<TbGambleStoneFleshQuality>k__BackingField",
+          "token": 67110926
+        },
+        {
+          "name": "<TbGambleStoneBloom>k__BackingField",
+          "token": 67110927
+        },
+        {
+          "name": "<TbGambleStoneCrack>k__BackingField",
+          "token": 67110928
+        },
+        {
+          "name": "<TbGambleStoneEmbryoExchangeBand>k__BackingField",
+          "token": 67110929
+        },
+        {
+          "name": "<TbMiniGameSpotFind>k__BackingField",
+          "token": 67110930
+        },
+        {
+          "name": "<TbMiniGameSpotMirror>k__BackingField",
+          "token": 67110931
+        },
+        {
+          "name": "<TbSpace>k__BackingField",
+          "token": 67110932
+        },
+        {
+          "name": "<TbSpaceBgm>k__BackingField",
+          "token": 67110933
+        },
+        {
+          "name": "<TbSceneRecover>k__BackingField",
+          "token": 67110934
+        },
+        {
+          "name": "<TbSceneExploration>k__BackingField",
+          "token": 67110935
+        },
+        {
+          "name": "<TbSpaceInteractUI>k__BackingField",
+          "token": 67110936
+        },
+        {
+          "name": "<TbSpaceActiveEvent>k__BackingField",
+          "token": 67110937
+        },
+        {
+          "name": "<TbRandomEventTeleportEntry>k__BackingField",
+          "token": 67110938
+        },
+        {
+          "name": "<TbRandomEventEnding>k__BackingField",
+          "token": 67110939
+        },
+        {
+          "name": "<TbSpaceInteractArea>k__BackingField",
+          "token": 67110940
+        },
+        {
+          "name": "<TbSpaceDaoCompanionNpc>k__BackingField",
+          "token": 67110941
+        },
+        {
+          "name": "<TbDialogueInteractArea>k__BackingField",
+          "token": 67110942
+        },
+        {
+          "name": "<TbSceneHarvest>k__BackingField",
+          "token": 67110943
+        },
+        {
+          "name": "<TbInitialSpaceNpc>k__BackingField",
+          "token": 67110944
+        },
+        {
+          "name": "<TbThirdTierNpcInitRule>k__BackingField",
+          "token": 67110945
+        },
+        {
+          "name": "<TbInteractAction>k__BackingField",
+          "token": 67110946
+        },
+        {
+          "name": "<TbSkill>k__BackingField",
+          "token": 67110947
+        },
+        {
+          "name": "<TbSkillLevel>k__BackingField",
+          "token": 67110948
+        },
+        {
+          "name": "<TbSkillShow>k__BackingField",
+          "token": 67110949
+        },
+        {
+          "name": "<TbGameTimeMonth>k__BackingField",
+          "token": 67110950
+        },
+        {
+          "name": "<TbGameTimeUnit>k__BackingField",
+          "token": 67110951
+        },
+        {
+          "name": "<TbGameCondition>k__BackingField",
+          "token": 67110952
+        },
+        {
+          "name": "<TbStrConfig>k__BackingField",
+          "token": 67110953
+        },
+        {
+          "name": "<TbNpcBaseCfg>k__BackingField",
+          "token": 67110954
+        },
+        {
+          "name": "<TbNpcGrowRule>k__BackingField",
+          "token": 67110955
+        },
+        {
+          "name": "<TbNpcAvgPortrait>k__BackingField",
+          "token": 67110956
+        },
+        {
+          "name": "<TbNpcInteract>k__BackingField",
+          "token": 67110957
+        },
+        {
+          "name": "<TbNpcPersonality>k__BackingField",
+          "token": 67110958
+        },
+        {
+          "name": "<TbNpcRace>k__BackingField",
+          "token": 67110959
+        },
+        {
+          "name": "<TbNpcCharmDesc>k__BackingField",
+          "token": 67110960
+        },
+        {
+          "name": "<TbNpcReputeDesc>k__BackingField",
+          "token": 67110961
+        },
+        {
+          "name": "<TbNpcEvilDesc>k__BackingField",
+          "token": 67110962
+        },
+        {
+          "name": "<TbEvilAttackProbability>k__BackingField",
+          "token": 67110963
+        },
+        {
+          "name": "<TbNpcHeavenDesc>k__BackingField",
+          "token": 67110964
+        },
+        {
+          "name": "<TbNpcPersuadeTopic>k__BackingField",
+          "token": 67110965
+        },
+        {
+          "name": "<TbNpcTopicChat>k__BackingField",
+          "token": 67110966
+        },
+        {
+          "name": "<TbNpcAiPersona>k__BackingField",
+          "token": 67110967
+        },
+        {
+          "name": "<TbAiPromptTemplate>k__BackingField",
+          "token": 67110968
+        },
+        {
+          "name": "<TbNpcEpisode>k__BackingField",
+          "token": 67110969
+        },
+        {
+          "name": "<TbCombatAttributeTemplate>k__BackingField",
+          "token": 67110970
+        },
+        {
+          "name": "<TbSect>k__BackingField",
+          "token": 67110971
+        },
+        {
+          "name": "<TbSectPosition>k__BackingField",
+          "token": 67110972
+        },
+        {
+          "name": "<TbSectTaskPool>k__BackingField",
+          "token": 67110973
+        },
+        {
+          "name": "<TbSectPurchaseOrder>k__BackingField",
+          "token": 67110974
+        },
+        {
+          "name": "<TbSectPositionQuest>k__BackingField",
+          "token": 67110975
+        },
+        {
+          "name": "<TbSectIntroSkill>k__BackingField",
+          "token": 67110976
+        },
+        {
+          "name": "<TbSectIntroMember>k__BackingField",
+          "token": 67110977
+        },
+        {
+          "name": "<TbElement>k__BackingField",
+          "token": 67110978
+        },
+        {
+          "name": "<TbTestExpr>k__BackingField",
+          "token": 67110979
+        },
+        {
+          "name": "<TbConditionExpr>k__BackingField",
+          "token": 67110980
+        },
+        {
+          "name": "<TbItemType>k__BackingField",
+          "token": 67110981
+        },
+        {
+          "name": "<TbBagType>k__BackingField",
+          "token": 67110982
+        },
+        {
+          "name": "<TbItemUseEffect>k__BackingField",
+          "token": 67110983
+        },
+        {
+          "name": "<TbItem>k__BackingField",
+          "token": 67110984
+        },
+        {
+          "name": "<TbRewardDrop>k__BackingField",
+          "token": 67110985
+        },
+        {
+          "name": "<TbBuff>k__BackingField",
+          "token": 67110986
+        },
+        {
+          "name": "<TbTalent>k__BackingField",
+          "token": 67110987
+        },
+        {
+          "name": "<TbPassiveSkill>k__BackingField",
+          "token": 67110988
+        },
+        {
+          "name": "<TbDivinationSignProbability>k__BackingField",
+          "token": 67110989
+        },
+        {
+          "name": "<TbDivinationAffix>k__BackingField",
+          "token": 67110990
+        },
+        {
+          "name": "<TbDivinationGradeAffix>k__BackingField",
+          "token": 67110991
+        },
+        {
+          "name": "<TbDivinationGrowth>k__BackingField",
+          "token": 67110992
+        },
+        {
+          "name": "<TbMonster>k__BackingField",
+          "token": 67110993
+        },
+        {
+          "name": "<TbMonsterTeam>k__BackingField",
+          "token": 67110994
+        },
+        {
+          "name": "<TbQuest>k__BackingField",
+          "token": 67110995
+        },
+        {
+          "name": "<TbQuestType>k__BackingField",
+          "token": 67110996
+        },
+        {
+          "name": "<TbTrackTarget>k__BackingField",
+          "token": 67110997
+        },
+        {
+          "name": "<TbLimitedGameplayInteract>k__BackingField",
+          "token": 67110998
+        },
+        {
+          "name": "<TbLimitedGameplayTipText>k__BackingField",
+          "token": 67110999
+        },
+        {
+          "name": "<TbLoadingStyle>k__BackingField",
+          "token": 67111000
+        },
+        {
+          "name": "<TbLoadingAnim>k__BackingField",
+          "token": 67111001
+        },
+        {
+          "name": "<TbDialogue>k__BackingField",
+          "token": 67111002
+        },
+        {
+          "name": "<TbSubtitleText>k__BackingField",
+          "token": 67111003
+        },
+        {
+          "name": "<TbDialogueToast>k__BackingField",
+          "token": 67111004
+        },
+        {
+          "name": "<TbQteRule>k__BackingField",
+          "token": 67111005
+        },
+        {
+          "name": "<TbQteClick>k__BackingField",
+          "token": 67111006
+        },
+        {
+          "name": "<TbQteMash>k__BackingField",
+          "token": 67111007
+        },
+        {
+          "name": "<TbQteHold>k__BackingField",
+          "token": 67111008
+        },
+        {
+          "name": "<TbNpcCombatPropShow>k__BackingField",
+          "token": 67111009
+        },
+        {
+          "name": "<TbNpcBasePropShow>k__BackingField",
+          "token": 67111010
+        },
+        {
+          "name": "<TbMapPoi>k__BackingField",
+          "token": 67111011
+        },
+        {
+          "name": "<TbMap>k__BackingField",
+          "token": 67111012
+        },
+        {
+          "name": "<TbMapFog>k__BackingField",
+          "token": 67111013
+        },
+        {
+          "name": "<TbHotel>k__BackingField",
+          "token": 67111014
+        },
+        {
+          "name": "<TbNpcBagRule>k__BackingField",
+          "token": 67111015
+        },
+        {
+          "name": "<TbNpcItemDemandHoldTemplate>k__BackingField",
+          "token": 67111016
+        },
+        {
+          "name": "<TbNpcGiftSendRule>k__BackingField",
+          "token": 67111017
+        },
+        {
+          "name": "<TbNpcItemDemandRule>k__BackingField",
+          "token": 67111018
+        },
+        {
+          "name": "<TbNpcInteractAffinityCostRule>k__BackingField",
+          "token": 67111019
+        },
+        {
+          "name": "<TbIntimacyFixedConst>k__BackingField",
+          "token": 67111020
+        },
+        {
+          "name": "<TbSpaceEnterAction>k__BackingField",
+          "token": 67111021
+        },
+        {
+          "name": "<TbStoryChase>k__BackingField",
+          "token": 67111022
+        },
+        {
+          "name": "<TbUIPanel>k__BackingField",
+          "token": 67111023
+        },
+        {
+          "name": "<TbMapPoiPos>k__BackingField",
+          "token": 67111024
+        },
+        {
+          "name": "<TbGameActionFlow>k__BackingField",
+          "token": 67111025
+        },
+        {
+          "name": "<TbChuanYinTemplate>k__BackingField",
+          "token": 67111026
+        },
+        {
+          "name": "<TbNpcChuanYinExtractConfig>k__BackingField",
+          "token": 67111027
+        },
+        {
+          "name": "<TbChuanYinTemplateGroup>k__BackingField",
+          "token": 67111028
+        },
+        {
+          "name": "<TbNpcRelationNet>k__BackingField",
+          "token": 67111029
+        },
+        {
+          "name": "<TbNpcRelationLabel>k__BackingField",
+          "token": 67111030
+        },
+        {
+          "name": "<TbNpcRelationBehaviorTreeConfig>k__BackingField",
+          "token": 67111031
+        },
+        {
+          "name": "<TbNpcRelationInteractionRule>k__BackingField",
+          "token": 67111032
+        },
+        {
+          "name": "<TbKeyMap>k__BackingField",
+          "token": 67111033
+        },
+        {
+          "name": "<TbKeybindingGroup>k__BackingField",
+          "token": 67111034
+        },
+        {
+          "name": "<TbUIIntro>k__BackingField",
+          "token": 67111035
+        },
+        {
+          "name": "<TbGirls>k__BackingField",
+          "token": 67111036
+        },
+        {
+          "name": "<TbStage>k__BackingField",
+          "token": 67111037
+        },
+        {
+          "name": "<TbGirlsLevel>k__BackingField",
+          "token": 67111038
+        },
+        {
+          "name": "<TbGirlsInteractionItem>k__BackingField",
+          "token": 67111039
+        },
+        {
+          "name": "<TbGirlsInteractionText>k__BackingField",
+          "token": 67111040
+        },
+        {
+          "name": "<TbCultivateLayer>k__BackingField",
+          "token": 67111041
+        },
+        {
+          "name": "<TbCultivatePhase>k__BackingField",
+          "token": 67111042
+        },
+        {
+          "name": "<TbCultivateRealm>k__BackingField",
+          "token": 67111043
+        },
+        {
+          "name": "<TbDifficultyLevel>k__BackingField",
+          "token": 67111044
+        },
+        {
+          "name": "<TbSourceRoute>k__BackingField",
+          "token": 67111045
+        },
+        {
+          "name": "<TbNpcInteractGameEntry>k__BackingField",
+          "token": 67111046
+        },
+        {
+          "name": "<TbInteractAttribute>k__BackingField",
+          "token": 67111047
+        },
+        {
+          "name": "<TbExploreLevelOutGameEffect>k__BackingField",
+          "token": 67111048
+        },
+        {
+          "name": "<TbNpcIntimacy>k__BackingField",
+          "token": 67111049
+        },
+        {
+          "name": "<TbNpcIntimacyStageRewardMapping>k__BackingField",
+          "token": 67111050
+        },
+        {
+          "name": "<TbMerchantDealIntimacy>k__BackingField",
+          "token": 67111051
+        },
+        {
+          "name": "<TbRandomNameMaleZH>k__BackingField",
+          "token": 67111052
+        },
+        {
+          "name": "<TbRandomNameFemaleZH>k__BackingField",
+          "token": 67111053
+        },
+        {
+          "name": "<TbGuideGroup>k__BackingField",
+          "token": 67111054
+        },
+        {
+          "name": "<TbGuideStep>k__BackingField",
+          "token": 67111055
+        },
+        {
+          "name": "<TbSpecialBattle>k__BackingField",
+          "token": 67111056
+        },
+        {
+          "name": "<TbBattleType>k__BackingField",
+          "token": 67111057
+        },
+        {
+          "name": "<TbAlchemyPrototype>k__BackingField",
+          "token": 67111058
+        },
+        {
+          "name": "<TbAlchemyLayout>k__BackingField",
+          "token": 67111059
+        },
+        {
+          "name": "<TbAlchemyEssence>k__BackingField",
+          "token": 67111060
+        },
+        {
+          "name": "<TbAlchemyTalent>k__BackingField",
+          "token": 67111061
+        },
+        {
+          "name": "<TbAlchemyLevel>k__BackingField",
+          "token": 67111062
+        },
+        {
+          "name": "<TbAlchemyLineBonus>k__BackingField",
+          "token": 67111063
+        },
+        {
+          "name": "<TbAlchemyMaterial>k__BackingField",
+          "token": 67111064
+        },
+        {
+          "name": "<TbPresetEquipment>k__BackingField",
+          "token": 67111065
+        },
+        {
+          "name": "<TbAlchemyScoreTier>k__BackingField",
+          "token": 67111066
+        },
+        {
+          "name": "<TbAlchemyArtifactAffixPool>k__BackingField",
+          "token": 67111067
+        },
+        {
+          "name": "<TbAlchemyWashPity>k__BackingField",
+          "token": 67111068
+        },
+        {
+          "name": "<TbPillRecipe>k__BackingField",
+          "token": 67111069
+        },
+        {
+          "name": "<TbPillEffect>k__BackingField",
+          "token": 67111070
+        },
+        {
+          "name": "<TbPillHerb>k__BackingField",
+          "token": 67111071
+        },
+        {
+          "name": "<TbPillExplorePoi>k__BackingField",
+          "token": 67111072
+        },
+        {
+          "name": "<TbPillPortal>k__BackingField",
+          "token": 67111073
+        },
+        {
+          "name": "<TbPillFurnace>k__BackingField",
+          "token": 67111074
+        },
+        {
+          "name": "<TbPillLevel>k__BackingField",
+          "token": 67111075
+        },
+        {
+          "name": "<TbPillTalent>k__BackingField",
+          "token": 67111076
+        },
+        {
+          "name": "<TbSignatureArtifact>k__BackingField",
+          "token": 67111077
+        },
+        {
+          "name": "<TbAuctionVenue>k__BackingField",
+          "token": 67111078
+        },
+        {
+          "name": "<TbAuctionNpcPullRule>k__BackingField",
+          "token": 67111079
+        },
+        {
+          "name": "<TbAuctionItemPool>k__BackingField",
+          "token": 67111080
+        },
+        {
+          "name": "<TbAuctionItemIntro>k__BackingField",
+          "token": 67111081
+        },
+        {
+          "name": "<TbAuctionStrategy>k__BackingField",
+          "token": 67111082
+        },
+        {
+          "name": "<TbAuctionTactic>k__BackingField",
+          "token": 67111083
+        },
+        {
+          "name": "<TbAuctionDialogue>k__BackingField",
+          "token": 67111084
+        },
+        {
+          "name": "<TbAuctionQteSequenceKey>k__BackingField",
+          "token": 67111085
+        },
+        {
+          "name": "<TbAuctionQteRoulette>k__BackingField",
+          "token": 67111086
+        },
+        {
+          "name": "<TbAuctionBluffTierEffect>k__BackingField",
+          "token": 67111087
+        },
+        {
+          "name": "<TbAuctionChestConfig>k__BackingField",
+          "token": 67111088
+        },
+        {
+          "name": "<TbAuctionChestRiddle>k__BackingField",
+          "token": 67111089
+        },
+        {
+          "name": "<TbAuctionCinematicResource>k__BackingField",
+          "token": 67111090
+        },
+        {
+          "name": "<TbAuctionBidVideoResource>k__BackingField",
+          "token": 67111091
+        },
+        {
+          "name": "<TbTournament>k__BackingField",
+          "token": 67111092
+        },
+        {
+          "name": "<TbTournamentReward>k__BackingField",
+          "token": 67111093
+        },
+        {
+          "name": "<TbQuickBattleRule>k__BackingField",
+          "token": 67111094
+        },
+        {
+          "name": "<TbTournamentCommanderDialogue>k__BackingField",
+          "token": 67111095
+        },
+        {
+          "name": "<TbTournamentNpcRule>k__BackingField",
+          "token": 67111096
+        },
+        {
+          "name": "<TbTournamentAttrTemplate>k__BackingField",
+          "token": 67111097
+        },
+        {
+          "name": "<TbTalentPath>k__BackingField",
+          "token": 67111098
+        },
+        {
+          "name": "<TbTalentPathNode>k__BackingField",
+          "token": 67111099
+        },
+        {
+          "name": "<TbNewbieElementLoadout>k__BackingField",
+          "token": 67111100
+        },
+        {
+          "name": "<TbStageDungeonMap>k__BackingField",
+          "token": 67111101
+        },
+        {
+          "name": "<TbRogueDungeonGroup>k__BackingField",
+          "token": 67111102
+        },
+        {
+          "name": "<TbRogueDungeonMap>k__BackingField",
+          "token": 67111103
+        },
+        {
+          "name": "<TbRogueBuff>k__BackingField",
+          "token": 67111104
+        },
+        {
+          "name": "<TbRogueBuffPool>k__BackingField",
+          "token": 67111105
+        },
+        {
+          "name": "<TbRogueBuffCombo>k__BackingField",
+          "token": 67111106
+        },
+        {
+          "name": "<TbRogueEmptyChestAppear>k__BackingField",
+          "token": 67111107
+        },
+        {
+          "name": "<TbRogueEmptyChestPool>k__BackingField",
+          "token": 67111108
+        },
+        {
+          "name": "<TbPuzzle>k__BackingField",
+          "token": 67111109
+        },
+        {
+          "name": "<TbPuzzlePoint>k__BackingField",
+          "token": 67111110
+        },
+        {
+          "name": "<TbWorldBossDungeon>k__BackingField",
+          "token": 67111111
+        },
+        {
+          "name": "<TbWorldBossPhase>k__BackingField",
+          "token": 67111112
+        },
+        {
+          "name": "<TbWorldBossTuning>k__BackingField",
+          "token": 67111113
+        },
+        {
+          "name": "<TbWorldBossRewardTier>k__BackingField",
+          "token": 67111114
+        },
+        {
+          "name": "<TbWorldBossDiploEvent>k__BackingField",
+          "token": 67111115
+        },
+        {
+          "name": "<TbNpcTeachGuide>k__BackingField",
+          "token": 67111116
+        },
+        {
+          "name": "<TbSkillTeachGuide>k__BackingField",
+          "token": 67111117
+        },
+        {
+          "name": "<TbPassiveSkillTeachGuide>k__BackingField",
+          "token": 67111118
+        },
+        {
+          "name": "<TbNpcSparKillBattleConfig>k__BackingField",
+          "token": 67111119
+        },
+        {
+          "name": "<TbNpcSparKillDialogueIndex>k__BackingField",
+          "token": 67111120
+        },
+        {
+          "name": "<TbTimeFlowMarker>k__BackingField",
+          "token": 67111121
+        },
+        {
+          "name": "<TbInnMessageTemplate>k__BackingField",
+          "token": 67111122
+        },
+        {
+          "name": "<TbReputationChangeRule>k__BackingField",
+          "token": 67111123
+        },
+        {
+          "name": "<TbReputationTitle>k__BackingField",
+          "token": 67111124
+        },
+        {
+          "name": "<TbReputationInteractLimit>k__BackingField",
+          "token": 67111125
+        },
+        {
+          "name": "<TbCommissionForce>k__BackingField",
+          "token": 67111126
+        },
+        {
+          "name": "<TbCommissionForceTaskRefresh>k__BackingField",
+          "token": 67111127
+        },
+        {
+          "name": "<TbCommissionTaskMain>k__BackingField",
+          "token": 67111128
+        },
+        {
+          "name": "<TbCommissionTaskPool>k__BackingField",
+          "token": 67111129
+        },
+        {
+          "name": "<TbBountyTaskEntry>k__BackingField",
+          "token": 67111130
+        },
+        {
+          "name": "<TbTown>k__BackingField",
+          "token": 67111131
+        },
+        {
+          "name": "<TbCityReputation>k__BackingField",
+          "token": 67111132
+        },
+        {
+          "name": "<TbNpcCityReputation>k__BackingField",
+          "token": 67111133
+        },
+        {
+          "name": "<TbSectReputation>k__BackingField",
+          "token": 67111134
+        },
+        {
+          "name": "<TbSteal>k__BackingField",
+          "token": 67111135
+        },
+        {
+          "name": "<TbStealSpiritStone>k__BackingField",
+          "token": 67111136
+        },
+        {
+          "name": "<TbStealQteRealmAdjust>k__BackingField",
+          "token": 67111137
+        },
+        {
+          "name": "<TbStealQteDifficulty>k__BackingField",
+          "token": 67111138
+        },
+        {
+          "name": "<TbStealDialogIndex>k__BackingField",
+          "token": 67111139
+        },
+        {
+          "name": "<TbNpcInteractionGroup>k__BackingField",
+          "token": 67111140
+        },
+        {
+          "name": "<TbTagStyle>k__BackingField",
+          "token": 67111141
+        },
+        {
+          "name": "<TbNpcMood>k__BackingField",
+          "token": 67111142
+        },
+        {
+          "name": "<TbSystemInteractGroup>k__BackingField",
+          "token": 67111143
+        },
+        {
+          "name": "<TbNpcBehaviorType>k__BackingField",
+          "token": 67111144
+        },
+        {
+          "name": "<TbNpcBehaviorSpaceMapping>k__BackingField",
+          "token": 67111145
+        },
+        {
+          "name": "<TbNpcChatBubble>k__BackingField",
+          "token": 67111146
+        },
+        {
+          "name": "<TbMiniGameLearnGongfa>k__BackingField",
+          "token": 67111147
+        },
+        {
+          "name": "<TbLearnGongfaBallConfig>k__BackingField",
+          "token": 67111148
+        },
+        {
+          "name": "<TbBaguaClue>k__BackingField",
+          "token": 67111149
+        },
+        {
+          "name": "<TbBaguaClueAcquire>k__BackingField",
+          "token": 67111150
+        },
+        {
+          "name": "<TbBaguaDrinkDialogue>k__BackingField",
+          "token": 67111151
+        },
+        {
+          "name": "<TbAchievement>k__BackingField",
+          "token": 67111152
+        },
+        {
+          "name": "<TbShootingPetDialoguePreset>k__BackingField",
+          "token": 67111153
+        }
+      ]
+    },
+    "LubanDatas.TbCultivateLayer": {
+      "type_definition_offset": 28806108,
+      "token": 33555240,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "_dataMap",
+          "token": 67111424
+        },
+        {
+          "name": "_dataList",
+          "token": 67111425
+        },
+        {
+          "name": "_overrides",
+          "token": 67111426
+        }
+      ]
+    },
+    "LubanDatas.TbCultivatePhase": {
+      "type_definition_offset": 28806372,
+      "token": 33555243,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "_dataMap",
+          "token": 67111430
+        },
+        {
+          "name": "_dataList",
+          "token": 67111431
+        },
+        {
+          "name": "_overrides",
+          "token": 67111432
+        }
+      ]
+    },
+    "LubanDatas.TbCultivateRealm": {
+      "type_definition_offset": 28806636,
+      "token": 33555246,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "_dataMap",
+          "token": 67111436
+        },
+        {
+          "name": "_dataList",
+          "token": 67111437
+        },
+        {
+          "name": "_overrides",
+          "token": 67111438
+        }
+      ]
+    },
+    "LubanDatas.TbInteractAttribute": {
+      "type_definition_offset": 28815436,
+      "token": 33555346,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "_dataMap",
+          "token": 67111635
+        },
+        {
+          "name": "_dataList",
+          "token": 67111636
+        },
+        {
+          "name": "_overrides",
+          "token": 67111637
+        }
+      ]
+    },
+    "LubanDatas.data.CultivateLayer": {
+      "type_definition_offset": 28869732,
+      "token": 33555963,
+      "field_count": 8,
+      "fields": [
+        {
+          "name": "<id>k__BackingField",
+          "token": 67113928
+        },
+        {
+          "name": "<phase>k__BackingField",
+          "token": 67113929
+        },
+        {
+          "name": "<layer>k__BackingField",
+          "token": 67113930
+        },
+        {
+          "name": "<version_required>k__BackingField",
+          "token": 67113931
+        },
+        {
+          "name": "<attrs>k__BackingField",
+          "token": 67113932
+        },
+        {
+          "name": "<next_level_exp>k__BackingField",
+          "token": 67113933
+        },
+        {
+          "name": "<star_pos>k__BackingField",
+          "token": 67113934
+        },
+        {
+          "name": "__ID__",
+          "token": 67113935
+        }
+      ]
+    },
+    "LubanDatas.data.CultivatePhase": {
+      "type_definition_offset": 28869996,
+      "token": 33555965,
+      "field_count": 9,
+      "fields": [
+        {
+          "name": "<id>k__BackingField",
+          "token": 67113936
+        },
+        {
+          "name": "<realm>k__BackingField",
+          "token": 67113937
+        },
+        {
+          "name": "<phase_name>k__BackingField",
+          "token": 67113938
+        },
+        {
+          "name": "<layers>k__BackingField",
+          "token": 67113939
+        },
+        {
+          "name": "<breakthrough_material>k__BackingField",
+          "token": 67113940
+        },
+        {
+          "name": "<cost_days>k__BackingField",
+          "token": 67113941
+        },
+        {
+          "name": "<breakthrough_video>k__BackingField",
+          "token": 67113942
+        },
+        {
+          "name": "<path_point_gain>k__BackingField",
+          "token": 67113943
+        },
+        {
+          "name": "__ID__",
+          "token": 67113944
+        }
+      ]
+    },
+    "LubanDatas.data.CultivateRealm": {
+      "type_definition_offset": 28870260,
+      "token": 33555968,
+      "field_count": 31,
+      "fields": [
+        {
+          "name": "<id>k__BackingField",
+          "token": 67113951
+        },
+        {
+          "name": "<realm_name>k__BackingField",
+          "token": 67113952
+        },
+        {
+          "name": "<spirit_spot_name>k__BackingField",
+          "token": 67113953
+        },
+        {
+          "name": "<spirit_spot_effect_prefab>k__BackingField",
+          "token": 67113954
+        },
+        {
+          "name": "<phases>k__BackingField",
+          "token": 67113955
+        },
+        {
+          "name": "<next_realm>k__BackingField",
+          "token": 67113956
+        },
+        {
+          "name": "<breakthrough_material>k__BackingField",
+          "token": 67113957
+        },
+        {
+          "name": "<cost_days>k__BackingField",
+          "token": 67113958
+        },
+        {
+          "name": "<realmPrompt>k__BackingField",
+          "token": 67113959
+        },
+        {
+          "name": "<path_point_gain>k__BackingField",
+          "token": 67113960
+        },
+        {
+          "name": "<spirit_point_gain>k__BackingField",
+          "token": 67113961
+        },
+        {
+          "name": "<spirit_root_cap>k__BackingField",
+          "token": 67113962
+        },
+        {
+          "name": "<base_breakthrough_rate>k__BackingField",
+          "token": 67113963
+        },
+        {
+          "name": "<optional_material_pool>k__BackingField",
+          "token": 67113964
+        },
+        {
+          "name": "<optional_material_limit>k__BackingField",
+          "token": 67113965
+        },
+        {
+          "name": "<validation_battle_id>k__BackingField",
+          "token": 67113966
+        },
+        {
+          "name": "<erosion_exp_penalty>k__BackingField",
+          "token": 67113967
+        },
+        {
+          "name": "<default_space_id>k__BackingField",
+          "token": 67113968
+        },
+        {
+          "name": "<spirit_total_exp>k__BackingField",
+          "token": 67113969
+        },
+        {
+          "name": "<spirit_exp_per_drag>k__BackingField",
+          "token": 67113970
+        },
+        {
+          "name": "<real_time_per_game_day_ms>k__BackingField",
+          "token": 67113971
+        },
+        {
+          "name": "<spirit_spot_count_min>k__BackingField",
+          "token": 67113972
+        },
+        {
+          "name": "<spirit_spot_count_max>k__BackingField",
+          "token": 67113973
+        },
+        {
+          "name": "<spirit_scenes>k__BackingField",
+          "token": 67113974
+        },
+        {
+          "name": "<spirit_particle_density>k__BackingField",
+          "token": 67113975
+        },
+        {
+          "name": "<spirit_tiers>k__BackingField",
+          "token": 67113976
+        },
+        {
+          "name": "<spirit_full_absorb_days>k__BackingField",
+          "token": 67113977
+        },
+        {
+          "name": "<meditate_video>k__BackingField",
+          "token": 67113978
+        },
+        {
+          "name": "<cultivate_reserve_exp_limit>k__BackingField",
+          "token": 67113979
+        },
+        {
+          "name": "<escape_success_timeline>k__BackingField",
+          "token": 67113980
+        },
+        {
+          "name": "__ID__",
+          "token": 67113981
+        }
+      ]
+    },
+    "LubanDatas.data.InteractAttribute": {
+      "type_definition_offset": 28876596,
+      "token": 33556041,
+      "field_count": 6,
+      "fields": [
+        {
+          "name": "<id>k__BackingField",
+          "token": 67114371
+        },
+        {
+          "name": "<name>k__BackingField",
+          "token": 67114372
+        },
+        {
+          "name": "<desc>k__BackingField",
+          "token": 67114373
+        },
+        {
+          "name": "<icon>k__BackingField",
+          "token": 67114374
+        },
+        {
+          "name": "<levelConfigs>k__BackingField",
+          "token": 67114375
+        },
+        {
+          "name": "__ID__",
+          "token": 67114376
+        }
+      ]
+    },
+    "Game.ConfigManager": {
+      "type_definition_offset": 28936172,
+      "token": 33556717,
+      "field_count": 11,
+      "fields": [
+        {
+          "name": "<Tables>k__BackingField",
+          "token": 67121595
+        },
+        {
+          "name": "<ImagineDatas>k__BackingField",
+          "token": 67121596
+        },
+        {
+          "name": "<ImagineUnit>k__BackingField",
+          "token": 67121597
+        },
+        {
+          "name": "<PostProcessedConfigs>k__BackingField",
+          "token": 67121598
+        },
+        {
+          "name": "assetHandleWraps",
+          "token": 67121599
+        },
+        {
+          "name": "tableAssetHandleByName",
+          "token": 67121600
+        },
+        {
+          "name": "tableBytes",
+          "token": 67121601
+        },
+        {
+          "name": "tableFileWriteTicks",
+          "token": 67121602
+        },
+        {
+          "name": "baseTables",
+          "token": 67121603
+        },
+        {
+          "name": "activeOverrideFlags",
+          "token": 67121604
+        },
+        {
+          "name": "tablesBuiltWithMods",
+          "token": 67121605
+        }
+      ]
+    }
+  },
+  "attributes": {
+    "1001": {
+      "name": "灵机",
+      "levels": [
+        {
+          "maxExp": 100,
+          "realmId": 1
+        },
+        {
+          "maxExp": 200,
+          "realmId": 1
+        },
+        {
+          "maxExp": 300,
+          "realmId": 1
+        },
+        {
+          "maxExp": 400,
+          "realmId": 1
+        },
+        {
+          "maxExp": 500,
+          "realmId": 1
+        },
+        {
+          "maxExp": 600,
+          "realmId": 1
+        },
+        {
+          "maxExp": 750,
+          "realmId": 2
+        },
+        {
+          "maxExp": 900,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1050,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1200,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1350,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1500,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 1900,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2100,
+          "realmId": 2
+        },
+        {
+          "maxExp": 2300,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2500,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 3100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 3500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4000,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5700,
+          "realmId": 4
+        },
+        {
+          "maxExp": 0,
+          "realmId": 4
+        }
+      ]
+    },
+    "1002": {
+      "name": "体魄",
+      "levels": [
+        {
+          "maxExp": 100,
+          "realmId": 1
+        },
+        {
+          "maxExp": 200,
+          "realmId": 1
+        },
+        {
+          "maxExp": 300,
+          "realmId": 1
+        },
+        {
+          "maxExp": 400,
+          "realmId": 1
+        },
+        {
+          "maxExp": 500,
+          "realmId": 1
+        },
+        {
+          "maxExp": 600,
+          "realmId": 1
+        },
+        {
+          "maxExp": 750,
+          "realmId": 2
+        },
+        {
+          "maxExp": 900,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1050,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1200,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1350,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1500,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 1900,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2100,
+          "realmId": 2
+        },
+        {
+          "maxExp": 2300,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2500,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 3100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 3500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4000,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5700,
+          "realmId": 4
+        },
+        {
+          "maxExp": 0,
+          "realmId": 4
+        }
+      ]
+    },
+    "1003": {
+      "name": "神识",
+      "levels": [
+        {
+          "maxExp": 100,
+          "realmId": 1
+        },
+        {
+          "maxExp": 200,
+          "realmId": 1
+        },
+        {
+          "maxExp": 300,
+          "realmId": 1
+        },
+        {
+          "maxExp": 400,
+          "realmId": 1
+        },
+        {
+          "maxExp": 500,
+          "realmId": 1
+        },
+        {
+          "maxExp": 600,
+          "realmId": 1
+        },
+        {
+          "maxExp": 750,
+          "realmId": 2
+        },
+        {
+          "maxExp": 900,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1050,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1200,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1350,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1500,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 1900,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2100,
+          "realmId": 2
+        },
+        {
+          "maxExp": 2300,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2500,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 3100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 3500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4000,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5700,
+          "realmId": 4
+        },
+        {
+          "maxExp": 0,
+          "realmId": 4
+        }
+      ]
+    },
+    "1004": {
+      "name": "辩道",
+      "levels": [
+        {
+          "maxExp": 100,
+          "realmId": 1
+        },
+        {
+          "maxExp": 200,
+          "realmId": 1
+        },
+        {
+          "maxExp": 300,
+          "realmId": 1
+        },
+        {
+          "maxExp": 400,
+          "realmId": 1
+        },
+        {
+          "maxExp": 500,
+          "realmId": 1
+        },
+        {
+          "maxExp": 600,
+          "realmId": 1
+        },
+        {
+          "maxExp": 750,
+          "realmId": 2
+        },
+        {
+          "maxExp": 900,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1050,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1200,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1350,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1500,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 1900,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2100,
+          "realmId": 2
+        },
+        {
+          "maxExp": 2300,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2500,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 3100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 3500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4000,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5700,
+          "realmId": 4
+        },
+        {
+          "maxExp": 0,
+          "realmId": 4
+        }
+      ]
+    },
+    "1005": {
+      "name": "医术",
+      "levels": [
+        {
+          "maxExp": 100,
+          "realmId": 1
+        },
+        {
+          "maxExp": 200,
+          "realmId": 1
+        },
+        {
+          "maxExp": 300,
+          "realmId": 1
+        },
+        {
+          "maxExp": 400,
+          "realmId": 1
+        },
+        {
+          "maxExp": 500,
+          "realmId": 1
+        },
+        {
+          "maxExp": 600,
+          "realmId": 1
+        },
+        {
+          "maxExp": 750,
+          "realmId": 2
+        },
+        {
+          "maxExp": 900,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1050,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1200,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1350,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1500,
+          "realmId": 2
+        },
+        {
+          "maxExp": 1700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 1900,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2100,
+          "realmId": 2
+        },
+        {
+          "maxExp": 2300,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2500,
+          "realmId": 3
+        },
+        {
+          "maxExp": 2700,
+          "realmId": 3
+        },
+        {
+          "maxExp": 3100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 3500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4000,
+          "realmId": 4
+        },
+        {
+          "maxExp": 4500,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5100,
+          "realmId": 4
+        },
+        {
+          "maxExp": 5700,
+          "realmId": 4
+        },
+        {
+          "maxExp": 0,
+          "realmId": 4
+        }
+      ]
+    }
+  }
+}

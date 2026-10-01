@@ -1,66 +1,36 @@
-# 《吾今有世家》v0.3.0 多功能修改器（内置版）
+# House of Legacy Trainer v0.3.0
 
-本页为个人研究记录，所列结果仅限当时的测试环境；不保证在他人电脑上的兼容性或实际效果。自行取用并承担风险，不提供适配、问题反馈或使用支持，也不承诺后续更新。
+**English** | [简体中文](README_ZH.md)
 
-个人内置插件研究的阶段归档，当前为实验版本。
-版本记录日期：2026-10-01｜参考游戏：V0.9.03 / Steam Build 22970665｜Windows x64
+An experimental in-game plugin research archive for **吾今有世家 (House of Legacy)**. Results apply only to the recorded environment; compatibility and effects are not guaranteed. No user support or commitment to future updates is offered. See [terms](../../TERMS.md).
 
-这是随游戏加载的内置修改器，默认按 Tab 打开，无需单独运行修改器程序。前置框架为 BepInEx 5 x64 Mono，本次使用 5.4.23.5。 归档包不内含加载器，请先安装上述官方框架；不需要 .NET SDK 或 Python。
+Recorded: **2026-10-01** · Game **V0.9.03 / Steam Build 22970665** · Windows x64 · Unity Mono · BepInEx **5.4.23.5** · The tool UI remains in Chinese.
 
-[v0.3.0实验版本归档](https://github.com/Haaaaa96/single-player-trainers/releases/tag/house-of-legacy-v0.3.0) · [操作记录与限制](GUIDE.md)
+[Binary archive](https://github.com/Haaaaa96/single-player-trainers/releases/tag/house-of-legacy-v0.3.0) · [Guide](GUIDE.md) · [Development notes](DEVLOG.md) · [Source](../../sources/house-of-legacy) · [Build](../../sources/house-of-legacy/BUILD.md) · [Checksums](SHA256SUMS.txt)
 
-[BepInEx 5.4.23.5 官方下载](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5)，选择 x64 版本。
+## Scope
 
-## v0.3.0开发变更
+The plugin loads with the game and opens with Tab by default. There is no separate trainer executable. It contains 14 one-time operations across four groups:
 
-- 正常游戏或人物属性页直接按 Tab 打开，不再需要先按 Esc 进入退出菜单。开窗自动暂停，关闭后恢复开窗前的运行／暂停状态。
-- 默认左侧显示修改器，保留原人物属性页。打开时优先选择原页人物；修改后核对身份并同步刷新，便于对照原值和结果。
-- 修复文本框内 Tab 不能正常关闭的问题，改善重复开关和切出游戏后的输入恢复。旧默认 F8 配置自动迁移为 Tab，已有其它自定义键保留。
+- **Family:** add/subtract money and add family reputation.
+- **Family members:** edit nine attributes and restore stamina once, for the selected member of the player's family.
+- **Character creation:** edit remaining trait points, then choose traits through the game's own UI; existing characters' traits are unchanged.
+- **Storage:** add vegetables already owned and reduce available storage capacity accordingly; arbitrary items and first-time deposits are outside this version's scope.
 
-## 已实现的功能范围
+## v0.3.0 changes
 
-包含14项操作，分为家族、族人、开局特质和仓库4类功能。功能范围与已实测范围分开列出，请先在备份副本中小幅尝试。
+Tab opens the window during normal play or on the character page, without first opening the Esc menu. Opening pauses the game; closing restores its prior run/pause state and speed. The default left-side layout preserves the character page and refreshes it after identity-checked changes.
 
-- **家族**：增加或扣除铜钱，增加家族声望。
-- **族人**：修改文才、武才、商才、艺才、声名、心情、健康、魅力、心机，以及单次恢复体力。仅针对当前选定的本族成员。
-- **开局特质**：调整角色创建时的剩余特质点数，继续通过游戏原界面选择特质；不修改已有角色的特质。
-- **仓库**：增加已经持有的蔬菜，并同步减少剩余仓库容量。当前不提供任意物品或首次入库。
+The revision also handles Tab inside text fields, repeated opening/closing and input recovery after switching away from the game. An old default F8 configuration migrates to Tab; other customized keys remain unchanged.
 
-## 安装与使用
+## Setup and evidence
 
-1. 先备份存档，正常保存并退出游戏。
-2. 游戏尚未安装 BepInEx 5 x64 Mono 时，先将对应框架文件解压到 House of Legacy.exe 所在目录。已有可用框架时不要重复混装，不要覆盖其它 MOD。
-3. 将 HouseOfLegacyTrainer.dll 放入游戏目录下的 BepInEx/plugins/HouseOfLegacyTrainer 文件夹；没有该文件夹可自行建立。旧版用户退出游戏后替换同一位置的插件，保留一份旧文件以便回退。
-4. 启动游戏并读档，在正常场景或原人物属性页按 Tab。选择功能后先刷新，核对人物姓名、ID、当前值和输入含义，再点击应用。
-5. 查看工具读回与原游戏显示，按 Tab 或点“关闭”，松开按键和鼠标后继续游戏。要保留修改结果，再通过游戏原有菜单保存。
+Install [BepInEx 5.4.23.5 x64 Mono](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5) first, then place HouseOfLegacyTrainer.dll in BepInEx/plugins/HouseOfLegacyTrainer. The archive does not include the loader and requires no .NET SDK or Python. Back up the save and follow the [installation and input guide](GUIDE.md).
 
-以上按默认 Tab 说明，自定义键以配置为准。在角色创建的“选择角色特质”页面按 Tab，会自动进入开局特质页。
+Historical checks covered window/input behavior, 1×/3× speed restoration, selected value changes and save/restart persistence, creation-page point spending, disabling and reinstalling the plugin. Several fields, reputation level changes, vegetables and completed new-character saves remain unverified; see [development notes](DEVLOG.md).
 
-## 数值怎么填
+The public source is a sanitized research snapshot, not a claim of exact equivalence with the archived DLL. This preparation did not run the snapshot or repeat game tests.
 
-- **铜钱填变化量**：输入100是增加100，输入-100是扣除100；单次增减不超过100万，不能扣成负余额。
-- **声望填新增量**：按页面显示的本级剩余声望操作，单次最多升一级，保留游戏原有资金条件和升级联动。
-- **人物属性填目标值**：文才、武才、商才、艺才、声名为0～100，可用小数；魅力、心机为0～100整数；心情为-100～100整数；健康为1～100整数。体力使用单次恢复按钮，目标依年龄及当前状态确定。
-- **开局点数填目标值**：0～1000整数。修改后关窗，再正常选择特质；工具不会代选或确认新角色。
-- **蔬菜填增加数量**：1～1000，且不能超过当前剩余容量。必须已经持有蔬菜，数量增加与库容减少同步。
+## Licensing
 
-例如文才20填21，结果是21；铜钱17填10，结果是27。原游戏有些属性只显示取整值，以工具读回和原界面的显示规则核对。铜钱、声望的顶部显示可能要关窗恢复游戏后才更新，先核对读回，不要重复提交。
-
-## 操作提醒
-
-- 每次应用后重新刷新；换档、换人、换场景或等待过久，也要重新读取。报错或结果不明时先核对是否已生效，不要连续重复点击。
-- 加载、保存、切场景及交易等操作期间先等待；完成或关闭相关页面后，再使用修改器。
-- 默认 Tab 在文本框内也用于开关窗口，请用鼠标选择输入框。切出游戏会自动关闭修改器并恢复开窗前状态；切回后先松开按键，再按热键。
-- 原游戏的 Tab 还用于建造／编辑模式。默认配置下该键由修改器使用，可在游戏设置中改建造快捷键，或退出游戏后修改 BepInEx/config/local.houseoflegacy.trainer.cfg 内的 ToggleKey，下次启动生效。
-- 这是单次修改，不持续锁定属性。健康修改不代表治病、延寿或永生；游戏中的成长、消耗和事件仍会发生。修改器不自动保存，关窗或停用也不会撤销已经写入、保存的改值。
-- 停用时正常退出游戏，将 BepInEx/plugins/HouseOfLegacyTrainer 整个文件夹移到游戏目录外；放回可恢复。不要在游戏运行中替换 DLL，不要删除其它 MOD 或整套框架。
-
-## 实测范围与待确认项
-
-本版已实测正常游戏／人物页直接 Tab、文本框编辑、重复开关、点击／滚轮／Esc 隔离和关闭后恢复；1280×720与1920×1080下均可对照原人物页。文才改为22后，正常保存退出、重新启动读档，工具和原人物页仍显示22。创建页点数0→10、选择特质正常扣6后剩4已验证，未确认创建新角色。
-
-补测通过铜钱17→18、家族声望12→13（未跨级）、魅力13→14及保存退出后重启读回；1倍速与3倍速开窗暂停、关窗保持原速度，加载期间拒绝也已验证。停用插件后游戏能正常启动，从干净解压包重新安装后加载正常。
-
-其它人物字段的改值与持久化、多人物切换、声望跨级、蔬菜增量及新角色生成后的保存尚未完整实测。物理长按热键、持键切回、5／10倍速及单日推进、保存瞬间和交易页拒绝、其它 MOD 组合也保留待确认范围。标题栏拖动在自动化检查中未见位移，原因未定；目前已验证的是默认左侧布局。
-
-参考版本用于说明验证范围，游戏版本或文件差异不会单独作为拒绝使用的理由；实际结构不兼容时，相关操作会停止。未来游戏更新可能使部分功能失效。
+The plugin was independently written and references components supplied by the game and BepInEx at runtime. The binary package embeds no third-party DLLs. Preserve the licenses provided by the loader and other component projects when obtaining or redistributing them.

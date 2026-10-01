@@ -1,0 +1,104 @@
+{
+  "class_slot_rva": 135565448,
+  "slot_proof_rva": 22117952,
+  "slot_proof": "488b054112c306",
+  "classes": {
+    "Game.GameTimeScaleController": {
+      "type_definition_offset": 28951660,
+      "token": 33556894,
+      "field_count": 4,
+      "fields": [
+        {
+          "name": "DefaultScale",
+          "token": 67122390
+        },
+        {
+          "name": "Overrides",
+          "token": 67122391
+        },
+        {
+          "name": "_baseScale",
+          "token": 67122392
+        },
+        {
+          "name": "_nextHandle",
+          "token": 67122393
+        }
+      ]
+    },
+    ".TimeScaleOverride": {
+      "type_definition_offset": 28951572,
+      "token": 33556895,
+      "field_count": 2,
+      "fields": [
+        {
+          "name": "Handle",
+          "token": 67122394
+        },
+        {
+          "name": "Scale",
+          "token": 67122395
+        }
+      ]
+    },
+    "System.Collections.Generic.List`1": {
+      "type_definition_offset": 29896604,
+      "token": 33556056,
+      "field_count": 6,
+      "fields": [
+        {
+          "name": "DefaultCapacity",
+          "token": 67115810
+        },
+        {
+          "name": "_items",
+          "token": 67115811
+        },
+        {
+          "name": "_size",
+          "token": 67115812
+        },
+        {
+          "name": "_version",
+          "token": 67115813
+        },
+        {
+          "name": "_syncRoot",
+          "token": 67115814
+        },
+        {
+          "name": "s_emptyArray",
+          "token": 67115815
+        }
+      ]
+    }
+  },
+  "methods": {
+    "base": {
+      "name": "get_BaseScale",
+      "token": 100695898,
+      "rva": 22117920,
+      "parameters": 0,
+      "return_kind": 12,
+      "prefix": "4883ec28803d07470307007513488d0d"
+    },
+    "effective": {
+      "name": "get_EffectiveScale",
+      "token": 100695900,
+      "rva": 22118000,
+      "parameters": 0,
+      "return_kind": 12,
+      "prefix": "4883ec28803db946030700752b488d0d"
+    },
+    "modify": {
+      "name": "SetBaseScale",
+      "token": 100695902,
+      "rva": 22117216,
+      "parameters": 1,
+      "return_kind": 1,
+      "prefix": "4883ec38803dcb490307000f29742420"
+    }
+  },
+  "minimum": 0.5,
+  "maximum": 2.0
+}

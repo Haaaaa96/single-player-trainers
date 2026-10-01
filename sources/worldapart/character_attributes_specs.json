@@ -1,0 +1,752 @@
+{
+  "Game.Model.PlayerModel": {
+    "type_definition_offset": 29341676,
+    "token": 33561326,
+    "field_count": 66,
+    "fields": [
+      {
+        "name": "<ForestEvents>k__BackingField",
+        "token": 67151365
+      },
+      {
+        "name": "<BloodAltar>k__BackingField",
+        "token": 67151366
+      },
+      {
+        "name": "<RandomEventSettlements>k__BackingField",
+        "token": 67151367
+      },
+      {
+        "name": "citySceneQuestTaskbarHud",
+        "token": 67151368
+      },
+      {
+        "name": "PLAYER_NAME_PLACEHOLDER",
+        "token": 67151369
+      },
+      {
+        "name": "DEFAULT_PROP_EVIL",
+        "token": 67151370
+      },
+      {
+        "name": "MIN_PROP_EVIL",
+        "token": 67151371
+      },
+      {
+        "name": "MAX_PROP_EVIL",
+        "token": 67151372
+      },
+      {
+        "name": "playerName",
+        "token": 67151373
+      },
+      {
+        "name": "bag",
+        "token": 67151374
+      },
+      {
+        "name": "combat",
+        "token": 67151375
+      },
+      {
+        "name": "alchemy",
+        "token": 67151376
+      },
+      {
+        "name": "refiningPillsRecipeManual",
+        "token": 67151377
+      },
+      {
+        "name": "refiningPills",
+        "token": 67151378
+      },
+      {
+        "name": "refiningPillsCraftHistory",
+        "token": 67151379
+      },
+      {
+        "name": "talentPath",
+        "token": 67151380
+      },
+      {
+        "name": "soulBanner",
+        "token": 67151381
+      },
+      {
+        "name": "demonicCultivator",
+        "token": 67151382
+      },
+      {
+        "name": "chuanYin",
+        "token": 67151383
+      },
+      {
+        "name": "npcRelation",
+        "token": 67151384
+      },
+      {
+        "name": "scenePassiveBehavior",
+        "token": 67151385
+      },
+      {
+        "name": "npcTeachGuide",
+        "token": 67151386
+      },
+      {
+        "name": "learnGongfaTip",
+        "token": 67151387
+      },
+      {
+        "name": "innMessage",
+        "token": 67151388
+      },
+      {
+        "name": "signatureArtifact",
+        "token": 67151389
+      },
+      {
+        "name": "normalArtifact",
+        "token": 67151390
+      },
+      {
+        "name": "gambleStone",
+        "token": 67151391
+      },
+      {
+        "name": "spiritSpotRuntime",
+        "token": 67151392
+      },
+      {
+        "name": "divinationFortune",
+        "token": 67151393
+      },
+      {
+        "name": "auctionComponent",
+        "token": 67151394
+      },
+      {
+        "name": "tournamentComponent",
+        "token": 67151395
+      },
+      {
+        "name": "achievementComponent",
+        "token": 67151396
+      },
+      {
+        "name": "gameDifficultyState",
+        "token": 67151397
+      },
+      {
+        "name": "gameDifficultyUnlockRetryPending",
+        "token": 67151398
+      },
+      {
+        "name": "deathRescueCooldownUntilTotalDay",
+        "token": 67151399
+      },
+      {
+        "name": "realmBreakthroughDifficultyProgress",
+        "token": 67151400
+      },
+      {
+        "name": "guideComponent",
+        "token": 67151401
+      },
+      {
+        "name": "questComponent",
+        "token": 67151402
+      },
+      {
+        "name": "sectComponent",
+        "token": 67151403
+      },
+      {
+        "name": "reputation",
+        "token": 67151404
+      },
+      {
+        "name": "newbie",
+        "token": 67151405
+      },
+      {
+        "name": "dialogueChoice",
+        "token": 67151406
+      },
+      {
+        "name": "normalDungeonRuntime",
+        "token": 67151407
+      },
+      {
+        "name": "rogueDungeonRuntime",
+        "token": 67151408
+      },
+      {
+        "name": "questDetailPanelData",
+        "token": 67151409
+      },
+      {
+        "name": "ainpcChatReward",
+        "token": 67151410
+      },
+      {
+        "name": "visitedSpaces",
+        "token": 67151411
+      },
+      {
+        "name": "leftSpaces",
+        "token": 67151412
+      },
+      {
+        "name": "watchedVideoTimelines",
+        "token": 67151413
+      },
+      {
+        "name": "currentSectId",
+        "token": 67151414
+      },
+      {
+        "name": "currentSectPositionId",
+        "token": 67151415
+      },
+      {
+        "name": "everJoinedSect",
+        "token": 67151416
+      },
+      {
+        "name": "everJoinedSectIds",
+        "token": 67151417
+      },
+      {
+        "name": "sectContributionTotal",
+        "token": 67151418
+      },
+      {
+        "name": "playerPropEvil",
+        "token": 67151419
+      },
+      {
+        "name": "spar_monthly_count",
+        "token": 67151420
+      },
+      {
+        "name": "interactAttributes",
+        "token": 67151421
+      },
+      {
+        "name": "_interactAttributeCappedTipFrames",
+        "token": 67151422
+      },
+      {
+        "name": "m_HandlingLifespanExhaustion",
+        "token": 67151423
+      },
+      {
+        "name": "<LifespanExhaustionHandledAge>k__BackingField",
+        "token": 67151424
+      },
+      {
+        "name": "<LifespanExhaustionHandledMax>k__BackingField",
+        "token": 67151425
+      },
+      {
+        "name": "MaxRewardDropResolveDepth",
+        "token": 67151426
+      },
+      {
+        "name": "RewardDropParseMarker",
+        "token": 67151427
+      },
+      {
+        "name": "RewardDropGrantMarker",
+        "token": 67151428
+      },
+      {
+        "name": "RewardDropCallbackMarker",
+        "token": 67151429
+      },
+      {
+        "name": "RewardDropLogMarker",
+        "token": 67151430
+      }
+    ]
+  },
+  "Game.Model.Player.Components.CombatModel": {
+    "type_definition_offset": 29391660,
+    "token": 33561881,
+    "field_count": 42,
+    "fields": [
+      {
+        "name": "LEGACY_DEFAULT_CRIT_CHANCE",
+        "token": 67153183
+      },
+      {
+        "name": "CURRENT_CRITICAL_ATTRIBUTE_STATE_VERSION",
+        "token": 67153184
+      },
+      {
+        "name": "AddCultivateExpMarker",
+        "token": 67153185
+      },
+      {
+        "name": "CultivateExpFeedbackMarker",
+        "token": 67153186
+      },
+      {
+        "name": "AutoLevelMarker",
+        "token": 67153187
+      },
+      {
+        "name": "AutoLevelAdvanceMarker",
+        "token": 67153188
+      },
+      {
+        "name": "CultivationSaveRequestMarker",
+        "token": 67153189
+      },
+      {
+        "name": "BREAKTHROUGH_LIFESPAN_GAIN_ATTRIBUTE_ID",
+        "token": 67153190
+      },
+      {
+        "name": "LIFESPAN_ATTRIBUTE_ID",
+        "token": 67153191
+      },
+      {
+        "name": "FULL_VALUE_EPSILON",
+        "token": 67153192
+      },
+      {
+        "name": "SyncedCurrentAttrs",
+        "token": 67153193
+      },
+      {
+        "name": "TIER5_UNLOCK_TARGET_LAYER_ID",
+        "token": 67153194
+      },
+      {
+        "name": "<ActorType>k__BackingField",
+        "token": 67153195
+      },
+      {
+        "name": "<CriticalAttributeStateVersion>k__BackingField",
+        "token": 67153196
+      },
+      {
+        "name": "<BaseAttrs>k__BackingField",
+        "token": 67153197
+      },
+      {
+        "name": "<GrowthAttrs>k__BackingField",
+        "token": 67153198
+      },
+      {
+        "name": "<ArtifactAttrs>k__BackingField",
+        "token": 67153199
+      },
+      {
+        "name": "<Talents>k__BackingField",
+        "token": 67153200
+      },
+      {
+        "name": "<Skills>k__BackingField",
+        "token": 67153201
+      },
+      {
+        "name": "<ItemModifiers>k__BackingField",
+        "token": 67153202
+      },
+      {
+        "name": "<Buffs>k__BackingField",
+        "token": 67153203
+      },
+      {
+        "name": "<PermanentAttrs>k__BackingField",
+        "token": 67153204
+      },
+      {
+        "name": "<CurrentLayerId>k__BackingField",
+        "token": 67153205
+      },
+      {
+        "name": "_CultivateExp",
+        "token": 67153206
+      },
+      {
+        "name": "_cultivateInjectBatchDepth",
+        "token": 67153207
+      },
+      {
+        "name": "_cultivateInjectBatchLayerChanged",
+        "token": 67153208
+      },
+      {
+        "name": "_cultivateInjectBatchPendingSave",
+        "token": 67153209
+      },
+      {
+        "name": "_cultivateInjectBatchPreLayerId",
+        "token": 67153210
+      },
+      {
+        "name": "<CultivateReserveExp>k__BackingField",
+        "token": 67153211
+      },
+      {
+        "name": "<PendingRealmBreakthrough>k__BackingField",
+        "token": 67153212
+      },
+      {
+        "name": "<IsPhaseBreakthroughBlocked>k__BackingField",
+        "token": 67153213
+      },
+      {
+        "name": "<IsRealmBreakthroughBlocked>k__BackingField",
+        "token": 67153214
+      },
+      {
+        "name": "<CorePassiveSlots>k__BackingField",
+        "token": 67153215
+      },
+      {
+        "name": "<ActiveCorePassiveIndex>k__BackingField",
+        "token": 67153216
+      },
+      {
+        "name": "<CorePassiveSkillConfigs>k__BackingField",
+        "token": 67153217
+      },
+      {
+        "name": "<LearnedCorePassives>k__BackingField",
+        "token": 67153218
+      },
+      {
+        "name": "<LearnedSkills>k__BackingField",
+        "token": 67153219
+      },
+      {
+        "name": "<SupportSkillSlots>k__BackingField",
+        "token": 67153220
+      },
+      {
+        "name": "<LearnedSupportSkills>k__BackingField",
+        "token": 67153221
+      },
+      {
+        "name": "<EverObtainedResonanceSkill>k__BackingField",
+        "token": 67153222
+      },
+      {
+        "name": "<DefaultDisplayMode>k__BackingField",
+        "token": 67153223
+      },
+      {
+        "name": "CultivateRestoreCurrentAttrs",
+        "token": 67153224
+      }
+    ]
+  },
+  "Game.Model.Player.Components.CombatAttrId": {
+    "type_definition_offset": 29392540,
+    "token": 33561905,
+    "field_count": 44,
+    "fields": [
+      {
+        "name": "value__",
+        "token": 67153333
+      },
+      {
+        "name": "Health",
+        "token": 67153334
+      },
+      {
+        "name": "Attack",
+        "token": 67153335
+      },
+      {
+        "name": "Defense",
+        "token": 67153336
+      },
+      {
+        "name": "MaxHealth",
+        "token": 67153337
+      },
+      {
+        "name": "Luck",
+        "token": 67153338
+      },
+      {
+        "name": "Charm",
+        "token": 67153339
+      },
+      {
+        "name": "MoveSpeed",
+        "token": 67153340
+      },
+      {
+        "name": "Lifespan",
+        "token": 67153341
+      },
+      {
+        "name": "HealthPercent",
+        "token": 67153342
+      },
+      {
+        "name": "AttackPercent",
+        "token": 67153343
+      },
+      {
+        "name": "DefensePercent",
+        "token": 67153344
+      },
+      {
+        "name": "Speed",
+        "token": 67153345
+      },
+      {
+        "name": "MaxMana",
+        "token": 67153346
+      },
+      {
+        "name": "Resilence",
+        "token": 67153347
+      },
+      {
+        "name": "ResilenceMax",
+        "token": 67153348
+      },
+      {
+        "name": "Mana",
+        "token": 67153349
+      },
+      {
+        "name": "Resonance",
+        "token": 67153350
+      },
+      {
+        "name": "MaxResonance",
+        "token": 67153351
+      },
+      {
+        "name": "Shield",
+        "token": 67153352
+      },
+      {
+        "name": "MetalDamageBonus",
+        "token": 67153353
+      },
+      {
+        "name": "WoodDamageBonus",
+        "token": 67153354
+      },
+      {
+        "name": "WaterDamageBonus",
+        "token": 67153355
+      },
+      {
+        "name": "FireDamageBonus",
+        "token": 67153356
+      },
+      {
+        "name": "EarthDamageBonus",
+        "token": 67153357
+      },
+      {
+        "name": "DamageBonus",
+        "token": 67153358
+      },
+      {
+        "name": "DamageReduction",
+        "token": 67153359
+      },
+      {
+        "name": "LifeStealEfficiency",
+        "token": 67153360
+      },
+      {
+        "name": "HealEfficiency",
+        "token": 67153361
+      },
+      {
+        "name": "ResilienceBreakEfficiency",
+        "token": 67153362
+      },
+      {
+        "name": "CritChance",
+        "token": 67153363
+      },
+      {
+        "name": "CritDamage",
+        "token": 67153364
+      },
+      {
+        "name": "CritResist",
+        "token": 67153365
+      },
+      {
+        "name": "CritDamageReduction",
+        "token": 67153366
+      },
+      {
+        "name": "HitRate",
+        "token": 67153367
+      },
+      {
+        "name": "DodgeRate",
+        "token": 67153368
+      },
+      {
+        "name": "DefenseIgnore",
+        "token": 67153369
+      },
+      {
+        "name": "DefenseIgnoreResist",
+        "token": 67153370
+      },
+      {
+        "name": "FollowUpChance",
+        "token": 67153371
+      },
+      {
+        "name": "CounterattackChance",
+        "token": 67153372
+      },
+      {
+        "name": "CounterDamageBonus",
+        "token": 67153373
+      },
+      {
+        "name": "CounterDamageResistance",
+        "token": 67153374
+      },
+      {
+        "name": "Stamina",
+        "token": 67153375
+      },
+      {
+        "name": "StaminaMax",
+        "token": 67153376
+      }
+    ]
+  },
+  "Game.Model.Player.Components.PermanentAttrEntry": {
+    "type_definition_offset": 29396324,
+    "token": 33561948,
+    "field_count": 7,
+    "fields": [
+      {
+        "name": "<SourceType>k__BackingField",
+        "token": 67153533
+      },
+      {
+        "name": "<SourceId>k__BackingField",
+        "token": 67153534
+      },
+      {
+        "name": "<InstanceId>k__BackingField",
+        "token": 67153535
+      },
+      {
+        "name": "<AttrId>k__BackingField",
+        "token": 67153536
+      },
+      {
+        "name": "<Value>k__BackingField",
+        "token": 67153537
+      },
+      {
+        "name": "<CreateTimeTicks>k__BackingField",
+        "token": 67153538
+      },
+      {
+        "name": "<Description>k__BackingField",
+        "token": 67153539
+      }
+    ]
+  },
+  "System.Collections.Generic.Dictionary`2": {
+    "type_definition_offset": 29894756,
+    "token": 33556030,
+    "field_count": 14,
+    "fields": [
+      {
+        "name": "_buckets",
+        "token": 67115775
+      },
+      {
+        "name": "_entries",
+        "token": 67115776
+      },
+      {
+        "name": "_count",
+        "token": 67115777
+      },
+      {
+        "name": "_freeList",
+        "token": 67115778
+      },
+      {
+        "name": "_freeCount",
+        "token": 67115779
+      },
+      {
+        "name": "_version",
+        "token": 67115780
+      },
+      {
+        "name": "_comparer",
+        "token": 67115781
+      },
+      {
+        "name": "_keys",
+        "token": 67115782
+      },
+      {
+        "name": "_values",
+        "token": 67115783
+      },
+      {
+        "name": "_syncRoot",
+        "token": 67115784
+      },
+      {
+        "name": "VersionName",
+        "token": 67115785
+      },
+      {
+        "name": "HashSizeName",
+        "token": 67115786
+      },
+      {
+        "name": "KeyValuePairsName",
+        "token": 67115787
+      },
+      {
+        "name": "ComparerName",
+        "token": 67115788
+      }
+    ]
+  },
+  ".Entry": {
+    "type_definition_offset": 29894228,
+    "token": 33556031,
+    "field_count": 4,
+    "fields": [
+      {
+        "name": "hashCode",
+        "token": 67115789
+      },
+      {
+        "name": "next",
+        "token": 67115790
+      },
+      {
+        "name": "key",
+        "token": 67115791
+      },
+      {
+        "name": "value",
+        "token": 67115792
+      }
+    ]
+  }
+}

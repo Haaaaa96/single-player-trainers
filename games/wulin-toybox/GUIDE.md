@@ -1,68 +1,50 @@
-# 大侠立志传多功能修改器 v1.1.0
+# Wulin ToyBox v1.1.0 — Guide
 
-本页为个人研究记录，所列结果仅限当时的测试环境；不保证在他人电脑上的兼容性或实际效果。自行取用并承担风险，不提供适配、问题反馈或使用支持，也不承诺后续更新。
+**English** | [简体中文](GUIDE_ZH.md)
 
-个人修订研究记录。基于 HaxxToyBox 及原整合包进行功能修复和界面优化，原作者与来源见文末。
+[Overview](README.md) · [Development notes](DEVLOG.md) · [Terms](../../TERMS.md)
 
-版本记录日期：2026-09-30。实测：Steam《大侠立志传》V1.2.0818 75（build 24794582），Windows 11 64 位。其它游戏版本、系统及 MOD 组合未逐一验证。
+These notes concern the plugin update recorded on 2026-09-30: game V1.2.0818 75 / Steam Build 24794582, Windows 11 x64. The UI remains in Chinese.
 
-GitHub 版本归档：https://github.com/Haaaaa96/single-player-trainers/releases/tag/wulin-toybox-v1.1.0
+## Install the plugin update
 
-## 本版修复与优化
+1. Exit the game normally. Back up the save and original HaxxToyBox.dll.
+2. If the original prerequisite environment is absent, obtain it from the [original integration post](https://bbs.3dmgame.com/thread-6489560-1-1.html) and follow its instructions. This archive is not a complete loader package.
+3. Check for BepInEx/plugins/HaxxToyBox/UniverseLib.IL2CPP.dll, the original AssetBundle, loader and other required files. Do not mix framework generations.
+4. Merge this package's BepInEx directory into the directory containing Wulin.exe, replacing only HaxxToyBox.dll at the same location. Preserve prerequisites and other MODs; do not clear folders or retain duplicate plugin copies.
+5. Launch and load the game, then press Tab. Check for HaxxToyBox v1.1.0 in the lower-left corner. To roll back, exit before restoring the backed-up DLL.
 
-- 修复人物页无法正常读取姓名、头像和属性的问题，展示 31 项人物信息；可选择当前队伍中的角色，修改基础属性。
-- 修复物品搜索，按名称跨分类查找，并支持指定数量添加；清空关键词可恢复分类列表。
-- 完善天赋搜索、添加和移除，避免重复添加同一天赋。
-- 修复武学过多时列表显示不全、升级加号被遮挡的问题，支持滚动查看、前置排序及遗忘；本次已验证 11 项普通武学显示和正常升级。
-- 优化中文字体、字号与提示排版，减少文字模糊和按钮遮挡。
-- 修复快捷键短按后卡在录入状态、按 Esc 取消却误保存的问题。
+WulinToyBox-v1.1.0-plugin.zip excludes BepInEx, .NET, UniverseLib, EnhanceGameplay and Unity libraries. Martial-art limit extensions still depend on the original EnhanceGameplay module, which is not supplied here.
 
-## 已实现的功能范围
+## Controls and inputs
 
-- 人物与队友：查看及编辑当前队伍成员的基础属性，添加、移除天赋。
-- 物品：名称搜索、跨分类查找、指定数量添加。
-- 武学：配合原 EnhanceGameplay 模块扩展武学上限，本版修复列表及操作按钮布局。
-- 辅助：金钱设置、时间暂停、战后恢复、不触发遇敌战斗、移动速度、游戏速度、恢复快捷键。
-- 送礼：开启辅助页的“添加满好感按钮（送礼页面）”，进入 NPC 送礼页后点击“满好感”。开启开关本身不会直接修改所有 NPC 的好感。
-- 能力经验倍率：对新获得的能力经验设置倍率，适用于对应能力经验；不是武学升级所需历练，也不会直接增加已有经验。
-- 成就：保留原有成就相关选项，为“解锁成就”增加二次确认。
+| Control | Use |
+| --- | --- |
+| Tab | Show/hide |
+| F1 | Recovery |
+| = / − | Increase/decrease game speed |
+| Key assignment | Change on the assistance page; Esc cancels capture |
+| Character attributes | Edit current-party characters' base values; press Enter to submit; equipment/talents may alter final game totals |
+| Percentage fields | Decimal 0–1, such as 0.01 |
+| Morality/personality fields | Integer −100–100; other fields follow displayed limits |
+| Items | Search by name across categories, confirm the result and add integer quantity 1–9999; clear the query to restore categories |
+| Money | Target total in 文, integer 0–999999999; Enter submits |
+| Ability-experience multiplier | Integer 1–1000; Enter submits; 1 restores normal gain |
 
-## 安装步骤（GitHub 插件更新包）
+Talent controls search, add and remove talents while avoiding duplicate additions. Scroll within the original martial-art list to see more entries; list controls support front ordering and forgetting. “无限武学：由扩展模块处理” is an explanatory label, not a button. Drag the movement-speed slider handle; game speed also has shortcut controls. Set 1× to restore the trainer's normal speed.
 
-本页归档 **WulinToyBox-v1.1.0-plugin.zip**，运行前提是已有原修改器前置环境。它不是完整加载器包，不包含 BepInEx、.NET、UniverseLib、EnhanceGameplay 或 Unity 库。
+Gifting assistance adds a “满好感” (Maximum affinity) button to the NPC gifting page after enabling “添加满好感按钮（送礼页面）”. Click that button on the gifting page; enabling the option alone does not change all NPCs.
 
-1. 正常退出游戏，备份存档和原 HaxxToyBox.dll。
-2. 若未安装原前置环境，先阅读[原整合帖](https://bbs.3dmgame.com/thread-6489560-1-1.html)，从原作者来源取得并按其说明安装。不要将本插件当作可直接启动的完整包。
-3. 确认游戏目录已有 `BepInEx/plugins/HaxxToyBox/UniverseLib.IL2CPP.dll`、原 AssetBundle 与加载器等必需依赖。不要混用不同代际框架。
-4. 将本包中的 `BepInEx` 目录合并到 `Wulin.exe` 所在目录，仅替换同位置的 `HaxxToyBox.dll`；保留前置文件和其它 MOD，不要清空目录或保留两份本插件。
-5. 启动游戏并读档，按 Tab 打开，左下角应显示 HaxxToyBox v1.1.0。回退时退出游戏后放回备份 DLL。
+The ability-experience multiplier affects newly earned corresponding ability experience. It is not the training resource used for martial-art upgrades and does not directly add existing experience. Max-level abilities may show no further growth.
 
-“无限武学”等扩展仍依赖原 EnhanceGameplay 模块；本插件更新包不额外提供它。未经核实的第三方依赖不在本 GitHub 包中重新分发。
+## Effects and limitations
 
-## 常用操作
+- Back up and use a separate save first, then verify changes before saving.
+- Time pause, random-encounter suppression and protagonist post-battle recovery in one ordinary encounter were historically checked. Suppression does not imply bypassing every scripted battle.
+- Teammates, gifting and experience multipliers were retained from earlier normal use; the v1.1.0 checks focused on protagonist attributes, search, talents, martial-art UI and assistance controls.
+- Initial launch or a game update may require slow initialization. This remains unresolved. If startup stays stuck, preserve generated files, exit normally and try one restart; do not repeatedly delete caches.
+- “解锁成就” (Unlock achievements) is permanent and cannot be undone by restoring a save. A second click within 10 seconds confirms; leaving the assistance page or timing out cancels. Permanent unlocking was not executed in the recorded checks.
 
-- 默认快捷键：Tab 显示/隐藏，F1 恢复，“=”加速，“-”减速。可在辅助页改键，录入时按 Esc 取消。
-- 人物属性输入后按回车提交。显示的是基础值，游戏最终面板可能叠加装备、天赋等效果。百分比填 0–1 的小数，例如 0.01；品性填 -100–100 的整数，其余字段按界面范围输入。
-- 物品数量填 1–9999 的整数。搜索结果中确认目标，再执行添加。
-- 金钱填目标总额，单位为“文”，范围 0–999999999，按回车提交；例如填 1000 是设为 1000 文。
-- 能力经验倍率填 1–1000 的整数，按回车提交，填 1 恢复正常倍率。已满级的能力不会继续显示经验增长。
-- 将鼠标移到原生武学列表内，用滚轮查看更多武学。辅助页“无限武学：由扩展模块处理”是说明文字，无需点击。
-- 移动速度使用滑条手柄拖动调整；游戏速度也可用快捷键调整，设为 1 倍恢复本修改器的正常速度。
+## Licensing
 
-## 使用提醒
-
-- 队友、送礼和能力经验倍率此前使用正常，本版保留。本轮重点回归主角属性、搜索、天赋、武学界面及辅助开关；此前使用情况与本轮实测范围分开说明。
-- 本轮已实测时间暂停、不遇敌开关，以及一次普通遭遇的主角战后恢复。不遇敌不代表能跳过所有剧情强制战斗；其它游戏版本和 MOD 组合不作通用保证。
-- 首次启动或游戏更新后初始化可能较慢，启动慢尚未彻底解决。若长时间停在启动画面，可保留生成文件、正常退出后重启一次；不要反复删除缓存。
-- “解锁成就”会永久解锁，无法靠恢复存档撤销。首次点击后须在 10 秒内再次点击确认，离开辅助页或超时会取消；本轮未执行永久解锁。
-- 建议先用单独存档试用，确认修改效果后再保存。
-
-## 原作者与来源
-
-HaxxToyBox 原作者：Haxx；公开源码仓库：neeetman/WuLinToyBoxMod，Apache-2.0。[HaxxToyBox 原始源码](https://github.com/neeetman/WuLinToyBoxMod)
-
-EnhanceGameplay：3DM 原作页作者字段为 630444540，投稿账号 gmhaxx。[EnhanceGameplay 原作页](https://mod.3dmgame.com/mod/195081)
-
-本次所据整合帖：masterZP.，2024-02-25。整合发布者与原作者分开署名。[原整合帖与前置文件来源](https://bbs.3dmgame.com/thread-6489560-1-1.html)
-
-本版只针对原有作品进行修复与优化，各组件保留原作者署名和原有许可。
+HaxxToyBox is by Haxx under Apache-2.0; EnhanceGameplay and the reference integration package have separate attribution. See the [component sources and licensing](README.md#licensing), [LICENSE](LICENSE.txt) and [NOTICE](NOTICE.txt). Preserve original dependency licenses.

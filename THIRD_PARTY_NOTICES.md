@@ -1,23 +1,29 @@
-# 第三方组件与许可
+English | [简体中文](THIRD_PARTY_NOTICES_ZH.md)
 
-原创内容的归档与使用约定不覆盖第三方许可证；请保留各组件署名与许可文本。
+# Third-party notices
 
-## 不问凡尘
+The archive terms do not replace third-party licenses. Required copyright, author and license records are preserved without adding an acknowledgements or contact section.
 
-使用 Python 3.14.7、Frida 17.7.3、PyInstaller 6.22.3 及其依赖。
+## World Apart
 
-- [完整组件说明](third_party/THIRD_PARTY_NOTICES.md)
-- [许可及版权文本](third_party/notices/)、[直接组件许可](third_party/licenses/)
-- [第三方库构建与替换说明](third_party/REBUILD.md)
-- [锁定来源及校验值](third_party/sources-lock.json)
-- [对应第三方源码材料](https://github.com/Haaaaa96/single-player-trainers/releases/tag/worldapart-v1.3-new)
+The historical artifact uses Python 3.14.7, Frida 17.7.3, PyInstaller 6.22.3 and their dependencies.
 
-第三方源码 ZIP 供开发者查看、修改或重新链接运行库；它与可执行程序归档分别保存。
+- [Component records](third_party/THIRD_PARTY_NOTICES.md)
+- [License notices](third_party/notices/) and [direct component licenses](third_party/licenses/)
+- [Dependency rebuilding and replacement notes](third_party/REBUILD.md)
+- [Pinned sources and hashes](third_party/sources-lock.json)
+- [Corresponding dependency source archive](https://github.com/Haaaaa96/single-player-trainers/releases/tag/worldapart-v1.3-new)
 
-## 吾今有世家
+Dependency sources and the trainer implementation are separate materials; publishing them does not grant redistribution rights over game assets.
 
-归档包只包含 HouseOfLegacyTrainer.dll 和 README，不附游戏代码或 BepInEx 加载器。前置框架通过 [BepInEx 官方项目](https://github.com/BepInEx/BepInEx) 获取，遵循其原有许可。
+## House of Legacy
 
-## 大侠立志传
+The plugin artifact contains the DLL and operating notes, not game code or the BepInEx loader. The public implementation needs local reference assemblies. [BepInEx](https://github.com/BepInEx/BepInEx) and its components retain their upstream licenses.
 
-HaxxToyBox 原作 Haxx / neeetman，公开源码采用 Apache-2.0；EnhanceGameplay 原作页署名 630444540 / gmhaxx，所据整合帖作者 masterZP.。完整来源、原作者与使用说明见[游戏页](games/wulin-toybox/README.md)。第三方材料的具体公开范围以该下载页为准。
+## WulinToyBox
+
+HaxxToyBox is derived from Haxx / neeetman's [WuLinToyBoxMod](https://github.com/neeetman/WuLinToyBoxMod), under Apache-2.0. [License](games/wulin-toybox/LICENSE.txt) · [Notice](games/wulin-toybox/NOTICE.txt).
+
+The earlier integration referenced masterZP.'s package and the EnhanceGameplay module attributed to 630444540 / gmhaxx. Those dependencies are not made part of the HaxxToyBox license. The public plugin package does not redistribute the loader, EnhanceGameplay, UniverseLib or Unity game libraries. Exact prerequisites remain in the [project notes](games/wulin-toybox/GUIDE.md).
+
+The helper tools under `third_party/` retain their [existing MIT license](third_party/TOOL_LICENSE.txt); this is not a blanket license for all trainer source.

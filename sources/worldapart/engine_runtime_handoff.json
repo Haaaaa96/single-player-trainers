@@ -1,0 +1,1627 @@
+[
+  {
+    "name": "Game.Model.PlayerModel",
+    "typeDef": 6894,
+    "nameIndex": 2264552,
+    "nameFileOffset": 4156952,
+    "namespaceFileOffset": 4156964,
+    "typeDefinitionFileOffset": 29341676,
+    "byval": 60197,
+    "parentType": 65418,
+    "fieldStart": 42500,
+    "fieldCount": 66,
+    "token": "0x2001aee",
+    "fields": [
+      {
+        "name": "bag",
+        "nameFileOffset": 2883539,
+        "fieldIndex": 42509,
+        "typeIndex": 43901,
+        "token": "0x400a60e"
+      },
+      {
+        "name": "talentPath",
+        "nameFileOffset": 4132756,
+        "fieldIndex": 42515,
+        "typeIndex": 66086,
+        "token": "0x400a614"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.Player.Components.TalentPathModel",
+    "typeDef": 7544,
+    "nameIndex": 2374321,
+    "nameFileOffset": 4266721,
+    "namespaceFileOffset": 4230250,
+    "typeDefinitionFileOffset": 29398876,
+    "byval": 66085,
+    "parentType": 33839,
+    "fieldStart": 44818,
+    "fieldCount": 13,
+    "token": "0x2001d78",
+    "fields": [
+      {
+        "name": "ATTRIBUTE_CHANGE_EPSILON",
+        "nameFileOffset": 4267663,
+        "fieldIndex": 44818,
+        "typeIndex": 64200,
+        "token": "0x400af13"
+      },
+      {
+        "name": "s_CombatAttrIds",
+        "nameFileOffset": 4267688,
+        "fieldIndex": 44819,
+        "typeIndex": 40185,
+        "token": "0x400af14"
+      },
+      {
+        "name": "OnChanged",
+        "nameFileOffset": 4091145,
+        "fieldIndex": 44820,
+        "typeIndex": 42003,
+        "token": "0x400af15"
+      },
+      {
+        "name": "OnNodeLearned",
+        "nameFileOffset": 4178918,
+        "fieldIndex": 44821,
+        "typeIndex": 11155,
+        "token": "0x400af16"
+      },
+      {
+        "name": "<PathPoints>k__BackingField",
+        "nameFileOffset": 4267704,
+        "fieldIndex": 44822,
+        "typeIndex": 54863,
+        "token": "0x400af17"
+      },
+      {
+        "name": "<LearnedNodeIds>k__BackingField",
+        "nameFileOffset": 4267732,
+        "fieldIndex": 44823,
+        "typeIndex": 18457,
+        "token": "0x400af18"
+      },
+      {
+        "name": "<SpiritRootPoints>k__BackingField",
+        "nameFileOffset": 4267764,
+        "fieldIndex": 44824,
+        "typeIndex": 13369,
+        "token": "0x400af19"
+      },
+      {
+        "name": "<SpiritPointRemain>k__BackingField",
+        "nameFileOffset": 4267798,
+        "fieldIndex": 44825,
+        "typeIndex": 54863,
+        "token": "0x400af1a"
+      },
+      {
+        "name": "<InitialElementId>k__BackingField",
+        "nameFileOffset": 4267833,
+        "fieldIndex": 44826,
+        "typeIndex": 54863,
+        "token": "0x400af1b"
+      },
+      {
+        "name": "<InitialLoadoutGranted>k__BackingField",
+        "nameFileOffset": 4267867,
+        "fieldIndex": 44827,
+        "typeIndex": 44493,
+        "token": "0x400af1c"
+      },
+      {
+        "name": "<HasUnreadPathPointGain>k__BackingField",
+        "nameFileOffset": 4267906,
+        "fieldIndex": 44828,
+        "typeIndex": 44493,
+        "token": "0x400af1d"
+      },
+      {
+        "name": "<HasUnreadSpiritPointGain>k__BackingField",
+        "nameFileOffset": 4267946,
+        "fieldIndex": 44829,
+        "typeIndex": 44493,
+        "token": "0x400af1e"
+      },
+      {
+        "name": "_spiritCombatEffectCache",
+        "nameFileOffset": 4267988,
+        "fieldIndex": 44830,
+        "typeIndex": 66117,
+        "token": "0x400af1f"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.Components.BagItem",
+    "typeDef": 7578,
+    "nameIndex": 1427102,
+    "nameFileOffset": 3319502,
+    "namespaceFileOffset": 4278026,
+    "typeDefinitionFileOffset": 29401868,
+    "byval": 43892,
+    "parentType": 43893,
+    "fieldStart": -1,
+    "fieldCount": 0,
+    "token": "0x2001d9b",
+    "fields": []
+  },
+  {
+    "name": "Game.Model.Components.BagItemBase",
+    "typeDef": 7579,
+    "nameIndex": 2386543,
+    "nameFileOffset": 4278943,
+    "namespaceFileOffset": 4278026,
+    "typeDefinitionFileOffset": 29401956,
+    "byval": 43893,
+    "parentType": 59052,
+    "fieldStart": 45049,
+    "fieldCount": 7,
+    "token": "0x2001d9c",
+    "fields": [
+      {
+        "name": "ItemId",
+        "nameFileOffset": 1935688,
+        "fieldIndex": 45049,
+        "typeIndex": 66629,
+        "token": "0x400affa"
+      },
+      {
+        "name": "Count",
+        "nameFileOffset": 1935695,
+        "fieldIndex": 45050,
+        "typeIndex": 54868,
+        "token": "0x400affb"
+      },
+      {
+        "name": "IsNew",
+        "nameFileOffset": 3733823,
+        "fieldIndex": 45051,
+        "typeIndex": 44498,
+        "token": "0x400affc"
+      },
+      {
+        "name": "IsEquipped",
+        "nameFileOffset": 3113173,
+        "fieldIndex": 45052,
+        "typeIndex": 44498,
+        "token": "0x400affd"
+      },
+      {
+        "name": "TimestampGet",
+        "nameFileOffset": 4279059,
+        "fieldIndex": 45053,
+        "typeIndex": 54904,
+        "token": "0x400affe"
+      },
+      {
+        "name": "Uid",
+        "nameFileOffset": 2907496,
+        "fieldIndex": 45054,
+        "typeIndex": 54904,
+        "token": "0x400afff"
+      },
+      {
+        "name": "_bagItemExprRecord",
+        "nameFileOffset": 4279072,
+        "fieldIndex": 45055,
+        "typeIndex": 61461,
+        "token": "0x400b000"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.Components.BagModel",
+    "typeDef": 7596,
+    "nameIndex": 2388356,
+    "nameFileOffset": 4280756,
+    "namespaceFileOffset": 4278026,
+    "typeDefinitionFileOffset": 29403452,
+    "byval": 43899,
+    "parentType": 33839,
+    "fieldStart": 45105,
+    "fieldCount": 15,
+    "token": "0x2001daa",
+    "fields": [
+      {
+        "name": "CURRENCY_ITEM_TYPE_VALUE",
+        "nameFileOffset": 3323419,
+        "fieldIndex": 45105,
+        "typeIndex": 54888,
+        "token": "0x400b032"
+      },
+      {
+        "name": "AddItemResolveConfigMarker",
+        "nameFileOffset": 4282045,
+        "fieldIndex": 45106,
+        "typeIndex": 60611,
+        "token": "0x400b033"
+      },
+      {
+        "name": "AddItemAutoUseMarker",
+        "nameFileOffset": 4282072,
+        "fieldIndex": 45107,
+        "typeIndex": 60611,
+        "token": "0x400b034"
+      },
+      {
+        "name": "AddItemStackMarker",
+        "nameFileOffset": 4282093,
+        "fieldIndex": 45108,
+        "typeIndex": 60611,
+        "token": "0x400b035"
+      },
+      {
+        "name": "AddItemCreateMarker",
+        "nameFileOffset": 4282112,
+        "fieldIndex": 45109,
+        "typeIndex": 60611,
+        "token": "0x400b036"
+      },
+      {
+        "name": "AddItemNotifyMarker",
+        "nameFileOffset": 4282132,
+        "fieldIndex": 45110,
+        "typeIndex": 60611,
+        "token": "0x400b037"
+      },
+      {
+        "name": "AddItemNotifyChangeEventMarker",
+        "nameFileOffset": 4282152,
+        "fieldIndex": 45111,
+        "typeIndex": 60611,
+        "token": "0x400b038"
+      },
+      {
+        "name": "AddItemNotifyFlowBridgeMarker",
+        "nameFileOffset": 4282183,
+        "fieldIndex": 45112,
+        "typeIndex": 60611,
+        "token": "0x400b039"
+      },
+      {
+        "name": "AddItemNotifyAssetFlowMarker",
+        "nameFileOffset": 4282213,
+        "fieldIndex": 45113,
+        "typeIndex": 60611,
+        "token": "0x400b03a"
+      },
+      {
+        "name": "<Items>k__BackingField",
+        "nameFileOffset": 2845929,
+        "fieldIndex": 45114,
+        "typeIndex": 27452,
+        "token": "0x400b03b"
+      },
+      {
+        "name": "m_RedDotController",
+        "nameFileOffset": 4282242,
+        "fieldIndex": 45115,
+        "typeIndex": 43908,
+        "token": "0x400b03c"
+      },
+      {
+        "name": "Filter",
+        "nameFileOffset": 3469165,
+        "fieldIndex": 45116,
+        "typeIndex": 43885,
+        "token": "0x400b03d"
+      },
+      {
+        "name": "Sorter",
+        "nameFileOffset": 4213511,
+        "fieldIndex": 45117,
+        "typeIndex": 43911,
+        "token": "0x400b03e"
+      },
+      {
+        "name": "<NextUid>k__BackingField",
+        "nameFileOffset": 4282261,
+        "fieldIndex": 45118,
+        "typeIndex": 54901,
+        "token": "0x400b03f"
+      },
+      {
+        "name": "s_ItemChangeNotifySuppressDepth",
+        "nameFileOffset": 4282286,
+        "fieldIndex": 45119,
+        "typeIndex": 54869,
+        "token": "0x400b040"
+      }
+    ]
+  },
+  {
+    "name": "System.Boolean",
+    "typeDef": 11769,
+    "nameIndex": 3087033,
+    "nameFileOffset": 4979433,
+    "namespaceFileOffset": 2996937,
+    "typeDefinitionFileOffset": 29770676,
+    "byval": 44492,
+    "parentType": 70536,
+    "fieldStart": 70333,
+    "fieldCount": 7,
+    "token": "0x20000c2",
+    "fields": [
+      {
+        "name": "m_value",
+        "nameFileOffset": 4979463,
+        "fieldIndex": 70333,
+        "typeIndex": 44503,
+        "token": "0x40002ae"
+      },
+      {
+        "name": "True",
+        "nameFileOffset": 4979471,
+        "fieldIndex": 70334,
+        "typeIndex": 54890,
+        "token": "0x40002af"
+      },
+      {
+        "name": "False",
+        "nameFileOffset": 4979476,
+        "fieldIndex": 70335,
+        "typeIndex": 54890,
+        "token": "0x40002b0"
+      },
+      {
+        "name": "TrueLiteral",
+        "nameFileOffset": 4979482,
+        "fieldIndex": 70336,
+        "typeIndex": 65484,
+        "token": "0x40002b1"
+      },
+      {
+        "name": "FalseLiteral",
+        "nameFileOffset": 4979494,
+        "fieldIndex": 70337,
+        "typeIndex": 65484,
+        "token": "0x40002b2"
+      },
+      {
+        "name": "TrueString",
+        "nameFileOffset": 4979507,
+        "fieldIndex": 70338,
+        "typeIndex": 65475,
+        "token": "0x40002b3"
+      },
+      {
+        "name": "FalseString",
+        "nameFileOffset": 4979518,
+        "fieldIndex": 70339,
+        "typeIndex": 65475,
+        "token": "0x40002b4"
+      }
+    ]
+  },
+  {
+    "name": "System.Int32",
+    "typeDef": 11837,
+    "nameIndex": 3096549,
+    "nameFileOffset": 4988949,
+    "namespaceFileOffset": 2996937,
+    "typeDefinitionFileOffset": 29776660,
+    "byval": 54862,
+    "parentType": 70536,
+    "fieldStart": 70690,
+    "fieldCount": 3,
+    "token": "0x2000106",
+    "fields": [
+      {
+        "name": "m_value",
+        "nameFileOffset": 4979463,
+        "fieldIndex": 70690,
+        "typeIndex": 54873,
+        "token": "0x4000413"
+      },
+      {
+        "name": "MaxValue",
+        "nameFileOffset": 4242245,
+        "fieldIndex": 70691,
+        "typeIndex": 54892,
+        "token": "0x4000414"
+      },
+      {
+        "name": "MinValue",
+        "nameFileOffset": 4347267,
+        "fieldIndex": 70692,
+        "typeIndex": 54892,
+        "token": "0x4000415"
+      }
+    ]
+  },
+  {
+    "name": "System.Int64",
+    "typeDef": 11838,
+    "nameIndex": 3096555,
+    "nameFileOffset": 4988955,
+    "namespaceFileOffset": 2996937,
+    "typeDefinitionFileOffset": 29776748,
+    "byval": 54900,
+    "parentType": 70536,
+    "fieldStart": 70693,
+    "fieldCount": 3,
+    "token": "0x2000107",
+    "fields": [
+      {
+        "name": "m_value",
+        "nameFileOffset": 4979463,
+        "fieldIndex": 70693,
+        "typeIndex": 54907,
+        "token": "0x4000416"
+      },
+      {
+        "name": "MaxValue",
+        "nameFileOffset": 4242245,
+        "fieldIndex": 70694,
+        "typeIndex": 54918,
+        "token": "0x4000417"
+      },
+      {
+        "name": "MinValue",
+        "nameFileOffset": 4347267,
+        "fieldIndex": 70695,
+        "typeIndex": 54918,
+        "token": "0x4000418"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.GameStore",
+    "typeDef": 7084,
+    "nameIndex": 2287878,
+    "nameFileOffset": 4180278,
+    "namespaceFileOffset": 4156964,
+    "typeDefinitionFileOffset": 29358396,
+    "byval": 51458,
+    "parentType": 12232,
+    "fieldStart": 42916,
+    "fieldCount": 13,
+    "token": "0x2001ba8",
+    "fields": [
+      {
+        "name": "AutoSlotId",
+        "nameFileOffset": 4181389,
+        "fieldIndex": 42916,
+        "typeIndex": 65486,
+        "token": "0x400a7a5"
+      },
+      {
+        "name": "ManualSlotCount",
+        "nameFileOffset": 4181400,
+        "fieldIndex": 42917,
+        "typeIndex": 54892,
+        "token": "0x400a7a6"
+      },
+      {
+        "name": "FirstManualSlotIndex",
+        "nameFileOffset": 4181416,
+        "fieldIndex": 42918,
+        "typeIndex": 54892,
+        "token": "0x400a7a7"
+      },
+      {
+        "name": "LastManualSlotIndex",
+        "nameFileOffset": 4181437,
+        "fieldIndex": 42919,
+        "typeIndex": 54892,
+        "token": "0x400a7a8"
+      },
+      {
+        "name": "FirstAutoSlotIndex",
+        "nameFileOffset": 4181457,
+        "fieldIndex": 42920,
+        "typeIndex": 54892,
+        "token": "0x400a7a9"
+      },
+      {
+        "name": "SlotsDirectoryName",
+        "nameFileOffset": 4181476,
+        "fieldIndex": 42921,
+        "typeIndex": 65483,
+        "token": "0x400a7aa"
+      },
+      {
+        "name": "AutoSlotPrefix",
+        "nameFileOffset": 4181495,
+        "fieldIndex": 42922,
+        "typeIndex": 65483,
+        "token": "0x400a7ab"
+      },
+      {
+        "name": "s_SaveToSlotMarker",
+        "nameFileOffset": 4181510,
+        "fieldIndex": 42923,
+        "typeIndex": 60611,
+        "token": "0x400a7ac"
+      },
+      {
+        "name": "s_SlotDataRevision",
+        "nameFileOffset": 4181529,
+        "fieldIndex": 42924,
+        "typeIndex": 54905,
+        "token": "0x400a7ad"
+      },
+      {
+        "name": "<ActiveSlotId>k__BackingField",
+        "nameFileOffset": 4181548,
+        "fieldIndex": 42925,
+        "typeIndex": 65459,
+        "token": "0x400a7ae"
+      },
+      {
+        "name": "_frameEndAutoSavePending",
+        "nameFileOffset": 4181578,
+        "fieldIndex": 42926,
+        "typeIndex": 44493,
+        "token": "0x400a7af"
+      },
+      {
+        "name": "_frameEndSaveCts",
+        "nameFileOffset": 4181603,
+        "fieldIndex": 42927,
+        "typeIndex": 45033,
+        "token": "0x400a7b0"
+      },
+      {
+        "name": "_lastAdvanceTime",
+        "nameFileOffset": 4181620,
+        "fieldIndex": 42928,
+        "typeIndex": 64180,
+        "token": "0x400a7b1"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.GameStoreManager",
+    "typeDef": 7087,
+    "nameIndex": 2289519,
+    "nameFileOffset": 4181919,
+    "namespaceFileOffset": 4156964,
+    "typeDefinitionFileOffset": 29358660,
+    "byval": 51462,
+    "parentType": 33450,
+    "fieldStart": 42950,
+    "fieldCount": 17,
+    "token": "0x2001bae",
+    "fields": [
+      {
+        "name": "s_TotalMarker",
+        "nameFileOffset": 2938403,
+        "fieldIndex": 42950,
+        "typeIndex": 60611,
+        "token": "0x400a7c7"
+      },
+      {
+        "name": "s_LoadStoreMarker",
+        "nameFileOffset": 4183018,
+        "fieldIndex": 42951,
+        "typeIndex": 60611,
+        "token": "0x400a7c8"
+      },
+      {
+        "name": "s_LoadSlotMarker",
+        "nameFileOffset": 4183036,
+        "fieldIndex": 42952,
+        "typeIndex": 60611,
+        "token": "0x400a7c9"
+      },
+      {
+        "name": "MaxStorageCount",
+        "nameFileOffset": 4183053,
+        "fieldIndex": 42953,
+        "typeIndex": 54892,
+        "token": "0x400a7ca"
+      },
+      {
+        "name": "MaxTombArchiveCount",
+        "nameFileOffset": 4183069,
+        "fieldIndex": 42954,
+        "typeIndex": 54892,
+        "token": "0x400a7cb"
+      },
+      {
+        "name": "TOMB_DIRECTORY_NAME",
+        "nameFileOffset": 4183089,
+        "fieldIndex": 42955,
+        "typeIndex": 65483,
+        "token": "0x400a7cc"
+      },
+      {
+        "name": "TOMB_FILE_EXTENSION",
+        "nameFileOffset": 4183109,
+        "fieldIndex": 42956,
+        "typeIndex": 65483,
+        "token": "0x400a7cd"
+      },
+      {
+        "name": "TOMB_STAGING_EXTENSION",
+        "nameFileOffset": 4183129,
+        "fieldIndex": 42957,
+        "typeIndex": 65483,
+        "token": "0x400a7ce"
+      },
+      {
+        "name": "_gameStore",
+        "nameFileOffset": 4183152,
+        "fieldIndex": 42958,
+        "typeIndex": 51459,
+        "token": "0x400a7cf"
+      },
+      {
+        "name": "_gameDifficultyUnlockProgress",
+        "nameFileOffset": 4183163,
+        "fieldIndex": 42959,
+        "typeIndex": 51308,
+        "token": "0x400a7d0"
+      },
+      {
+        "name": "_lastThrottledSaveTime",
+        "nameFileOffset": 4183193,
+        "fieldIndex": 42960,
+        "typeIndex": 64180,
+        "token": "0x400a7d1"
+      },
+      {
+        "name": "_autoSaveSuppressionDepth",
+        "nameFileOffset": 4183216,
+        "fieldIndex": 42961,
+        "typeIndex": 54863,
+        "token": "0x400a7d2"
+      },
+      {
+        "name": "<RootSavePath>k__BackingField",
+        "nameFileOffset": 4183242,
+        "fieldIndex": 42962,
+        "typeIndex": 65467,
+        "token": "0x400a7d3"
+      },
+      {
+        "name": "<SelectedStorageId>k__BackingField",
+        "nameFileOffset": 4183272,
+        "fieldIndex": 42963,
+        "typeIndex": 65459,
+        "token": "0x400a7d4"
+      },
+      {
+        "name": "<SelectedSlotId>k__BackingField",
+        "nameFileOffset": 4183307,
+        "fieldIndex": 42964,
+        "typeIndex": 65459,
+        "token": "0x400a7d5"
+      },
+      {
+        "name": "<_storeFactory>k__BackingField",
+        "nameFileOffset": 4183339,
+        "fieldIndex": 42965,
+        "typeIndex": 65408,
+        "token": "0x400a7d6"
+      },
+      {
+        "name": "_pendingNewGameDifficultyId",
+        "nameFileOffset": 4183370,
+        "fieldIndex": 42966,
+        "typeIndex": 31280,
+        "token": "0x400a7d7"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.GameWorldModel",
+    "typeDef": 7096,
+    "nameIndex": 2291364,
+    "nameFileOffset": 4183764,
+    "namespaceFileOffset": 4156964,
+    "typeDefinitionFileOffset": 29359452,
+    "byval": 51489,
+    "parentType": 41958,
+    "fieldStart": 42973,
+    "fieldCount": 20,
+    "token": "0x2001bb2",
+    "fields": [
+      {
+        "name": "<BattleSpeedDisplayLevel>k__BackingField",
+        "nameFileOffset": 4184911,
+        "fieldIndex": 42973,
+        "typeIndex": 54863,
+        "token": "0x400a7de"
+      },
+      {
+        "name": "s_TotalMarker",
+        "nameFileOffset": 2938403,
+        "fieldIndex": 42974,
+        "typeIndex": 60611,
+        "token": "0x400a7df"
+      },
+      {
+        "name": "s_RemoveMissingNpcsMarker",
+        "nameFileOffset": 4184952,
+        "fieldIndex": 42975,
+        "typeIndex": 60611,
+        "token": "0x400a7e0"
+      },
+      {
+        "name": "s_SyncCitySpacesMarker",
+        "nameFileOffset": 4184978,
+        "fieldIndex": 42976,
+        "typeIndex": 60611,
+        "token": "0x400a7e1"
+      },
+      {
+        "name": "s_RefreshWildMonstersMarker",
+        "nameFileOffset": 4185001,
+        "fieldIndex": 42977,
+        "typeIndex": 60611,
+        "token": "0x400a7e2"
+      },
+      {
+        "name": "s_PostInitMarker",
+        "nameFileOffset": 4185029,
+        "fieldIndex": 42978,
+        "typeIndex": 60611,
+        "token": "0x400a7e3"
+      },
+      {
+        "name": "s_NpcGrowthMarker",
+        "nameFileOffset": 4185046,
+        "fieldIndex": 42979,
+        "typeIndex": 60611,
+        "token": "0x400a7e4"
+      },
+      {
+        "name": "MAX_SPACE_POI_SEARCH_DEPTH",
+        "nameFileOffset": 4185064,
+        "fieldIndex": 42980,
+        "typeIndex": 54888,
+        "token": "0x400a7e5"
+      },
+      {
+        "name": "<PlayerModel>k__BackingField",
+        "nameFileOffset": 4185091,
+        "fieldIndex": 42981,
+        "typeIndex": 60198,
+        "token": "0x400a7e6"
+      },
+      {
+        "name": "<CurrentSavedSpaceUuid>k__BackingField",
+        "nameFileOffset": 4185120,
+        "fieldIndex": 42982,
+        "typeIndex": 64741,
+        "token": "0x400a7e7"
+      },
+      {
+        "name": "<CurrentGameTime>k__BackingField",
+        "nameFileOffset": 4185159,
+        "fieldIndex": 42983,
+        "typeIndex": 51471,
+        "token": "0x400a7e8"
+      },
+      {
+        "name": "<Spaces>k__BackingField",
+        "nameFileOffset": 4185192,
+        "fieldIndex": 42984,
+        "typeIndex": 12666,
+        "token": "0x400a7e9"
+      },
+      {
+        "name": "<NpcModels>k__BackingField",
+        "nameFileOffset": 4185216,
+        "fieldIndex": 42985,
+        "typeIndex": 12659,
+        "token": "0x400a7ea"
+      },
+      {
+        "name": "<ResidentSpaceUuids>k__BackingField",
+        "nameFileOffset": 4185243,
+        "fieldIndex": 42986,
+        "typeIndex": 12677,
+        "token": "0x400a7eb"
+      },
+      {
+        "name": "<StaticNpcIds>k__BackingField",
+        "nameFileOffset": 4185279,
+        "fieldIndex": 42987,
+        "typeIndex": 12675,
+        "token": "0x400a7ec"
+      },
+      {
+        "name": "<LimitedGameplayStates>k__BackingField",
+        "nameFileOffset": 4185309,
+        "fieldIndex": 42988,
+        "typeIndex": 13390,
+        "token": "0x400a7ed"
+      },
+      {
+        "name": "<TrackedLimitedGameplayId>k__BackingField",
+        "nameFileOffset": 4185348,
+        "fieldIndex": 42989,
+        "typeIndex": 31458,
+        "token": "0x400a7ee"
+      },
+      {
+        "name": "<ThirdTierDrawn>k__BackingField",
+        "nameFileOffset": 4185390,
+        "fieldIndex": 42990,
+        "typeIndex": 44493,
+        "token": "0x400a7ef"
+      },
+      {
+        "name": "<WorldSeed>k__BackingField",
+        "nameFileOffset": 4185422,
+        "fieldIndex": 42991,
+        "typeIndex": 54863,
+        "token": "0x400a7f0"
+      },
+      {
+        "name": "<KilledNpcPassiveEventRecords>k__BackingField",
+        "nameFileOffset": 4185449,
+        "fieldIndex": 42992,
+        "typeIndex": 28136,
+        "token": "0x400a7f1"
+      }
+    ]
+  },
+  {
+    "name": "SimpleSave.StoredEntity",
+    "typeDef": 29315,
+    "nameIndex": 5231197,
+    "nameFileOffset": 7123597,
+    "namespaceFileOffset": 7121926,
+    "typeDefinitionFileOffset": 31314724,
+    "byval": 65418,
+    "parentType": 59052,
+    "fieldStart": 142223,
+    "fieldCount": 2,
+    "token": "0x2000015",
+    "fields": [
+      {
+        "name": "<eid>k__BackingField",
+        "nameFileOffset": 7123841,
+        "fieldIndex": 142223,
+        "typeIndex": 49309,
+        "token": "0x4000037"
+      },
+      {
+        "name": "_componentFieldsCache",
+        "nameFileOffset": 7123862,
+        "fieldIndex": 142224,
+        "typeIndex": 12679,
+        "token": "0x4000038"
+      }
+    ]
+  },
+  {
+    "name": "LubanDatas.Tables",
+    "typeDef": 673,
+    "nameIndex": 83580,
+    "nameFileOffset": 1975980,
+    "namespaceFileOffset": 1927141,
+    "typeDefinitionFileOffset": 28794228,
+    "byval": 66010,
+    "parentType": 59052,
+    "fieldStart": 2047,
+    "fieldCount": 242,
+    "token": "0x20002a2",
+    "fields": [
+      {
+        "name": "Current",
+        "nameFileOffset": 1981219,
+        "fieldIndex": 2047,
+        "typeIndex": 66013,
+        "token": "0x4000800"
+      },
+      {
+        "name": "<TbItemType>k__BackingField",
+        "nameFileOffset": 1983551,
+        "fieldIndex": 2116,
+        "typeIndex": 66636,
+        "token": "0x4000845"
+      },
+      {
+        "name": "<TbItem>k__BackingField",
+        "nameFileOffset": 1983639,
+        "fieldIndex": 2119,
+        "typeIndex": 66626,
+        "token": "0x4000848"
+      }
+    ]
+  },
+  {
+    "name": "LubanDatas.TbItem",
+    "typeDef": 919,
+    "nameIndex": 98346,
+    "nameFileOffset": 1990746,
+    "namespaceFileOffset": 1927141,
+    "typeDefinitionFileOffset": 28815876,
+    "byval": 66625,
+    "parentType": 59052,
+    "fieldStart": 2780,
+    "fieldCount": 3,
+    "token": "0x2000397",
+    "fields": [
+      {
+        "name": "_dataMap",
+        "nameFileOffset": 1994179,
+        "fieldIndex": 2780,
+        "typeIndex": 14183,
+        "token": "0x4000add"
+      },
+      {
+        "name": "_dataList",
+        "nameFileOffset": 1994188,
+        "fieldIndex": 2781,
+        "typeIndex": 28108,
+        "token": "0x4000ade"
+      },
+      {
+        "name": "_overrides",
+        "nameFileOffset": 1937686,
+        "fieldIndex": 2782,
+        "typeIndex": 26855,
+        "token": "0x4000adf"
+      }
+    ]
+  },
+  {
+    "name": "LubanDatas.TbItemType",
+    "typeDef": 922,
+    "nameIndex": 98309,
+    "nameFileOffset": 1990709,
+    "namespaceFileOffset": 1927141,
+    "typeDefinitionFileOffset": 28816140,
+    "byval": 66635,
+    "parentType": 59052,
+    "fieldStart": 2786,
+    "fieldCount": 3,
+    "token": "0x200039a",
+    "fields": [
+      {
+        "name": "_dataMap",
+        "nameFileOffset": 1994179,
+        "fieldIndex": 2786,
+        "typeIndex": 14191,
+        "token": "0x4000ae3"
+      },
+      {
+        "name": "_dataList",
+        "nameFileOffset": 1994188,
+        "fieldIndex": 2787,
+        "typeIndex": 28110,
+        "token": "0x4000ae4"
+      },
+      {
+        "name": "_overrides",
+        "nameFileOffset": 1937686,
+        "fieldIndex": 2788,
+        "typeIndex": 26857,
+        "token": "0x4000ae5"
+      }
+    ]
+  },
+  {
+    "name": "LubanDatas.data.Item",
+    "typeDef": 1614,
+    "nameIndex": 2288,
+    "nameFileOffset": 1894688,
+    "namespaceFileOffset": 2304491,
+    "typeDefinitionFileOffset": 28877036,
+    "byval": 55255,
+    "parentType": 44192,
+    "fieldStart": 5516,
+    "fieldCount": 35,
+    "token": "0x200064d",
+    "fields": [
+      {
+        "name": "<id>k__BackingField",
+        "nameFileOffset": 1975858,
+        "fieldIndex": 5516,
+        "typeIndex": 66628,
+        "token": "0x400158d"
+      },
+      {
+        "name": "<itemName>k__BackingField",
+        "nameFileOffset": 2416913,
+        "fieldIndex": 5517,
+        "typeIndex": 55706,
+        "token": "0x400158e"
+      },
+      {
+        "name": "<itemDesc>k__BackingField",
+        "nameFileOffset": 2416939,
+        "fieldIndex": 5518,
+        "typeIndex": 55706,
+        "token": "0x400158f"
+      },
+      {
+        "name": "<itemIcon>k__BackingField",
+        "nameFileOffset": 2416965,
+        "fieldIndex": 5519,
+        "typeIndex": 65459,
+        "token": "0x4001590"
+      },
+      {
+        "name": "<itemIconMax>k__BackingField",
+        "nameFileOffset": 2416991,
+        "fieldIndex": 5520,
+        "typeIndex": 65459,
+        "token": "0x4001591"
+      },
+      {
+        "name": "<itemIconMini>k__BackingField",
+        "nameFileOffset": 2417020,
+        "fieldIndex": 5521,
+        "typeIndex": 65459,
+        "token": "0x4001592"
+      },
+      {
+        "name": "<sourceRoutes>k__BackingField",
+        "nameFileOffset": 2417050,
+        "fieldIndex": 5522,
+        "typeIndex": 29145,
+        "token": "0x4001593"
+      },
+      {
+        "name": "<itemType>k__BackingField",
+        "nameFileOffset": 2417080,
+        "fieldIndex": 5523,
+        "typeIndex": 66638,
+        "token": "0x4001594"
+      },
+      {
+        "name": "<quality>k__BackingField",
+        "nameFileOffset": 2404215,
+        "fieldIndex": 5524,
+        "typeIndex": 54863,
+        "token": "0x4001595"
+      },
+      {
+        "name": "<isGetNew>k__BackingField",
+        "nameFileOffset": 2417106,
+        "fieldIndex": 5525,
+        "typeIndex": 44493,
+        "token": "0x4001596"
+      },
+      {
+        "name": "<canDiscard>k__BackingField",
+        "nameFileOffset": 2417132,
+        "fieldIndex": 5526,
+        "typeIndex": 44493,
+        "token": "0x4001597"
+      },
+      {
+        "name": "<canUse>k__BackingField",
+        "nameFileOffset": 2417160,
+        "fieldIndex": 5527,
+        "typeIndex": 44493,
+        "token": "0x4001598"
+      },
+      {
+        "name": "<isUseConfirm>k__BackingField",
+        "nameFileOffset": 2417184,
+        "fieldIndex": 5528,
+        "typeIndex": 44493,
+        "token": "0x4001599"
+      },
+      {
+        "name": "<autoUse>k__BackingField",
+        "nameFileOffset": 2417214,
+        "fieldIndex": 5529,
+        "typeIndex": 31174,
+        "token": "0x400159a"
+      },
+      {
+        "name": "<useEffectId>k__BackingField",
+        "nameFileOffset": 2417239,
+        "fieldIndex": 5530,
+        "typeIndex": 31455,
+        "token": "0x400159b"
+      },
+      {
+        "name": "<canBatchUse>k__BackingField",
+        "nameFileOffset": 2417268,
+        "fieldIndex": 5531,
+        "typeIndex": 44493,
+        "token": "0x400159c"
+      },
+      {
+        "name": "<maxCntPerGrid>k__BackingField",
+        "nameFileOffset": 2417297,
+        "fieldIndex": 5532,
+        "typeIndex": 54863,
+        "token": "0x400159d"
+      },
+      {
+        "name": "<sortId>k__BackingField",
+        "nameFileOffset": 2417328,
+        "fieldIndex": 5533,
+        "typeIndex": 54863,
+        "token": "0x400159e"
+      },
+      {
+        "name": "<price>k__BackingField",
+        "nameFileOffset": 2417352,
+        "fieldIndex": 5534,
+        "typeIndex": 54863,
+        "token": "0x400159f"
+      },
+      {
+        "name": "<canGift>k__BackingField",
+        "nameFileOffset": 2417375,
+        "fieldIndex": 5535,
+        "typeIndex": 44493,
+        "token": "0x40015a0"
+      },
+      {
+        "name": "<priceGiftSend>k__BackingField",
+        "nameFileOffset": 2417400,
+        "fieldIndex": 5536,
+        "typeIndex": 54863,
+        "token": "0x40015a1"
+      },
+      {
+        "name": "<canDeal>k__BackingField",
+        "nameFileOffset": 2417431,
+        "fieldIndex": 5537,
+        "typeIndex": 44493,
+        "token": "0x40015a2"
+      },
+      {
+        "name": "<saleFixRatio>k__BackingField",
+        "nameFileOffset": 2417456,
+        "fieldIndex": 5538,
+        "typeIndex": 31378,
+        "token": "0x40015a3"
+      },
+      {
+        "name": "<cultivateRealm>k__BackingField",
+        "nameFileOffset": 2417486,
+        "fieldIndex": 5539,
+        "typeIndex": 66463,
+        "token": "0x40015a4"
+      },
+      {
+        "name": "<canDropOnFall>k__BackingField",
+        "nameFileOffset": 2417518,
+        "fieldIndex": 5540,
+        "typeIndex": 44493,
+        "token": "0x40015a5"
+      },
+      {
+        "name": "<minDropCount>k__BackingField",
+        "nameFileOffset": 2321644,
+        "fieldIndex": 5541,
+        "typeIndex": 54863,
+        "token": "0x40015a6"
+      },
+      {
+        "name": "<maxDropCount>k__BackingField",
+        "nameFileOffset": 2321614,
+        "fieldIndex": 5542,
+        "typeIndex": 54863,
+        "token": "0x40015a7"
+      },
+      {
+        "name": "<getToastStyle>k__BackingField",
+        "nameFileOffset": 2417549,
+        "fieldIndex": 5543,
+        "typeIndex": 55263,
+        "token": "0x40015a8"
+      },
+      {
+        "name": "<steal_id>k__BackingField",
+        "nameFileOffset": 2417580,
+        "fieldIndex": 5544,
+        "typeIndex": 31554,
+        "token": "0x40015a9"
+      },
+      {
+        "name": "<can_consign>k__BackingField",
+        "nameFileOffset": 2417606,
+        "fieldIndex": 5545,
+        "typeIndex": 44493,
+        "token": "0x40015aa"
+      },
+      {
+        "name": "<canDemand>k__BackingField",
+        "nameFileOffset": 2417635,
+        "fieldIndex": 5546,
+        "typeIndex": 44493,
+        "token": "0x40015ab"
+      },
+      {
+        "name": "<required_cultivation>k__BackingField",
+        "nameFileOffset": 2417662,
+        "fieldIndex": 5547,
+        "typeIndex": 54863,
+        "token": "0x40015ac"
+      },
+      {
+        "name": "<intimacy_deduction>k__BackingField",
+        "nameFileOffset": 2417700,
+        "fieldIndex": 5548,
+        "typeIndex": 54863,
+        "token": "0x40015ad"
+      },
+      {
+        "name": "<use_strong_reveal_vfx>k__BackingField",
+        "nameFileOffset": 2417736,
+        "fieldIndex": 5549,
+        "typeIndex": 44493,
+        "token": "0x40015ae"
+      },
+      {
+        "name": "__ID__",
+        "nameFileOffset": 1936539,
+        "fieldIndex": 5550,
+        "typeIndex": 54892,
+        "token": "0x40015af"
+      }
+    ]
+  },
+  {
+    "name": "LubanDatas.data.ItemType",
+    "typeDef": 1616,
+    "nameIndex": 526087,
+    "nameFileOffset": 2418487,
+    "namespaceFileOffset": 2304491,
+    "typeDefinitionFileOffset": 28877212,
+    "byval": 55289,
+    "parentType": 44192,
+    "fieldStart": 5557,
+    "fieldCount": 7,
+    "token": "0x2000650",
+    "fields": [
+      {
+        "name": "<id>k__BackingField",
+        "nameFileOffset": 1975858,
+        "fieldIndex": 5557,
+        "typeIndex": 66638,
+        "token": "0x40015b6"
+      },
+      {
+        "name": "<bagType>k__BackingField",
+        "nameFileOffset": 2418644,
+        "fieldIndex": 5558,
+        "typeIndex": 66363,
+        "token": "0x40015b7"
+      },
+      {
+        "name": "<typeName>k__BackingField",
+        "nameFileOffset": 2319911,
+        "fieldIndex": 5559,
+        "typeIndex": 55706,
+        "token": "0x40015b8"
+      },
+      {
+        "name": "<hideInBag>k__BackingField",
+        "nameFileOffset": 2418669,
+        "fieldIndex": 5560,
+        "typeIndex": 44493,
+        "token": "0x40015b9"
+      },
+      {
+        "name": "<hideInDropInfo>k__BackingField",
+        "nameFileOffset": 2418696,
+        "fieldIndex": 5561,
+        "typeIndex": 44493,
+        "token": "0x40015ba"
+      },
+      {
+        "name": "<UsageRestriction>k__BackingField",
+        "nameFileOffset": 2418728,
+        "fieldIndex": 5562,
+        "typeIndex": 54863,
+        "token": "0x40015bb"
+      },
+      {
+        "name": "__ID__",
+        "nameFileOffset": 1936539,
+        "fieldIndex": 5563,
+        "typeIndex": 54892,
+        "token": "0x40015bc"
+      }
+    ]
+  },
+  {
+    "name": "LubanDatas.L10nText",
+    "typeDef": 543,
+    "nameIndex": 62083,
+    "nameFileOffset": 1954483,
+    "namespaceFileOffset": 1927141,
+    "typeDefinitionFileOffset": 28782788,
+    "byval": 55705,
+    "parentType": 70536,
+    "fieldStart": 1372,
+    "fieldCount": 1,
+    "token": "0x2000220",
+    "fields": [
+      {
+        "name": "<Languages>k__BackingField",
+        "nameFileOffset": 1954560,
+        "fieldIndex": 1372,
+        "typeIndex": 13891,
+        "token": "0x400055d"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.Components.ArtifactBagItem",
+    "typeDef": 7576,
+    "nameIndex": 2385732,
+    "nameFileOffset": 4278132,
+    "namespaceFileOffset": 4278026,
+    "typeDefinitionFileOffset": 29401692,
+    "byval": 42903,
+    "parentType": 43892,
+    "fieldStart": 45037,
+    "fieldCount": 10,
+    "token": "0x2001d99",
+    "fields": [
+      {
+        "name": "<SkillType>k__BackingField",
+        "nameFileOffset": 4278518,
+        "fieldIndex": 45037,
+        "typeIndex": 54863,
+        "token": "0x400afee"
+      },
+      {
+        "name": "<SkillId>k__BackingField",
+        "nameFileOffset": 2973635,
+        "fieldIndex": 45038,
+        "typeIndex": 54863,
+        "token": "0x400afef"
+      },
+      {
+        "name": "<Effects>k__BackingField",
+        "nameFileOffset": 2857581,
+        "fieldIndex": 45039,
+        "typeIndex": 27373,
+        "token": "0x400aff0"
+      },
+      {
+        "name": "<IsAlchemyCrafted>k__BackingField",
+        "nameFileOffset": 4278545,
+        "fieldIndex": 45040,
+        "typeIndex": 44493,
+        "token": "0x400aff1"
+      },
+      {
+        "name": "<AlchemyPrototypeItemId>k__BackingField",
+        "nameFileOffset": 4278579,
+        "fieldIndex": 45041,
+        "typeIndex": 54863,
+        "token": "0x400aff2"
+      },
+      {
+        "name": "<AlchemyTierId>k__BackingField",
+        "nameFileOffset": 4278619,
+        "fieldIndex": 45042,
+        "typeIndex": 54863,
+        "token": "0x400aff3"
+      },
+      {
+        "name": "<AlchemyScore>k__BackingField",
+        "nameFileOffset": 4278650,
+        "fieldIndex": 45043,
+        "typeIndex": 54863,
+        "token": "0x400aff4"
+      },
+      {
+        "name": "<AlchemyAttributes>k__BackingField",
+        "nameFileOffset": 4278680,
+        "fieldIndex": 45044,
+        "typeIndex": 27371,
+        "token": "0x400aff5"
+      },
+      {
+        "name": "<AlchemyAffixes>k__BackingField",
+        "nameFileOffset": 4278715,
+        "fieldIndex": 45045,
+        "typeIndex": 27369,
+        "token": "0x400aff6"
+      },
+      {
+        "name": "<PendingAlchemyAffixes>k__BackingField",
+        "nameFileOffset": 4278747,
+        "fieldIndex": 45046,
+        "typeIndex": 27369,
+        "token": "0x400aff7"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.Components.GambleStoneBagItem",
+    "typeDef": 7580,
+    "nameIndex": 2386717,
+    "nameFileOffset": 4279117,
+    "namespaceFileOffset": 4278026,
+    "typeDefinitionFileOffset": 29402044,
+    "byval": 51206,
+    "parentType": 43892,
+    "fieldStart": 45056,
+    "fieldCount": 1,
+    "token": "0x2001d9d",
+    "fields": [
+      {
+        "name": "<StoneInstanceId>k__BackingField",
+        "nameFileOffset": 4279176,
+        "fieldIndex": 45056,
+        "typeIndex": 54901,
+        "token": "0x400b001"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.Components.GongfaBagItem",
+    "typeDef": 7582,
+    "nameIndex": 2386847,
+    "nameFileOffset": 4279247,
+    "namespaceFileOffset": 4278026,
+    "typeDefinitionFileOffset": 29402220,
+    "byval": 51948,
+    "parentType": 43892,
+    "fieldStart": 45061,
+    "fieldCount": 5,
+    "token": "0x2001d9f",
+    "fields": [
+      {
+        "name": "LearnTargetType",
+        "nameFileOffset": 4279393,
+        "fieldIndex": 45061,
+        "typeIndex": 51953,
+        "token": "0x400b006"
+      },
+      {
+        "name": "LearnTargetId",
+        "nameFileOffset": 4279409,
+        "fieldIndex": 45062,
+        "typeIndex": 54868,
+        "token": "0x400b007"
+      },
+      {
+        "name": "LearnTargetLevel",
+        "nameFileOffset": 4279423,
+        "fieldIndex": 45063,
+        "typeIndex": 54868,
+        "token": "0x400b008"
+      },
+      {
+        "name": "LearnTargetSkillTier",
+        "nameFileOffset": 4279440,
+        "fieldIndex": 45064,
+        "typeIndex": 64303,
+        "token": "0x400b009"
+      },
+      {
+        "name": "ComprehendValue",
+        "nameFileOffset": 4279461,
+        "fieldIndex": 45065,
+        "typeIndex": 54868,
+        "token": "0x400b00a"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.Components.NpcBagItem",
+    "typeDef": 7583,
+    "nameIndex": 2387077,
+    "nameFileOffset": 4279477,
+    "namespaceFileOffset": 4278026,
+    "typeDefinitionFileOffset": 29402308,
+    "byval": 58462,
+    "parentType": 43893,
+    "fieldStart": 45066,
+    "fieldCount": 5,
+    "token": "0x2001da0",
+    "fields": [
+      {
+        "name": "<DealCondId>k__BackingField",
+        "nameFileOffset": 4279700,
+        "fieldIndex": 45066,
+        "typeIndex": 31407,
+        "token": "0x400b00b"
+      },
+      {
+        "name": "<DealCondFailMsgId>k__BackingField",
+        "nameFileOffset": 4279728,
+        "fieldIndex": 45067,
+        "typeIndex": 31474,
+        "token": "0x400b00c"
+      },
+      {
+        "name": "<PreviewRequiredRealmId>k__BackingField",
+        "nameFileOffset": 4279763,
+        "fieldIndex": 45068,
+        "typeIndex": 31415,
+        "token": "0x400b00d"
+      },
+      {
+        "name": "<PreviewRequiredPositionId>k__BackingField",
+        "nameFileOffset": 4279803,
+        "fieldIndex": 45069,
+        "typeIndex": 31532,
+        "token": "0x400b00e"
+      },
+      {
+        "name": "<Purpose>k__BackingField",
+        "nameFileOffset": 4279846,
+        "fieldIndex": 45070,
+        "typeIndex": 58464,
+        "token": "0x400b00f"
+      }
+    ]
+  },
+  {
+    "name": "Game.Model.Components.PillBagItem",
+    "typeDef": 7588,
+    "nameIndex": 2387751,
+    "nameFileOffset": 4280151,
+    "namespaceFileOffset": 4278026,
+    "typeDefinitionFileOffset": 29402748,
+    "byval": 59943,
+    "parentType": 43892,
+    "fieldStart": 45089,
+    "fieldCount": 8,
+    "token": "0x2001da5",
+    "fields": [
+      {
+        "name": "<RecipeId>k__BackingField",
+        "nameFileOffset": 3729717,
+        "fieldIndex": 45089,
+        "typeIndex": 54863,
+        "token": "0x400b022"
+      },
+      {
+        "name": "<Grade>k__BackingField",
+        "nameFileOffset": 3961825,
+        "fieldIndex": 45090,
+        "typeIndex": 59963,
+        "token": "0x400b023"
+      },
+      {
+        "name": "<Scope>k__BackingField",
+        "nameFileOffset": 4280426,
+        "fieldIndex": 45091,
+        "typeIndex": 59982,
+        "token": "0x400b024"
+      },
+      {
+        "name": "<MainEffects>k__BackingField",
+        "nameFileOffset": 3962254,
+        "fieldIndex": 45092,
+        "typeIndex": 28509,
+        "token": "0x400b025"
+      },
+      {
+        "name": "<MainDuration>k__BackingField",
+        "nameFileOffset": 4280449,
+        "fieldIndex": 45093,
+        "typeIndex": 54863,
+        "token": "0x400b026"
+      },
+      {
+        "name": "<SubEffects>k__BackingField",
+        "nameFileOffset": 4280479,
+        "fieldIndex": 45094,
+        "typeIndex": 28523,
+        "token": "0x400b027"
+      },
+      {
+        "name": "<ToxinValue>k__BackingField",
+        "nameFileOffset": 4280507,
+        "fieldIndex": 45095,
+        "typeIndex": 54863,
+        "token": "0x400b028"
+      },
+      {
+        "name": "<HerbComposition>k__BackingField",
+        "nameFileOffset": 4280535,
+        "fieldIndex": 45096,
+        "typeIndex": 28073,
+        "token": "0x400b029"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6017 @@
+{
+  "metadata": {
+    "Game.UIManager": {
+      "type_definition_offset": 28993284,
+      "token": 33557356,
+      "field_count": 49,
+      "fields": [
+        {
+          "name": "UI_LAYER_WIDTH",
+          "token": 67124314
+        },
+        {
+          "name": "UI_LAYER_HEIGHT",
+          "token": 67124315
+        },
+        {
+          "name": "AssetReadyMarker",
+          "token": 67124316
+        },
+        {
+          "name": "s_CloseInternalMarker",
+          "token": 67124317
+        },
+        {
+          "name": "s_CloseSortingMarker",
+          "token": 67124318
+        },
+        {
+          "name": "s_UnregisterInputOrderMarker",
+          "token": 67124319
+        },
+        {
+          "name": "s_UnregisterCanvasMarker",
+          "token": 67124320
+        },
+        {
+          "name": "s_CloseVisibilityMarker",
+          "token": 67124321
+        },
+        {
+          "name": "s_CloseWillHideMarker",
+          "token": 67124322
+        },
+        {
+          "name": "s_CloseDidHideMarker",
+          "token": 67124323
+        },
+        {
+          "name": "s_CloseEventMarker",
+          "token": 67124324
+        },
+        {
+          "name": "s_RetryDeferredOpensMarker",
+          "token": 67124325
+        },
+        {
+          "name": "InstantiateCompletedMarker",
+          "token": 67124326
+        },
+        {
+          "name": "<IsWorldUiTeardown>k__BackingField",
+          "token": 67124327
+        },
+        {
+          "name": "m_IsShuttingDown",
+          "token": 67124328
+        },
+        {
+          "name": "_panelConfigs",
+          "token": 67124329
+        },
+        {
+          "name": "_panelRegistry",
+          "token": 67124330
+        },
+        {
+          "name": "_historyStack",
+          "token": 67124331
+        },
+        {
+          "name": "_visibilitySystem",
+          "token": 67124332
+        },
+        {
+          "name": "_popupManager",
+          "token": 67124333
+        },
+        {
+          "name": "_backHandler",
+          "token": 67124334
+        },
+        {
+          "name": "_guards",
+          "token": 67124335
+        },
+        {
+          "name": "_deferredOpens",
+          "token": 67124336
+        },
+        {
+          "name": "_isRetryingDeferred",
+          "token": 67124337
+        },
+        {
+          "name": "dict_Panels",
+          "token": 67124338
+        },
+        {
+          "name": "uiRoot",
+          "token": 67124339
+        },
+        {
+          "name": "_panels",
+          "token": 67124340
+        },
+        {
+          "name": "rootCanvas",
+          "token": 67124341
+        },
+        {
+          "name": "uiCamera",
+          "token": 67124342
+        },
+        {
+          "name": "uiPath",
+          "token": 67124343
+        },
+        {
+          "name": "layerRoots",
+          "token": 67124344
+        },
+        {
+          "name": "_layerCanvasGroups",
+          "token": 67124345
+        },
+        {
+          "name": "uiDict",
+          "token": 67124346
+        },
+        {
+          "name": "uiStack",
+          "token": 67124347
+        },
+        {
+          "name": "_commonFunctionRegistry",
+          "token": 67124348
+        },
+        {
+          "name": "_canvasSortingManager",
+          "token": 67124349
+        },
+        {
+          "name": "m_RenderingSuspension",
+          "token": 67124350
+        },
+        {
+          "name": "m_UICameraEnabledBeforeGlobalHide",
+          "token": 67124351
+        },
+        {
+          "name": "_panelBlockers",
+          "token": 67124352
+        },
+        {
+          "name": "LAYER_COUNT",
+          "token": 67124353
+        },
+        {
+          "name": "_layerState",
+          "token": 67124354
+        },
+        {
+          "name": "_newLayerStateCache",
+          "token": 67124355
+        },
+        {
+          "name": "_forceHiddenLayers",
+          "token": 67124356
+        },
+        {
+          "name": "_uiSceneRoot",
+          "token": 67124357
+        },
+        {
+          "name": "_sceneLayerRoots",
+          "token": 67124358
+        },
+        {
+          "name": "_sceneLayerCanvasGroups",
+          "token": 67124359
+        },
+        {
+          "name": "_sceneModeCache",
+          "token": 67124360
+        },
+        {
+          "name": "uiIntroductions",
+          "token": 67124361
+        },
+        {
+          "name": "_cachedUILayer",
+          "token": 67124362
+        }
+      ]
+    },
+    "Game.BaseUI": {
+      "type_definition_offset": 29007716,
+      "token": 33557531,
+      "field_count": 34,
+      "fields": [
+        {
+          "name": "s_HideMarker",
+          "token": 67125214
+        },
+        {
+          "name": "s_HideInputScopeMarker",
+          "token": 67125215
+        },
+        {
+          "name": "s_HideAudioMarker",
+          "token": 67125216
+        },
+        {
+          "name": "s_HideCallbackMarker",
+          "token": 67125217
+        },
+        {
+          "name": "s_HideParticlesMarker",
+          "token": 67125218
+        },
+        {
+          "name": "s_HideInputLayersMarker",
+          "token": 67125219
+        },
+        {
+          "name": "s_HideGuideMarker",
+          "token": 67125220
+        },
+        {
+          "name": "s_VisualHideMarker",
+          "token": 67125221
+        },
+        {
+          "name": "_audioConfig",
+          "token": 67125222
+        },
+        {
+          "name": "<UILayer>k__BackingField",
+          "token": 67125223
+        },
+        {
+          "name": "<ThisPanelId>k__BackingField",
+          "token": 67125224
+        },
+        {
+          "name": "<IsRootPanel>k__BackingField",
+          "token": 67125225
+        },
+        {
+          "name": "<IsAttachedAsChild>k__BackingField",
+          "token": 67125226
+        },
+        {
+          "name": "isShowing",
+          "token": 67125227
+        },
+        {
+          "name": "isInitialized",
+          "token": 67125228
+        },
+        {
+          "name": "_redDotSubscriptions",
+          "token": 67125229
+        },
+        {
+          "name": "_uiReddotViewModels",
+          "token": 67125230
+        },
+        {
+          "name": "<IsInVisualHide>k__BackingField",
+          "token": 67125231
+        },
+        {
+          "name": "bgmLayer",
+          "token": 67125232
+        },
+        {
+          "name": "_inputScopeHost",
+          "token": 67125233
+        },
+        {
+          "name": "_overlayNativeParticleAutoPresenter",
+          "token": 67125234
+        },
+        {
+          "name": "_overlayNativeParticleAutoScanCompleted",
+          "token": 67125235
+        },
+        {
+          "name": "_animation",
+          "token": 67125236
+        },
+        {
+          "name": "_exitAnimCo",
+          "token": 67125237
+        },
+        {
+          "name": "delayedShow",
+          "token": 67125238
+        },
+        {
+          "name": "_destroyOnVisualHide",
+          "token": 67125239
+        },
+        {
+          "name": "<IsInteractable>k__BackingField",
+          "token": 67125240
+        },
+        {
+          "name": "<IsPaused>k__BackingField",
+          "token": 67125241
+        },
+        {
+          "name": "<InputGroup>k__BackingField",
+          "token": 67125242
+        },
+        {
+          "name": "<RuntimeOwner>k__BackingField",
+          "token": 67125243
+        },
+        {
+          "name": "<HandleToken>k__BackingField",
+          "token": 67125244
+        },
+        {
+          "name": "childPanels",
+          "token": 67125245
+        },
+        {
+          "name": "lastUpdate01Time",
+          "token": 67125246
+        },
+        {
+          "name": "_hotkeyButtonEntries",
+          "token": 67125247
+        }
+      ]
+    },
+    "Game.PanelRegistry": {
+      "type_definition_offset": 29009124,
+      "token": 33557548,
+      "field_count": 2,
+      "fields": [
+        {
+          "name": "_instances",
+          "token": 67125310
+        },
+        {
+          "name": "_layerIndex",
+          "token": 67125311
+        }
+      ]
+    },
+    "System.Collections.Generic.List`1": {
+      "type_definition_offset": 29896604,
+      "token": 33556056,
+      "field_count": 6,
+      "fields": [
+        {
+          "name": "DefaultCapacity",
+          "token": 67115810
+        },
+        {
+          "name": "_items",
+          "token": 67115811
+        },
+        {
+          "name": "_size",
+          "token": 67115812
+        },
+        {
+          "name": "_version",
+          "token": 67115813
+        },
+        {
+          "name": "_syncRoot",
+          "token": 67115814
+        },
+        {
+          "name": "s_emptyArray",
+          "token": 67115815
+        }
+      ]
+    },
+    "System.Collections.Generic.Dictionary`2": {
+      "type_definition_offset": 29894756,
+      "token": 33556030,
+      "field_count": 14,
+      "fields": [
+        {
+          "name": "_buckets",
+          "token": 67115775
+        },
+        {
+          "name": "_entries",
+          "token": 67115776
+        },
+        {
+          "name": "_count",
+          "token": 67115777
+        },
+        {
+          "name": "_freeList",
+          "token": 67115778
+        },
+        {
+          "name": "_freeCount",
+          "token": 67115779
+        },
+        {
+          "name": "_version",
+          "token": 67115780
+        },
+        {
+          "name": "_comparer",
+          "token": 67115781
+        },
+        {
+          "name": "_keys",
+          "token": 67115782
+        },
+        {
+          "name": "_values",
+          "token": 67115783
+        },
+        {
+          "name": "_syncRoot",
+          "token": 67115784
+        },
+        {
+          "name": "VersionName",
+          "token": 67115785
+        },
+        {
+          "name": "HashSizeName",
+          "token": 67115786
+        },
+        {
+          "name": "KeyValuePairsName",
+          "token": 67115787
+        },
+        {
+          "name": "ComparerName",
+          "token": 67115788
+        }
+      ]
+    },
+    ".Entry": {
+      "type_definition_offset": 29894228,
+      "token": 33556031,
+      "field_count": 4,
+      "fields": [
+        {
+          "name": "hashCode",
+          "token": 67115789
+        },
+        {
+          "name": "next",
+          "token": 67115790
+        },
+        {
+          "name": "key",
+          "token": 67115791
+        },
+        {
+          "name": "value",
+          "token": 67115792
+        }
+      ]
+    },
+    "LubanDatas.Tables": {
+      "type_definition_offset": 28794228,
+      "token": 33555106,
+      "field_count": 242,
+      "fields": [
+        {
+          "name": "Current",
+          "token": 67110912
+        },
+        {
+          "name": "<TbAttribute>k__BackingField",
+          "token": 67110913
+        },
+        {
+          "name": "<TbConstants>k__BackingField",
+          "token": 67110914
+        },
+        {
+          "name": "<TbCombatConstants>k__BackingField",
+          "token": 67110915
+        },
+        {
+          "name": "<TbMessageTip>k__BackingField",
+          "token": 67110916
+        },
+        {
+          "name": "<TbCommunityLink>k__BackingField",
+          "token": 67110917
+        },
+        {
+          "name": "<TbEaStatusConfig>k__BackingField",
+          "token": 67110918
+        },
+        {
+          "name": "<TbMainMenuButton>k__BackingField",
+          "token": 67110919
+        },
+        {
+          "name": "<TbMiniGameResonance>k__BackingField",
+          "token": 67110920
+        },
+        {
+          "name": "<TbMiniGameDualCultivate>k__BackingField",
+          "token": 67110921
+        },
+        {
+          "name": "<TbDualCultivateConsentRule>k__BackingField",
+          "token": 67110922
+        },
+        {
+          "name": "<TbMiniGameShooting>k__BackingField",
+          "token": 67110923
+        },
+        {
+          "name": "<TbMiniGameMedical>k__BackingField",
+          "token": 67110924
+        },
+        {
+          "name": "<TbGambleStoneRawTemplate>k__BackingField",
+          "token": 67110925
+        },
+        {
+          "name": "<TbGambleStoneFleshQuality>k__BackingField",
+          "token": 67110926
+        },
+        {
+          "name": "<TbGambleStoneBloom>k__BackingField",
+          "token": 67110927
+        },
+        {
+          "name": "<TbGambleStoneCrack>k__BackingField",
+          "token": 67110928
+        },
+        {
+          "name": "<TbGambleStoneEmbryoExchangeBand>k__BackingField",
+          "token": 67110929
+        },
+        {
+          "name": "<TbMiniGameSpotFind>k__BackingField",
+          "token": 67110930
+        },
+        {
+          "name": "<TbMiniGameSpotMirror>k__BackingField",
+          "token": 67110931
+        },
+        {
+          "name": "<TbSpace>k__BackingField",
+          "token": 67110932
+        },
+        {
+          "name": "<TbSpaceBgm>k__BackingField",
+          "token": 67110933
+        },
+        {
+          "name": "<TbSceneRecover>k__BackingField",
+          "token": 67110934
+        },
+        {
+          "name": "<TbSceneExploration>k__BackingField",
+          "token": 67110935
+        },
+        {
+          "name": "<TbSpaceInteractUI>k__BackingField",
+          "token": 67110936
+        },
+        {
+          "name": "<TbSpaceActiveEvent>k__BackingField",
+          "token": 67110937
+        },
+        {
+          "name": "<TbRandomEventTeleportEntry>k__BackingField",
+          "token": 67110938
+        },
+        {
+          "name": "<TbRandomEventEnding>k__BackingField",
+          "token": 67110939
+        },
+        {
+          "name": "<TbSpaceInteractArea>k__BackingField",
+          "token": 67110940
+        },
+        {
+          "name": "<TbSpaceDaoCompanionNpc>k__BackingField",
+          "token": 67110941
+        },
+        {
+          "name": "<TbDialogueInteractArea>k__BackingField",
+          "token": 67110942
+        },
+        {
+          "name": "<TbSceneHarvest>k__BackingField",
+          "token": 67110943
+        },
+        {
+          "name": "<TbInitialSpaceNpc>k__BackingField",
+          "token": 67110944
+        },
+        {
+          "name": "<TbThirdTierNpcInitRule>k__BackingField",
+          "token": 67110945
+        },
+        {
+          "name": "<TbInteractAction>k__BackingField",
+          "token": 67110946
+        },
+        {
+          "name": "<TbSkill>k__BackingField",
+          "token": 67110947
+        },
+        {
+          "name": "<TbSkillLevel>k__BackingField",
+          "token": 67110948
+        },
+        {
+          "name": "<TbSkillShow>k__BackingField",
+          "token": 67110949
+        },
+        {
+          "name": "<TbGameTimeMonth>k__BackingField",
+          "token": 67110950
+        },
+        {
+          "name": "<TbGameTimeUnit>k__BackingField",
+          "token": 67110951
+        },
+        {
+          "name": "<TbGameCondition>k__BackingField",
+          "token": 67110952
+        },
+        {
+          "name": "<TbStrConfig>k__BackingField",
+          "token": 67110953
+        },
+        {
+          "name": "<TbNpcBaseCfg>k__BackingField",
+          "token": 67110954
+        },
+        {
+          "name": "<TbNpcGrowRule>k__BackingField",
+          "token": 67110955
+        },
+        {
+          "name": "<TbNpcAvgPortrait>k__BackingField",
+          "token": 67110956
+        },
+        {
+          "name": "<TbNpcInteract>k__BackingField",
+          "token": 67110957
+        },
+        {
+          "name": "<TbNpcPersonality>k__BackingField",
+          "token": 67110958
+        },
+        {
+          "name": "<TbNpcRace>k__BackingField",
+          "token": 67110959
+        },
+        {
+          "name": "<TbNpcCharmDesc>k__BackingField",
+          "token": 67110960
+        },
+        {
+          "name": "<TbNpcReputeDesc>k__BackingField",
+          "token": 67110961
+        },
+        {
+          "name": "<TbNpcEvilDesc>k__BackingField",
+          "token": 67110962
+        },
+        {
+          "name": "<TbEvilAttackProbability>k__BackingField",
+          "token": 67110963
+        },
+        {
+          "name": "<TbNpcHeavenDesc>k__BackingField",
+          "token": 67110964
+        },
+        {
+          "name": "<TbNpcPersuadeTopic>k__BackingField",
+          "token": 67110965
+        },
+        {
+          "name": "<TbNpcTopicChat>k__BackingField",
+          "token": 67110966
+        },
+        {
+          "name": "<TbNpcAiPersona>k__BackingField",
+          "token": 67110967
+        },
+        {
+          "name": "<TbAiPromptTemplate>k__BackingField",
+          "token": 67110968
+        },
+        {
+          "name": "<TbNpcEpisode>k__BackingField",
+          "token": 67110969
+        },
+        {
+          "name": "<TbCombatAttributeTemplate>k__BackingField",
+          "token": 67110970
+        },
+        {
+          "name": "<TbSect>k__BackingField",
+          "token": 67110971
+        },
+        {
+          "name": "<TbSectPosition>k__BackingField",
+          "token": 67110972
+        },
+        {
+          "name": "<TbSectTaskPool>k__BackingField",
+          "token": 67110973
+        },
+        {
+          "name": "<TbSectPurchaseOrder>k__BackingField",
+          "token": 67110974
+        },
+        {
+          "name": "<TbSectPositionQuest>k__BackingField",
+          "token": 67110975
+        },
+        {
+          "name": "<TbSectIntroSkill>k__BackingField",
+          "token": 67110976
+        },
+        {
+          "name": "<TbSectIntroMember>k__BackingField",
+          "token": 67110977
+        },
+        {
+          "name": "<TbElement>k__BackingField",
+          "token": 67110978
+        },
+        {
+          "name": "<TbTestExpr>k__BackingField",
+          "token": 67110979
+        },
+        {
+          "name": "<TbConditionExpr>k__BackingField",
+          "token": 67110980
+        },
+        {
+          "name": "<TbItemType>k__BackingField",
+          "token": 67110981
+        },
+        {
+          "name": "<TbBagType>k__BackingField",
+          "token": 67110982
+        },
+        {
+          "name": "<TbItemUseEffect>k__BackingField",
+          "token": 67110983
+        },
+        {
+          "name": "<TbItem>k__BackingField",
+          "token": 67110984
+        },
+        {
+          "name": "<TbRewardDrop>k__BackingField",
+          "token": 67110985
+        },
+        {
+          "name": "<TbBuff>k__BackingField",
+          "token": 67110986
+        },
+        {
+          "name": "<TbTalent>k__BackingField",
+          "token": 67110987
+        },
+        {
+          "name": "<TbPassiveSkill>k__BackingField",
+          "token": 67110988
+        },
+        {
+          "name": "<TbDivinationSignProbability>k__BackingField",
+          "token": 67110989
+        },
+        {
+          "name": "<TbDivinationAffix>k__BackingField",
+          "token": 67110990
+        },
+        {
+          "name": "<TbDivinationGradeAffix>k__BackingField",
+          "token": 67110991
+        },
+        {
+          "name": "<TbDivinationGrowth>k__BackingField",
+          "token": 67110992
+        },
+        {
+          "name": "<TbMonster>k__BackingField",
+          "token": 67110993
+        },
+        {
+          "name": "<TbMonsterTeam>k__BackingField",
+          "token": 67110994
+        },
+        {
+          "name": "<TbQuest>k__BackingField",
+          "token": 67110995
+        },
+        {
+          "name": "<TbQuestType>k__BackingField",
+          "token": 67110996
+        },
+        {
+          "name": "<TbTrackTarget>k__BackingField",
+          "token": 67110997
+        },
+        {
+          "name": "<TbLimitedGameplayInteract>k__BackingField",
+          "token": 67110998
+        },
+        {
+          "name": "<TbLimitedGameplayTipText>k__BackingField",
+          "token": 67110999
+        },
+        {
+          "name": "<TbLoadingStyle>k__BackingField",
+          "token": 67111000
+        },
+        {
+          "name": "<TbLoadingAnim>k__BackingField",
+          "token": 67111001
+        },
+        {
+          "name": "<TbDialogue>k__BackingField",
+          "token": 67111002
+        },
+        {
+          "name": "<TbSubtitleText>k__BackingField",
+          "token": 67111003
+        },
+        {
+          "name": "<TbDialogueToast>k__BackingField",
+          "token": 67111004
+        },
+        {
+          "name": "<TbQteRule>k__BackingField",
+          "token": 67111005
+        },
+        {
+          "name": "<TbQteClick>k__BackingField",
+          "token": 67111006
+        },
+        {
+          "name": "<TbQteMash>k__BackingField",
+          "token": 67111007
+        },
+        {
+          "name": "<TbQteHold>k__BackingField",
+          "token": 67111008
+        },
+        {
+          "name": "<TbNpcCombatPropShow>k__BackingField",
+          "token": 67111009
+        },
+        {
+          "name": "<TbNpcBasePropShow>k__BackingField",
+          "token": 67111010
+        },
+        {
+          "name": "<TbMapPoi>k__BackingField",
+          "token": 67111011
+        },
+        {
+          "name": "<TbMap>k__BackingField",
+          "token": 67111012
+        },
+        {
+          "name": "<TbMapFog>k__BackingField",
+          "token": 67111013
+        },
+        {
+          "name": "<TbHotel>k__BackingField",
+          "token": 67111014
+        },
+        {
+          "name": "<TbNpcBagRule>k__BackingField",
+          "token": 67111015
+        },
+        {
+          "name": "<TbNpcItemDemandHoldTemplate>k__BackingField",
+          "token": 67111016
+        },
+        {
+          "name": "<TbNpcGiftSendRule>k__BackingField",
+          "token": 67111017
+        },
+        {
+          "name": "<TbNpcItemDemandRule>k__BackingField",
+          "token": 67111018
+        },
+        {
+          "name": "<TbNpcInteractAffinityCostRule>k__BackingField",
+          "token": 67111019
+        },
+        {
+          "name": "<TbIntimacyFixedConst>k__BackingField",
+          "token": 67111020
+        },
+        {
+          "name": "<TbSpaceEnterAction>k__BackingField",
+          "token": 67111021
+        },
+        {
+          "name": "<TbStoryChase>k__BackingField",
+          "token": 67111022
+        },
+        {
+          "name": "<TbUIPanel>k__BackingField",
+          "token": 67111023
+        },
+        {
+          "name": "<TbMapPoiPos>k__BackingField",
+          "token": 67111024
+        },
+        {
+          "name": "<TbGameActionFlow>k__BackingField",
+          "token": 67111025
+        },
+        {
+          "name": "<TbChuanYinTemplate>k__BackingField",
+          "token": 67111026
+        },
+        {
+          "name": "<TbNpcChuanYinExtractConfig>k__BackingField",
+          "token": 67111027
+        },
+        {
+          "name": "<TbChuanYinTemplateGroup>k__BackingField",
+          "token": 67111028
+        },
+        {
+          "name": "<TbNpcRelationNet>k__BackingField",
+          "token": 67111029
+        },
+        {
+          "name": "<TbNpcRelationLabel>k__BackingField",
+          "token": 67111030
+        },
+        {
+          "name": "<TbNpcRelationBehaviorTreeConfig>k__BackingField",
+          "token": 67111031
+        },
+        {
+          "name": "<TbNpcRelationInteractionRule>k__BackingField",
+          "token": 67111032
+        },
+        {
+          "name": "<TbKeyMap>k__BackingField",
+          "token": 67111033
+        },
+        {
+          "name": "<TbKeybindingGroup>k__BackingField",
+          "token": 67111034
+        },
+        {
+          "name": "<TbUIIntro>k__BackingField",
+          "token": 67111035
+        },
+        {
+          "name": "<TbGirls>k__BackingField",
+          "token": 67111036
+        },
+        {
+          "name": "<TbStage>k__BackingField",
+          "token": 67111037
+        },
+        {
+          "name": "<TbGirlsLevel>k__BackingField",
+          "token": 67111038
+        },
+        {
+          "name": "<TbGirlsInteractionItem>k__BackingField",
+          "token": 67111039
+        },
+        {
+          "name": "<TbGirlsInteractionText>k__BackingField",
+          "token": 67111040
+        },
+        {
+          "name": "<TbCultivateLayer>k__BackingField",
+          "token": 67111041
+        },
+        {
+          "name": "<TbCultivatePhase>k__BackingField",
+          "token": 67111042
+        },
+        {
+          "name": "<TbCultivateRealm>k__BackingField",
+          "token": 67111043
+        },
+        {
+          "name": "<TbDifficultyLevel>k__BackingField",
+          "token": 67111044
+        },
+        {
+          "name": "<TbSourceRoute>k__BackingField",
+          "token": 67111045
+        },
+        {
+          "name": "<TbNpcInteractGameEntry>k__BackingField",
+          "token": 67111046
+        },
+        {
+          "name": "<TbInteractAttribute>k__BackingField",
+          "token": 67111047
+        },
+        {
+          "name": "<TbExploreLevelOutGameEffect>k__BackingField",
+          "token": 67111048
+        },
+        {
+          "name": "<TbNpcIntimacy>k__BackingField",
+          "token": 67111049
+        },
+        {
+          "name": "<TbNpcIntimacyStageRewardMapping>k__BackingField",
+          "token": 67111050
+        },
+        {
+          "name": "<TbMerchantDealIntimacy>k__BackingField",
+          "token": 67111051
+        },
+        {
+          "name": "<TbRandomNameMaleZH>k__BackingField",
+          "token": 67111052
+        },
+        {
+          "name": "<TbRandomNameFemaleZH>k__BackingField",
+          "token": 67111053
+        },
+        {
+          "name": "<TbGuideGroup>k__BackingField",
+          "token": 67111054
+        },
+        {
+          "name": "<TbGuideStep>k__BackingField",
+          "token": 67111055
+        },
+        {
+          "name": "<TbSpecialBattle>k__BackingField",
+          "token": 67111056
+        },
+        {
+          "name": "<TbBattleType>k__BackingField",
+          "token": 67111057
+        },
+        {
+          "name": "<TbAlchemyPrototype>k__BackingField",
+          "token": 67111058
+        },
+        {
+          "name": "<TbAlchemyLayout>k__BackingField",
+          "token": 67111059
+        },
+        {
+          "name": "<TbAlchemyEssence>k__BackingField",
+          "token": 67111060
+        },
+        {
+          "name": "<TbAlchemyTalent>k__BackingField",
+          "token": 67111061
+        },
+        {
+          "name": "<TbAlchemyLevel>k__BackingField",
+          "token": 67111062
+        },
+        {
+          "name": "<TbAlchemyLineBonus>k__BackingField",
+          "token": 67111063
+        },
+        {
+          "name": "<TbAlchemyMaterial>k__BackingField",
+          "token": 67111064
+        },
+        {
+          "name": "<TbPresetEquipment>k__BackingField",
+          "token": 67111065
+        },
+        {
+          "name": "<TbAlchemyScoreTier>k__BackingField",
+          "token": 67111066
+        },
+        {
+          "name": "<TbAlchemyArtifactAffixPool>k__BackingField",
+          "token": 67111067
+        },
+        {
+          "name": "<TbAlchemyWashPity>k__BackingField",
+          "token": 67111068
+        },
+        {
+          "name": "<TbPillRecipe>k__BackingField",
+          "token": 67111069
+        },
+        {
+          "name": "<TbPillEffect>k__BackingField",
+          "token": 67111070
+        },
+        {
+          "name": "<TbPillHerb>k__BackingField",
+          "token": 67111071
+        },
+        {
+          "name": "<TbPillExplorePoi>k__BackingField",
+          "token": 67111072
+        },
+        {
+          "name": "<TbPillPortal>k__BackingField",
+          "token": 67111073
+        },
+        {
+          "name": "<TbPillFurnace>k__BackingField",
+          "token": 67111074
+        },
+        {
+          "name": "<TbPillLevel>k__BackingField",
+          "token": 67111075
+        },
+        {
+          "name": "<TbPillTalent>k__BackingField",
+          "token": 67111076
+        },
+        {
+          "name": "<TbSignatureArtifact>k__BackingField",
+          "token": 67111077
+        },
+        {
+          "name": "<TbAuctionVenue>k__BackingField",
+          "token": 67111078
+        },
+        {
+          "name": "<TbAuctionNpcPullRule>k__BackingField",
+          "token": 67111079
+        },
+        {
+          "name": "<TbAuctionItemPool>k__BackingField",
+          "token": 67111080
+        },
+        {
+          "name": "<TbAuctionItemIntro>k__BackingField",
+          "token": 67111081
+        },
+        {
+          "name": "<TbAuctionStrategy>k__BackingField",
+          "token": 67111082
+        },
+        {
+          "name": "<TbAuctionTactic>k__BackingField",
+          "token": 67111083
+        },
+        {
+          "name": "<TbAuctionDialogue>k__BackingField",
+          "token": 67111084
+        },
+        {
+          "name": "<TbAuctionQteSequenceKey>k__BackingField",
+          "token": 67111085
+        },
+        {
+          "name": "<TbAuctionQteRoulette>k__BackingField",
+          "token": 67111086
+        },
+        {
+          "name": "<TbAuctionBluffTierEffect>k__BackingField",
+          "token": 67111087
+        },
+        {
+          "name": "<TbAuctionChestConfig>k__BackingField",
+          "token": 67111088
+        },
+        {
+          "name": "<TbAuctionChestRiddle>k__BackingField",
+          "token": 67111089
+        },
+        {
+          "name": "<TbAuctionCinematicResource>k__BackingField",
+          "token": 67111090
+        },
+        {
+          "name": "<TbAuctionBidVideoResource>k__BackingField",
+          "token": 67111091
+        },
+        {
+          "name": "<TbTournament>k__BackingField",
+          "token": 67111092
+        },
+        {
+          "name": "<TbTournamentReward>k__BackingField",
+          "token": 67111093
+        },
+        {
+          "name": "<TbQuickBattleRule>k__BackingField",
+          "token": 67111094
+        },
+        {
+          "name": "<TbTournamentCommanderDialogue>k__BackingField",
+          "token": 67111095
+        },
+        {
+          "name": "<TbTournamentNpcRule>k__BackingField",
+          "token": 67111096
+        },
+        {
+          "name": "<TbTournamentAttrTemplate>k__BackingField",
+          "token": 67111097
+        },
+        {
+          "name": "<TbTalentPath>k__BackingField",
+          "token": 67111098
+        },
+        {
+          "name": "<TbTalentPathNode>k__BackingField",
+          "token": 67111099
+        },
+        {
+          "name": "<TbNewbieElementLoadout>k__BackingField",
+          "token": 67111100
+        },
+        {
+          "name": "<TbStageDungeonMap>k__BackingField",
+          "token": 67111101
+        },
+        {
+          "name": "<TbRogueDungeonGroup>k__BackingField",
+          "token": 67111102
+        },
+        {
+          "name": "<TbRogueDungeonMap>k__BackingField",
+          "token": 67111103
+        },
+        {
+          "name": "<TbRogueBuff>k__BackingField",
+          "token": 67111104
+        },
+        {
+          "name": "<TbRogueBuffPool>k__BackingField",
+          "token": 67111105
+        },
+        {
+          "name": "<TbRogueBuffCombo>k__BackingField",
+          "token": 67111106
+        },
+        {
+          "name": "<TbRogueEmptyChestAppear>k__BackingField",
+          "token": 67111107
+        },
+        {
+          "name": "<TbRogueEmptyChestPool>k__BackingField",
+          "token": 67111108
+        },
+        {
+          "name": "<TbPuzzle>k__BackingField",
+          "token": 67111109
+        },
+        {
+          "name": "<TbPuzzlePoint>k__BackingField",
+          "token": 67111110
+        },
+        {
+          "name": "<TbWorldBossDungeon>k__BackingField",
+          "token": 67111111
+        },
+        {
+          "name": "<TbWorldBossPhase>k__BackingField",
+          "token": 67111112
+        },
+        {
+          "name": "<TbWorldBossTuning>k__BackingField",
+          "token": 67111113
+        },
+        {
+          "name": "<TbWorldBossRewardTier>k__BackingField",
+          "token": 67111114
+        },
+        {
+          "name": "<TbWorldBossDiploEvent>k__BackingField",
+          "token": 67111115
+        },
+        {
+          "name": "<TbNpcTeachGuide>k__BackingField",
+          "token": 67111116
+        },
+        {
+          "name": "<TbSkillTeachGuide>k__BackingField",
+          "token": 67111117
+        },
+        {
+          "name": "<TbPassiveSkillTeachGuide>k__BackingField",
+          "token": 67111118
+        },
+        {
+          "name": "<TbNpcSparKillBattleConfig>k__BackingField",
+          "token": 67111119
+        },
+        {
+          "name": "<TbNpcSparKillDialogueIndex>k__BackingField",
+          "token": 67111120
+        },
+        {
+          "name": "<TbTimeFlowMarker>k__BackingField",
+          "token": 67111121
+        },
+        {
+          "name": "<TbInnMessageTemplate>k__BackingField",
+          "token": 67111122
+        },
+        {
+          "name": "<TbReputationChangeRule>k__BackingField",
+          "token": 67111123
+        },
+        {
+          "name": "<TbReputationTitle>k__BackingField",
+          "token": 67111124
+        },
+        {
+          "name": "<TbReputationInteractLimit>k__BackingField",
+          "token": 67111125
+        },
+        {
+          "name": "<TbCommissionForce>k__BackingField",
+          "token": 67111126
+        },
+        {
+          "name": "<TbCommissionForceTaskRefresh>k__BackingField",
+          "token": 67111127
+        },
+        {
+          "name": "<TbCommissionTaskMain>k__BackingField",
+          "token": 67111128
+        },
+        {
+          "name": "<TbCommissionTaskPool>k__BackingField",
+          "token": 67111129
+        },
+        {
+          "name": "<TbBountyTaskEntry>k__BackingField",
+          "token": 67111130
+        },
+        {
+          "name": "<TbTown>k__BackingField",
+          "token": 67111131
+        },
+        {
+          "name": "<TbCityReputation>k__BackingField",
+          "token": 67111132
+        },
+        {
+          "name": "<TbNpcCityReputation>k__BackingField",
+          "token": 67111133
+        },
+        {
+          "name": "<TbSectReputation>k__BackingField",
+          "token": 67111134
+        },
+        {
+          "name": "<TbSteal>k__BackingField",
+          "token": 67111135
+        },
+        {
+          "name": "<TbStealSpiritStone>k__BackingField",
+          "token": 67111136
+        },
+        {
+          "name": "<TbStealQteRealmAdjust>k__BackingField",
+          "token": 67111137
+        },
+        {
+          "name": "<TbStealQteDifficulty>k__BackingField",
+          "token": 67111138
+        },
+        {
+          "name": "<TbStealDialogIndex>k__BackingField",
+          "token": 67111139
+        },
+        {
+          "name": "<TbNpcInteractionGroup>k__BackingField",
+          "token": 67111140
+        },
+        {
+          "name": "<TbTagStyle>k__BackingField",
+          "token": 67111141
+        },
+        {
+          "name": "<TbNpcMood>k__BackingField",
+          "token": 67111142
+        },
+        {
+          "name": "<TbSystemInteractGroup>k__BackingField",
+          "token": 67111143
+        },
+        {
+          "name": "<TbNpcBehaviorType>k__BackingField",
+          "token": 67111144
+        },
+        {
+          "name": "<TbNpcBehaviorSpaceMapping>k__BackingField",
+          "token": 67111145
+        },
+        {
+          "name": "<TbNpcChatBubble>k__BackingField",
+          "token": 67111146
+        },
+        {
+          "name": "<TbMiniGameLearnGongfa>k__BackingField",
+          "token": 67111147
+        },
+        {
+          "name": "<TbLearnGongfaBallConfig>k__BackingField",
+          "token": 67111148
+        },
+        {
+          "name": "<TbBaguaClue>k__BackingField",
+          "token": 67111149
+        },
+        {
+          "name": "<TbBaguaClueAcquire>k__BackingField",
+          "token": 67111150
+        },
+        {
+          "name": "<TbBaguaDrinkDialogue>k__BackingField",
+          "token": 67111151
+        },
+        {
+          "name": "<TbAchievement>k__BackingField",
+          "token": 67111152
+        },
+        {
+          "name": "<TbShootingPetDialoguePreset>k__BackingField",
+          "token": 67111153
+        }
+      ]
+    },
+    "Game.ConfigManager": {
+      "type_definition_offset": 28936172,
+      "token": 33556717,
+      "field_count": 11,
+      "fields": [
+        {
+          "name": "<Tables>k__BackingField",
+          "token": 67121595
+        },
+        {
+          "name": "<ImagineDatas>k__BackingField",
+          "token": 67121596
+        },
+        {
+          "name": "<ImagineUnit>k__BackingField",
+          "token": 67121597
+        },
+        {
+          "name": "<PostProcessedConfigs>k__BackingField",
+          "token": 67121598
+        },
+        {
+          "name": "assetHandleWraps",
+          "token": 67121599
+        },
+        {
+          "name": "tableAssetHandleByName",
+          "token": 67121600
+        },
+        {
+          "name": "tableBytes",
+          "token": 67121601
+        },
+        {
+          "name": "tableFileWriteTicks",
+          "token": 67121602
+        },
+        {
+          "name": "baseTables",
+          "token": 67121603
+        },
+        {
+          "name": "activeOverrideFlags",
+          "token": 67121604
+        },
+        {
+          "name": "tablesBuiltWithMods",
+          "token": 67121605
+        }
+      ]
+    },
+    "LubanDatas.TbConstants": {
+      "type_definition_offset": 28805844,
+      "token": 33555238,
+      "field_count": 2,
+      "fields": [
+        {
+          "name": "_data",
+          "token": 67111421
+        },
+        {
+          "name": "_overrides",
+          "token": 67111422
+        }
+      ]
+    },
+    "LubanDatas.data.Constants": {
+      "type_definition_offset": 28869556,
+      "token": 33555959,
+      "field_count": 709,
+      "fields": [
+        {
+          "name": "<movie_name_length_limit>k__BackingField",
+          "token": 67113207
+        },
+        {
+          "name": "<line_length_limit>k__BackingField",
+          "token": 67113208
+        },
+        {
+          "name": "<cut_reaction_time>k__BackingField",
+          "token": 67113209
+        },
+        {
+          "name": "<shouting_cd>k__BackingField",
+          "token": 67113210
+        },
+        {
+          "name": "<cut_addtion>k__BackingField",
+          "token": 67113211
+        },
+        {
+          "name": "<makeup_shot_max_scale>k__BackingField",
+          "token": 67113212
+        },
+        {
+          "name": "<official_mark_last>k__BackingField",
+          "token": 67113213
+        },
+        {
+          "name": "<show_box_office_duration>k__BackingField",
+          "token": 67113214
+        },
+        {
+          "name": "<atmosphere_times>k__BackingField",
+          "token": 67113215
+        },
+        {
+          "name": "<max_player_name_length>k__BackingField",
+          "token": 67113216
+        },
+        {
+          "name": "<default_player_name>k__BackingField",
+          "token": 67113217
+        },
+        {
+          "name": "<max_company_name_length>k__BackingField",
+          "token": 67113218
+        },
+        {
+          "name": "<default_company_name>k__BackingField",
+          "token": 67113219
+        },
+        {
+          "name": "<makeup_shot_face_ratio>k__BackingField",
+          "token": 67113220
+        },
+        {
+          "name": "<shot_demand>k__BackingField",
+          "token": 67113221
+        },
+        {
+          "name": "<MinigameHP>k__BackingField",
+          "token": 67113222
+        },
+        {
+          "name": "<SCENE_NPC_CNT_MAX>k__BackingField",
+          "token": 67113223
+        },
+        {
+          "name": "<initialSpaceId>k__BackingField",
+          "token": 67113224
+        },
+        {
+          "name": "<chatSummaryTriggerCount>k__BackingField",
+          "token": 67113225
+        },
+        {
+          "name": "<chatMessagesPreserveCount>k__BackingField",
+          "token": 67113226
+        },
+        {
+          "name": "<SECOND_DELAY_ON_DIALOGUE_END>k__BackingField",
+          "token": 67113227
+        },
+        {
+          "name": "<SECOND_DELAY_ON_PERSUADE_END>k__BackingField",
+          "token": 67113228
+        },
+        {
+          "name": "<run_rate_up_percent>k__BackingField",
+          "token": 67113229
+        },
+        {
+          "name": "<ITEM_TOP_BAR_BAG_PANEL>k__BackingField",
+          "token": 67113230
+        },
+        {
+          "name": "<SPIRIT_STONE_ITEM_ID>k__BackingField",
+          "token": 67113231
+        },
+        {
+          "name": "<CITY_CONTRIBUTION_ITEM_ID>k__BackingField",
+          "token": 67113232
+        },
+        {
+          "name": "<CURRENCY_DISPLAY_MAX_COUNT>k__BackingField",
+          "token": 67113233
+        },
+        {
+          "name": "<DIALOGUE_HISTORY_SHOW_CNT_SMALL>k__BackingField",
+          "token": 67113234
+        },
+        {
+          "name": "<DIALOGUE_HIDE_HUD_NO_CLICK>k__BackingField",
+          "token": 67113235
+        },
+        {
+          "name": "<DIALOGUE_AVG_AUTO_INTERVAL>k__BackingField",
+          "token": 67113236
+        },
+        {
+          "name": "<DIALOGUE_TEXT_TYPING_RATIO>k__BackingField",
+          "token": 67113237
+        },
+        {
+          "name": "<DIALOGUE_BLACK_SCREEN_DURATION>k__BackingField",
+          "token": 67113238
+        },
+        {
+          "name": "<AVG_DIALOG_BLUR_PARAMS>k__BackingField",
+          "token": 67113239
+        },
+        {
+          "name": "<QTE_HIDE_SCALE_END>k__BackingField",
+          "token": 67113240
+        },
+        {
+          "name": "<QTE_HIDE_ANIM_TIME>k__BackingField",
+          "token": 67113241
+        },
+        {
+          "name": "<QTE_SETTLEMENT_ANIMATION>k__BackingField",
+          "token": 67113242
+        },
+        {
+          "name": "<ITEM_TOAST_DURATION>k__BackingField",
+          "token": 67113243
+        },
+        {
+          "name": "<PAUSE_PANEL_TAB_PANEL_ID_LIST>k__BackingField",
+          "token": 67113244
+        },
+        {
+          "name": "<DIALOGUE_MAX_WEITH_PER_LINE>k__BackingField",
+          "token": 67113245
+        },
+        {
+          "name": "<INTIMACY_ITEM_ID>k__BackingField",
+          "token": 67113246
+        },
+        {
+          "name": "<INITIAL_MAX_INTIMACY>k__BackingField",
+          "token": 67113247
+        },
+        {
+          "name": "<PLAYER_SHOW_ATTR_INTERACT_ID_LIST>k__BackingField",
+          "token": 67113248
+        },
+        {
+          "name": "<MAP_MOVE_VELOCITY>k__BackingField",
+          "token": 67113249
+        },
+        {
+          "name": "<MAP_MOVE_UNIT_CONSUME_BASE>k__BackingField",
+          "token": 67113250
+        },
+        {
+          "name": "<HOTEL_MONEY_ITEM_ID>k__BackingField",
+          "token": 67113251
+        },
+        {
+          "name": "<HOTEL_STAY_FULLY_ATTR_ID_LIST>k__BackingField",
+          "token": 67113252
+        },
+        {
+          "name": "<NPC_DETAIL_PANEL_TAB_LIST>k__BackingField",
+          "token": 67113253
+        },
+        {
+          "name": "<origin_newbie_step>k__BackingField",
+          "token": 67113254
+        },
+        {
+          "name": "<origin_passive>k__BackingField",
+          "token": 67113255
+        },
+        {
+          "name": "<origin_skills>k__BackingField",
+          "token": 67113256
+        },
+        {
+          "name": "<NPC_DEAL_STR_COLOR_GREEN>k__BackingField",
+          "token": 67113257
+        },
+        {
+          "name": "<NPC_DEAL_STR_COLOR_RED>k__BackingField",
+          "token": 67113258
+        },
+        {
+          "name": "<NPC_DEAL_ITEM_USE_CNT_DEFAULT>k__BackingField",
+          "token": 67113259
+        },
+        {
+          "name": "<NPC_DEAL_GRID_CNT_DEFAULT>k__BackingField",
+          "token": 67113260
+        },
+        {
+          "name": "<NPC_GIFT_SEND_GRID_CNT_DEFAULT>k__BackingField",
+          "token": 67113261
+        },
+        {
+          "name": "<NPC_DETAIL_BAG_GRID_CNT_DEFAULT>k__BackingField",
+          "token": 67113262
+        },
+        {
+          "name": "<STR_COLOR_LIST_OF_ITEM_QUALITY>k__BackingField",
+          "token": 67113263
+        },
+        {
+          "name": "<STR_COLOR_LIST_OF_LEVEL_QUALITY>k__BackingField",
+          "token": 67113264
+        },
+        {
+          "name": "<PANELS_TO_HIDE_GUIDE_HUD>k__BackingField",
+          "token": 67113265
+        },
+        {
+          "name": "<PLAYER_ATTR_PANEL_COMBAT_ATTR_BASE>k__BackingField",
+          "token": 67113266
+        },
+        {
+          "name": "<PLAYER_ATTR_PANEL_COMBAT_ATTR_EXTRA>k__BackingField",
+          "token": 67113267
+        },
+        {
+          "name": "<DEFAULT_REVIVE_TO_SPACE>k__BackingField",
+          "token": 67113268
+        },
+        {
+          "name": "<PERSUADE_INTERACT_GAME_RESULT_DELAY>k__BackingField",
+          "token": 67113269
+        },
+        {
+          "name": "<MED_GAME_WIN_SETTLEMENT_DELAY>k__BackingField",
+          "token": 67113270
+        },
+        {
+          "name": "<INTERACT_GAME_CHECK_WAIT_TIME>k__BackingField",
+          "token": 67113271
+        },
+        {
+          "name": "<INTERACT_GAME_SETTLEMENT_WAIT_TIME>k__BackingField",
+          "token": 67113272
+        },
+        {
+          "name": "<HIDE_PERSONALITY_DURATION>k__BackingField",
+          "token": 67113273
+        },
+        {
+          "name": "<NPC_DEFAULT_PORTRAIT_ICON>k__BackingField",
+          "token": 67113274
+        },
+        {
+          "name": "<DEFEAT_TIMELINE>k__BackingField",
+          "token": 67113275
+        },
+        {
+          "name": "<ESCAPE_FAILED_TIMELINE>k__BackingField",
+          "token": 67113276
+        },
+        {
+          "name": "<LOAD_STORAGE_PANEL_VIDEO_RESOURCE>k__BackingField",
+          "token": 67113277
+        },
+        {
+          "name": "<DIALOGUE_ENTER_FADE_LOADING_ID>k__BackingField",
+          "token": 67113278
+        },
+        {
+          "name": "<CHAT_API_TIMEOUT_SECONDS>k__BackingField",
+          "token": 67113279
+        },
+        {
+          "name": "<BAG_ITEM_TIP_SHOW_DELAY>k__BackingField",
+          "token": 67113280
+        },
+        {
+          "name": "<BAG_ITEM_TIP_HIDE_DELAY>k__BackingField",
+          "token": 67113281
+        },
+        {
+          "name": "<SPACE_VIDEO_OFFSET_ANIM_DURATION_NPC_DETAIL_SHOW>k__BackingField",
+          "token": 67113282
+        },
+        {
+          "name": "<SPACE_VIDEO_OFFSET_ANIM_DURATION_NPC_DETAIL_HIDE>k__BackingField",
+          "token": 67113283
+        },
+        {
+          "name": "<MAIN_MENU_ENTER_GAME_LOADING>k__BackingField",
+          "token": 67113284
+        },
+        {
+          "name": "<CHANGE_SPACE_LOADING_WAIT_DEFAULT>k__BackingField",
+          "token": 67113285
+        },
+        {
+          "name": "<AUCTION_ROUND_DURATION>k__BackingField",
+          "token": 67113286
+        },
+        {
+          "name": "<AUCTION_ROUND_THINK_TIME>k__BackingField",
+          "token": 67113287
+        },
+        {
+          "name": "<AUCTION_BID_RATE_SMALL>k__BackingField",
+          "token": 67113288
+        },
+        {
+          "name": "<AUCTION_BID_RATE_MEDIUM>k__BackingField",
+          "token": 67113289
+        },
+        {
+          "name": "<AUCTION_BID_RATE_LARGE>k__BackingField",
+          "token": 67113290
+        },
+        {
+          "name": "<AUCTION_ANGER_MAX>k__BackingField",
+          "token": 67113291
+        },
+        {
+          "name": "<AUCTION_ANGER_DECAY_PER_ROUND>k__BackingField",
+          "token": 67113292
+        },
+        {
+          "name": "<AUCTION_BAN_DAYS>k__BackingField",
+          "token": 67113293
+        },
+        {
+          "name": "<AUCTION_PREVIEW_DAYS>k__BackingField",
+          "token": 67113294
+        },
+        {
+          "name": "<AUCTION_PLAYER_CONSIGN_MAX>k__BackingField",
+          "token": 67113295
+        },
+        {
+          "name": "<AUCTION_CONSIGN_MIN_QUALITY>k__BackingField",
+          "token": 67113296
+        },
+        {
+          "name": "<AUCTION_CONSIGN_SORT_FACTOR>k__BackingField",
+          "token": 67113297
+        },
+        {
+          "name": "<AUCTION_PLAYER_CONSIGN_PRICE_RATIO>k__BackingField",
+          "token": 67113298
+        },
+        {
+          "name": "<AUCTION_CONSIGN_COMMISSION_RATE>k__BackingField",
+          "token": 67113299
+        },
+        {
+          "name": "<AUCTION_NPC_PROVOKE_RATIO_BONUS>k__BackingField",
+          "token": 67113300
+        },
+        {
+          "name": "<AUCTION_BID_TIER_LOW_RATIO>k__BackingField",
+          "token": 67113301
+        },
+        {
+          "name": "<AUCTION_BID_TIER_MID_RATIO>k__BackingField",
+          "token": 67113302
+        },
+        {
+          "name": "<AUCTION_WEALTH_RICH_RATIO>k__BackingField",
+          "token": 67113303
+        },
+        {
+          "name": "<AUCTION_WEALTH_POOR_RATIO>k__BackingField",
+          "token": 67113304
+        },
+        {
+          "name": "<AUCTION_ENTRY_COST_NORMAL>k__BackingField",
+          "token": 67113305
+        },
+        {
+          "name": "<AUCTION_PROVOKE_SUCCESS_AFFINITY_MIN>k__BackingField",
+          "token": 67113306
+        },
+        {
+          "name": "<AUCTION_PROVOKE_SUCCESS_AFFINITY_MAX>k__BackingField",
+          "token": 67113307
+        },
+        {
+          "name": "<AUCTION_PROVOKE_FAIL_AFFINITY_MIN>k__BackingField",
+          "token": 67113308
+        },
+        {
+          "name": "<AUCTION_PROVOKE_FAIL_AFFINITY_MAX>k__BackingField",
+          "token": 67113309
+        },
+        {
+          "name": "<AUCTION_BLUFF_AFFINITY_CHANCE>k__BackingField",
+          "token": 67113310
+        },
+        {
+          "name": "<AUCTION_BLUFF_AFFINITY_MIN>k__BackingField",
+          "token": 67113311
+        },
+        {
+          "name": "<AUCTION_BLUFF_AFFINITY_MAX>k__BackingField",
+          "token": 67113312
+        },
+        {
+          "name": "<AUCTION_NORMAL_BID_RATIO_MIN>k__BackingField",
+          "token": 67113313
+        },
+        {
+          "name": "<AUCTION_NORMAL_BID_RATIO_MAX>k__BackingField",
+          "token": 67113314
+        },
+        {
+          "name": "<AUCTION_PREFER_BID_RATIO_MIN>k__BackingField",
+          "token": 67113315
+        },
+        {
+          "name": "<AUCTION_PREFER_BID_RATIO_MAX>k__BackingField",
+          "token": 67113316
+        },
+        {
+          "name": "<AUCTION_PRICE_CHEAP_RATIO>k__BackingField",
+          "token": 67113317
+        },
+        {
+          "name": "<AUCTION_PRICE_EXPENSIVE_RATIO>k__BackingField",
+          "token": 67113318
+        },
+        {
+          "name": "<AUCTION_PRICE_OUTRAGEOUS_RATIO>k__BackingField",
+          "token": 67113319
+        },
+        {
+          "name": "<AUCTION_PRICE_COMMENT_CHANCE>k__BackingField",
+          "token": 67113320
+        },
+        {
+          "name": "<AUCTION_PROVOKED_BID_CHANCE>k__BackingField",
+          "token": 67113321
+        },
+        {
+          "name": "<AUCTION_BLUFF_SUCCESS_BASE>k__BackingField",
+          "token": 67113322
+        },
+        {
+          "name": "<AUCTION_PROVOKE_ANGER_MIN>k__BackingField",
+          "token": 67113323
+        },
+        {
+          "name": "<AUCTION_PROVOKE_ANGER_MAX>k__BackingField",
+          "token": 67113324
+        },
+        {
+          "name": "<AUCTION_BLUFF_ANGER_MIN>k__BackingField",
+          "token": 67113325
+        },
+        {
+          "name": "<AUCTION_BLUFF_ANGER_MAX>k__BackingField",
+          "token": 67113326
+        },
+        {
+          "name": "<AUCTION_CHEST_SHOW_QUALITY_RATE>k__BackingField",
+          "token": 67113327
+        },
+        {
+          "name": "<AUCTION_CHEST_SHOW_TYPE_RATE>k__BackingField",
+          "token": 67113328
+        },
+        {
+          "name": "<AUCTION_CHEST_SHOW_RIDDLE_RATE>k__BackingField",
+          "token": 67113329
+        },
+        {
+          "name": "<AUCTION_CHEST_CONFIDENCE_STEP>k__BackingField",
+          "token": 67113330
+        },
+        {
+          "name": "<AUCTION_CHEST_INFO_HIGH_WILL_BASE>k__BackingField",
+          "token": 67113331
+        },
+        {
+          "name": "<AUCTION_CHEST_INFO_LOW_WILL_BASE>k__BackingField",
+          "token": 67113332
+        },
+        {
+          "name": "<AUCTION_CHEST_EVENT_MIDPOINT_RATIO>k__BackingField",
+          "token": 67113333
+        },
+        {
+          "name": "<AUCTION_CHEST_EVENT_FINAL_REMAINING>k__BackingField",
+          "token": 67113334
+        },
+        {
+          "name": "<AUCTION_CHEST_EVENT_EPIC_QUALITY>k__BackingField",
+          "token": 67113335
+        },
+        {
+          "name": "<AUCTION_CHEST_EVENT_EPIC_COOLDOWN>k__BackingField",
+          "token": 67113336
+        },
+        {
+          "name": "<AUCTION_CHEST_EVENT_FINAL_TIMER_RATIO>k__BackingField",
+          "token": 67113337
+        },
+        {
+          "name": "<AUCTION_CHEST_EVENT_FINAL_BYSTANDER>k__BackingField",
+          "token": 67113338
+        },
+        {
+          "name": "<PROVOKE_QTE_KEY_COUNT_MAX>k__BackingField",
+          "token": 67113339
+        },
+        {
+          "name": "<AUCTION_ANGER_REDUCE_BID>k__BackingField",
+          "token": 67113340
+        },
+        {
+          "name": "<AUCTION_ANGER_REDUCE_WIN>k__BackingField",
+          "token": 67113341
+        },
+        {
+          "name": "<AUCTION_OBSERVE_BASE_SUCCESS>k__BackingField",
+          "token": 67113342
+        },
+        {
+          "name": "<AUCTION_OBSERVE_SHENSHI_FACTOR>k__BackingField",
+          "token": 67113343
+        },
+        {
+          "name": "<AUCTION_OBSERVE_REALM_PENALTY>k__BackingField",
+          "token": 67113344
+        },
+        {
+          "name": "<AUCTION_PRESSURE_BASE_SUCCESS>k__BackingField",
+          "token": 67113345
+        },
+        {
+          "name": "<AUCTION_PRESSURE_REALM_FACTOR>k__BackingField",
+          "token": 67113346
+        },
+        {
+          "name": "<AUCTION_PRESSURE_REALM_NEGATIVE>k__BackingField",
+          "token": 67113347
+        },
+        {
+          "name": "<AUCTION_PRESSURE_ALL_SUCCESS_FACTOR>k__BackingField",
+          "token": 67113348
+        },
+        {
+          "name": "<AUCTION_SCAN_REVEAL_MIN>k__BackingField",
+          "token": 67113349
+        },
+        {
+          "name": "<AUCTION_SCAN_REVEAL_MAX>k__BackingField",
+          "token": 67113350
+        },
+        {
+          "name": "<AUCTION_BIANDAO_TIME_BONUS_PER_POINT>k__BackingField",
+          "token": 67113351
+        },
+        {
+          "name": "<AUCTION_MEILI_EXTRA_GOOD_SLOTS>k__BackingField",
+          "token": 67113352
+        },
+        {
+          "name": "<AUCTION_CHEST_CONFIDENCE_INIT>k__BackingField",
+          "token": 67113353
+        },
+        {
+          "name": "<AUCTION_CHEST_CONFIDENCE_CAP>k__BackingField",
+          "token": 67113354
+        },
+        {
+          "name": "<AUCTION_FORFEIT_ROUND_INTERVAL_MS>k__BackingField",
+          "token": 67113355
+        },
+        {
+          "name": "<AUCTION_BID_BT_ASSET_PATH>k__BackingField",
+          "token": 67113356
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_GROUP_ID>k__BackingField",
+          "token": 67113357
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_ENTRY>k__BackingField",
+          "token": 67113358
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_ITEM_INTRO_LOOP>k__BackingField",
+          "token": 67113359
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_BIDDING_LOOP>k__BackingField",
+          "token": 67113360
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_GENERIC_BID_A>k__BackingField",
+          "token": 67113361
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_GENERIC_BID_B>k__BackingField",
+          "token": 67113362
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_YOUNG_FEMALE_BID>k__BackingField",
+          "token": 67113363
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_YOUNG_MALE_BID>k__BackingField",
+          "token": 67113364
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_MIDDLE_FEMALE_BID>k__BackingField",
+          "token": 67113365
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_MIDDLE_MALE_BID>k__BackingField",
+          "token": 67113366
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_CLIP_HAMMER>k__BackingField",
+          "token": 67113367
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_OPENING_MAX_MS>k__BackingField",
+          "token": 67113368
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_BID_CUTAWAY_MAX_MS>k__BackingField",
+          "token": 67113369
+        },
+        {
+          "name": "<AUCTION_CINEMATIC_HAMMER_MAX_MS>k__BackingField",
+          "token": 67113370
+        },
+        {
+          "name": "<AUCTION_ITEM_APPEAR_REACTION_CHANCE>k__BackingField",
+          "token": 67113371
+        },
+        {
+          "name": "<AUCTION_WATCH_COMMENT_CHANCE>k__BackingField",
+          "token": 67113372
+        },
+        {
+          "name": "<AUCTION_SFX_AGGRAVATE_CLICK_ERROR>k__BackingField",
+          "token": 67113373
+        },
+        {
+          "name": "<AUCTION_SFX_AGGRAVATE_SUCCESS>k__BackingField",
+          "token": 67113374
+        },
+        {
+          "name": "<AUCTION_SFX_BRAG_CHOOSE>k__BackingField",
+          "token": 67113375
+        },
+        {
+          "name": "<AUCTION_SFX_BRAG_ROTATE>k__BackingField",
+          "token": 67113376
+        },
+        {
+          "name": "<AUCTION_CHEST_ICON_SMALL>k__BackingField",
+          "token": 67113377
+        },
+        {
+          "name": "<AUCTION_CHEST_ICON_MEDIUM>k__BackingField",
+          "token": 67113378
+        },
+        {
+          "name": "<AUCTION_CHEST_ICON_LARGE>k__BackingField",
+          "token": 67113379
+        },
+        {
+          "name": "<ENABLE_ALCHEMY>k__BackingField",
+          "token": 67113380
+        },
+        {
+          "name": "<ALCHEMY_SHOP_SLOT_COUNT>k__BackingField",
+          "token": 67113381
+        },
+        {
+          "name": "<ALCHEMY_REFRESH_FIRE_COST>k__BackingField",
+          "token": 67113382
+        },
+        {
+          "name": "<ALCHEMY_BONUS_CELL_ENERGY>k__BackingField",
+          "token": 67113383
+        },
+        {
+          "name": "<ALCHEMY_EXP_REALM_FACTOR>k__BackingField",
+          "token": 67113384
+        },
+        {
+          "name": "<ALCHEMY_EXP_SCORE_DIVISOR>k__BackingField",
+          "token": 67113385
+        },
+        {
+          "name": "<ALCHEMY_SPIRIT_MAX_RATIO>k__BackingField",
+          "token": 67113386
+        },
+        {
+          "name": "<SIGNATURE_SKILL_MAX_USES>k__BackingField",
+          "token": 67113387
+        },
+        {
+          "name": "<ALCHEMY_ITEM_TYPE_PROTOTYPE>k__BackingField",
+          "token": 67113388
+        },
+        {
+          "name": "<ALCHEMY_ITEM_TYPE_MATERIAL>k__BackingField",
+          "token": 67113389
+        },
+        {
+          "name": "<ALCHEMY_ITEM_TYPE_ARTIFACT>k__BackingField",
+          "token": 67113390
+        },
+        {
+          "name": "<ALCHEMY_DEFAULT_LEVEL>k__BackingField",
+          "token": 67113391
+        },
+        {
+          "name": "<ALCHEMY_DEFAULT_TRUE_FIRE>k__BackingField",
+          "token": 67113392
+        },
+        {
+          "name": "<ALCHEMY_FALLBACK_SPIRIT_INPUT>k__BackingField",
+          "token": 67113393
+        },
+        {
+          "name": "<ALCHEMY_FALLBACK_ELEMENT_COUNT>k__BackingField",
+          "token": 67113394
+        },
+        {
+          "name": "<ALCHEMY_SETTLEMENT_EXP_BASE>k__BackingField",
+          "token": 67113395
+        },
+        {
+          "name": "<ALCHEMY_LINE_CLEAR_FALLBACK_SCORE_PER_LINE>k__BackingField",
+          "token": 67113396
+        },
+        {
+          "name": "<ALCHEMY_ATTR_PERCENT_DIVISOR>k__BackingField",
+          "token": 67113397
+        },
+        {
+          "name": "<ALCHEMY_SKILL_DEFAULT_LEVEL>k__BackingField",
+          "token": 67113398
+        },
+        {
+          "name": "<ALCHEMY_FALLBACK_ELEMENT_ID>k__BackingField",
+          "token": 67113399
+        },
+        {
+          "name": "<ALCHEMY_LINK_CHAIN_MIN_COUNT>k__BackingField",
+          "token": 67113400
+        },
+        {
+          "name": "<ALCHEMY_LONG_CHAIN_THRESHOLD_DEFAULT>k__BackingField",
+          "token": 67113401
+        },
+        {
+          "name": "<ALCHEMY_LONG_CHAIN_BONUS_DEFAULT>k__BackingField",
+          "token": 67113402
+        },
+        {
+          "name": "<ALCHEMY_BONUS_CHAIN_MIN_LENGTH_DEFAULT>k__BackingField",
+          "token": 67113403
+        },
+        {
+          "name": "<ALCHEMY_LINE_SCORE_TALENT_RATIO_DEFAULT>k__BackingField",
+          "token": 67113404
+        },
+        {
+          "name": "<ALCHEMY_MULTI_LINE_TALENT_BONUS_DEFAULT>k__BackingField",
+          "token": 67113405
+        },
+        {
+          "name": "<ALCHEMY_MIN_COST>k__BackingField",
+          "token": 67113406
+        },
+        {
+          "name": "<HARVEST_TIPS_INSUFFICIENT_STAMINA>k__BackingField",
+          "token": 67113407
+        },
+        {
+          "name": "<PLAYER_ATTR_TYPE_TAB_LIST>k__BackingField",
+          "token": 67113408
+        },
+        {
+          "name": "<ENABLE_TALENT_PATH>k__BackingField",
+          "token": 67113409
+        },
+        {
+          "name": "<SPIRIT_DAMAGE_PER_POINT>k__BackingField",
+          "token": 67113410
+        },
+        {
+          "name": "<TALENT_DEFAULT_PATH_ID>k__BackingField",
+          "token": 67113411
+        },
+        {
+          "name": "<TALENT_SPIRIT_ELEMENT_ID_LIST>k__BackingField",
+          "token": 67113412
+        },
+        {
+          "name": "<SPACE_RANDOM_EVENT_SHOW_CNT_MAX>k__BackingField",
+          "token": 67113413
+        },
+        {
+          "name": "<ROGUE_BAG_CAP>k__BackingField",
+          "token": 67113414
+        },
+        {
+          "name": "<ROGUE_RESCUE_EVENT_POOL>k__BackingField",
+          "token": 67113415
+        },
+        {
+          "name": "<NPC_FRIEND_INTIMACY_THRESHOLD>k__BackingField",
+          "token": 67113416
+        },
+        {
+          "name": "<NPC_FRIEND_MAX_COUNT>k__BackingField",
+          "token": 67113417
+        },
+        {
+          "name": "<NPC_MASTER_INTIMACY_THRESHOLD>k__BackingField",
+          "token": 67113418
+        },
+        {
+          "name": "<NPC_MASTER_LAYER_DIFF_MAX>k__BackingField",
+          "token": 67113419
+        },
+        {
+          "name": "<NPC_DISCIPLE_INTIMACY_THRESHOLD>k__BackingField",
+          "token": 67113420
+        },
+        {
+          "name": "<NPC_DISCIPLE_LAYER_DIFF_MAX>k__BackingField",
+          "token": 67113421
+        },
+        {
+          "name": "<NPC_DISCIPLE_MAX_COUNT>k__BackingField",
+          "token": 67113422
+        },
+        {
+          "name": "<NPC_BREAK_RELATION_INTIMACY_DELTA>k__BackingField",
+          "token": 67113423
+        },
+        {
+          "name": "<NPC_BREAK_DAO_COMPANION_INTIMACY_DELTA>k__BackingField",
+          "token": 67113424
+        },
+        {
+          "name": "<NPC_DAO_COMPANION_INTIMACY_THRESHOLD>k__BackingField",
+          "token": 67113425
+        },
+        {
+          "name": "<NPC_ENEMY_INTIMACY_THRESHOLD>k__BackingField",
+          "token": 67113426
+        },
+        {
+          "name": "<NPC_RELATION_ESTABLISH_AVG_DIALOG_ID>k__BackingField",
+          "token": 67113427
+        },
+        {
+          "name": "<NPC_RELATION_DISSOLVE_AVG_DIALOG_ID>k__BackingField",
+          "token": 67113428
+        },
+        {
+          "name": "<NPC_RELATION_FAIL_AVG_DIALOG_ID>k__BackingField",
+          "token": 67113429
+        },
+        {
+          "name": "<NPC_RELATION_MASTER_VIDEO_RESOURCE>k__BackingField",
+          "token": 67113430
+        },
+        {
+          "name": "<NPC_RELATION_DISCIPLE_VIDEO_RESOURCE>k__BackingField",
+          "token": 67113431
+        },
+        {
+          "name": "<NPC_RELATION_DAO_COMPANION_VIDEO_RESOURCE>k__BackingField",
+          "token": 67113432
+        },
+        {
+          "name": "<DUAL_CULTIVATE_STAMINA_COST>k__BackingField",
+          "token": 67113433
+        },
+        {
+          "name": "<DUAL_CULTIVATE_DAO_COMPANION_INTIMACY_PENALTY>k__BackingField",
+          "token": 67113434
+        },
+        {
+          "name": "<NPC_PLAYER_DAO_COMPANION_MAX_COUNT>k__BackingField",
+          "token": 67113435
+        },
+        {
+          "name": "<AINPC_HISTORY_WINDOW_TURNS>k__BackingField",
+          "token": 67113436
+        },
+        {
+          "name": "<CONSULT_AFFINITY_THRESHOLD>k__BackingField",
+          "token": 67113437
+        },
+        {
+          "name": "<GUIDANCE_AFFINITY_THRESHOLD>k__BackingField",
+          "token": 67113438
+        },
+        {
+          "name": "<SPOT_WARN_AT>k__BackingField",
+          "token": 67113439
+        },
+        {
+          "name": "<SPOT_WATCH_FREEZE_MS>k__BackingField",
+          "token": 67113440
+        },
+        {
+          "name": "<SPOT_LENS_DURATION_MS>k__BackingField",
+          "token": 67113441
+        },
+        {
+          "name": "<UI_REDDOT_PREFAB>k__BackingField",
+          "token": 67113442
+        },
+        {
+          "name": "<UI_REDDOT_NPC_TRACKING_Y>k__BackingField",
+          "token": 67113443
+        },
+        {
+          "name": "<NPC_TRACKING_SIZE>k__BackingField",
+          "token": 67113444
+        },
+        {
+          "name": "<NPC_LIST_SIZE>k__BackingField",
+          "token": 67113445
+        },
+        {
+          "name": "<NPC_LIST_X>k__BackingField",
+          "token": 67113446
+        },
+        {
+          "name": "<NPC_LIST_Y>k__BackingField",
+          "token": 67113447
+        },
+        {
+          "name": "<ENTER_SPACE_MARKER_SIZE>k__BackingField",
+          "token": 67113448
+        },
+        {
+          "name": "<ENTER_SPACE_MARKER_Y>k__BackingField",
+          "token": 67113449
+        },
+        {
+          "name": "<BUTTON_MARKER_SIZE>k__BackingField",
+          "token": 67113450
+        },
+        {
+          "name": "<BUTTON_MARKER_X>k__BackingField",
+          "token": 67113451
+        },
+        {
+          "name": "<BUTTON_MARKER_Y>k__BackingField",
+          "token": 67113452
+        },
+        {
+          "name": "<NPC_STATUS_TOP_LOGO_OFFSET_Y>k__BackingField",
+          "token": 67113453
+        },
+        {
+          "name": "<NPC_MARKER_ADDITIONAL_OFFSET_Y>k__BackingField",
+          "token": 67113454
+        },
+        {
+          "name": "<NPC_STATUS_TOP_LOGO_ANCHOR_POS_X>k__BackingField",
+          "token": 67113455
+        },
+        {
+          "name": "<REDDOT_FALLBACK_POS_X>k__BackingField",
+          "token": 67113456
+        },
+        {
+          "name": "<THIRD_TIER_NPC_POOL_COUNT>k__BackingField",
+          "token": 67113457
+        },
+        {
+          "name": "<THIRD_TIER_NPC_INITIAL_DRAW_COUNT>k__BackingField",
+          "token": 67113458
+        },
+        {
+          "name": "<THIRD_TIER_NPC_ID_MIN>k__BackingField",
+          "token": 67113459
+        },
+        {
+          "name": "<THIRD_TIER_NPC_ID_MAX>k__BackingField",
+          "token": 67113460
+        },
+        {
+          "name": "<THIRD_TIER_NPC_FLAG_VALUE>k__BackingField",
+          "token": 67113461
+        },
+        {
+          "name": "<THIRD_TIER_NPC_PERSONALITY_GROUP_RULE>k__BackingField",
+          "token": 67113462
+        },
+        {
+          "name": "<THIRD_TIER_NPC_TEMPLATE_VARIANT_RULE>k__BackingField",
+          "token": 67113463
+        },
+        {
+          "name": "<THIRD_TIER_NPC_NORMAL_HS_COUNT>k__BackingField",
+          "token": 67113464
+        },
+        {
+          "name": "<THIRD_TIER_NPC_NORMAL_YY_MAX>k__BackingField",
+          "token": 67113465
+        },
+        {
+          "name": "<THIRD_TIER_NPC_DEFAULT_INIT_TYPE>k__BackingField",
+          "token": 67113466
+        },
+        {
+          "name": "<THIRD_TIER_NPC_CARRIER_SPACE_TYPE>k__BackingField",
+          "token": 67113467
+        },
+        {
+          "name": "<THIRD_TIER_NPC_DEFAULT_CARRIER_SPACE_ID>k__BackingField",
+          "token": 67113468
+        },
+        {
+          "name": "<THIRD_TIER_NPC_NORMAL_VISUAL_PROFILE_COUNT>k__BackingField",
+          "token": 67113469
+        },
+        {
+          "name": "<THIRD_TIER_NPC_CARRIER_VIDEO_STATE_COUNT>k__BackingField",
+          "token": 67113470
+        },
+        {
+          "name": "<THIRD_TIER_NPC_CARRIER_VIDEO_STATES>k__BackingField",
+          "token": 67113471
+        },
+        {
+          "name": "<THIRD_TIER_NPC_VISUAL_P0_ASSET_COUNT>k__BackingField",
+          "token": 67113472
+        },
+        {
+          "name": "<THIRD_TIER_NPC_VISUAL_FULL_BACKLOG_COUNT>k__BackingField",
+          "token": 67113473
+        },
+        {
+          "name": "<THIRD_TIER_NPC_PERIOD_MIN_DAYS>k__BackingField",
+          "token": 67113474
+        },
+        {
+          "name": "<THIRD_TIER_NPC_PERIOD_MAX_DAYS>k__BackingField",
+          "token": 67113475
+        },
+        {
+          "name": "<BREAKTHROUGH_PROGRESS_PER_FRAME>k__BackingField",
+          "token": 67113476
+        },
+        {
+          "name": "<REPUTATION_BOUNTY_REFRESH_SECONDS>k__BackingField",
+          "token": 67113477
+        },
+        {
+          "name": "<REPUTATION_BOUNTY_REFRESH_COUNT>k__BackingField",
+          "token": 67113478
+        },
+        {
+          "name": "<GOOD_VALUE>k__BackingField",
+          "token": 67113479
+        },
+        {
+          "name": "<EVIL_VALUE>k__BackingField",
+          "token": 67113480
+        },
+        {
+          "name": "<BOUNTY_TASK_REFRESH_TIME>k__BackingField",
+          "token": 67113481
+        },
+        {
+          "name": "<BOUNTY_TASK_REFRESH_COUNT>k__BackingField",
+          "token": 67113482
+        },
+        {
+          "name": "<SPAR_MONTHLY_LIMIT>k__BackingField",
+          "token": 67113483
+        },
+        {
+          "name": "<STEAL_REALM_SUB_LEVEL_LIMIT>k__BackingField",
+          "token": 67113484
+        },
+        {
+          "name": "<STEAL_REALM_LAYER_RATE>k__BackingField",
+          "token": 67113485
+        },
+        {
+          "name": "<STEAL_REALM_LAYER_RATE_GAP5>k__BackingField",
+          "token": 67113486
+        },
+        {
+          "name": "<STEAL_REALM_LAYER_RATE_GAP10>k__BackingField",
+          "token": 67113487
+        },
+        {
+          "name": "<STEAL_REALM_LIMIT_MSG>k__BackingField",
+          "token": 67113488
+        },
+        {
+          "name": "<STEAL_EXCLUDED_ITEM_TYPES>k__BackingField",
+          "token": 67113489
+        },
+        {
+          "name": "<SPIRIT_REFRESH_PERIOD_DAYS>k__BackingField",
+          "token": 67113490
+        },
+        {
+          "name": "<SPIRIT_REFRESH_CRON>k__BackingField",
+          "token": 67113491
+        },
+        {
+          "name": "<BREAKTHROUGH_INJECT_ACCEL_SECONDS>k__BackingField",
+          "token": 67113492
+        },
+        {
+          "name": "<BREAKTHROUGH_INJECT_START_SPEED_RATIO>k__BackingField",
+          "token": 67113493
+        },
+        {
+          "name": "<BREAKTHROUGH_INJECT_MAX_LAYER_SECONDS>k__BackingField",
+          "token": 67113494
+        },
+        {
+          "name": "<BREAKTHROUGH_INJECT_MIN_MAX_SPEED>k__BackingField",
+          "token": 67113495
+        },
+        {
+          "name": "<BREAKTHROUGH_INJECT_ABSOLUTE_MAX_SPEED>k__BackingField",
+          "token": 67113496
+        },
+        {
+          "name": "<BREAKTHROUGH_INJECT_LAYER_UP_PAUSE>k__BackingField",
+          "token": 67113497
+        },
+        {
+          "name": "<SPOT_MIRROR_JUDGING_MS>k__BackingField",
+          "token": 67113498
+        },
+        {
+          "name": "<SPOT_MIRROR_MASK_DIAMETER>k__BackingField",
+          "token": 67113499
+        },
+        {
+          "name": "<SPOT_MIRROR_FRAME_STROKE>k__BackingField",
+          "token": 67113500
+        },
+        {
+          "name": "<SPOT_MIRROR_FRAME_STROKE_WIDTH>k__BackingField",
+          "token": 67113501
+        },
+        {
+          "name": "<SPOT_MIRROR_REVEAL_CONTENT_SCALE>k__BackingField",
+          "token": 67113502
+        },
+        {
+          "name": "<PERSUADE_PEEK_STAMINA_COST>k__BackingField",
+          "token": 67113503
+        },
+        {
+          "name": "<PERSUADE_PEEK_PROGRESS_DELTA_MIN>k__BackingField",
+          "token": 67113504
+        },
+        {
+          "name": "<PERSUADE_PEEK_REGEN_MAX>k__BackingField",
+          "token": 67113505
+        },
+        {
+          "name": "<AINPC_PERSUADE_CONCESSION_MIN>k__BackingField",
+          "token": 67113506
+        },
+        {
+          "name": "<NPC_DIALOGUE_DETAIL_INTERACT_ACTION_ID>k__BackingField",
+          "token": 67113507
+        },
+        {
+          "name": "<NPC_DIALOGUE_SPAR_INTERACT_ACTION_ID>k__BackingField",
+          "token": 67113508
+        },
+        {
+          "name": "<NPC_DIALOGUE_KILL_INTERACT_ACTION_ID>k__BackingField",
+          "token": 67113509
+        },
+        {
+          "name": "<NPC_DIALOGUE_ITEM_DEMAND_INTERACT_ACTION_ID>k__BackingField",
+          "token": 67113510
+        },
+        {
+          "name": "<NPC_DIALOGUE_STEAL_INTERACT_ACTION_ID>k__BackingField",
+          "token": 67113511
+        },
+        {
+          "name": "<NPC_DIALOGUE_FEMALE_LEAD_INTERACT_RULE_ID>k__BackingField",
+          "token": 67113512
+        },
+        {
+          "name": "<NPC_DIALOGUE_FEMALE_LEAD_BOND_INTERACT_ACTION_ID>k__BackingField",
+          "token": 67113513
+        },
+        {
+          "name": "<NPC_DIALOGUE_FEMALE_LEAD_DUAL_CULTIVATION_INTERACT_ACTION_ID>k__BackingField",
+          "token": 67113514
+        },
+        {
+          "name": "<LEARN_GONGFA_GAME_DURATION>k__BackingField",
+          "token": 67113515
+        },
+        {
+          "name": "<LEARN_GONGFA_MAX_BALLS>k__BackingField",
+          "token": 67113516
+        },
+        {
+          "name": "<LEARN_GONGFA_EPIPHANY_ADD_SPEED>k__BackingField",
+          "token": 67113517
+        },
+        {
+          "name": "<LEARN_GONGFA_EPIPHANY_REDUCE_SPEED>k__BackingField",
+          "token": 67113518
+        },
+        {
+          "name": "<LEARN_GONGFA_DEMON_REDUCE_SPEED>k__BackingField",
+          "token": 67113519
+        },
+        {
+          "name": "<LEARN_GONGFA_BULLET_SPEED>k__BackingField",
+          "token": 67113520
+        },
+        {
+          "name": "<LEARN_GONGFA_BULLET_TOUCH_AREA>k__BackingField",
+          "token": 67113521
+        },
+        {
+          "name": "<LEARN_GONGFA_BLUE_ADD_COMPREHEND_VALUE>k__BackingField",
+          "token": 67113522
+        },
+        {
+          "name": "<LEARN_GONGFA_RED_ADD_DEMON_VALUE>k__BackingField",
+          "token": 67113523
+        },
+        {
+          "name": "<LEARN_GONGFA_STAR_ADD_COMPREHEND_VALUE>k__BackingField",
+          "token": 67113524
+        },
+        {
+          "name": "<LEARN_GONGFA_STAR_ADD_EPIPHANY_VALUE>k__BackingField",
+          "token": 67113525
+        },
+        {
+          "name": "<LEARN_GONGFA_BLUE_TOUCH_AREA>k__BackingField",
+          "token": 67113526
+        },
+        {
+          "name": "<LEARN_GONGFA_RED_TOUCH_AREA>k__BackingField",
+          "token": 67113527
+        },
+        {
+          "name": "<LEARN_GONGFA_STAR_TOUCH_AREA>k__BackingField",
+          "token": 67113528
+        },
+        {
+          "name": "<LEARN_GONGFA_CENTER_POSITION>k__BackingField",
+          "token": 67113529
+        },
+        {
+          "name": "<LEARN_GONGFA_CENTER_RADIUS>k__BackingField",
+          "token": 67113530
+        },
+        {
+          "name": "<LEARN_GONGFA_SFX_LAUNCH>k__BackingField",
+          "token": 67113531
+        },
+        {
+          "name": "<LEARN_GONGFA_VIDEO_GROUP_ID>k__BackingField",
+          "token": 67113532
+        },
+        {
+          "name": "<LEARN_GONGFA_VIDEO_CLIP_NORMAL_LOOP>k__BackingField",
+          "token": 67113533
+        },
+        {
+          "name": "<LEARN_GONGFA_VIDEO_CLIP_DEMON_LOOP>k__BackingField",
+          "token": 67113534
+        },
+        {
+          "name": "<LEARN_GONGFA_VIDEO_CLIP_EPIPHANY_LOOP>k__BackingField",
+          "token": 67113535
+        },
+        {
+          "name": "<LEARN_GONGFA_VIDEO_CLIP_NORMAL_TO_DEMON>k__BackingField",
+          "token": 67113536
+        },
+        {
+          "name": "<LEARN_GONGFA_VIDEO_CLIP_DEMON_TO_NORMAL>k__BackingField",
+          "token": 67113537
+        },
+        {
+          "name": "<LEARN_GONGFA_VIDEO_CLIP_NORMAL_TO_EPIPHANY>k__BackingField",
+          "token": 67113538
+        },
+        {
+          "name": "<LEARN_GONGFA_VIDEO_CLIP_EPIPHANY_TO_NORMAL>k__BackingField",
+          "token": 67113539
+        },
+        {
+          "name": "<DEATH_RESCUE_COOLDOWN_DAYS>k__BackingField",
+          "token": 67113540
+        },
+        {
+          "name": "<DEATH_RESCUE_INTIMACY_RATIO_BY_TIER>k__BackingField",
+          "token": 67113541
+        },
+        {
+          "name": "<DEATH_RESCUE_DIALOGUE_BY_PERSONALITY>k__BackingField",
+          "token": 67113542
+        },
+        {
+          "name": "<DUAL_CULTIVATE_JEALOUS_PERSONALITY_ORDER>k__BackingField",
+          "token": 67113543
+        },
+        {
+          "name": "<DEATH_RESCUE_FALL_TYPE_WHITELIST>k__BackingField",
+          "token": 67113544
+        },
+        {
+          "name": "<AINPC_CHAT_REWARD_CYCLE_DAYS>k__BackingField",
+          "token": 67113545
+        },
+        {
+          "name": "<AINPC_CHAT_REWARD_CYCLE_TOTAL_COUNT>k__BackingField",
+          "token": 67113546
+        },
+        {
+          "name": "<AINPC_CHAT_REWARD_PER_NPC_MAX_COUNT>k__BackingField",
+          "token": 67113547
+        },
+        {
+          "name": "<AINPC_CHAT_REWARD_LIANQI_DROP_ID>k__BackingField",
+          "token": 67113548
+        },
+        {
+          "name": "<AINPC_CHAT_REWARD_ZHUJI_DROP_ID>k__BackingField",
+          "token": 67113549
+        },
+        {
+          "name": "<AINPC_CHAT_REWARD_JIEDAN_DROP_ID>k__BackingField",
+          "token": 67113550
+        },
+        {
+          "name": "<AINPC_CHAT_REWARD_YUANYING_DROP_ID>k__BackingField",
+          "token": 67113551
+        },
+        {
+          "name": "<COMMISSION_TASK_REFRESH_DAYS>k__BackingField",
+          "token": 67113552
+        },
+        {
+          "name": "<COMMISSION_TASK_MAX_ACCEPTED_PER_FORCE>k__BackingField",
+          "token": 67113553
+        },
+        {
+          "name": "<WORST_INTIMACY_NPC_KILL_COOLDOWN_DAYS>k__BackingField",
+          "token": 67113554
+        },
+        {
+          "name": "<LEARN_GONGFA_SUCCESS_BACKGROUND_CLOSE_DELAY_SECONDS>k__BackingField",
+          "token": 67113555
+        },
+        {
+          "name": "<CLUES_COST_STAMINA>k__BackingField",
+          "token": 67113556
+        },
+        {
+          "name": "<CLUES_DRUNK_BLOCK_DAYS>k__BackingField",
+          "token": 67113557
+        },
+        {
+          "name": "<CLUES_POUR_PROGRESS_MS>k__BackingField",
+          "token": 67113558
+        },
+        {
+          "name": "<CLUES_INTIMACY_GAIN_TIERS>k__BackingField",
+          "token": 67113559
+        },
+        {
+          "name": "<CLUES_MAX_POUR_COUNT_CAP>k__BackingField",
+          "token": 67113560
+        },
+        {
+          "name": "<CLUES_POUR_COUNT_BY_INTIMACY>k__BackingField",
+          "token": 67113561
+        },
+        {
+          "name": "<CLUES_REPEAT_INTERVAL_DAYS>k__BackingField",
+          "token": 67113562
+        },
+        {
+          "name": "<GATHER_SPIRIT_VIDEO_GROUP_ID>k__BackingField",
+          "token": 67113563
+        },
+        {
+          "name": "<GATHER_SPIRIT_VIDEO_CLIP_ID>k__BackingField",
+          "token": 67113564
+        },
+        {
+          "name": "<STAGE_UPGRADE_VIDEO_GROUP_ID>k__BackingField",
+          "token": 67113565
+        },
+        {
+          "name": "<STAGE_UPGRADE_VIDEO_CLIP_ID>k__BackingField",
+          "token": 67113566
+        },
+        {
+          "name": "<SPAR_KILL_YOUNG_AGE_MAX>k__BackingField",
+          "token": 67113567
+        },
+        {
+          "name": "<SPAR_KILL_MIDDLE_AGE_MAX>k__BackingField",
+          "token": 67113568
+        },
+        {
+          "name": "<SPAR_KILL_DEFAULT_BATTLE_SPACE_ID>k__BackingField",
+          "token": 67113569
+        },
+        {
+          "name": "<DIVINATION_UNLOCK_ITEM_ID>k__BackingField",
+          "token": 67113570
+        },
+        {
+          "name": "<NPC_RELATION_DISSOLVE_INTIMACY_THRESHOLD>k__BackingField",
+          "token": 67113571
+        },
+        {
+          "name": "<PLAYER_INITIAL_AGE>k__BackingField",
+          "token": 67113572
+        },
+        {
+          "name": "<MAP_TRANSFER_DEFAULT_LOADING_ID>k__BackingField",
+          "token": 67113573
+        },
+        {
+          "name": "<AUCTION_COMMON_START_RATIO_MIN>k__BackingField",
+          "token": 67113574
+        },
+        {
+          "name": "<AUCTION_COMMON_START_RATIO_MAX>k__BackingField",
+          "token": 67113575
+        },
+        {
+          "name": "<AUCTION_RARE_START_RATIO_MIN>k__BackingField",
+          "token": 67113576
+        },
+        {
+          "name": "<AUCTION_RARE_START_RATIO_MAX>k__BackingField",
+          "token": 67113577
+        },
+        {
+          "name": "<AUCTION_PREFERRED_NPC_RATIO>k__BackingField",
+          "token": 67113578
+        },
+        {
+          "name": "<AUCTION_RARE_PREFERRED_MIN_COUNT>k__BackingField",
+          "token": 67113579
+        },
+        {
+          "name": "<AUCTION_COMMON_GLOBAL_BID_RATIO_MIN>k__BackingField",
+          "token": 67113580
+        },
+        {
+          "name": "<AUCTION_COMMON_GLOBAL_BID_RATIO_MAX>k__BackingField",
+          "token": 67113581
+        },
+        {
+          "name": "<AUCTION_RARE_GLOBAL_BID_RATIO_MIN>k__BackingField",
+          "token": 67113582
+        },
+        {
+          "name": "<AUCTION_RARE_GLOBAL_BID_RATIO_MAX>k__BackingField",
+          "token": 67113583
+        },
+        {
+          "name": "<AUCTION_CHEST_HIDDEN_VALUE_RATIO_MIN>k__BackingField",
+          "token": 67113584
+        },
+        {
+          "name": "<AUCTION_CHEST_HIDDEN_VALUE_RATIO_MAX>k__BackingField",
+          "token": 67113585
+        },
+        {
+          "name": "<AINPC_CHAT_EXPEL_INTIMACY_DELTA>k__BackingField",
+          "token": 67113586
+        },
+        {
+          "name": "<AINPC_EPISODE_INJECT_MAX_COUNT>k__BackingField",
+          "token": 67113587
+        },
+        {
+          "name": "<AINPC_EPISODE_KEEP_MAX_COUNT>k__BackingField",
+          "token": 67113588
+        },
+        {
+          "name": "<AINPC_EPISODE_SUMMARY_MAX_COUNT>k__BackingField",
+          "token": 67113589
+        },
+        {
+          "name": "<PLAYER_ALIGNMENT_TIP_ITEM_ID>k__BackingField",
+          "token": 67113590
+        },
+        {
+          "name": "<AUCTION_HOST_BID_COMMENT_CHANCE>k__BackingField",
+          "token": 67113591
+        },
+        {
+          "name": "<AUCTION_HOST_SPEECH_MIN_INTERVAL_MS>k__BackingField",
+          "token": 67113592
+        },
+        {
+          "name": "<AUCTION_HOST_ROUND_REMIND_MIN_ROUND>k__BackingField",
+          "token": 67113593
+        },
+        {
+          "name": "<AUCTION_HOST_ROUND_REMIND_CHANCE>k__BackingField",
+          "token": 67113594
+        },
+        {
+          "name": "<AUCTION_HOST_PRICE_CLIMBING_RATIO>k__BackingField",
+          "token": 67113595
+        },
+        {
+          "name": "<AUCTION_HOST_PRICE_CLIMBING_CHANCE>k__BackingField",
+          "token": 67113596
+        },
+        {
+          "name": "<AUCTION_HOST_SPEECH_RECENT_MEMORY>k__BackingField",
+          "token": 67113597
+        },
+        {
+          "name": "<AUCTION_EARLY_LEAVE_PRICE_MIN_RATIO>k__BackingField",
+          "token": 67113598
+        },
+        {
+          "name": "<AUCTION_EARLY_LEAVE_PRICE_MAX_RATIO>k__BackingField",
+          "token": 67113599
+        },
+        {
+          "name": "<DIALOGUE_BLACK_SCREEN_FADE_IN_MS>k__BackingField",
+          "token": 67113600
+        },
+        {
+          "name": "<DIALOGUE_BLACK_SCREEN_FADE_OUT_MS>k__BackingField",
+          "token": 67113601
+        },
+        {
+          "name": "<DIALOGUE_BLACK_SCREEN_TEXT_FADE_MS>k__BackingField",
+          "token": 67113602
+        },
+        {
+          "name": "<AUCTION_INTRO_COUNTDOWN_TICKS>k__BackingField",
+          "token": 67113603
+        },
+        {
+          "name": "<AUCTION_INTRO_COUNTDOWN_TICK_MS>k__BackingField",
+          "token": 67113604
+        },
+        {
+          "name": "<AUCTION_RITUAL_DURATION_MS>k__BackingField",
+          "token": 67113605
+        },
+        {
+          "name": "<AUCTION_PRICE_REVEAL_CHANCE>k__BackingField",
+          "token": 67113606
+        },
+        {
+          "name": "<AUCTION_PRICE_REVEAL_RATIO_MIN>k__BackingField",
+          "token": 67113607
+        },
+        {
+          "name": "<AUCTION_PRICE_REVEAL_RATIO_MAX>k__BackingField",
+          "token": 67113608
+        },
+        {
+          "name": "<AUCTION_BYSTANDER_CHANCE>k__BackingField",
+          "token": 67113609
+        },
+        {
+          "name": "<AUCTION_TACTIC_BYSTANDER_CHANCE>k__BackingField",
+          "token": 67113610
+        },
+        {
+          "name": "<MAP_MARKER_FOLLOW_ZOOM_MIN>k__BackingField",
+          "token": 67113611
+        },
+        {
+          "name": "<MAP_MARKER_FOLLOW_ZOOM_MAX>k__BackingField",
+          "token": 67113612
+        },
+        {
+          "name": "<MAP_WASD_PAN_SCREEN_PER_SECOND>k__BackingField",
+          "token": 67113613
+        },
+        {
+          "name": "<MAP_POI_ICON_BASE_SCALE>k__BackingField",
+          "token": 67113614
+        },
+        {
+          "name": "<MAP_MARKER_SIZE_SCALE>k__BackingField",
+          "token": 67113615
+        },
+        {
+          "name": "<MAP_MARKER_ABOVE_MARGIN>k__BackingField",
+          "token": 67113616
+        },
+        {
+          "name": "<MAP_PAN_ACCEL>k__BackingField",
+          "token": 67113617
+        },
+        {
+          "name": "<MAP_PAN_DAMPING>k__BackingField",
+          "token": 67113618
+        },
+        {
+          "name": "<MAP_PAN_START_SPEED_RATIO>k__BackingField",
+          "token": 67113619
+        },
+        {
+          "name": "<MAP_PAN_RAMP_TIME>k__BackingField",
+          "token": 67113620
+        },
+        {
+          "name": "<COMMISSION_TASK_COMPLETION_DAYS>k__BackingField",
+          "token": 67113621
+        },
+        {
+          "name": "<QUEST_TASKBAR_LIMITED_MONTH_MIN_DAYS>k__BackingField",
+          "token": 67113622
+        },
+        {
+          "name": "<INTIMACY_CHANGE_TIP_MAX_VISIBLE_COUNT>k__BackingField",
+          "token": 67113623
+        },
+        {
+          "name": "<MAP_RARE_MONSTER_BADGE_ICON>k__BackingField",
+          "token": 67113624
+        },
+        {
+          "name": "<MAP_TRACKING_GUIDE_ICON>k__BackingField",
+          "token": 67113625
+        },
+        {
+          "name": "<CHUANYIN_TEMP_MESSAGE_MAX_COUNT>k__BackingField",
+          "token": 67113626
+        },
+        {
+          "name": "<AINPC_TOPIC_OFF_TOPIC_EXIT_ROUNDS>k__BackingField",
+          "token": 67113627
+        },
+        {
+          "name": "<STEAL_LUCK_RATE>k__BackingField",
+          "token": 67113628
+        },
+        {
+          "name": "<STEAL_LUCK_MAX>k__BackingField",
+          "token": 67113629
+        },
+        {
+          "name": "<STEAL_LUCK_ATTRIBUTE_ID>k__BackingField",
+          "token": 67113630
+        },
+        {
+          "name": "<GAMBLE_STONE_FINE_BRUSH_SIZE>k__BackingField",
+          "token": 67113631
+        },
+        {
+          "name": "<GAMBLE_STONE_WIDE_BRUSH_SIZE>k__BackingField",
+          "token": 67113632
+        },
+        {
+          "name": "<NPC_PROTECTION_FEE_INTIMACY_DELTA>k__BackingField",
+          "token": 67113633
+        },
+        {
+          "name": "<SPIRIT_ABSORPTION_POINTER_DOWN_SOUND>k__BackingField",
+          "token": 67113634
+        },
+        {
+          "name": "<SPIRIT_ABSORPTION_POINTER_UP_SOUND>k__BackingField",
+          "token": 67113635
+        },
+        {
+          "name": "<SPIRIT_ABSORPTION_ABSORB_SPIRIT_SOUND>k__BackingField",
+          "token": 67113636
+        },
+        {
+          "name": "<ALCHEMY_ESSENCE_PICK_UP_SOUND>k__BackingField",
+          "token": 67113637
+        },
+        {
+          "name": "<ALCHEMY_ESSENCE_PLACE_SUCCESS_SOUND>k__BackingField",
+          "token": 67113638
+        },
+        {
+          "name": "<ALCHEMY_ESSENCE_PLACE_FAIL_SOUND>k__BackingField",
+          "token": 67113639
+        },
+        {
+          "name": "<ALCHEMY_ESSENCE_ROTATE_SOUND>k__BackingField",
+          "token": 67113640
+        },
+        {
+          "name": "<ALCHEMY_ESSENCE_CLEAR_SOUND>k__BackingField",
+          "token": 67113641
+        },
+        {
+          "name": "<CULTIVATION_BEGIN_INFUSE_SOUND>k__BackingField",
+          "token": 67113642
+        },
+        {
+          "name": "<CULTIVATION_END_INFUSE_SOUND>k__BackingField",
+          "token": 67113643
+        },
+        {
+          "name": "<CULTIVATION_STAGE_UPGRADE_SOUND>k__BackingField",
+          "token": 67113644
+        },
+        {
+          "name": "<NPC_BUBBLE_MIN_SPEAKERS>k__BackingField",
+          "token": 67113645
+        },
+        {
+          "name": "<NPC_BUBBLE_MAX_SPEAKER_PERMILLE>k__BackingField",
+          "token": 67113646
+        },
+        {
+          "name": "<NPC_BUBBLE_SHOW_DURATION_MS>k__BackingField",
+          "token": 67113647
+        },
+        {
+          "name": "<NPC_BUBBLE_GAP_MIN_MS>k__BackingField",
+          "token": 67113648
+        },
+        {
+          "name": "<NPC_BUBBLE_SAME_NPC_COOLDOWN_MS>k__BackingField",
+          "token": 67113649
+        },
+        {
+          "name": "<NPC_BUBBLE_ROUNDS_PER_ENTRY>k__BackingField",
+          "token": 67113650
+        },
+        {
+          "name": "<NPC_BUBBLE_GAP_MAX_MS>k__BackingField",
+          "token": 67113651
+        },
+        {
+          "name": "<NPC_BUBBLE_ENTER_DELAY_MIN_MS>k__BackingField",
+          "token": 67113652
+        },
+        {
+          "name": "<NPC_BUBBLE_ENTER_DELAY_MAX_MS>k__BackingField",
+          "token": 67113653
+        },
+        {
+          "name": "<WILD_MONSTER_REFRESH_DAYS>k__BackingField",
+          "token": 67113654
+        },
+        {
+          "name": "<PLAYER_ALIGNMENT_TIP_ITEM_ID_NEGATIVE>k__BackingField",
+          "token": 67113655
+        },
+        {
+          "name": "<AINPC_TOPIC_ACTIVATE_COOLDOWN_MONTHS>k__BackingField",
+          "token": 67113656
+        },
+        {
+          "name": "<AUCTION_INSIGHT_TOAST_VERTICAL_OFFSET>k__BackingField",
+          "token": 67113657
+        },
+        {
+          "name": "<MAP_POI_BADGE_MAX_ON_MAP>k__BackingField",
+          "token": 67113658
+        },
+        {
+          "name": "<MAP_POI_BADGE_RING_COLOR>k__BackingField",
+          "token": 67113659
+        },
+        {
+          "name": "<MAP_SPIRIT_SPOT_BADGE_ICON>k__BackingField",
+          "token": 67113660
+        },
+        {
+          "name": "<MAP_SPIRIT_SPOT_BADGE_RING_COLOR>k__BackingField",
+          "token": 67113661
+        },
+        {
+          "name": "<DEFAULT_BATTLE_SPACE_ID>k__BackingField",
+          "token": 67113662
+        },
+        {
+          "name": "<REVIVE_LOADING_STYLE>k__BackingField",
+          "token": 67113663
+        },
+        {
+          "name": "<HUD_LOW_HP_SHOW_THRESHOLD_PERCENT>k__BackingField",
+          "token": 67113664
+        },
+        {
+          "name": "<HUD_LOW_HP_FLASH_THRESHOLD_PERCENT>k__BackingField",
+          "token": 67113665
+        },
+        {
+          "name": "<HUD_LOW_MP_SHOW_THRESHOLD_PERCENT>k__BackingField",
+          "token": 67113666
+        },
+        {
+          "name": "<HUD_LOW_MP_FLASH_THRESHOLD_PERCENT>k__BackingField",
+          "token": 67113667
+        },
+        {
+          "name": "<HUD_LOW_PLUS_BTN_ENABLE>k__BackingField",
+          "token": 67113668
+        },
+        {
+          "name": "<AUTO_SAVE_MIN_INTERVAL_SECONDS>k__BackingField",
+          "token": 67113669
+        },
+        {
+          "name": "<AUTO_SAVE_SLOT_COUNT>k__BackingField",
+          "token": 67113670
+        },
+        {
+          "name": "<STEAL_SETTLEMENT_VIDEO_GROUP_ID>k__BackingField",
+          "token": 67113671
+        },
+        {
+          "name": "<STEAL_SETTLEMENT_VIDEO_CLIP_ID>k__BackingField",
+          "token": 67113672
+        },
+        {
+          "name": "<MORTAL_MAX_LIFESPAN>k__BackingField",
+          "token": 67113673
+        },
+        {
+          "name": "<EARLY_ACCESS_DISCLAIMER_DAILY_REFRESH_HOUR>k__BackingField",
+          "token": 67113674
+        },
+        {
+          "name": "<LEARN_GONGFA_SHOOT_COOLDOWN_SECONDS>k__BackingField",
+          "token": 67113675
+        },
+        {
+          "name": "<CHUANYIN_EVENT_MAX_NPC_INTERACT>k__BackingField",
+          "token": 67113676
+        },
+        {
+          "name": "<CHUANYIN_EVENT_MAX_BREAKTHROUGH>k__BackingField",
+          "token": 67113677
+        },
+        {
+          "name": "<CHUANYIN_EVENT_MAX_MONTHLY_GIFT>k__BackingField",
+          "token": 67113678
+        },
+        {
+          "name": "<CHUANYIN_EVENT_MAX_NPC_DEATH>k__BackingField",
+          "token": 67113679
+        },
+        {
+          "name": "<SETTINGS_FEEDBACK_MAX_LENGTH>k__BackingField",
+          "token": 67113680
+        },
+        {
+          "name": "<STARTUP_SPLASH_CINEMATIC_GROUP_ID>k__BackingField",
+          "token": 67113681
+        },
+        {
+          "name": "<DIALOGUE_SKIP_HOLD_DURATION>k__BackingField",
+          "token": 67113682
+        },
+        {
+          "name": "<DIALOGUE_SPEEDUP_LEVELS>k__BackingField",
+          "token": 67113683
+        },
+        {
+          "name": "<DIALOGUE_SPEEDUP_WINDOW_SECONDS>k__BackingField",
+          "token": 67113684
+        },
+        {
+          "name": "<DIALOGUE_SPEEDUP_MAX_ACTIONS_PER_WINDOW>k__BackingField",
+          "token": 67113685
+        },
+        {
+          "name": "<ALCHEMY_MAP_SIZE>k__BackingField",
+          "token": 67113686
+        },
+        {
+          "name": "<ALCHEMY_RING_RADII>k__BackingField",
+          "token": 67113687
+        },
+        {
+          "name": "<ALCHEMY_FOG_RADIUS>k__BackingField",
+          "token": 67113688
+        },
+        {
+          "name": "<ALCHEMY_INITIAL_FOG_MULTIPLIER>k__BackingField",
+          "token": 67113689
+        },
+        {
+          "name": "<ALCHEMY_POI_REVEAL_EXTRA>k__BackingField",
+          "token": 67113690
+        },
+        {
+          "name": "<ALCHEMY_PILL_RADIUS>k__BackingField",
+          "token": 67113691
+        },
+        {
+          "name": "<ALCHEMY_ABSORB_RADIUS>k__BackingField",
+          "token": 67113692
+        },
+        {
+          "name": "<ALCHEMY_MOVE_SPEED>k__BackingField",
+          "token": 67113693
+        },
+        {
+          "name": "<ALCHEMY_AUTO_MOVE_SPEED>k__BackingField",
+          "token": 67113694
+        },
+        {
+          "name": "<ALCHEMY_TELEPORT_SPEED_MULTIPLIER>k__BackingField",
+          "token": 67113695
+        },
+        {
+          "name": "<ALCHEMY_TELEPORT_MIN_TIER>k__BackingField",
+          "token": 67113696
+        },
+        {
+          "name": "<ALCHEMY_PAN_SPEED>k__BackingField",
+          "token": 67113697
+        },
+        {
+          "name": "<ALCHEMY_CURVE_OFFSETS>k__BackingField",
+          "token": 67113698
+        },
+        {
+          "name": "<ALCHEMY_ZOOM_MIN>k__BackingField",
+          "token": 67113699
+        },
+        {
+          "name": "<ALCHEMY_ZOOM_MAX>k__BackingField",
+          "token": 67113700
+        },
+        {
+          "name": "<ALCHEMY_CAMERA_LERP>k__BackingField",
+          "token": 67113701
+        },
+        {
+          "name": "<ALCHEMY_DANGER_MAX>k__BackingField",
+          "token": 67113702
+        },
+        {
+          "name": "<ALCHEMY_DANGER_MIN_MOVE_DIST>k__BackingField",
+          "token": 67113703
+        },
+        {
+          "name": "<ALCHEMY_OUTER_DANGER_RATE>k__BackingField",
+          "token": 67113704
+        },
+        {
+          "name": "<ALCHEMY_SWAMP_DANGER_RATE>k__BackingField",
+          "token": 67113705
+        },
+        {
+          "name": "<ALCHEMY_SWAMP_WARN_INTERVAL>k__BackingField",
+          "token": 67113706
+        },
+        {
+          "name": "<ALCHEMY_DANGER_RECOVERY_RATE>k__BackingField",
+          "token": 67113707
+        },
+        {
+          "name": "<ALCHEMY_OUTER_DANGER_DIST>k__BackingField",
+          "token": 67113708
+        },
+        {
+          "name": "<ALCHEMY_SWAMP_DANGER_DIST>k__BackingField",
+          "token": 67113709
+        },
+        {
+          "name": "<ALCHEMY_OUTER_DANGER_WARN_INTERVAL>k__BackingField",
+          "token": 67113710
+        },
+        {
+          "name": "<ALCHEMY_EXPLOSION_RECOVER_DIVISOR>k__BackingField",
+          "token": 67113711
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_MAX>k__BackingField",
+          "token": 67113712
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_LEVEL_THRESHOLDS>k__BackingField",
+          "token": 67113713
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_PER_HERB_TIER>k__BackingField",
+          "token": 67113714
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_PER_EFFECT_TIER>k__BackingField",
+          "token": 67113715
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_RECIPE_ADD>k__BackingField",
+          "token": 67113716
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_CLEANSE_BASE>k__BackingField",
+          "token": 67113717
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_CLEANSE_PER_TIER>k__BackingField",
+          "token": 67113718
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_ZONE_W_SHRINK>k__BackingField",
+          "token": 67113719
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_PERFECT_W_SHRINK>k__BackingField",
+          "token": 67113720
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_ZONE_SPEED_BOOST>k__BackingField",
+          "token": 67113721
+        },
+        {
+          "name": "<ALCHEMY_TOXIN_CURSOR_DOWN_BOOST>k__BackingField",
+          "token": 67113722
+        },
+        {
+          "name": "<ALCHEMY_QTE_PROGRESS_ZONE>k__BackingField",
+          "token": 67113723
+        },
+        {
+          "name": "<ALCHEMY_QTE_PROGRESS_PERFECT>k__BackingField",
+          "token": 67113724
+        },
+        {
+          "name": "<ALCHEMY_QTE_PROGRESS_MAX>k__BackingField",
+          "token": 67113725
+        },
+        {
+          "name": "<ALCHEMY_QTE_SCORE_ZONE>k__BackingField",
+          "token": 67113726
+        },
+        {
+          "name": "<ALCHEMY_QTE_SCORE_PERFECT>k__BackingField",
+          "token": 67113727
+        },
+        {
+          "name": "<ALCHEMY_QTE_SCORE_SPIRIT>k__BackingField",
+          "token": 67113728
+        },
+        {
+          "name": "<ALCHEMY_QTE_FLOAT_SCORE_CHANCE>k__BackingField",
+          "token": 67113729
+        },
+        {
+          "name": "<ALCHEMY_QTE_ZONE_LERP_SPEED>k__BackingField",
+          "token": 67113730
+        },
+        {
+          "name": "<ALCHEMY_QTE_GUIDE_DELAY>k__BackingField",
+          "token": 67113731
+        },
+        {
+          "name": "<ALCHEMY_QTE_SPIRIT_DUR_BASE>k__BackingField",
+          "token": 67113732
+        },
+        {
+          "name": "<ALCHEMY_QTE_SPIRIT_DUR_RANGE>k__BackingField",
+          "token": 67113733
+        },
+        {
+          "name": "<ALCHEMY_QTE_SPIRIT_KEYS>k__BackingField",
+          "token": 67113734
+        },
+        {
+          "name": "<ALCHEMY_EFFECT_UPGRADE_RULES>k__BackingField",
+          "token": 67113735
+        },
+        {
+          "name": "<ALCHEMY_MAX_RECIPES>k__BackingField",
+          "token": 67113736
+        },
+        {
+          "name": "<ALCHEMY_MAX_EFFECTS>k__BackingField",
+          "token": 67113737
+        },
+        {
+          "name": "<ALCHEMY_HERB_DEFAULT_QTY>k__BackingField",
+          "token": 67113738
+        },
+        {
+          "name": "<ALCHEMY_BATCH_MAX_QTY>k__BackingField",
+          "token": 67113739
+        },
+        {
+          "name": "<ALCHEMY_HERB_COST_BASE>k__BackingField",
+          "token": 67113740
+        },
+        {
+          "name": "<ALCHEMY_MAIN_HERB_RATIO>k__BackingField",
+          "token": 67113741
+        },
+        {
+          "name": "<ALCHEMY_CLEANSE_NAMES>k__BackingField",
+          "token": 67113742
+        },
+        {
+          "name": "<ALCHEMY_PERM_ATTR_CAP_RATIO>k__BackingField",
+          "token": 67113743
+        },
+        {
+          "name": "<ALCHEMY_PERM_ATTR_FALLBACK_CAP>k__BackingField",
+          "token": 67113744
+        },
+        {
+          "name": "<ALCHEMY_PERM_ATTR_TOTAL_CAP>k__BackingField",
+          "token": 67113745
+        },
+        {
+          "name": "<ALCHEMY_LINGSHI_SHEN>k__BackingField",
+          "token": 67113746
+        },
+        {
+          "name": "<ALCHEMY_LINGSHI_XIAN>k__BackingField",
+          "token": 67113747
+        },
+        {
+          "name": "<ALCHEMY_LINGSHI_FAN>k__BackingField",
+          "token": 67113748
+        },
+        {
+          "name": "<ALCHEMY_LINGSHI_FAIL>k__BackingField",
+          "token": 67113749
+        },
+        {
+          "name": "<ALCHEMY_LINGSHI_BATCH_RATIO>k__BackingField",
+          "token": 67113750
+        },
+        {
+          "name": "<ALCHEMY_EXPLOSION_RETURN_RATIO>k__BackingField",
+          "token": 67113751
+        },
+        {
+          "name": "<ALCHEMY_OUTER_RING_RADIUS>k__BackingField",
+          "token": 67113752
+        },
+        {
+          "name": "<ALCHEMY_POI_HOVER_HIT_RADIUS>k__BackingField",
+          "token": 67113753
+        },
+        {
+          "name": "<ALCHEMY_POI_HOVER_ENTER_DELAY>k__BackingField",
+          "token": 67113754
+        },
+        {
+          "name": "<ALCHEMY_POI_CANVAS_SCALE>k__BackingField",
+          "token": 67113755
+        },
+        {
+          "name": "<ALCHEMY_POI_SCALE_OFFSET>k__BackingField",
+          "token": 67113756
+        },
+        {
+          "name": "<ALCHEMY_FOG_TEXTURE_SIZE>k__BackingField",
+          "token": 67113757
+        },
+        {
+          "name": "<ALCHEMY_FOG_EDGE_SOFTNESS>k__BackingField",
+          "token": 67113758
+        },
+        {
+          "name": "<ALCHEMY_FOG_COLOR_HEX>k__BackingField",
+          "token": 67113759
+        },
+        {
+          "name": "<ALCHEMY_FOG_REVEAL_THROTTLE>k__BackingField",
+          "token": 67113760
+        },
+        {
+          "name": "<ALCHEMY_AUTOMOVE_BOUNCE_REFUND>k__BackingField",
+          "token": 67113761
+        },
+        {
+          "name": "<ALCHEMY_FULLBOUNCE_REFUND>k__BackingField",
+          "token": 67113762
+        },
+        {
+          "name": "<ALCHEMY_CAMERA_FRAME_MARGIN>k__BackingField",
+          "token": 67113763
+        },
+        {
+          "name": "<ALCHEMY_DURATION_EXTEND_DIVISOR>k__BackingField",
+          "token": 67113764
+        },
+        {
+          "name": "<ALCHEMY_PERM_ATTR_CAP_DIVISOR>k__BackingField",
+          "token": 67113765
+        },
+        {
+          "name": "<ALCHEMY_SHEN_BOOST_FACTOR>k__BackingField",
+          "token": 67113766
+        },
+        {
+          "name": "<ALCHEMY_TOTAL_SCALE_DIVISOR>k__BackingField",
+          "token": 67113767
+        },
+        {
+          "name": "<ALCHEMY_DANDU_RECIPE_GAIN>k__BackingField",
+          "token": 67113768
+        },
+        {
+          "name": "<ALCHEMY_DANDU_EFFECT_GAIN>k__BackingField",
+          "token": 67113769
+        },
+        {
+          "name": "<ALCHEMY_DANDU_CLEANSE_RECOVER>k__BackingField",
+          "token": 67113770
+        },
+        {
+          "name": "<ALCHEMY_DANGER_CLEANSE_RECOVER>k__BackingField",
+          "token": 67113771
+        },
+        {
+          "name": "<ALCHEMY_USAGE_RESTRICTION_OUTER>k__BackingField",
+          "token": 67113772
+        },
+        {
+          "name": "<ALCHEMY_USAGE_RESTRICTION_INNER>k__BackingField",
+          "token": 67113773
+        },
+        {
+          "name": "<REFINING_PILLS_STAMINA_COST>k__BackingField",
+          "token": 67113774
+        },
+        {
+          "name": "<REFINING_PILLS_EXP_ITEM_ID>k__BackingField",
+          "token": 67113775
+        },
+        {
+          "name": "<ALCHEMY_EFFECT_ICON_T1>k__BackingField",
+          "token": 67113776
+        },
+        {
+          "name": "<ALCHEMY_EFFECT_ICON_T2>k__BackingField",
+          "token": 67113777
+        },
+        {
+          "name": "<ALCHEMY_EFFECT_ICON_T3>k__BackingField",
+          "token": 67113778
+        },
+        {
+          "name": "<ALCHEMY_EFFECT_ICON_T4>k__BackingField",
+          "token": 67113779
+        },
+        {
+          "name": "<ALCHEMY_EFFECT_ICON_T5>k__BackingField",
+          "token": 67113780
+        },
+        {
+          "name": "<ALCHEMY_CLEANSE_ICON>k__BackingField",
+          "token": 67113781
+        },
+        {
+          "name": "<ALCHEMY_RING_NAME_T1>k__BackingField",
+          "token": 67113782
+        },
+        {
+          "name": "<ALCHEMY_RING_NAME_T2>k__BackingField",
+          "token": 67113783
+        },
+        {
+          "name": "<ALCHEMY_RING_NAME_T3>k__BackingField",
+          "token": 67113784
+        },
+        {
+          "name": "<ALCHEMY_RING_NAME_T4>k__BackingField",
+          "token": 67113785
+        },
+        {
+          "name": "<ALCHEMY_RING_NAME_T5>k__BackingField",
+          "token": 67113786
+        },
+        {
+          "name": "<ALCHEMY_RING_DANGER_SUFFIX>k__BackingField",
+          "token": 67113787
+        },
+        {
+          "name": "<ALCHEMY_CLEANSE_POI_SCALE_MIN>k__BackingField",
+          "token": 67113788
+        },
+        {
+          "name": "<ALCHEMY_CLEANSE_POI_SCALE_MAX>k__BackingField",
+          "token": 67113789
+        },
+        {
+          "name": "<ALCHEMY_PILL_VISUAL_SCALE_MIN>k__BackingField",
+          "token": 67113790
+        },
+        {
+          "name": "<ALCHEMY_PILL_VISUAL_SCALE_MAX>k__BackingField",
+          "token": 67113791
+        },
+        {
+          "name": "<ALCHEMY_REWARD_ICON_Q1>k__BackingField",
+          "token": 67113792
+        },
+        {
+          "name": "<ALCHEMY_REWARD_ICON_Q2>k__BackingField",
+          "token": 67113793
+        },
+        {
+          "name": "<ALCHEMY_REWARD_ICON_Q3>k__BackingField",
+          "token": 67113794
+        },
+        {
+          "name": "<ALCHEMY_REWARD_ICON_Q4>k__BackingField",
+          "token": 67113795
+        },
+        {
+          "name": "<ALCHEMY_REWARD_ICON_Q5>k__BackingField",
+          "token": 67113796
+        },
+        {
+          "name": "<ALCHEMY_REWARD_POI_SCALE_MIN>k__BackingField",
+          "token": 67113797
+        },
+        {
+          "name": "<ALCHEMY_REWARD_POI_SCALE_MAX>k__BackingField",
+          "token": 67113798
+        },
+        {
+          "name": "<ALCHEMY_REFUND_BUFF_RARE_EXEMPT>k__BackingField",
+          "token": 67113799
+        },
+        {
+          "name": "<ALCHEMY_SFX_PORTAL_CHARGE>k__BackingField",
+          "token": 67113800
+        },
+        {
+          "name": "<ALCHEMY_SFX_PORTAL_WARP>k__BackingField",
+          "token": 67113801
+        },
+        {
+          "name": "<ALCHEMY_SFX_PORTAL_LAND>k__BackingField",
+          "token": 67113802
+        },
+        {
+          "name": "<ALCHEMY_PORTAL_AVG_FREE_DIALOGUE_ID>k__BackingField",
+          "token": 67113803
+        },
+        {
+          "name": "<ALCHEMY_SFX_MOVE_LP>k__BackingField",
+          "token": 67113804
+        },
+        {
+          "name": "<ALCHEMY_SFX_ADSORB>k__BackingField",
+          "token": 67113805
+        },
+        {
+          "name": "<ALCHEMY_CONDENSE_HINT_DURATION_SECONDS>k__BackingField",
+          "token": 67113806
+        },
+        {
+          "name": "<SHOOTING_SFX_SHOT>k__BackingField",
+          "token": 67113807
+        },
+        {
+          "name": "<SHOOTING_SFX_ZOOM_IN>k__BackingField",
+          "token": 67113808
+        },
+        {
+          "name": "<SHOOTING_SFX_ZOOM_OUT>k__BackingField",
+          "token": 67113809
+        },
+        {
+          "name": "<WORLD_BOSS_DIPLO_FOCUS_FIRE_SHICHEN>k__BackingField",
+          "token": 67113810
+        },
+        {
+          "name": "<WORLD_BOSS_DIPLO_WATCH_SHICHEN>k__BackingField",
+          "token": 67113811
+        },
+        {
+          "name": "<WORLD_BOSS_DIPLO_PROTECT_SHICHEN>k__BackingField",
+          "token": 67113812
+        },
+        {
+          "name": "<WORLD_BOSS_DIPLO_ALLIANCE_SHICHEN>k__BackingField",
+          "token": 67113813
+        },
+        {
+          "name": "<WORLD_BOSS_DIPLO_GANG_UP_SHICHEN>k__BackingField",
+          "token": 67113814
+        },
+        {
+          "name": "<WORLD_BOSS_DIPLO_INTIMACY_BASE>k__BackingField",
+          "token": 67113815
+        },
+        {
+          "name": "<WORLD_BOSS_DIPLO_NATURE_BIAS_DIVISOR>k__BackingField",
+          "token": 67113816
+        },
+        {
+          "name": "<WORLD_BOSS_DIPLO_ATTITUDE_RANDOM_RANGE>k__BackingField",
+          "token": 67113817
+        },
+        {
+          "name": "<WORLD_BOSS_RELATION_FRIENDLY_MIN>k__BackingField",
+          "token": 67113818
+        },
+        {
+          "name": "<WORLD_BOSS_RELATION_HOSTILE_MAX>k__BackingField",
+          "token": 67113819
+        },
+        {
+          "name": "<WORLD_BOSS_DEFECTION_CHECK_INTERVAL_SEC>k__BackingField",
+          "token": 67113820
+        },
+        {
+          "name": "<WORLD_BOSS_DEFECTION_LAG_RATIO>k__BackingField",
+          "token": 67113821
+        },
+        {
+          "name": "<WORLD_BOSS_DEFECTION_ATTITUDE_MIN>k__BackingField",
+          "token": 67113822
+        },
+        {
+          "name": "<WORLD_BOSS_DEFECTION_ATTITUDE_SWING>k__BackingField",
+          "token": 67113823
+        },
+        {
+          "name": "<WORLD_BOSS_DEFECTION_ALLIANCE_SHICHEN>k__BackingField",
+          "token": 67113824
+        },
+        {
+          "name": "<WORLD_BOSS_AMBIENT_REVIVE_SEC>k__BackingField",
+          "token": 67113825
+        },
+        {
+          "name": "<WORLD_BOSS_AMBIENT_EYE_PVP_COOLDOWN_SEC>k__BackingField",
+          "token": 67113826
+        },
+        {
+          "name": "<WORLD_BOSS_AMBIENT_EYE_PVP_TRIGGER_CHANCE>k__BackingField",
+          "token": 67113827
+        },
+        {
+          "name": "<WORLD_BOSS_AMBIENT_DISPATCH_PER_TICK>k__BackingField",
+          "token": 67113828
+        },
+        {
+          "name": "<WORLD_BOSS_AMBIENT_FALLBACK_POWER>k__BackingField",
+          "token": 67113829
+        },
+        {
+          "name": "<WORLD_BOSS_AMBIENT_DEFENDER_NPCS>k__BackingField",
+          "token": 67113830
+        },
+        {
+          "name": "<WORLD_BOSS_AMBIENT_ATTACKER_NPCS>k__BackingField",
+          "token": 67113831
+        },
+        {
+          "name": "<WORLD_BOSS_NPC_ATTACK_INTERVAL_SEC>k__BackingField",
+          "token": 67113832
+        },
+        {
+          "name": "<WORLD_BOSS_PHASE_DEFEAT_FEEDBACK_SEC>k__BackingField",
+          "token": 67113833
+        },
+        {
+          "name": "<WORLD_BOSS_PLAYER_POWER_FALLBACK>k__BackingField",
+          "token": 67113834
+        },
+        {
+          "name": "<WORLD_BOSS_RANK_TIER_TOP5_MAX>k__BackingField",
+          "token": 67113835
+        },
+        {
+          "name": "<WORLD_BOSS_RANK_TIER_TOP15_MAX>k__BackingField",
+          "token": 67113836
+        },
+        {
+          "name": "<WORLD_BOSS_DEFAULT_HP_RATIO>k__BackingField",
+          "token": 67113837
+        },
+        {
+          "name": "<WORLD_BOSS_PHASE_SWITCH_DELAY_SEC>k__BackingField",
+          "token": 67113838
+        },
+        {
+          "name": "<WORLD_BOSS_PLAYER_REVIVE_MS>k__BackingField",
+          "token": 67113839
+        },
+        {
+          "name": "<WORLD_BOSS_NPC_REVIVE_MS>k__BackingField",
+          "token": 67113840
+        },
+        {
+          "name": "<WORLD_BOSS_PVP_COOLDOWN_MS>k__BackingField",
+          "token": 67113841
+        },
+        {
+          "name": "<WORLD_BOSS_AI_DECISION_INTERVAL_MS>k__BackingField",
+          "token": 67113842
+        },
+        {
+          "name": "<WORLD_BOSS_PLAYER_TEST_MUL>k__BackingField",
+          "token": 67113843
+        },
+        {
+          "name": "<WORLD_BOSS_PLAYER_AUTO_MUL>k__BackingField",
+          "token": 67113844
+        },
+        {
+          "name": "<WORLD_BOSS_NPC_SPREAD_MIN>k__BackingField",
+          "token": 67113845
+        },
+        {
+          "name": "<WORLD_BOSS_NPC_SPREAD_MAX>k__BackingField",
+          "token": 67113846
+        },
+        {
+          "name": "<WORLD_BOSS_DEFAULT_ACTIVITY_DURATION_HOURS>k__BackingField",
+          "token": 67113847
+        },
+        {
+          "name": "<WORLD_BOSS_REAL_SECONDS_PER_SHICHEN>k__BackingField",
+          "token": 67113848
+        },
+        {
+          "name": "<WORLD_BOSS_AMBIENT_WANDERER_RATIO>k__BackingField",
+          "token": 67113849
+        },
+        {
+          "name": "<WORLD_BOSS_PAUSE_BUTTON_BLINK_INTERVAL_SEC>k__BackingField",
+          "token": 67113850
+        },
+        {
+          "name": "<WORLD_BOSS_DIPLO_QUOTE_AVG_ID>k__BackingField",
+          "token": 67113851
+        },
+        {
+          "name": "<WORLD_BOSS_ABANDON_AVG_ID>k__BackingField",
+          "token": 67113852
+        },
+        {
+          "name": "<WORLD_BOSS_TIMEOUT_AVG_ID>k__BackingField",
+          "token": 67113853
+        },
+        {
+          "name": "<AINPC_HELD_ITEMS_BRIEF_MAX>k__BackingField",
+          "token": 67113854
+        },
+        {
+          "name": "<AINPC_MERCHANT_GOODS_BRIEF_MAX>k__BackingField",
+          "token": 67113855
+        },
+        {
+          "name": "<AINPC_COMMISSION_OFFERS_MAX>k__BackingField",
+          "token": 67113856
+        },
+        {
+          "name": "<AINPC_PERSUADE_SUCCESS_THRESHOLD>k__BackingField",
+          "token": 67113857
+        },
+        {
+          "name": "<AINPC_PERSUADE_DELTA_MAX>k__BackingField",
+          "token": 67113858
+        },
+        {
+          "name": "<AINPC_PERSUADE_DELTA_MIN>k__BackingField",
+          "token": 67113859
+        },
+        {
+          "name": "<AINPC_PROMPT_MAX_CHARS>k__BackingField",
+          "token": 67113860
+        },
+        {
+          "name": "<AINPC_PROMPT_MEMORY_MAX_CHARS>k__BackingField",
+          "token": 67113861
+        },
+        {
+          "name": "<AINPC_PROMPT_TASK_STATE_MAX_COUNT>k__BackingField",
+          "token": 67113862
+        },
+        {
+          "name": "<AINPC_PROMPT_TASK_OBJECTIVE_MAX_COUNT>k__BackingField",
+          "token": 67113863
+        },
+        {
+          "name": "<AINPC_PROMPT_RECENT_ROUND_RESERVE_COUNT>k__BackingField",
+          "token": 67113864
+        },
+        {
+          "name": "<AINPC_CUSTOM_MAX_TOKENS>k__BackingField",
+          "token": 67113865
+        },
+        {
+          "name": "<TOURNAMENT_PICK_SECONDS>k__BackingField",
+          "token": 67113866
+        },
+        {
+          "name": "<TOURNAMENT_DEFAULT_HP_RATIO>k__BackingField",
+          "token": 67113867
+        },
+        {
+          "name": "<TIANJI_AUTO_PICK_DELAY_MS>k__BackingField",
+          "token": 67113868
+        },
+        {
+          "name": "<TIANJI_AUTO_DIALOGUE_DELAY_MS>k__BackingField",
+          "token": 67113869
+        },
+        {
+          "name": "<TOURNAMENT_RESULT_RECORD_MAX>k__BackingField",
+          "token": 67113870
+        },
+        {
+          "name": "<TOURNAMENT_CINEMATIC_GROUP_ID>k__BackingField",
+          "token": 67113871
+        },
+        {
+          "name": "<SETTLEMENT_PANEL_SKIP_LOCK_SECONDS>k__BackingField",
+          "token": 67113872
+        },
+        {
+          "name": "<BLOOD_ALTAR_MAX_SACRIFICES>k__BackingField",
+          "token": 67113873
+        },
+        {
+          "name": "<BLOOD_ALTAR_ATTACK_CHANCE_STEP>k__BackingField",
+          "token": 67113874
+        },
+        {
+          "name": "<BLOOD_ALTAR_CHOICE_BASE_EXPERIENCE>k__BackingField",
+          "token": 67113875
+        },
+        {
+          "name": "<SECT_CONTRIBUTION_ITEM_ID>k__BackingField",
+          "token": 67113876
+        },
+        {
+          "name": "<SECT_TASK_DEFAULT_LIMIT>k__BackingField",
+          "token": 67113877
+        },
+        {
+          "name": "<SECT_TASK_REFRESH_COUNT>k__BackingField",
+          "token": 67113878
+        },
+        {
+          "name": "<SECT_TASK_REFRESH_DAYS>k__BackingField",
+          "token": 67113879
+        },
+        {
+          "name": "<SECT_TASK_TIMEOUT_DAYS>k__BackingField",
+          "token": 67113880
+        },
+        {
+          "name": "<SECT_EXIT_INTIMACY_PENALTY>k__BackingField",
+          "token": 67113881
+        },
+        {
+          "name": "<SECT_EXIT_REJOIN_COOLDOWN_DAYS>k__BackingField",
+          "token": 67113882
+        },
+        {
+          "name": "<SECT_SALARY_GRANT_MONTH>k__BackingField",
+          "token": 67113883
+        },
+        {
+          "name": "<SECT_SALARY_GRANT_DAY>k__BackingField",
+          "token": 67113884
+        },
+        {
+          "name": "<SECT_SALARY_CHUANYIN_TEMPLATE_ID_BASE>k__BackingField",
+          "token": 67113885
+        },
+        {
+          "name": "<SECT_DEFAULT_JOIN_POSITION_ID>k__BackingField",
+          "token": 67113886
+        },
+        {
+          "name": "<SECT_EXIT_DEFAULT_RETURN_SPACE_ID>k__BackingField",
+          "token": 67113887
+        },
+        {
+          "name": "<DIFFICULTY_LIFESPAN_EXHAUSTED_END>k__BackingField",
+          "token": 67113888
+        },
+        {
+          "name": "<DIFFICULTY_PERMADEATH_ENABLE>k__BackingField",
+          "token": 67113889
+        },
+        {
+          "name": "<NPC_RELATION_CHARM_TEMP_INTIMACY_RATE>k__BackingField",
+          "token": 67113890
+        },
+        {
+          "name": "<NPC_RELATION_CHARM_TEMP_INTIMACY_MAX>k__BackingField",
+          "token": 67113891
+        },
+        {
+          "name": "<DUAL_CULTIVATE_CHARM_TEMP_INTIMACY_RATE>k__BackingField",
+          "token": 67113892
+        },
+        {
+          "name": "<DUAL_CULTIVATE_CHARM_TEMP_INTIMACY_MAX>k__BackingField",
+          "token": 67113893
+        },
+        {
+          "name": "<REALM_BREAKTHROUGH_LUCK_REFERENCE>k__BackingField",
+          "token": 67113894
+        },
+        {
+          "name": "<REALM_BREAKTHROUGH_LUCK_MAX_RATE>k__BackingField",
+          "token": 67113895
+        },
+        {
+          "name": "<REALM_BREAKTHROUGH_SUCCESS_RATE_MAX>k__BackingField",
+          "token": 67113896
+        },
+        {
+          "name": "<NPC_MASTER_PLAYER_REALM_MIN>k__BackingField",
+          "token": 67113897
+        },
+        {
+          "name": "<DUAL_CULTIVATE_COMMON_CONFIG_ID>k__BackingField",
+          "token": 67113898
+        },
+        {
+          "name": "<DUAL_CULTIVATE_FIRST_REWARD_CONFIG_ID>k__BackingField",
+          "token": 67113899
+        },
+        {
+          "name": "<DUAL_CULTIVATE_REWARD_TIER_COUNT>k__BackingField",
+          "token": 67113900
+        },
+        {
+          "name": "<DUAL_CULTIVATE_REWARD_REALM_MIN>k__BackingField",
+          "token": 67113901
+        },
+        {
+          "name": "<DUAL_CULTIVATE_REWARD_REALM_MAX>k__BackingField",
+          "token": 67113902
+        },
+        {
+          "name": "<DUAL_CULTIVATE_HIGH_INTIMACY_THRESHOLD>k__BackingField",
+          "token": 67113903
+        },
+        {
+          "name": "<DUAL_CULTIVATE_DAO_REWARD_TIER>k__BackingField",
+          "token": 67113904
+        },
+        {
+          "name": "<DUAL_CULTIVATE_INTIMATE_REWARD_TIER>k__BackingField",
+          "token": 67113905
+        },
+        {
+          "name": "<NPC_RELATION_DEFAULT_FAILURE_DIALOGUE_ID>k__BackingField",
+          "token": 67113906
+        },
+        {
+          "name": "<NPC_INTERACT_ADULT_AGE>k__BackingField",
+          "token": 67113907
+        },
+        {
+          "name": "<NPC_NAME_PREFIX_TAGS>k__BackingField",
+          "token": 67113908
+        },
+        {
+          "name": "<GUIDE_FOCUS_MASK_TRANSPARENCY>k__BackingField",
+          "token": 67113909
+        },
+        {
+          "name": "<GUIDE_FOCUS_CLICK_CLOSE_DELAY>k__BackingField",
+          "token": 67113910
+        },
+        {
+          "name": "<GUIDE_FOCUS_FADE_IN_DURATION>k__BackingField",
+          "token": 67113911
+        },
+        {
+          "name": "<GUIDE_FOCUS_FADE_OUT_DURATION>k__BackingField",
+          "token": 67113912
+        },
+        {
+          "name": "<CURRENT_GAME_REALM_VERSION>k__BackingField",
+          "token": 67113913
+        },
+        {
+          "name": "<VERSION_EFFECTIVE_REALM_LIMIT>k__BackingField",
+          "token": 67113914
+        },
+        {
+          "name": "__ID__",
+          "token": 67113915
+        }
+      ]
+    },
+    "LubanDatas.TbNpcInteractGameEntry": {
+      "type_definition_offset": 28827580,
+      "token": 33555484,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "_dataList",
+          "token": 67111915
+        },
+        {
+          "name": "_dataMapUnion",
+          "token": 67111916
+        },
+        {
+          "name": "_overrides",
+          "token": 67111917
+        }
+      ]
+    },
+    "LubanDatas.TbNpcPersuadeTopic": {
+      "type_definition_offset": 28829516,
+      "token": 33555506,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "_dataMap",
+          "token": 67111961
+        },
+        {
+          "name": "_dataList",
+          "token": 67111962
+        },
+        {
+          "name": "_overrides",
+          "token": 67111963
+        }
+      ]
+    },
+    "LubanDatas.data.NpcInteractGameEntry": {
+      "type_definition_offset": 28886100,
+      "token": 33556149,
+      "field_count": 26,
+      "fields": [
+        {
+          "name": "<npcId>k__BackingField",
+          "token": 67114957
+        },
+        {
+          "name": "<subId>k__BackingField",
+          "token": 67114958
+        },
+        {
+          "name": "<dependsSubId>k__BackingField",
+          "token": 67114959
+        },
+        {
+          "name": "<UnlockIntimacy>k__BackingField",
+          "token": 67114960
+        },
+        {
+          "name": "<UnlockCondition>k__BackingField",
+          "token": 67114961
+        },
+        {
+          "name": "<interactButtonName>k__BackingField",
+          "token": 67114962
+        },
+        {
+          "name": "<maxSuccessCount>k__BackingField",
+          "token": 67114963
+        },
+        {
+          "name": "<interactGameType>k__BackingField",
+          "token": 67114964
+        },
+        {
+          "name": "<interactGameParam>k__BackingField",
+          "token": 67114965
+        },
+        {
+          "name": "<entryCheckConditions>k__BackingField",
+          "token": 67114966
+        },
+        {
+          "name": "<avgOnCheckSuccess>k__BackingField",
+          "token": 67114967
+        },
+        {
+          "name": "<avgOnCheckFailure>k__BackingField",
+          "token": 67114968
+        },
+        {
+          "name": "<costStamina>k__BackingField",
+          "token": 67114969
+        },
+        {
+          "name": "<reward>k__BackingField",
+          "token": 67114970
+        },
+        {
+          "name": "<rewardDesc>k__BackingField",
+          "token": 67114971
+        },
+        {
+          "name": "<intimacyIncrement>k__BackingField",
+          "token": 67114972
+        },
+        {
+          "name": "<maxIntimacyUpdate>k__BackingField",
+          "token": 67114973
+        },
+        {
+          "name": "<interactAttributeIncrements>k__BackingField",
+          "token": 67114974
+        },
+        {
+          "name": "<settlementSuccDesc>k__BackingField",
+          "token": 67114975
+        },
+        {
+          "name": "<chuanYinEventId>k__BackingField",
+          "token": 67114976
+        },
+        {
+          "name": "<triggerPriority>k__BackingField",
+          "token": 67114977
+        },
+        {
+          "name": "<triggerWeight>k__BackingField",
+          "token": 67114978
+        },
+        {
+          "name": "<stateTagName>k__BackingField",
+          "token": 67114979
+        },
+        {
+          "name": "<stateTagDesc>k__BackingField",
+          "token": 67114980
+        },
+        {
+          "name": "<stateTagStyleId>k__BackingField",
+          "token": 67114981
+        },
+        {
+          "name": "__ID__",
+          "token": 67114982
+        }
+      ]
+    },
+    "LubanDatas.data.NpcPersuadeTopic": {
+      "type_definition_offset": 28887508,
+      "token": 33556165,
+      "field_count": 10,
+      "fields": [
+        {
+          "name": "<id>k__BackingField",
+          "token": 67115051
+        },
+        {
+          "name": "<topic>k__BackingField",
+          "token": 67115052
+        },
+        {
+          "name": "<maxRounds>k__BackingField",
+          "token": 67115053
+        },
+        {
+          "name": "<firstNpcMessage>k__BackingField",
+          "token": 67115054
+        },
+        {
+          "name": "<backgroundPrompt>k__BackingField",
+          "token": 67115055
+        },
+        {
+          "name": "<unlockHidePersonality>k__BackingField",
+          "token": 67115056
+        },
+        {
+          "name": "<unlockShowCharm>k__BackingField",
+          "token": 67115057
+        },
+        {
+          "name": "<npcId>k__BackingField",
+          "token": 67115058
+        },
+        {
+          "name": "<autoExitDelayMs>k__BackingField",
+          "token": 67115059
+        },
+        {
+          "name": "__ID__",
+          "token": 67115060
+        }
+      ]
+    },
+    "Game.CommonInputField": {
+      "type_definition_offset": 29047228,
+      "token": 33557980,
+      "field_count": 28,
+      "fields": [
+        {
+          "name": "_inputFieldLayer",
+          "token": 67128301
+        },
+        {
+          "name": "<BindData>k__BackingField",
+          "token": 67128302
+        },
+        {
+          "name": "ActionOnInputSubmit",
+          "token": 67128303
+        },
+        {
+          "name": "ActionOnInputSubmitFail",
+          "token": 67128304
+        },
+        {
+          "name": "OnInputActiveChanged",
+          "token": 67128305
+        },
+        {
+          "name": "OnInputValueChanged",
+          "token": 67128306
+        },
+        {
+          "name": "<IsListeningInput>k__BackingField",
+          "token": 67128307
+        },
+        {
+          "name": "_maxCharacterCount",
+          "token": 67128308
+        },
+        {
+          "name": "OnExceedMaxCharacter",
+          "token": 67128309
+        },
+        {
+          "name": "_lastCharacterCount",
+          "token": 67128310
+        },
+        {
+          "name": "InputFieldMain",
+          "token": 67128311
+        },
+        {
+          "name": "BtnInputFieldSubmit",
+          "token": 67128312
+        },
+        {
+          "name": "BtnSelectArea",
+          "token": 67128313
+        },
+        {
+          "name": "_canSubmit",
+          "token": 67128314
+        },
+        {
+          "name": "_isStoppingInput",
+          "token": 67128315
+        },
+        {
+          "name": "_isHandlingDeselect",
+          "token": 67128316
+        },
+        {
+          "name": "_lastSubmitFrame",
+          "token": 67128317
+        },
+        {
+          "name": "_submitTargetGraphic",
+          "token": 67128318
+        },
+        {
+          "name": "_submitVisualRoot",
+          "token": 67128319
+        },
+        {
+          "name": "_submitShadowObject",
+          "token": 67128320
+        },
+        {
+          "name": "_submitBgObject",
+          "token": 67128321
+        },
+        {
+          "name": "_submitHighlightObject",
+          "token": 67128322
+        },
+        {
+          "name": "_submitMode",
+          "token": 67128323
+        },
+        {
+          "name": "_submitHovered",
+          "token": 67128324
+        },
+        {
+          "name": "_submitPressed",
+          "token": 67128325
+        },
+        {
+          "name": "STATE_NAME_CAN_SUBMIT",
+          "token": 67128326
+        },
+        {
+          "name": "STATE_NAME_CAN_NOT_SUBMIT",
+          "token": 67128327
+        },
+        {
+          "name": "_stateCanSubmit",
+          "token": 67128328
+        }
+      ]
+    },
+    "Game.DialogueInputPanel": {
+      "type_definition_offset": 29047580,
+      "token": 33557984,
+      "field_count": 25,
+      "fields": [
+        {
+          "name": "COLLAPSED_HEIGHT",
+          "token": 67128338
+        },
+        {
+          "name": "EXPANDED_HEIGHT",
+          "token": 67128339
+        },
+        {
+          "name": "BACKGROUND_ALPHA",
+          "token": 67128340
+        },
+        {
+          "name": "COLLAPSED_HISTORY_COUNT",
+          "token": 67128341
+        },
+        {
+          "name": "OFFICIAL_SUBMIT_MODE",
+          "token": 67128342
+        },
+        {
+          "name": "CUSTOM_SUBMIT_MODE",
+          "token": 67128343
+        },
+        {
+          "name": "<BindData>k__BackingField",
+          "token": 67128344
+        },
+        {
+          "name": "InputFieldMain",
+          "token": 67128345
+        },
+        {
+          "name": "GridViewDialogueHistory",
+          "token": 67128346
+        },
+        {
+          "name": "GridViewDialogueHistorySmall",
+          "token": 67128347
+        },
+        {
+          "name": "BtnCloseDialogueHistory",
+          "token": 67128348
+        },
+        {
+          "name": "_textExpandState",
+          "token": 67128349
+        },
+        {
+          "name": "_expandVisualRoot",
+          "token": 67128350
+        },
+        {
+          "name": "_inputBackground",
+          "token": 67128351
+        },
+        {
+          "name": "_expandHovered",
+          "token": 67128352
+        },
+        {
+          "name": "_expandPressed",
+          "token": 67128353
+        },
+        {
+          "name": "_isExpand",
+          "token": 67128354
+        },
+        {
+          "name": "_canExpand",
+          "token": 67128355
+        },
+        {
+          "name": "_pendingRefresh",
+          "token": 67128356
+        },
+        {
+          "name": "_historyHeightRefreshFrame",
+          "token": 67128357
+        },
+        {
+          "name": "_dialogueHistoryList",
+          "token": 67128358
+        },
+        {
+          "name": "_dialogueHistoryListShow",
+          "token": 67128359
+        },
+        {
+          "name": "m_CanSubmit",
+          "token": 67128360
+        },
+        {
+          "name": "m_SubmitAvailable",
+          "token": 67128361
+        },
+        {
+          "name": "_button",
+          "token": 67128362
+        }
+      ]
+    },
+    "Game.NpcPersuadePanel": {
+      "type_definition_offset": 29080228,
+      "token": 33558351,
+      "field_count": 36,
+      "fields": [
+        {
+          "name": "_text",
+          "token": 67130387
+        },
+        {
+          "name": "_persuadeOption",
+          "token": 67130388
+        },
+        {
+          "name": "_title",
+          "token": 67130389
+        },
+        {
+          "name": "_textPersuadeEndTip",
+          "token": 67130390
+        },
+        {
+          "name": "_showTextPersuadeEndTip",
+          "token": 67130391
+        },
+        {
+          "name": "_text1",
+          "token": 67130392
+        },
+        {
+          "name": "_text2",
+          "token": 67130393
+        },
+        {
+          "name": "_text3",
+          "token": 67130394
+        },
+        {
+          "name": "_peekTipDesc",
+          "token": 67130395
+        },
+        {
+          "name": "<BindData>k__BackingField",
+          "token": 67130396
+        },
+        {
+          "name": "DialogueInput",
+          "token": 67130397
+        },
+        {
+          "name": "BtnBackMask",
+          "token": 67130398
+        },
+        {
+          "name": "BtnExit",
+          "token": 67130399
+        },
+        {
+          "name": "BtnPeek",
+          "token": 67130400
+        },
+        {
+          "name": "AnimatorResultTip",
+          "token": 67130401
+        },
+        {
+          "name": "ResultTipStateSwitcher",
+          "token": 67130402
+        },
+        {
+          "name": "PeekTipNode",
+          "token": 67130403
+        },
+        {
+          "name": "_panelShowOnHide",
+          "token": 67130404
+        },
+        {
+          "name": "_subscribedNpc",
+          "token": 67130405
+        },
+        {
+          "name": "m_AnalyticsSession",
+          "token": 67130406
+        },
+        {
+          "name": "_persuadeEnded",
+          "token": 67130407
+        },
+        {
+          "name": "_persuadeResultNotified",
+          "token": 67130408
+        },
+        {
+          "name": "_settlementDelayCts",
+          "token": 67130409
+        },
+        {
+          "name": "_settlementIsWin",
+          "token": 67130410
+        },
+        {
+          "name": "_userInitiatedClose",
+          "token": 67130411
+        },
+        {
+          "name": "_isFlowAlive",
+          "token": 67130412
+        },
+        {
+          "name": "_npcId",
+          "token": 67130413
+        },
+        {
+          "name": "_topicId",
+          "token": 67130414
+        },
+        {
+          "name": "_actionOnWin",
+          "token": 67130415
+        },
+        {
+          "name": "_actionOnLose",
+          "token": 67130416
+        },
+        {
+          "name": "_actionOnClose",
+          "token": 67130417
+        },
+        {
+          "name": "_peekLoadingCo",
+          "token": 67130418
+        },
+        {
+          "name": "_peekRequestToken",
+          "token": 67130419
+        },
+        {
+          "name": "PEEK_TYPEWRITER_INTERVAL",
+          "token": 67130420
+        },
+        {
+          "name": "PEEK_DOTS_INTERVAL",
+          "token": 67130421
+        },
+        {
+          "name": "_lastSelfDialogue",
+          "token": 67130422
+        }
+      ]
+    },
+    "Game.NpcPersuadeViewModel": {
+      "type_definition_offset": 29080316,
+      "token": 33558357,
+      "field_count": 7,
+      "fields": [
+        {
+          "name": "_persuadeTitle",
+          "token": 67130453
+        },
+        {
+          "name": "_showOptionSelect",
+          "token": 67130454
+        },
+        {
+          "name": "_showTopicTitle",
+          "token": 67130455
+        },
+        {
+          "name": "_textPersuadeEndTip",
+          "token": 67130456
+        },
+        {
+          "name": "_showTextPersuadeEndTip",
+          "token": 67130457
+        },
+        {
+          "name": "_textResultTip",
+          "token": 67130458
+        },
+        {
+          "name": "_peekTipDesc",
+          "token": 67130459
+        }
+      ]
+    },
+    ".<>c__DisplayClass5_0": {
+      "type_definition_offset": 29106540,
+      "token": 33558656,
+      "field_count": 9,
+      "fields": [
+        {
+          "name": "notified",
+          "token": 67132410
+        },
+        {
+          "name": "win",
+          "token": 67132411
+        },
+        {
+          "name": "tcs",
+          "token": 67132412
+        },
+        {
+          "name": "<>4__this",
+          "token": 67132413
+        },
+        {
+          "name": "ctx",
+          "token": 67132414
+        },
+        {
+          "name": "<>9__3",
+          "token": 67132415
+        },
+        {
+          "name": "<>9__4",
+          "token": 67132416
+        },
+        {
+          "name": "<>9__5",
+          "token": 67132417
+        },
+        {
+          "name": "<>9__6",
+          "token": 67132418
+        }
+      ]
+    },
+    "Game.MiniGamePersuadeCommand": {
+      "type_definition_offset": 29106804,
+      "token": 33558655,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "_npcId",
+          "token": 67132407
+        },
+        {
+          "name": "_topicId",
+          "token": 67132408
+        },
+        {
+          "name": "_subId",
+          "token": 67132409
+        }
+      ]
+    },
+    "Game.Model.GameWorldModel": {
+      "type_definition_offset": 29359452,
+      "token": 33561522,
+      "field_count": 20,
+      "fields": [
+        {
+          "name": "<BattleSpeedDisplayLevel>k__BackingField",
+          "token": 67151838
+        },
+        {
+          "name": "s_TotalMarker",
+          "token": 67151839
+        },
+        {
+          "name": "s_RemoveMissingNpcsMarker",
+          "token": 67151840
+        },
+        {
+          "name": "s_SyncCitySpacesMarker",
+          "token": 67151841
+        },
+        {
+          "name": "s_RefreshWildMonstersMarker",
+          "token": 67151842
+        },
+        {
+          "name": "s_PostInitMarker",
+          "token": 67151843
+        },
+        {
+          "name": "s_NpcGrowthMarker",
+          "token": 67151844
+        },
+        {
+          "name": "MAX_SPACE_POI_SEARCH_DEPTH",
+          "token": 67151845
+        },
+        {
+          "name": "<PlayerModel>k__BackingField",
+          "token": 67151846
+        },
+        {
+          "name": "<CurrentSavedSpaceUuid>k__BackingField",
+          "token": 67151847
+        },
+        {
+          "name": "<CurrentGameTime>k__BackingField",
+          "token": 67151848
+        },
+        {
+          "name": "<Spaces>k__BackingField",
+          "token": 67151849
+        },
+        {
+          "name": "<NpcModels>k__BackingField",
+          "token": 67151850
+        },
+        {
+          "name": "<ResidentSpaceUuids>k__BackingField",
+          "token": 67151851
+        },
+        {
+          "name": "<StaticNpcIds>k__BackingField",
+          "token": 67151852
+        },
+        {
+          "name": "<LimitedGameplayStates>k__BackingField",
+          "token": 67151853
+        },
+        {
+          "name": "<TrackedLimitedGameplayId>k__BackingField",
+          "token": 67151854
+        },
+        {
+          "name": "<ThirdTierDrawn>k__BackingField",
+          "token": 67151855
+        },
+        {
+          "name": "<WorldSeed>k__BackingField",
+          "token": 67151856
+        },
+        {
+          "name": "<KilledNpcPassiveEventRecords>k__BackingField",
+          "token": 67151857
+        }
+      ]
+    },
+    "Game.Model.NpcModel": {
+      "type_definition_offset": 29364028,
+      "token": 33561554,
+      "field_count": 104,
+      "fields": [
+        {
+          "name": "<NpcBehaviorState>k__BackingField",
+          "token": 67152056
+        },
+        {
+          "name": "<LastYieldDay>k__BackingField",
+          "token": 67152057
+        },
+        {
+          "name": "<LastYieldBestItemId>k__BackingField",
+          "token": 67152058
+        },
+        {
+          "name": "CurrentFeel",
+          "token": 67152059
+        },
+        {
+          "name": "CurrentInnerThought",
+          "token": 67152060
+        },
+        {
+          "name": "_currentChatFeelListPrompt",
+          "token": 67152061
+        },
+        {
+          "name": "_rewardGrantSnapshot",
+          "token": 67152062
+        },
+        {
+          "name": "_rewardGrantSnapshotConsumed",
+          "token": 67152063
+        },
+        {
+          "name": "_giftCandidates",
+          "token": 67152064
+        },
+        {
+          "name": "_plannedGiftItem",
+          "token": 67152065
+        },
+        {
+          "name": "_promptTurnId",
+          "token": 67152066
+        },
+        {
+          "name": "_rewardGrantSnapshotTurnId",
+          "token": 67152067
+        },
+        {
+          "name": "_confessionSnapshotTurnId",
+          "token": 67152068
+        },
+        {
+          "name": "_confessionSnapshot",
+          "token": 67152069
+        },
+        {
+          "name": "_confessionSnapshotConsumed",
+          "token": 67152070
+        },
+        {
+          "name": "AinpcEnemyTierId",
+          "token": 67152071
+        },
+        {
+          "name": "EnemyRelationNameTemplateKey",
+          "token": 67152072
+        },
+        {
+          "name": "EnemyRelationDescTemplateKey",
+          "token": 67152073
+        },
+        {
+          "name": "DaoCompanionRelationNameTemplateKey",
+          "token": 67152074
+        },
+        {
+          "name": "DaoCompanionRelationDescTemplateKey",
+          "token": 67152075
+        },
+        {
+          "name": "DaoCompanionIntimacyTemplateKeyPrefix",
+          "token": 67152076
+        },
+        {
+          "name": "MasterRelationNameTemplateKey",
+          "token": 67152077
+        },
+        {
+          "name": "MasterRelationDescTemplateKey",
+          "token": 67152078
+        },
+        {
+          "name": "DiscipleRelationNameTemplateKey",
+          "token": 67152079
+        },
+        {
+          "name": "DiscipleRelationDescTemplateKey",
+          "token": 67152080
+        },
+        {
+          "name": "FriendRelationNameTemplateKey",
+          "token": 67152081
+        },
+        {
+          "name": "FriendRelationDescTemplateKey",
+          "token": 67152082
+        },
+        {
+          "name": "CHAT_WARNING_LIMIT",
+          "token": 67152083
+        },
+        {
+          "name": "CHAT_REPEAT_REJECTED",
+          "token": 67152084
+        },
+        {
+          "name": "m_LastChatWarningTurn",
+          "token": 67152085
+        },
+        {
+          "name": "<ChatWarningCount>k__BackingField",
+          "token": 67152086
+        },
+        {
+          "name": "<ChatWarningDay>k__BackingField",
+          "token": 67152087
+        },
+        {
+          "name": "<PrevChatSummary>k__BackingField",
+          "token": 67152088
+        },
+        {
+          "name": "<ChatMessages>k__BackingField",
+          "token": 67152089
+        },
+        {
+          "name": "_feelUnlockMap",
+          "token": 67152090
+        },
+        {
+          "name": "_hidePersonalityData",
+          "token": 67152091
+        },
+        {
+          "name": "<IsProcessingChatMessage>k__BackingField",
+          "token": 67152092
+        },
+        {
+          "name": "<IsSummarizingChatHistory>k__BackingField",
+          "token": 67152093
+        },
+        {
+          "name": "OnReceiveChatMessage",
+          "token": 67152094
+        },
+        {
+          "name": "OnFreeChatEnded",
+          "token": 67152095
+        },
+        {
+          "name": "_pendingRewardGrant",
+          "token": 67152096
+        },
+        {
+          "name": "_pendingOpenTrade",
+          "token": 67152097
+        },
+        {
+          "name": "<LastPersuadeEndReason>k__BackingField",
+          "token": 67152098
+        },
+        {
+          "name": "<CurrentPersuadeTopicId>k__BackingField",
+          "token": 67152099
+        },
+        {
+          "name": "<PersuadeRound>k__BackingField",
+          "token": 67152100
+        },
+        {
+          "name": "<PersuadeChatMessages>k__BackingField",
+          "token": 67152101
+        },
+        {
+          "name": "<PersuadeEmotionValue>k__BackingField",
+          "token": 67152102
+        },
+        {
+          "name": "<PersuadeMemoryRecords>k__BackingField",
+          "token": 67152103
+        },
+        {
+          "name": "IsProcessingPersuadeMessage",
+          "token": 67152104
+        },
+        {
+          "name": "_persuadeProcessingToken",
+          "token": 67152105
+        },
+        {
+          "name": "_persuadeEndConversationCount",
+          "token": 67152106
+        },
+        {
+          "name": "_persuadeLedger",
+          "token": 67152107
+        },
+        {
+          "name": "PERSUADE_END_CONVERSATION_THRESHOLD",
+          "token": 67152108
+        },
+        {
+          "name": "PERSUADE_FALLBACK_MESSAGE",
+          "token": 67152109
+        },
+        {
+          "name": "<PersuadeSessionId>k__BackingField",
+          "token": 67152110
+        },
+        {
+          "name": "_peekPackage",
+          "token": 67152111
+        },
+        {
+          "name": "OnReceivePersuadeMessage",
+          "token": 67152112
+        },
+        {
+          "name": "OnPersuadeEmotionChanged",
+          "token": 67152113
+        },
+        {
+          "name": "OnPersuadeEnded",
+          "token": 67152114
+        },
+        {
+          "name": "MOOD_TOPIC_TYPE",
+          "token": 67152115
+        },
+        {
+          "name": "TOPIC_DROPPED_MARKER",
+          "token": 67152116
+        },
+        {
+          "name": "TOPIC_SWITCHED_MARKER",
+          "token": 67152117
+        },
+        {
+          "name": "<ActiveTopicId>k__BackingField",
+          "token": 67152118
+        },
+        {
+          "name": "<CompletedTopicIds>k__BackingField",
+          "token": 67152119
+        },
+        {
+          "name": "<TopicLastCompletedCycle>k__BackingField",
+          "token": 67152120
+        },
+        {
+          "name": "_isInTopicSession",
+          "token": 67152121
+        },
+        {
+          "name": "<TopicRound>k__BackingField",
+          "token": 67152122
+        },
+        {
+          "name": "<LastTopicCompletedMonth>k__BackingField",
+          "token": 67152123
+        },
+        {
+          "name": "_consecutiveOffTopicRounds",
+          "token": 67152124
+        },
+        {
+          "name": "MIN_POSITIVE_INTIMACY_BONUS",
+          "token": 67152125
+        },
+        {
+          "name": "<NpcCfgId>k__BackingField",
+          "token": 67152126
+        },
+        {
+          "name": "<CurrentSpaceUuid>k__BackingField",
+          "token": 67152127
+        },
+        {
+          "name": "<WorldStatus>k__BackingField",
+          "token": 67152128
+        },
+        {
+          "name": "<GameWorld>k__BackingField",
+          "token": 67152129
+        },
+        {
+          "name": "<Intimacy>k__BackingField",
+          "token": 67152130
+        },
+        {
+          "name": "<MaxIntimacy>k__BackingField",
+          "token": 67152131
+        },
+        {
+          "name": "<DealIntimacyCycleKey>k__BackingField",
+          "token": 67152132
+        },
+        {
+          "name": "<CultivationState>k__BackingField",
+          "token": 67152133
+        },
+        {
+          "name": "<Bag>k__BackingField",
+          "token": 67152134
+        },
+        {
+          "name": "<DualCultivateSuccessStatistics>k__BackingField",
+          "token": 67152135
+        },
+        {
+          "name": "<Episodes>k__BackingField",
+          "token": 67152136
+        },
+        {
+          "name": "<EpisodeSummaries>k__BackingField",
+          "token": 67152137
+        },
+        {
+          "name": "<EpisodeInquirySessionsByGroup>k__BackingField",
+          "token": 67152138
+        },
+        {
+          "name": "_episodeInquiredGroupsThisSession",
+          "token": 67152139
+        },
+        {
+          "name": "_npcExprRecord",
+          "token": 67152140
+        },
+        {
+          "name": "<LifespanProtectedOverride>k__BackingField",
+          "token": 67152141
+        },
+        {
+          "name": "<LifespanBonus>k__BackingField",
+          "token": 67152142
+        },
+        {
+          "name": "_girlId",
+          "token": 67152143
+        },
+        {
+          "name": "<GrowthIntervalIndex>k__BackingField",
+          "token": 67152144
+        },
+        {
+          "name": "<GuidedCorePassiveIds>k__BackingField",
+          "token": 67152145
+        },
+        {
+          "name": "<GuidedArcaneSkillIds>k__BackingField",
+          "token": 67152146
+        },
+        {
+          "name": "<MiniGameStatistics>k__BackingField",
+          "token": 67152147
+        },
+        {
+          "name": "<NpcInteractionRuntime>k__BackingField",
+          "token": 67152148
+        },
+        {
+          "name": "<_dynamicPropRace>k__BackingField",
+          "token": 67152149
+        },
+        {
+          "name": "<_dynamicPropPersonality>k__BackingField",
+          "token": 67152150
+        },
+        {
+          "name": "<_dynamicPropInterestList>k__BackingField",
+          "token": 67152151
+        },
+        {
+          "name": "<_dynamicPropCharm>k__BackingField",
+          "token": 67152152
+        },
+        {
+          "name": "<_dynamicPropPlot>k__BackingField",
+          "token": 67152153
+        },
+        {
+          "name": "<_dynamicPropSect>k__BackingField",
+          "token": 67152154
+        },
+        {
+          "name": "<_dynamicPropRealm>k__BackingField",
+          "token": 67152155
+        },
+        {
+          "name": "<_dynamicPropRepute>k__BackingField",
+          "token": 67152156
+        },
+        {
+          "name": "<_dynamicPropEvil>k__BackingField",
+          "token": 67152157
+        },
+        {
+          "name": "<_dynamicPropHeaven>k__BackingField",
+          "token": 67152158
+        },
+        {
+          "name": "<_dynamicPropSpeakStyle>k__BackingField",
+          "token": 67152159
+        }
+      ]
+    },
+    "Game.Model.PersuadeEndReason": {
+      "type_definition_offset": 29364644,
+      "token": 33561588,
+      "field_count": 5,
+      "fields": [
+        {
+          "name": "value__",
+          "token": 67152365
+        },
+        {
+          "name": "None",
+          "token": 67152366
+        },
+        {
+          "name": "Success",
+          "token": 67152367
+        },
+        {
+          "name": "RoundLimit",
+          "token": 67152368
+        },
+        {
+          "name": "NpcEndConversation",
+          "token": 67152369
+        }
+      ]
+    },
+    "System.Nullable`1": {
+      "type_definition_offset": 29778948,
+      "token": 33554720,
+      "field_count": 2,
+      "fields": [
+        {
+          "name": "hasValue",
+          "token": 67109946
+        },
+        {
+          "name": "value",
+          "token": 67109947
+        }
+      ]
+    },
+    "System.Delegate": {
+      "type_definition_offset": 29792764,
+      "token": 33554877,
+      "field_count": 13,
+      "fields": [
+        {
+          "name": "method_ptr",
+          "token": 67110754
+        },
+        {
+          "name": "invoke_impl",
+          "token": 67110755
+        },
+        {
+          "name": "m_target",
+          "token": 67110756
+        },
+        {
+          "name": "method",
+          "token": 67110757
+        },
+        {
+          "name": "delegate_trampoline",
+          "token": 67110758
+        },
+        {
+          "name": "extra_arg",
+          "token": 67110759
+        },
+        {
+          "name": "method_code",
+          "token": 67110760
+        },
+        {
+          "name": "interp_method",
+          "token": 67110761
+        },
+        {
+          "name": "interp_invoke_impl",
+          "token": 67110762
+        },
+        {
+          "name": "method_info",
+          "token": 67110763
+        },
+        {
+          "name": "original_method_info",
+          "token": 67110764
+        },
+        {
+          "name": "data",
+          "token": 67110765
+        },
+        {
+          "name": "method_is_virtual",
+          "token": 67110766
+        }
+      ]
+    },
+    "System.MulticastDelegate": {
+      "type_definition_offset": 29794612,
+      "token": 33554898,
+      "field_count": 1,
+      "fields": [
+        {
+          "name": "delegates",
+          "token": 67110800
+        }
+      ]
+    },
+    "System.Threading.CancellationToken": {
+      "type_definition_offset": 29800684,
+      "token": 33554966,
+      "field_count": 2,
+      "fields": [
+        {
+          "name": "_source",
+          "token": 67111456
+        },
+        {
+          "name": "s_actionToActionObjShunt",
+          "token": 67111457
+        }
+      ]
+    },
+    "System.Threading.CancellationTokenSource": {
+      "type_definition_offset": 29801652,
+      "token": 33554974,
+      "field_count": 15,
+      "fields": [
+        {
+          "name": "s_canceledSource",
+          "token": 67111485
+        },
+        {
+          "name": "s_neverCanceledSource",
+          "token": 67111486
+        },
+        {
+          "name": "s_nLists",
+          "token": 67111487
+        },
+        {
+          "name": "_kernelEvent",
+          "token": 67111488
+        },
+        {
+          "name": "_registeredCallbacksLists",
+          "token": 67111489
+        },
+        {
+          "name": "CannotBeCanceled",
+          "token": 67111490
+        },
+        {
+          "name": "NotCanceledState",
+          "token": 67111491
+        },
+        {
+          "name": "NotifyingState",
+          "token": 67111492
+        },
+        {
+          "name": "NotifyingCompleteState",
+          "token": 67111493
+        },
+        {
+          "name": "_state",
+          "token": 67111494
+        },
+        {
+          "name": "_threadIDExecutingCallbacks",
+          "token": 67111495
+        },
+        {
+          "name": "_disposed",
+          "token": 67111496
+        },
+        {
+          "name": "_executingCallback",
+          "token": 67111497
+        },
+        {
+          "name": "_timer",
+          "token": 67111498
+        },
+        {
+          "name": "s_timerCallback",
+          "token": 67111499
+        }
+      ]
+    },
+    "A1.Flow.ProcContext": {
+      "type_definition_offset": 31028196,
+      "token": 33554534,
+      "field_count": 10,
+      "fields": [
+        {
+          "name": "<Ct>k__BackingField",
+          "token": 67109072
+        },
+        {
+          "name": "<ActivationId>k__BackingField",
+          "token": 67109073
+        },
+        {
+          "name": "Host",
+          "token": 67109074
+        },
+        {
+          "name": "_scheduler",
+          "token": 67109075
+        },
+        {
+          "name": "<Subject>k__BackingField",
+          "token": 67109076
+        },
+        {
+          "name": "OnCompleted",
+          "token": 67109077
+        },
+        {
+          "name": "OnCheckpoint",
+          "token": 67109078
+        },
+        {
+          "name": "OnEnded",
+          "token": 67109079
+        },
+        {
+          "name": "_endedNotified",
+          "token": 67109080
+        },
+        {
+          "name": "_report",
+          "token": 67109081
+        }
+      ]
+    },
+    "System.Collections.Concurrent.ConcurrentDictionary`2": {
+      "type_definition_offset": 29892908,
+      "token": 33556011,
+      "field_count": 10,
+      "fields": [
+        {
+          "name": "_tables",
+          "token": 67115723
+        },
+        {
+          "name": "_comparer",
+          "token": 67115724
+        },
+        {
+          "name": "_growLockArray",
+          "token": 67115725
+        },
+        {
+          "name": "_budget",
+          "token": 67115726
+        },
+        {
+          "name": "_serializationArray",
+          "token": 67115727
+        },
+        {
+          "name": "_serializationConcurrencyLevel",
+          "token": 67115728
+        },
+        {
+          "name": "_serializationCapacity",
+          "token": 67115729
+        },
+        {
+          "name": "DefaultCapacity",
+          "token": 67115730
+        },
+        {
+          "name": "MaxLockNumber",
+          "token": 67115731
+        },
+        {
+          "name": "s_isValueWriteAtomic",
+          "token": 67115732
+        }
+      ]
+    },
+    ".Tables": {
+      "type_definition_offset": 29892556,
+      "token": 33556012,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "_buckets",
+          "token": 67115733
+        },
+        {
+          "name": "_locks",
+          "token": 67115734
+        },
+        {
+          "name": "_countPerLock",
+          "token": 67115735
+        }
+      ]
+    },
+    ".Node": {
+      "type_definition_offset": 29892644,
+      "token": 33556013,
+      "field_count": 4,
+      "fields": [
+        {
+          "name": "_key",
+          "token": 67115736
+        },
+        {
+          "name": "_value",
+          "token": 67115737
+        },
+        {
+          "name": "_next",
+          "token": 67115738
+        },
+        {
+          "name": "_hashcode",
+          "token": 67115739
+        }
+      ]
+    },
+    "SimpleSave.EntityID": {
+      "type_definition_offset": 31314548,
+      "token": 33554451,
+      "field_count": 1,
+      "fields": [
+        {
+          "name": "Id",
+          "token": 67108918
+        }
+      ]
+    },
+    "System.Int32": {
+      "type_definition_offset": 29776660,
+      "token": 33554694,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "m_value",
+          "token": 67109907
+        },
+        {
+          "name": "MaxValue",
+          "token": 67109908
+        },
+        {
+          "name": "MinValue",
+          "token": 67109909
+        }
+      ]
+    },
+    "System.String": {
+      "type_definition_offset": 29766364,
+      "token": 33554575,
+      "field_count": 7,
+      "fields": [
+        {
+          "name": "StackallocIntBufferSizeLimit",
+          "token": 67109452
+        },
+        {
+          "name": "PROBABILISTICMAP_BLOCK_INDEX_MASK",
+          "token": 67109453
+        },
+        {
+          "name": "PROBABILISTICMAP_BLOCK_INDEX_SHIFT",
+          "token": 67109454
+        },
+        {
+          "name": "PROBABILISTICMAP_SIZE",
+          "token": 67109455
+        },
+        {
+          "name": "_stringLength",
+          "token": 67109456
+        },
+        {
+          "name": "_firstChar",
+          "token": 67109457
+        },
+        {
+          "name": "Empty",
+          "token": 67109458
+        }
+      ]
+    },
+    "Game.SpaceHandlers.SingleSpaceHandler": {
+      "type_definition_offset": 29325132,
+      "token": 33561138,
+      "field_count": 3,
+      "fields": [
+        {
+          "name": "CurNpc",
+          "token": 67150916
+        },
+        {
+          "name": "<SuppressAutoNpcDialogueOnce>k__BackingField",
+          "token": 67150917
+        },
+        {
+          "name": "_suppressAutoNpcDialogueThisEnter",
+          "token": 67150918
+        }
+      ]
+    }
+  },
+  "methods": {
+    "result": {
+      "name": "OnPersuadeResult",
+      "token": 100746239,
+      "rva": 14794480,
+      "argc": 2,
+      "returns": 1,
+      "prefix": "40535556574883ec28803d9ad4720700",
+      "params": [
+        2,
+        17
+      ]
+    },
+    "ended": {
+      "name": "OnPersuadeEnded",
+      "token": 100708041,
+      "rva": 26080912,
+      "argc": 2,
+      "returns": 1,
+      "prefix": "4889742420574881ecc0000000803da5"
+    },
+    "win": {
+      "name": "<RunAsync>b__3",
+      "token": 100710988,
+      "rva": 27037888,
+      "argc": 0,
+      "returns": 1,
+      "prefix": "48895c24084889742410574883ec2080"
+    },
+    "lose": {
+      "name": "<RunAsync>b__4",
+      "token": 100710989,
+      "rva": 27038032,
+      "argc": 0,
+      "returns": 1,
+      "prefix": "48895c24084889742410574883ec2080"
+    },
+    "close": {
+      "name": "<RunAsync>b__5",
+      "token": 100710990,
+      "rva": 27037216,
+      "argc": 0,
+      "returns": 1,
+      "prefix": "4883ec2880791000751a66c741100100"
+    },
+    "alive": {
+      "name": "<RunAsync>b__6",
+      "token": 100710991,
+      "rva": 27038176,
+      "argc": 0,
+      "returns": 2,
+      "prefix": "40534883ec20803d1557b80600488bd9"
+    }
+  },
+  "game_assembly_sha256": "e4bfa837bd5f43bf5ffbe3e28c80b40cd3e20b24ce63941ce2280874df2fa056",
+  "success_reason": 1,
+  "fast_settlement": false
+}

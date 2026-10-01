@@ -1,0 +1,4 @@
+# Local vendor dependency for the temporary Unity main-thread bridge.
+# Upstream: https://frida.re/ and https://github.com/frida/frida-python
+# Install: python -m pip install --target vendor -r requirements-acquisition.txt
+frida==17.7.3

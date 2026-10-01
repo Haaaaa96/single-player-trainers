@@ -1,0 +1,3232 @@
+{
+  "classes": {
+    "Game.UIManager": {
+      "type_definition_offset": 28993284,
+      "token": 33557356,
+      "field_count": 49,
+      "fields": [
+        {
+          "name": "UI_LAYER_WIDTH",
+          "token": 67124314
+        },
+        {
+          "name": "UI_LAYER_HEIGHT",
+          "token": 67124315
+        },
+        {
+          "name": "AssetReadyMarker",
+          "token": 67124316
+        },
+        {
+          "name": "s_CloseInternalMarker",
+          "token": 67124317
+        },
+        {
+          "name": "s_CloseSortingMarker",
+          "token": 67124318
+        },
+        {
+          "name": "s_UnregisterInputOrderMarker",
+          "token": 67124319
+        },
+        {
+          "name": "s_UnregisterCanvasMarker",
+          "token": 67124320
+        },
+        {
+          "name": "s_CloseVisibilityMarker",
+          "token": 67124321
+        },
+        {
+          "name": "s_CloseWillHideMarker",
+          "token": 67124322
+        },
+        {
+          "name": "s_CloseDidHideMarker",
+          "token": 67124323
+        },
+        {
+          "name": "s_CloseEventMarker",
+          "token": 67124324
+        },
+        {
+          "name": "s_RetryDeferredOpensMarker",
+          "token": 67124325
+        },
+        {
+          "name": "InstantiateCompletedMarker",
+          "token": 67124326
+        },
+        {
+          "name": "<IsWorldUiTeardown>k__BackingField",
+          "token": 67124327
+        },
+        {
+          "name": "m_IsShuttingDown",
+          "token": 67124328
+        },
+        {
+          "name": "_panelConfigs",
+          "token": 67124329
+        },
+        {
+          "name": "_panelRegistry",
+          "token": 67124330
+        },
+        {
+          "name": "_historyStack",
+          "token": 67124331
+        },
+        {
+          "name": "_visibilitySystem",
+          "token": 67124332
+        },
+        {
+          "name": "_popupManager",
+          "token": 67124333
+        },
+        {
+          "name": "_backHandler",
+          "token": 67124334
+        },
+        {
+          "name": "_guards",
+          "token": 67124335
+        },
+        {
+          "name": "_deferredOpens",
+          "token": 67124336
+        },
+        {
+          "name": "_isRetryingDeferred",
+          "token": 67124337
+        },
+        {
+          "name": "dict_Panels",
+          "token": 67124338
+        },
+        {
+          "name": "uiRoot",
+          "token": 67124339
+        },
+        {
+          "name": "_panels",
+          "token": 67124340
+        },
+        {
+          "name": "rootCanvas",
+          "token": 67124341
+        },
+        {
+          "name": "uiCamera",
+          "token": 67124342
+        },
+        {
+          "name": "uiPath",
+          "token": 67124343
+        },
+        {
+          "name": "layerRoots",
+          "token": 67124344
+        },
+        {
+          "name": "_layerCanvasGroups",
+          "token": 67124345
+        },
+        {
+          "name": "uiDict",
+          "token": 67124346
+        },
+        {
+          "name": "uiStack",
+          "token": 67124347
+        },
+        {
+          "name": "_commonFunctionRegistry",
+          "token": 67124348
+        },
+        {
+          "name": "_canvasSortingManager",
+          "token": 67124349
+        },
+        {
+          "name": "m_RenderingSuspension",
+          "token": 67124350
+        },
+        {
+          "name": "m_UICameraEnabledBeforeGlobalHide",
+          "token": 67124351
+        },
+        {
+          "name": "_panelBlockers",
+          "token": 67124352
+        },
+        {
+          "name": "LAYER_COUNT",
+          "token": 67124353
+        },
+        {
+          "name": "_layerState",
+          "token": 67124354
+        },
+        {
+          "name": "_newLayerStateCache",
+          "token": 67124355
+        },
+        {
+          "name": "_forceHiddenLayers",
+          "token": 67124356
+        },
+        {
+          "name": "_uiSceneRoot",
+          "token": 67124357
+        },
+        {
+          "name": "_sceneLayerRoots",
+          "token": 67124358
+        },
+        {
+          "name": "_sceneLayerCanvasGroups",
+          "token": 67124359
+        },
+        {
+          "name": "_sceneModeCache",
+          "token": 67124360
+        },
+        {
+          "name": "uiIntroductions",
+          "token": 67124361
+        },
+        {
+          "name": "_cachedUILayer",
+          "token": 67124362
+        }
+      ]
+    },
+    "Game.BaseUI": {
+      "type_definition_offset": 29007716,
+      "token": 33557531,
+      "field_count": 34,
+      "fields": [
+        {
+          "name": "s_HideMarker",
+          "token": 67125214
+        },
+        {
+          "name": "s_HideInputScopeMarker",
+          "token": 67125215
+        },
+        {
+          "name": "s_HideAudioMarker",
+          "token": 67125216
+        },
+        {
+          "name": "s_HideCallbackMarker",
+          "token": 67125217
+        },
+        {
+          "name": "s_HideParticlesMarker",
+          "token": 67125218
+        },
+        {
+          "name": "s_HideInputLayersMarker",
+          "token": 67125219
+        },
+        {
+          "name": "s_HideGuideMarker",
+          "token": 67125220
+        },
+        {
+          "name": "s_VisualHideMarker",
+          "token": 67125221
+        },
+        {
+          "name": "_audioConfig",
+          "token": 67125222
+        },
+        {
+          "name": "<UILayer>k__BackingField",
+          "token": 67125223
+        },
+        {
+          "name": "<ThisPanelId>k__BackingField",
+          "token": 67125224
+        },
+        {
+          "name": "<IsRootPanel>k__BackingField",
+          "token": 67125225
+        },
+        {
+          "name": "<IsAttachedAsChild>k__BackingField",
+          "token": 67125226
+        },
+        {
+          "name": "isShowing",
+          "token": 67125227
+        },
+        {
+          "name": "isInitialized",
+          "token": 67125228
+        },
+        {
+          "name": "_redDotSubscriptions",
+          "token": 67125229
+        },
+        {
+          "name": "_uiReddotViewModels",
+          "token": 67125230
+        },
+        {
+          "name": "<IsInVisualHide>k__BackingField",
+          "token": 67125231
+        },
+        {
+          "name": "bgmLayer",
+          "token": 67125232
+        },
+        {
+          "name": "_inputScopeHost",
+          "token": 67125233
+        },
+        {
+          "name": "_overlayNativeParticleAutoPresenter",
+          "token": 67125234
+        },
+        {
+          "name": "_overlayNativeParticleAutoScanCompleted",
+          "token": 67125235
+        },
+        {
+          "name": "_animation",
+          "token": 67125236
+        },
+        {
+          "name": "_exitAnimCo",
+          "token": 67125237
+        },
+        {
+          "name": "delayedShow",
+          "token": 67125238
+        },
+        {
+          "name": "_destroyOnVisualHide",
+          "token": 67125239
+        },
+        {
+          "name": "<IsInteractable>k__BackingField",
+          "token": 67125240
+        },
+        {
+          "name": "<IsPaused>k__BackingField",
+          "token": 67125241
+        },
+        {
+          "name": "<InputGroup>k__BackingField",
+          "token": 67125242
+        },
+        {
+          "name": "<RuntimeOwner>k__BackingField",
+          "token": 67125243
+        },
+        {
+          "name": "<HandleToken>k__BackingField",
+          "token": 67125244
+        },
+        {
+          "name": "childPanels",
+          "token": 67125245
+        },
+        {
+          "name": "lastUpdate01Time",
+          "token": 67125246
+        },
+        {
+          "name": "_hotkeyButtonEntries",
+          "token": 67125247
+        }
+      ]
+    },
+    "Game.PanelRegistry": {
+      "type_definition_offset": 29009124,
+      "token": 33557548,
+      "field_count": 2,
+      "fields": [
+        {
+          "name": "_instances",
+          "token": 67125310
+        },
+        {
+          "name": "_layerIndex",
+          "token": 67125311
+        }
+      ]
+    },
+    "System.Collections.Generic.List`1": {
+      "type_definition_offset": 29896604,
+      "token": 33556056,
+      "field_count": 6,
+      "fields": [
+        {
+          "name": "DefaultCapacity",
+          "token": 67115810
+        },
+        {
+          "name": "_items",
+          "token": 67115811
+        },
+        {
+          "name": "_size",
+          "token": 67115812
+        },
+        {
+          "name": "_version",
+          "token": 67115813
+        },
+        {
+          "name": "_syncRoot",
+          "token": 67115814
+        },
+        {
+          "name": "s_emptyArray",
+          "token": 67115815
+        }
+      ]
+    },
+    "Loxodon.Framework.Observables.ObservableList`1": {
+      "type_definition_offset": 30385620,
+      "token": 33554646,
+      "field_count": 9,
+      "fields": [
+        {
+          "name": "CountEventArgs",
+          "token": 67109432
+        },
+        {
+          "name": "IndexerEventArgs",
+          "token": 67109433
+        },
+        {
+          "name": "propertyChangedLock",
+          "token": 67109434
+        },
+        {
+          "name": "collectionChangedLock",
+          "token": 67109435
+        },
+        {
+          "name": "propertyChanged",
+          "token": 67109436
+        },
+        {
+          "name": "collectionChanged",
+          "token": 67109437
+        },
+        {
+          "name": "monitor",
+          "token": 67109438
+        },
+        {
+          "name": "items",
+          "token": 67109439
+        },
+        {
+          "name": "syncRoot",
+          "token": 67109440
+        }
+      ]
+    },
+    "Game.UI.UPFLogic.RefiningPills.UPFRefiningPillsExploreMapViewModel": {
+      "type_definition_offset": 29197268,
+      "token": 33559686,
+      "field_count": 111,
+      "fields": [
+        {
+          "name": "_contentSize",
+          "token": 67140426
+        },
+        {
+          "name": "_mapSize",
+          "token": 67140427
+        },
+        {
+          "name": "_viewBox",
+          "token": 67140428
+        },
+        {
+          "name": "_markerX",
+          "token": 67140429
+        },
+        {
+          "name": "_markerY",
+          "token": 67140430
+        },
+        {
+          "name": "_activePathD",
+          "token": 67140431
+        },
+        {
+          "name": "_candidatePathD",
+          "token": 67140432
+        },
+        {
+          "name": "_herbPreviewAutoPathD",
+          "token": 67140433
+        },
+        {
+          "name": "_herbPreviewPathD",
+          "token": 67140434
+        },
+        {
+          "name": "_activePathConnectorD",
+          "token": 67140435
+        },
+        {
+          "name": "_useTrailRendererV2",
+          "token": 67140436
+        },
+        {
+          "name": "_useLegacyTrailRenderer",
+          "token": 67140437
+        },
+        {
+          "name": "_useTrailConnectorV2",
+          "token": 67140438
+        },
+        {
+          "name": "_useLegacyTrailConnector",
+          "token": 67140439
+        },
+        {
+          "name": "_showActivePath",
+          "token": 67140440
+        },
+        {
+          "name": "_useFogMaskV2",
+          "token": 67140441
+        },
+        {
+          "name": "_useLegacyFogMask",
+          "token": 67140442
+        },
+        {
+          "name": "_useBufferedCameraV2",
+          "token": 67140443
+        },
+        {
+          "name": "_useLegacyBufferedCamera",
+          "token": 67140444
+        },
+        {
+          "name": "_useRingShaderV2",
+          "token": 67140445
+        },
+        {
+          "name": "_useLegacyRingOverlay",
+          "token": 67140446
+        },
+        {
+          "name": "_useMotionClockV2",
+          "token": 67140447
+        },
+        {
+          "name": "_useLegacyPillPresenter",
+          "token": 67140448
+        },
+        {
+          "name": "_portalHintActive",
+          "token": 67140449
+        },
+        {
+          "name": "_portalHintRippleActive",
+          "token": 67140450
+        },
+        {
+          "name": "_portalHintArrowActive",
+          "token": 67140451
+        },
+        {
+          "name": "_portalHintTargetX",
+          "token": 67140452
+        },
+        {
+          "name": "_portalHintTargetY",
+          "token": 67140453
+        },
+        {
+          "name": "_portalHintEdgeX",
+          "token": 67140454
+        },
+        {
+          "name": "_portalHintEdgeY",
+          "token": 67140455
+        },
+        {
+          "name": "_portalHintArrowRotation",
+          "token": 67140456
+        },
+        {
+          "name": "_preferTrailConnectorV2",
+          "token": 67140457
+        },
+        {
+          "name": "_activePathStroke",
+          "token": 67140458
+        },
+        {
+          "name": "_activePathDashArray",
+          "token": 67140459
+        },
+        {
+          "name": "_candidatePathStroke",
+          "token": 67140460
+        },
+        {
+          "name": "_candidatePathDashArray",
+          "token": 67140461
+        },
+        {
+          "name": "_zoomPercent",
+          "token": 67140462
+        },
+        {
+          "name": "_hudRightOffset",
+          "token": 67140463
+        },
+        {
+          "name": "_poiMapScale",
+          "token": 67140464
+        },
+        {
+          "name": "_zoomLevels",
+          "token": 67140465
+        },
+        {
+          "name": "_moveHintText",
+          "token": 67140466
+        },
+        {
+          "name": "_refineHintText",
+          "token": 67140467
+        },
+        {
+          "name": "_zoomHintText",
+          "token": 67140468
+        },
+        {
+          "name": "_focusPillHintText",
+          "token": 67140469
+        },
+        {
+          "name": "_dangerHintText",
+          "token": 67140470
+        },
+        {
+          "name": "_refineKeyText",
+          "token": 67140471
+        },
+        {
+          "name": "_holdRefineText",
+          "token": 67140472
+        },
+        {
+          "name": "_showHoldRefineHint",
+          "token": 67140473
+        },
+        {
+          "name": "_showPortalButton",
+          "token": 67140474
+        },
+        {
+          "name": "_portalButtonText",
+          "token": 67140475
+        },
+        {
+          "name": "_portalButtonSubText",
+          "token": 67140476
+        },
+        {
+          "name": "_portalButtonIcon",
+          "token": 67140477
+        },
+        {
+          "name": "_portalButtonLack",
+          "token": 67140478
+        },
+        {
+          "name": "_pillWarpIn",
+          "token": 67140479
+        },
+        {
+          "name": "_pillWarpOut",
+          "token": 67140480
+        },
+        {
+          "name": "_warpFlashOn",
+          "token": 67140481
+        },
+        {
+          "name": "_instructionHintRichText",
+          "token": 67140482
+        },
+        {
+          "name": "_safetyScopeText",
+          "token": 67140483
+        },
+        {
+          "name": "_currentSafetyPathD",
+          "token": 67140484
+        },
+        {
+          "name": "_currentSafetyLeft",
+          "token": 67140485
+        },
+        {
+          "name": "_currentSafetyTop",
+          "token": 67140486
+        },
+        {
+          "name": "_currentSafetySize",
+          "token": 67140487
+        },
+        {
+          "name": "_showNextTierRisk",
+          "token": 67140488
+        },
+        {
+          "name": "_showSafetyLegend",
+          "token": 67140489
+        },
+        {
+          "name": "_configuredFurnaceLevel",
+          "token": 67140490
+        },
+        {
+          "name": "_configuredMaxTier",
+          "token": 67140491
+        },
+        {
+          "name": "_safetyLegendPulseDriver",
+          "token": 67140492
+        },
+        {
+          "name": "_safetyLegendCenter",
+          "token": 67140493
+        },
+        {
+          "name": "_safetyLegendRadius",
+          "token": 67140494
+        },
+        {
+          "name": "_isOutsideSafetyLegendRadius",
+          "token": 67140495
+        },
+        {
+          "name": "_safetyLegendDangerValue",
+          "token": 67140496
+        },
+        {
+          "name": "_safetyLegendDangerMax",
+          "token": 67140497
+        },
+        {
+          "name": "_showPoiTip",
+          "token": 67140498
+        },
+        {
+          "name": "_poiTipText",
+          "token": 67140499
+        },
+        {
+          "name": "_hoveredPoi",
+          "token": 67140500
+        },
+        {
+          "name": "_poiScaleDriver",
+          "token": 67140501
+        },
+        {
+          "name": "_pillScaleVisual",
+          "token": 67140502
+        },
+        {
+          "name": "_pillVisualScaleMin",
+          "token": 67140503
+        },
+        {
+          "name": "_pillVisualScaleMax",
+          "token": 67140504
+        },
+        {
+          "name": "PathStrokePlain",
+          "token": 67140505
+        },
+        {
+          "name": "PathStrokeTeleport",
+          "token": 67140506
+        },
+        {
+          "name": "PathStrokeCandidatePlain",
+          "token": 67140507
+        },
+        {
+          "name": "PathStrokeCandidateTeleport",
+          "token": 67140508
+        },
+        {
+          "name": "PathStrokeHerbPreview",
+          "token": 67140509
+        },
+        {
+          "name": "PathStrokeHerbPreviewTeleport",
+          "token": 67140510
+        },
+        {
+          "name": "PathDashArray",
+          "token": 67140511
+        },
+        {
+          "name": "PathDashHerbPreview",
+          "token": 67140512
+        },
+        {
+          "name": "PathDashNone",
+          "token": 67140513
+        },
+        {
+          "name": "OnZoomIn",
+          "token": 67140514
+        },
+        {
+          "name": "OnZoomOut",
+          "token": 67140515
+        },
+        {
+          "name": "OnFocusPill",
+          "token": 67140516
+        },
+        {
+          "name": "OnPortalButtonClick",
+          "token": 67140517
+        },
+        {
+          "name": "OnSelectPoi",
+          "token": 67140518
+        },
+        {
+          "name": "<MapBlocks>k__BackingField",
+          "token": 67140519
+        },
+        {
+          "name": "<Pois>k__BackingField",
+          "token": 67140520
+        },
+        {
+          "name": "<TierRings>k__BackingField",
+          "token": 67140521
+        },
+        {
+          "name": "<DangerBands>k__BackingField",
+          "token": 67140522
+        },
+        {
+          "name": "<PillMarker>k__BackingField",
+          "token": 67140523
+        },
+        {
+          "name": "<RevealStrokes>k__BackingField",
+          "token": 67140524
+        },
+        {
+          "name": "<MountainOverlay>k__BackingField",
+          "token": 67140525
+        },
+        {
+          "name": "<ActiveTrailGraphic>k__BackingField",
+          "token": 67140526
+        },
+        {
+          "name": "<ActivePathConnectorGraphic>k__BackingField",
+          "token": 67140527
+        },
+        {
+          "name": "<FogMaskGraphic>k__BackingField",
+          "token": 67140528
+        },
+        {
+          "name": "<BufferedCameraDriver>k__BackingField",
+          "token": 67140529
+        },
+        {
+          "name": "<RingOverlayGraphic>k__BackingField",
+          "token": 67140530
+        },
+        {
+          "name": "<PillPresenter>k__BackingField",
+          "token": 67140531
+        },
+        {
+          "name": "<PillMotionStateMachine>k__BackingField",
+          "token": 67140532
+        },
+        {
+          "name": "<PillMotionTrailGraphic>k__BackingField",
+          "token": 67140533
+        },
+        {
+          "name": "<PortalHintGraphic>k__BackingField",
+          "token": 67140534
+        },
+        {
+          "name": "SafeRingLabelColor",
+          "token": 67140535
+        },
+        {
+          "name": "DangerRingLabelColor",
+          "token": 67140536
+        }
+      ]
+    },
+    "Game.UI.UPFLogic.RefiningPills.UPFRefiningPillsExplorePanel": {
+      "type_definition_offset": 29200964,
+      "token": 33559691,
+      "field_count": 300,
+      "fields": [
+        {
+          "name": "CONDENSE_HINT_PREFAB_PATH",
+          "token": 67140564
+        },
+        {
+          "name": "CONDENSE_HINT_BUTTON_GAP",
+          "token": 67140565
+        },
+        {
+          "name": "CONDENSE_HINT_SCREEN_PADDING",
+          "token": 67140566
+        },
+        {
+          "name": "CONDENSE_HINT_ENTRANCE_MAX_SCALE",
+          "token": 67140567
+        },
+        {
+          "name": "m_CondenseHintViewModel",
+          "token": 67140568
+        },
+        {
+          "name": "m_CondenseHintCorners",
+          "token": 67140569
+        },
+        {
+          "name": "m_CondenseHintHost",
+          "token": 67140570
+        },
+        {
+          "name": "m_CondenseHintGroup",
+          "token": 67140571
+        },
+        {
+          "name": "m_CondenseHintPanelCanvas",
+          "token": 67140572
+        },
+        {
+          "name": "m_CondenseHintPanelGroup",
+          "token": 67140573
+        },
+        {
+          "name": "m_CondenseButtonRect",
+          "token": 67140574
+        },
+        {
+          "name": "m_RailCondenseButtonRect",
+          "token": 67140575
+        },
+        {
+          "name": "m_CondenseHintInstance",
+          "token": 67140576
+        },
+        {
+          "name": "m_CondenseHintView",
+          "token": 67140577
+        },
+        {
+          "name": "m_CondenseHintPrefabHandle",
+          "token": 67140578
+        },
+        {
+          "name": "m_CondenseHintLoading",
+          "token": 67140579
+        },
+        {
+          "name": "m_CondenseHintLoadFailed",
+          "token": 67140580
+        },
+        {
+          "name": "m_CondenseHintVisible",
+          "token": 67140581
+        },
+        {
+          "name": "m_CondenseHintApplicationPaused",
+          "token": 67140582
+        },
+        {
+          "name": "m_CondenseHintWidth",
+          "token": 67140583
+        },
+        {
+          "name": "m_CondenseHintTemplate",
+          "token": 67140584
+        },
+        {
+          "name": "m_CondenseHintRecipeName",
+          "token": 67140585
+        },
+        {
+          "name": "LogTag",
+          "token": 67140586
+        },
+        {
+          "name": "VIEW_SOURCE_PATH",
+          "token": 67140587
+        },
+        {
+          "name": "ITEM_TOOLTIP_OPEN_DELAY_SECONDS",
+          "token": 67140588
+        },
+        {
+          "name": "ITEM_TOOLTIP_CLOSE_DELAY_SECONDS",
+          "token": 67140589
+        },
+        {
+          "name": "SharedItemTooltipDockGap",
+          "token": 67140590
+        },
+        {
+          "name": "SharedItemTooltipViewportPadding",
+          "token": 67140591
+        },
+        {
+          "name": "SharedItemTooltipDefaultHeight",
+          "token": 67140592
+        },
+        {
+          "name": "RecipeCardIconFallbackPath",
+          "token": 67140593
+        },
+        {
+          "name": "EmptySlotIconPath",
+          "token": 67140594
+        },
+        {
+          "name": "EffectIconFallbackPath",
+          "token": 67140595
+        },
+        {
+          "name": "EffectCardBgPath",
+          "token": 67140596
+        },
+        {
+          "name": "EffectCardPurpleBgPath",
+          "token": 67140597
+        },
+        {
+          "name": "HerbSlotBgFallbackPath",
+          "token": 67140598
+        },
+        {
+          "name": "QualitySlotBgPrefix",
+          "token": 67140599
+        },
+        {
+          "name": "FallbackRuntimeMapSize",
+          "token": 67140600
+        },
+        {
+          "name": "TrajectorySampleCount",
+          "token": 67140601
+        },
+        {
+          "name": "ClosedPathGapPixels",
+          "token": 67140602
+        },
+        {
+          "name": "PathCoordFormat",
+          "token": 67140603
+        },
+        {
+          "name": "KeyboardPanSpeedRatio",
+          "token": 67140604
+        },
+        {
+          "name": "DefaultMapScreenScale",
+          "token": 67140605
+        },
+        {
+          "name": "FogRevealPrecisionMultiplier",
+          "token": 67140606
+        },
+        {
+          "name": "FogRevealStepRadiusRatio",
+          "token": 67140607
+        },
+        {
+          "name": "MinFogRevealStepPixels",
+          "token": 67140608
+        },
+        {
+          "name": "MaxFogRevealStepPixels",
+          "token": 67140609
+        },
+        {
+          "name": "FogSaveThrottleSeconds",
+          "token": 67140610
+        },
+        {
+          "name": "DefaultCameraFollowLerp",
+          "token": 67140611
+        },
+        {
+          "name": "MinPoiVisibilityBucketSize",
+          "token": 67140612
+        },
+        {
+          "name": "CameraFollowDeadZoneRatio",
+          "token": 67140613
+        },
+        {
+          "name": "CameraFollowManualLookAheadRatio",
+          "token": 67140614
+        },
+        {
+          "name": "CameraFollowAutoLookAheadRatio",
+          "token": 67140615
+        },
+        {
+          "name": "CameraFollowSlowSmoothTime",
+          "token": 67140616
+        },
+        {
+          "name": "CameraFollowFastSmoothTime",
+          "token": 67140617
+        },
+        {
+          "name": "CameraFollowUnstableSmoothTime",
+          "token": 67140618
+        },
+        {
+          "name": "CameraFollowSettleSmoothTime",
+          "token": 67140619
+        },
+        {
+          "name": "CameraFollowDirectionSmoothTime",
+          "token": 67140620
+        },
+        {
+          "name": "CameraFollowLookAheadEnterTime",
+          "token": 67140621
+        },
+        {
+          "name": "CameraFollowLookAheadReturnTime",
+          "token": 67140622
+        },
+        {
+          "name": "CameraFollowMaxLagRatio",
+          "token": 67140623
+        },
+        {
+          "name": "CameraFollowLagCorrectionSpeedRatio",
+          "token": 67140624
+        },
+        {
+          "name": "CameraFollowSpeedReferenceRatio",
+          "token": 67140625
+        },
+        {
+          "name": "CameraFollowConfigTimeScale",
+          "token": 67140626
+        },
+        {
+          "name": "CameraFollowManualPanHoldSeconds",
+          "token": 67140627
+        },
+        {
+          "name": "CameraFollowSettleEpsilon",
+          "token": 67140628
+        },
+        {
+          "name": "CameraFollowDirectionMinDistance",
+          "token": 67140629
+        },
+        {
+          "name": "CameraFollowSpeedResponse",
+          "token": 67140630
+        },
+        {
+          "name": "PathProgressVisualRefreshInterval",
+          "token": 67140631
+        },
+        {
+          "name": "MaxPathVisualPoints",
+          "token": 67140632
+        },
+        {
+          "name": "MAP_BLOCK_REALIZE_PER_FRAME",
+          "token": 67140633
+        },
+        {
+          "name": "TransitionMapViewportBuffer",
+          "token": 67140634
+        },
+        {
+          "name": "TransitionBlockHandoffTimeoutSeconds",
+          "token": 67140635
+        },
+        {
+          "name": "ExplodeTransitionMinDurationSeconds",
+          "token": 67140636
+        },
+        {
+          "name": "TrajectoryStartPixel",
+          "token": 67140637
+        },
+        {
+          "name": "DefaultMapViewportSize",
+          "token": 67140638
+        },
+        {
+          "name": "MapScreenScaleSteps",
+          "token": 67140639
+        },
+        {
+          "name": "MovementPositionMarker",
+          "token": 67140640
+        },
+        {
+          "name": "TrailBuildMarker",
+          "token": 67140641
+        },
+        {
+          "name": "TrailProgressRefreshMarker",
+          "token": 67140642
+        },
+        {
+          "name": "TrailConnectorUpdateMarker",
+          "token": 67140643
+        },
+        {
+          "name": "CameraFollowMarker",
+          "token": 67140644
+        },
+        {
+          "name": "FogReplayMarker",
+          "token": 67140645
+        },
+        {
+          "name": "FogRevealStampMarker",
+          "token": 67140646
+        },
+        {
+          "name": "MotionRenderIslandMarker",
+          "token": 67140647
+        },
+        {
+          "name": "_vm",
+          "token": 67140648
+        },
+        {
+          "name": "_allHerbs",
+          "token": 67140649
+        },
+        {
+          "name": "_visibleHerbs",
+          "token": 67140650
+        },
+        {
+          "name": "_investedModels",
+          "token": 67140651
+        },
+        {
+          "name": "_revealedAreas",
+          "token": 67140652
+        },
+        {
+          "name": "_consumedPoiIndices",
+          "token": 67140653
+        },
+        {
+          "name": "_tooltipShortcutBinding",
+          "token": 67140654
+        },
+        {
+          "name": "PoiFlyDuration",
+          "token": 67140655
+        },
+        {
+          "name": "PoiFlyEndScale",
+          "token": 67140656
+        },
+        {
+          "name": "PoiFlyFadeStart",
+          "token": 67140657
+        },
+        {
+          "name": "_poiFlights",
+          "token": 67140658
+        },
+        {
+          "name": "RefundFlashDuration",
+          "token": 67140659
+        },
+        {
+          "name": "_refundFlashElapsed",
+          "token": 67140660
+        },
+        {
+          "name": "RefundFloatDuration",
+          "token": 67140661
+        },
+        {
+          "name": "RefundFloatBaseTop",
+          "token": 67140662
+        },
+        {
+          "name": "_refundFloatElapsed",
+          "token": 67140663
+        },
+        {
+          "name": "_collectedRewards",
+          "token": 67140664
+        },
+        {
+          "name": "_refundedHerbCount",
+          "token": 67140665
+        },
+        {
+          "name": "_poiVisibilityBuckets",
+          "token": 67140666
+        },
+        {
+          "name": "_effectModels",
+          "token": 67140667
+        },
+        {
+          "name": "_recipeModel",
+          "token": 67140668
+        },
+        {
+          "name": "_selectedHerb",
+          "token": 67140669
+        },
+        {
+          "name": "HerbDoubleClickSeconds",
+          "token": 67140670
+        },
+        {
+          "name": "_lastClickedHerb",
+          "token": 67140671
+        },
+        {
+          "name": "_lastHerbClickTime",
+          "token": 67140672
+        },
+        {
+          "name": "_dataset",
+          "token": 67140673
+        },
+        {
+          "name": "_mapLoadCoroutine",
+          "token": 67140674
+        },
+        {
+          "name": "_mapLoadRequestVersion",
+          "token": 67140675
+        },
+        {
+          "name": "_mapLoadPending",
+          "token": 67140676
+        },
+        {
+          "name": "_transitionPreloadedDataset",
+          "token": 67140677
+        },
+        {
+          "name": "_transitionPreloadedMapBlocks",
+          "token": 67140678
+        },
+        {
+          "name": "_transitionRetainedBlockBindings",
+          "token": 67140679
+        },
+        {
+          "name": "_transitionPreloadMapId",
+          "token": 67140680
+        },
+        {
+          "name": "_transitionPreloadException",
+          "token": 67140681
+        },
+        {
+          "name": "_transitionPreloadVersion",
+          "token": 67140682
+        },
+        {
+          "name": "_transitionWarmBlockCount",
+          "token": 67140683
+        },
+        {
+          "name": "_transitionHandoffBlockCount",
+          "token": 67140684
+        },
+        {
+          "name": "_transitionBlockHandoffCoroutine",
+          "token": 67140685
+        },
+        {
+          "name": "_transitionBlockHandoffPresenter",
+          "token": 67140686
+        },
+        {
+          "name": "_movementController",
+          "token": 67140687
+        },
+        {
+          "name": "_exploreState",
+          "token": 67140688
+        },
+        {
+          "name": "_controllerHost",
+          "token": 67140689
+        },
+        {
+          "name": "_moveSoundHandle",
+          "token": 67140690
+        },
+        {
+          "name": "_moveAudioActive",
+          "token": 67140691
+        },
+        {
+          "name": "_mapViewportRt",
+          "token": 67140692
+        },
+        {
+          "name": "_poiLayerCanvasGroup",
+          "token": 67140693
+        },
+        {
+          "name": "_mountainOverlayTexture",
+          "token": 67140694
+        },
+        {
+          "name": "_mountainOverlaySprite",
+          "token": 67140695
+        },
+        {
+          "name": "_mountainOverlayRuntimeOwned",
+          "token": 67140696
+        },
+        {
+          "name": "_terrainOverviewHandle",
+          "token": 67140697
+        },
+        {
+          "name": "_terrainOverviewLoadVersion",
+          "token": 67140698
+        },
+        {
+          "name": "TerrainOverviewPath",
+          "token": 67140699
+        },
+        {
+          "name": "_protoItemId",
+          "token": 67140700
+        },
+        {
+          "name": "_furnaceLevel",
+          "token": 67140701
+        },
+        {
+          "name": "_mapId",
+          "token": 67140702
+        },
+        {
+          "name": "_filterElementId",
+          "token": 67140703
+        },
+        {
+          "name": "_lastRevealPixel",
+          "token": 67140704
+        },
+        {
+          "name": "_fogDirty",
+          "token": 67140705
+        },
+        {
+          "name": "_fogPersistenceWriteBlocked",
+          "token": 67140706
+        },
+        {
+          "name": "_lastFogSaveRealtime",
+          "token": 67140707
+        },
+        {
+          "name": "_lastObservedMapViewBox",
+          "token": 67140708
+        },
+        {
+          "name": "_cameraFollowTargetPixel",
+          "token": 67140709
+        },
+        {
+          "name": "_lastCameraFollowPixel",
+          "token": 67140710
+        },
+        {
+          "name": "_cameraFollowVelocity",
+          "token": 67140711
+        },
+        {
+          "name": "_cameraFollowDirection",
+          "token": 67140712
+        },
+        {
+          "name": "_cameraFollowSpeed",
+          "token": 67140713
+        },
+        {
+          "name": "_cameraFollowLookAheadPixels",
+          "token": 67140714
+        },
+        {
+          "name": "_cameraFollowManualPanUntil",
+          "token": 67140715
+        },
+        {
+          "name": "_cameraFollowActive",
+          "token": 67140716
+        },
+        {
+          "name": "_activePathPixels",
+          "token": 67140717
+        },
+        {
+          "name": "_activePathCumulativeDistances",
+          "token": 67140718
+        },
+        {
+          "name": "_pathProgressSeg",
+          "token": 67140719
+        },
+        {
+          "name": "_pathProgressT",
+          "token": 67140720
+        },
+        {
+          "name": "_pathProgressDirty",
+          "token": 67140721
+        },
+        {
+          "name": "_lastPathProgressVisualSplitIdx",
+          "token": 67140722
+        },
+        {
+          "name": "_nextPathProgressVisualRealtime",
+          "token": 67140723
+        },
+        {
+          "name": "_frozenRemainingPathD",
+          "token": 67140724
+        },
+        {
+          "name": "_hasHerbPreview",
+          "token": 67140725
+        },
+        {
+          "name": "_pathIsTeleport",
+          "token": 67140726
+        },
+        {
+          "name": "_trailRendererFallbackLogged",
+          "token": 67140727
+        },
+        {
+          "name": "_trailConnectorFallbackLogged",
+          "token": 67140728
+        },
+        {
+          "name": "_fogMaskFallbackLogged",
+          "token": 67140729
+        },
+        {
+          "name": "_bufferedCameraFallbackLogged",
+          "token": 67140730
+        },
+        {
+          "name": "_ringOverlayFallbackLogged",
+          "token": 67140731
+        },
+        {
+          "name": "_motionClockFallbackLogged",
+          "token": 67140732
+        },
+        {
+          "name": "_pillMotionVisualFallbackLogged",
+          "token": 67140733
+        },
+        {
+          "name": "_hasPresentedMotionSample",
+          "token": 67140734
+        },
+        {
+          "name": "_lastPresentedActionSerial",
+          "token": 67140735
+        },
+        {
+          "name": "_lastPresentedTickIndex",
+          "token": 67140736
+        },
+        {
+          "name": "_lastMotionCameraPixel",
+          "token": 67140737
+        },
+        {
+          "name": "_poiVisibilityBucketSize",
+          "token": 67140738
+        },
+        {
+          "name": "_poiLayerRaycastsBlocked",
+          "token": 67140739
+        },
+        {
+          "name": "_poiLayerDefaultBlocksRaycasts",
+          "token": 67140740
+        },
+        {
+          "name": "_poiLayerDefaultInteractable",
+          "token": 67140741
+        },
+        {
+          "name": "_lastDangerTextValue",
+          "token": 67140742
+        },
+        {
+          "name": "_lastDangerTextMax",
+          "token": 67140743
+        },
+        {
+          "name": "_swampWarnIdx",
+          "token": 67140744
+        },
+        {
+          "name": "_lastDangerTextActive",
+          "token": 67140745
+        },
+        {
+          "name": "_spaceHoldRefine",
+          "token": 67140746
+        },
+        {
+          "name": "_pointerHoldRefine",
+          "token": 67140747
+        },
+        {
+          "name": "_wasInputBlockedByModal",
+          "token": 67140748
+        },
+        {
+          "name": "_pendingPortalPoiIndex",
+          "token": 67140749
+        },
+        {
+          "name": "_portalConfirmOpen",
+          "token": 67140750
+        },
+        {
+          "name": "_nearbyPortalIndices",
+          "token": 67140751
+        },
+        {
+          "name": "_lastPortalBlockedIndex",
+          "token": 67140752
+        },
+        {
+          "name": "_portalPruneScratch",
+          "token": 67140753
+        },
+        {
+          "name": "_holdRefineHintWanted",
+          "token": 67140754
+        },
+        {
+          "name": "_isCoveredByFullScreenPanel",
+          "token": 67140755
+        },
+        {
+          "name": "_mapRenderKeepAlive",
+          "token": 67140756
+        },
+        {
+          "name": "_pathDBuilder",
+          "token": 67140757
+        },
+        {
+          "name": "_sharedItemTooltipHostBesideLeft",
+          "token": 67140758
+        },
+        {
+          "name": "_sharedItemTooltipHostBesideRight",
+          "token": 67140759
+        },
+        {
+          "name": "_sharedItemTooltipViewBesideLeft",
+          "token": 67140760
+        },
+        {
+          "name": "_sharedItemTooltipViewBesideRight",
+          "token": 67140761
+        },
+        {
+          "name": "_activeSharedItemTooltipHost",
+          "token": 67140762
+        },
+        {
+          "name": "_activeSharedItemTooltipView",
+          "token": 67140763
+        },
+        {
+          "name": "_tooltipShowCoroutine",
+          "token": 67140764
+        },
+        {
+          "name": "_tooltipHideCoroutine",
+          "token": 67140765
+        },
+        {
+          "name": "_explodeTransitionCoroutine",
+          "token": 67140766
+        },
+        {
+          "name": "_tooltipItem",
+          "token": 67140767
+        },
+        {
+          "name": "_leftPanelRt",
+          "token": 67140768
+        },
+        {
+          "name": "_rightPanelRt",
+          "token": 67140769
+        },
+        {
+          "name": "_lastInvestButtonPhase",
+          "token": 67140770
+        },
+        {
+          "name": "PortalConfirmModeSilent",
+          "token": 67140771
+        },
+        {
+          "name": "PortalConfirmModeAvg",
+          "token": 67140772
+        },
+        {
+          "name": "PortalWarpChargeSeconds",
+          "token": 67140773
+        },
+        {
+          "name": "PortalWarpFlashSeconds",
+          "token": 67140774
+        },
+        {
+          "name": "PortalWarpLandSeconds",
+          "token": 67140775
+        },
+        {
+          "name": "PortalLandingOffsetPixels",
+          "token": 67140776
+        },
+        {
+          "name": "PortalLandingOffsetDirs",
+          "token": 67140777
+        },
+        {
+          "name": "PortalWarpArrayColors",
+          "token": 67140778
+        },
+        {
+          "name": "_portalWarpCoroutine",
+          "token": 67140779
+        },
+        {
+          "name": "_dangerUiThrottle",
+          "token": 67140780
+        },
+        {
+          "name": "DockFormTweenDuration",
+          "token": 67140781
+        },
+        {
+          "name": "DockFormContentFadeTravelRatio",
+          "token": 67140782
+        },
+        {
+          "name": "_leftDockTween",
+          "token": 67140783
+        },
+        {
+          "name": "_rightDockTween",
+          "token": 67140784
+        },
+        {
+          "name": "_leftFlowGroup",
+          "token": 67140785
+        },
+        {
+          "name": "_rightFlowGroup",
+          "token": 67140786
+        },
+        {
+          "name": "_leftRailGroup",
+          "token": 67140787
+        },
+        {
+          "name": "_rightRailGroup",
+          "token": 67140788
+        },
+        {
+          "name": "FurnaceBadgeSpritePath",
+          "token": 67140789
+        },
+        {
+          "name": "FurnaceBadgeHeight",
+          "token": 67140790
+        },
+        {
+          "name": "FurnaceBadgeMinWidth",
+          "token": 67140791
+        },
+        {
+          "name": "FurnaceBadgeHorizontalPadding",
+          "token": 67140792
+        },
+        {
+          "name": "ExpGapBelowHeader",
+          "token": 67140793
+        },
+        {
+          "name": "ProgressBarWidth",
+          "token": 67140794
+        },
+        {
+          "name": "DividerLineWidth",
+          "token": 67140795
+        },
+        {
+          "name": "SummaryBlockHeight",
+          "token": 67140796
+        },
+        {
+          "name": "ExpTrackTop",
+          "token": 67140797
+        },
+        {
+          "name": "ExpFillTop",
+          "token": 67140798
+        },
+        {
+          "name": "ExpTextTop",
+          "token": 67140799
+        },
+        {
+          "name": "DividerGapAboveLine",
+          "token": 67140800
+        },
+        {
+          "name": "DividerGapBelowLine",
+          "token": 67140801
+        },
+        {
+          "name": "DividerLineHeight",
+          "token": 67140802
+        },
+        {
+          "name": "DividerBlockHeight",
+          "token": 67140803
+        },
+        {
+          "name": "SectionTitleFontSize",
+          "token": 67140804
+        },
+        {
+          "name": "SectionTitleInset",
+          "token": 67140805
+        },
+        {
+          "name": "ToxinTitleFontSize",
+          "token": 67140806
+        },
+        {
+          "name": "ToxinCountFontSize",
+          "token": 67140807
+        },
+        {
+          "name": "ToxinDescFontSize",
+          "token": 67140808
+        },
+        {
+          "name": "ToxinIconLeft",
+          "token": 67140809
+        },
+        {
+          "name": "ToxinIconWidth",
+          "token": 67140810
+        },
+        {
+          "name": "ToxinTitleGapAfterIcon",
+          "token": 67140811
+        },
+        {
+          "name": "ToxinTitleLeft",
+          "token": 67140812
+        },
+        {
+          "name": "ToxinTitleRowTop",
+          "token": 67140813
+        },
+        {
+          "name": "ToxinProgressTop",
+          "token": 67140814
+        },
+        {
+          "name": "SectionRowHeight",
+          "token": 67140815
+        },
+        {
+          "name": "EffectBlockMarginTop",
+          "token": 67140816
+        },
+        {
+          "name": "LeftCardWidth",
+          "token": 67140817
+        },
+        {
+          "name": "LeftContentWidth",
+          "token": 67140818
+        },
+        {
+          "name": "EffectSectionHeight",
+          "token": 67140819
+        },
+        {
+          "name": "EffectSectionGapBelow",
+          "token": 67140820
+        },
+        {
+          "name": "EffectListHeight",
+          "token": 67140821
+        },
+        {
+          "name": "EffectCardHeight",
+          "token": 67140822
+        },
+        {
+          "name": "RecipeCardHeight",
+          "token": 67140823
+        },
+        {
+          "name": "EffectListGap",
+          "token": 67140824
+        },
+        {
+          "name": "EffectBlockHeight",
+          "token": 67140825
+        },
+        {
+          "name": "EmptySlotIconSize",
+          "token": 67140826
+        },
+        {
+          "name": "LastEffectCardBottomClipPx",
+          "token": 67140827
+        },
+        {
+          "name": "EffectCardBodyCoverColor",
+          "token": 67140828
+        },
+        {
+          "name": "SectionCaptionColor",
+          "token": 67140829
+        },
+        {
+          "name": "ToxinTitleColor",
+          "token": 67140830
+        },
+        {
+          "name": "ToxinCountColor",
+          "token": 67140831
+        },
+        {
+          "name": "ToxinDescColor",
+          "token": 67140832
+        },
+        {
+          "name": "FurnaceTextColor",
+          "token": 67140833
+        },
+        {
+          "name": "DividerColor",
+          "token": 67140834
+        },
+        {
+          "name": "EffectToxinDividerColor",
+          "token": 67140835
+        },
+        {
+          "name": "EffectBlockHairlineCoverColor",
+          "token": 67140836
+        },
+        {
+          "name": "_solidLineSprite",
+          "token": 67140837
+        },
+        {
+          "name": "FurnaceBadgeFallbackColor",
+          "token": 67140838
+        },
+        {
+          "name": "_view",
+          "token": 67140839
+        },
+        {
+          "name": "_furnaceBadgeSprite",
+          "token": 67140840
+        },
+        {
+          "name": "_leftChromeArtifactsCleaned",
+          "token": 67140841
+        },
+        {
+          "name": "_cardDescScrollRefreshScheduled",
+          "token": 67140842
+        },
+        {
+          "name": "EffectToxinDividerGap",
+          "token": 67140843
+        },
+        {
+          "name": "EffectCardBottomOverlapPx",
+          "token": 67140844
+        },
+        {
+          "name": "ToxinBlockGapBelowDivider",
+          "token": 67140845
+        },
+        {
+          "name": "InvestedDividerGapBelowToxin",
+          "token": 67140846
+        },
+        {
+          "name": "InvestedHeaderGapBelowDivider",
+          "token": 67140847
+        },
+        {
+          "name": "InvestedListGapBelowHeader",
+          "token": 67140848
+        },
+        {
+          "name": "ToxinBlockHeight",
+          "token": 67140849
+        },
+        {
+          "name": "InvestedDividerBlockHeight",
+          "token": 67140850
+        },
+        {
+          "name": "CardDescColorHex",
+          "token": 67140851
+        },
+        {
+          "name": "CardDescPurpleColorHex",
+          "token": 67140852
+        },
+        {
+          "name": "CardDescColor",
+          "token": 67140853
+        },
+        {
+          "name": "CardDescPurpleColor",
+          "token": 67140854
+        },
+        {
+          "name": "ToxinProgressFillWidth",
+          "token": 67140855
+        },
+        {
+          "name": "PortalAvgLiveArgs",
+          "token": 67140856
+        },
+        {
+          "name": "_portalButtonPoiIndex",
+          "token": 67140857
+        },
+        {
+          "name": "_portalAvgConfirmed",
+          "token": 67140858
+        },
+        {
+          "name": "_portalAvgRunning",
+          "token": 67140859
+        },
+        {
+          "name": "PortalHintDashSpeed",
+          "token": 67140860
+        },
+        {
+          "name": "PortalHintLineColor",
+          "token": 67140861
+        },
+        {
+          "name": "_portalHintCoroutine",
+          "token": 67140862
+        },
+        {
+          "name": "_portalHintDashOffset",
+          "token": 67140863
+        }
+      ]
+    },
+    "Game.UI.UPFLogic.RefiningPills.UPFRefiningPillsExplorePanelViewModel": {
+      "type_definition_offset": 29201052,
+      "token": 33559729,
+      "field_count": 88,
+      "fields": [
+        {
+          "name": "ExpProgressFillWidth",
+          "token": 67141008
+        },
+        {
+          "name": "ToxinProgressFillWidth",
+          "token": 67141009
+        },
+        {
+          "name": "RailToxinTrackHeight",
+          "token": 67141010
+        },
+        {
+          "name": "DangerWarningRatio",
+          "token": 67141011
+        },
+        {
+          "name": "DangerCriticalRatio",
+          "token": 67141012
+        },
+        {
+          "name": "ExpandedPanelWidth",
+          "token": 67141013
+        },
+        {
+          "name": "DockedPanelWidth",
+          "token": 67141014
+        },
+        {
+          "name": "HudRightGap",
+          "token": 67141015
+        },
+        {
+          "name": "_levelText",
+          "token": 67141016
+        },
+        {
+          "name": "_levelPrefixText",
+          "token": 67141017
+        },
+        {
+          "name": "_levelTitleText",
+          "token": 67141018
+        },
+        {
+          "name": "_expText",
+          "token": 67141019
+        },
+        {
+          "name": "_expProgress",
+          "token": 67141020
+        },
+        {
+          "name": "_expFillWidth",
+          "token": 67141021
+        },
+        {
+          "name": "_furnaceLevelText",
+          "token": 67141022
+        },
+        {
+          "name": "_furnaceLabelText",
+          "token": 67141023
+        },
+        {
+          "name": "_recipeCountText",
+          "token": 67141024
+        },
+        {
+          "name": "_effectCountText",
+          "token": 67141025
+        },
+        {
+          "name": "_recipeCardName",
+          "token": 67141026
+        },
+        {
+          "name": "_recipeCardDesc",
+          "token": 67141027
+        },
+        {
+          "name": "_recipeCardTipText",
+          "token": 67141028
+        },
+        {
+          "name": "_recipeCardIconPath",
+          "token": 67141029
+        },
+        {
+          "name": "_recipeCardIsFilled",
+          "token": 67141030
+        },
+        {
+          "name": "_danDuProgress",
+          "token": 67141031
+        },
+        {
+          "name": "_danDuFillWidth",
+          "token": 67141032
+        },
+        {
+          "name": "_danDuRailFillHeight",
+          "token": 67141033
+        },
+        {
+          "name": "_danDuText",
+          "token": 67141034
+        },
+        {
+          "name": "_danDuLevelText",
+          "token": 67141035
+        },
+        {
+          "name": "_investedCountText",
+          "token": 67141036
+        },
+        {
+          "name": "_selectedHerbText",
+          "token": 67141037
+        },
+        {
+          "name": "_hasRefundBuff",
+          "token": 67141038
+        },
+        {
+          "name": "_refundBuffFlashOpacity",
+          "token": 67141039
+        },
+        {
+          "name": "_refundBuffFlashScale",
+          "token": 67141040
+        },
+        {
+          "name": "_refundBuffText",
+          "token": 67141041
+        },
+        {
+          "name": "_refundBuffIconPath",
+          "token": 67141042
+        },
+        {
+          "name": "_refundFloatActive",
+          "token": 67141043
+        },
+        {
+          "name": "_refundFloatText",
+          "token": 67141044
+        },
+        {
+          "name": "_refundFloatOpacity",
+          "token": 67141045
+        },
+        {
+          "name": "_refundFloatOffsetY",
+          "token": 67141046
+        },
+        {
+          "name": "_dangerText",
+          "token": 67141047
+        },
+        {
+          "name": "_isInDanger",
+          "token": 67141048
+        },
+        {
+          "name": "_dangerValue",
+          "token": 67141049
+        },
+        {
+          "name": "_dangerMax",
+          "token": 67141050
+        },
+        {
+          "name": "_isDangerNotice",
+          "token": 67141051
+        },
+        {
+          "name": "_isDangerWarning",
+          "token": 67141052
+        },
+        {
+          "name": "_isDangerCritical",
+          "token": 67141053
+        },
+        {
+          "name": "_canCondense",
+          "token": 67141054
+        },
+        {
+          "name": "_backButtonText",
+          "token": 67141055
+        },
+        {
+          "name": "_recipeSectionText",
+          "token": 67141056
+        },
+        {
+          "name": "_effectSectionText",
+          "token": 67141057
+        },
+        {
+          "name": "_railRecipeTipText",
+          "token": 67141058
+        },
+        {
+          "name": "_railEffectTipText",
+          "token": 67141059
+        },
+        {
+          "name": "_toxinSectionText",
+          "token": 67141060
+        },
+        {
+          "name": "_investedHeaderText",
+          "token": 67141061
+        },
+        {
+          "name": "_withdrawText",
+          "token": 67141062
+        },
+        {
+          "name": "_clearText",
+          "token": 67141063
+        },
+        {
+          "name": "_condenseText",
+          "token": 67141064
+        },
+        {
+          "name": "_herbBagText",
+          "token": 67141065
+        },
+        {
+          "name": "_investText",
+          "token": 67141066
+        },
+        {
+          "name": "_isInvestTierBlocked",
+          "token": 67141067
+        },
+        {
+          "name": "_isExplodeTransitionVisible",
+          "token": 67141068
+        },
+        {
+          "name": "_leftPanelWidth",
+          "token": 67141069
+        },
+        {
+          "name": "_rightPanelWidth",
+          "token": 67141070
+        },
+        {
+          "name": "_hudRightOffset",
+          "token": 67141071
+        },
+        {
+          "name": "_isLeftDocked",
+          "token": 67141072
+        },
+        {
+          "name": "_isElementWheelOpen",
+          "token": 67141073
+        },
+        {
+          "name": "_isRightDocked",
+          "token": 67141074
+        },
+        {
+          "name": "_explodeTransitionTitleText",
+          "token": 67141075
+        },
+        {
+          "name": "_explodeTransitionSubtitleText",
+          "token": 67141076
+        },
+        {
+          "name": "OnBackToEntry",
+          "token": 67141077
+        },
+        {
+          "name": "OnCondense",
+          "token": 67141078
+        },
+        {
+          "name": "OnClearAll",
+          "token": 67141079
+        },
+        {
+          "name": "OnInvest",
+          "token": 67141080
+        },
+        {
+          "name": "OnSelectFilter",
+          "token": 67141081
+        },
+        {
+          "name": "<Effects>k__BackingField",
+          "token": 67141082
+        },
+        {
+          "name": "<Herbs>k__BackingField",
+          "token": 67141083
+        },
+        {
+          "name": "<InvestedHerbs>k__BackingField",
+          "token": 67141084
+        },
+        {
+          "name": "<ElementFilters>k__BackingField",
+          "token": 67141085
+        },
+        {
+          "name": "<Map>k__BackingField",
+          "token": 67141086
+        },
+        {
+          "name": "<Recipe>k__BackingField",
+          "token": 67141087
+        },
+        {
+          "name": "<LeftFlowGroup>k__BackingField",
+          "token": 67141088
+        },
+        {
+          "name": "<RightFlowGroup>k__BackingField",
+          "token": 67141089
+        },
+        {
+          "name": "<LeftRailGroup>k__BackingField",
+          "token": 67141090
+        },
+        {
+          "name": "<RightRailGroup>k__BackingField",
+          "token": 67141091
+        },
+        {
+          "name": "OnToggleLeftDock",
+          "token": 67141092
+        },
+        {
+          "name": "OnToggleRightDock",
+          "token": 67141093
+        },
+        {
+          "name": "OnToggleElementWheel",
+          "token": 67141094
+        },
+        {
+          "name": "OnCloseElementWheel",
+          "token": 67141095
+        }
+      ]
+    },
+    "Game.UI.UPFLogic.RefiningPills.UPFRefiningPillsExplorePoiViewModel": {
+      "type_definition_offset": 29201580,
+      "token": 33559735,
+      "field_count": 32,
+      "fields": [
+        {
+          "name": "PointVisualSize",
+          "token": 67141135
+        },
+        {
+          "name": "RecipeVisualSize",
+          "token": 67141136
+        },
+        {
+          "name": "PillVisualSize",
+          "token": 67141137
+        },
+        {
+          "name": "ReferenceMapScale",
+          "token": 67141138
+        },
+        {
+          "name": "HoverVisualScale",
+          "token": 67141139
+        },
+        {
+          "name": "DefaultPoiScaleMin",
+          "token": 67141140
+        },
+        {
+          "name": "DefaultPoiScaleMax",
+          "token": 67141141
+        },
+        {
+          "name": "_onClick",
+          "token": 67141142
+        },
+        {
+          "name": "_x",
+          "token": 67141143
+        },
+        {
+          "name": "_y",
+          "token": 67141144
+        },
+        {
+          "name": "_label",
+          "token": 67141145
+        },
+        {
+          "name": "_iconPath",
+          "token": 67141146
+        },
+        {
+          "name": "_tipText",
+          "token": 67141147
+        },
+        {
+          "name": "_isVisible",
+          "token": 67141148
+        },
+        {
+          "name": "_isRecipe",
+          "token": 67141149
+        },
+        {
+          "name": "_isEffect",
+          "token": 67141150
+        },
+        {
+          "name": "_isCleanse",
+          "token": 67141151
+        },
+        {
+          "name": "_isReward",
+          "token": 67141152
+        },
+        {
+          "name": "_isPortal",
+          "token": 67141153
+        },
+        {
+          "name": "_portalGlowIdle",
+          "token": 67141154
+        },
+        {
+          "name": "_portalGlowBreath",
+          "token": 67141155
+        },
+        {
+          "name": "_warpIn",
+          "token": 67141156
+        },
+        {
+          "name": "_warpOut",
+          "token": 67141157
+        },
+        {
+          "name": "_warpBurst",
+          "token": 67141158
+        },
+        {
+          "name": "_warpArrayColor",
+          "token": 67141159
+        },
+        {
+          "name": "_isPillMarker",
+          "token": 67141160
+        },
+        {
+          "name": "_isHovered",
+          "token": 67141161
+        },
+        {
+          "name": "_isNearby",
+          "token": 67141162
+        },
+        {
+          "name": "_flyScale",
+          "token": 67141163
+        },
+        {
+          "name": "_flyOpacity",
+          "token": 67141164
+        },
+        {
+          "name": "_poiScaleMin",
+          "token": 67141165
+        },
+        {
+          "name": "_poiScaleMax",
+          "token": 67141166
+        }
+      ]
+    },
+    "Game.Logic.RefiningPills.Map.RefiningPillsExploreState": {
+      "type_definition_offset": 29418412,
+      "token": 33562199,
+      "field_count": 23,
+      "fields": [
+        {
+          "name": "<DanDu>k__BackingField",
+          "token": 67154680
+        },
+        {
+          "name": "<ActiveRecipeId>k__BackingField",
+          "token": 67154681
+        },
+        {
+          "name": "<CondenseHint>k__BackingField",
+          "token": 67154682
+        },
+        {
+          "name": "<Fuel>k__BackingField",
+          "token": 67154683
+        },
+        {
+          "name": "<MaxFuel>k__BackingField",
+          "token": 67154684
+        },
+        {
+          "name": "_investedQueue",
+          "token": 67154685
+        },
+        {
+          "name": "_extraConsumed",
+          "token": 67154686
+        },
+        {
+          "name": "_collectedRecipes",
+          "token": 67154687
+        },
+        {
+          "name": "_collectedEffects",
+          "token": 67154688
+        },
+        {
+          "name": "_refundBuff",
+          "token": 67154689
+        },
+        {
+          "name": "<ExtraConsumedTotal>k__BackingField",
+          "token": 67154690
+        },
+        {
+          "name": "<HasInvestedHerbEver>k__BackingField",
+          "token": 67154691
+        },
+        {
+          "name": "<HasObtainedRecipeEver>k__BackingField",
+          "token": 67154692
+        },
+        {
+          "name": "OnDanDuChanged",
+          "token": 67154693
+        },
+        {
+          "name": "OnFuelChanged",
+          "token": 67154694
+        },
+        {
+          "name": "OnPoiCollected",
+          "token": 67154695
+        },
+        {
+          "name": "OnRewardCollected",
+          "token": 67154696
+        },
+        {
+          "name": "OnRefundBuffChanged",
+          "token": 67154697
+        },
+        {
+          "name": "OnRefundBuffApplied",
+          "token": 67154698
+        },
+        {
+          "name": "OnRefundBuffExhausted",
+          "token": 67154699
+        },
+        {
+          "name": "OnExploded",
+          "token": 67154700
+        },
+        {
+          "name": "OnInvestedQueueChanged",
+          "token": 67154701
+        },
+        {
+          "name": "OnHerbExhausted",
+          "token": 67154702
+        }
+      ]
+    },
+    "Game.Logic.RefiningPills.Map.RefiningPillsMapDataset": {
+      "type_definition_offset": 29419644,
+      "token": 33562213,
+      "field_count": 8,
+      "fields": [
+        {
+          "name": "<Version>k__BackingField",
+          "token": 67154767
+        },
+        {
+          "name": "<FileMapSize>k__BackingField",
+          "token": 67154768
+        },
+        {
+          "name": "<TileSize>k__BackingField",
+          "token": 67154769
+        },
+        {
+          "name": "<Grid>k__BackingField",
+          "token": 67154770
+        },
+        {
+          "name": "<Pois>k__BackingField",
+          "token": 67154771
+        },
+        {
+          "name": "<Trajectories>k__BackingField",
+          "token": 67154772
+        },
+        {
+          "name": "<StringPool>k__BackingField",
+          "token": 67154773
+        },
+        {
+          "name": "<WorldScale>k__BackingField",
+          "token": 67154774
+        }
+      ]
+    },
+    "Game.Logic.RefiningPills.Map.RefiningPillsMovementController": {
+      "type_definition_offset": 29421492,
+      "token": 33562233,
+      "field_count": 96,
+      "fields": [
+        {
+          "name": "MovementUpdateMarker",
+          "token": 67154964
+        },
+        {
+          "name": "_dataset",
+          "token": 67154965
+        },
+        {
+          "name": "_state",
+          "token": 67154966
+        },
+        {
+          "name": "_config",
+          "token": 67154967
+        },
+        {
+          "name": "_templateStartPixel",
+          "token": 67154968
+        },
+        {
+          "name": "_trajectorySampleCount",
+          "token": 67154969
+        },
+        {
+          "name": "_currentPixel",
+          "token": 67154970
+        },
+        {
+          "name": "_mapCenter",
+          "token": 67154971
+        },
+        {
+          "name": "_activeHerbId",
+          "token": 67154972
+        },
+        {
+          "name": "_activeTraj",
+          "token": 67154973
+        },
+        {
+          "name": "_runtimeSegments",
+          "token": 67154974
+        },
+        {
+          "name": "_segmentLengths",
+          "token": 67154975
+        },
+        {
+          "name": "_segmentIndex",
+          "token": 67154976
+        },
+        {
+          "name": "_segmentT",
+          "token": 67154977
+        },
+        {
+          "name": "_segStartPixel",
+          "token": 67154978
+        },
+        {
+          "name": "_actionStartPixel",
+          "token": 67154979
+        },
+        {
+          "name": "_phase",
+          "token": 67154980
+        },
+        {
+          "name": "_holdingMove",
+          "token": 67154981
+        },
+        {
+          "name": "MinPoiBucketSize",
+          "token": 67154982
+        },
+        {
+          "name": "TrailSampleMinDistance",
+          "token": 67154983
+        },
+        {
+          "name": "MaxTrailCapacity",
+          "token": 67154984
+        },
+        {
+          "name": "_dangerCounter",
+          "token": 67154985
+        },
+        {
+          "name": "_pendingExplosionReset",
+          "token": 67154986
+        },
+        {
+          "name": "_moveTotalDist",
+          "token": 67154987
+        },
+        {
+          "name": "_autoMoveDist",
+          "token": 67154988
+        },
+        {
+          "name": "_pathDist",
+          "token": 67154989
+        },
+        {
+          "name": "_pathTotalLen",
+          "token": 67154990
+        },
+        {
+          "name": "_lastSwampWarnDist",
+          "token": 67154991
+        },
+        {
+          "name": "_outerZoneMoveDist",
+          "token": 67154992
+        },
+        {
+          "name": "_lastOuterWarnDist",
+          "token": 67154993
+        },
+        {
+          "name": "_outerDangerEnterWarned",
+          "token": 67154994
+        },
+        {
+          "name": "_pendingMaxDist",
+          "token": 67154995
+        },
+        {
+          "name": "_trajCenter",
+          "token": 67154996
+        },
+        {
+          "name": "_trajOffset",
+          "token": 67154997
+        },
+        {
+          "name": "_trajScale",
+          "token": 67154998
+        },
+        {
+          "name": "_prevPixel",
+          "token": 67154999
+        },
+        {
+          "name": "_fogThrottle",
+          "token": 67155000
+        },
+        {
+          "name": "_mountainBlockedNotified",
+          "token": 67155001
+        },
+        {
+          "name": "_teleportBounceLatched",
+          "token": 67155002
+        },
+        {
+          "name": "_consumedPoiIds",
+          "token": 67155003
+        },
+        {
+          "name": "_poiBuckets",
+          "token": 67155004
+        },
+        {
+          "name": "_mutedPoiIndices",
+          "token": 67155005
+        },
+        {
+          "name": "_simulationSuspended",
+          "token": 67155006
+        },
+        {
+          "name": "NearbyRadiusFactor",
+          "token": 67155007
+        },
+        {
+          "name": "_nearbyPoiIndices",
+          "token": 67155008
+        },
+        {
+          "name": "_nearbyScratch",
+          "token": 67155009
+        },
+        {
+          "name": "_nearbyLeaveScratch",
+          "token": 67155010
+        },
+        {
+          "name": "_trail",
+          "token": 67155011
+        },
+        {
+          "name": "_trailPoses",
+          "token": 67155012
+        },
+        {
+          "name": "_poiBucketSize",
+          "token": 67155013
+        },
+        {
+          "name": "_lastTrailSamplePixel",
+          "token": 67155014
+        },
+        {
+          "name": "DangerRecoveryReferenceFramesPerSecond",
+          "token": 67155015
+        },
+        {
+          "name": "MaxMoveDeltaTime",
+          "token": 67155016
+        },
+        {
+          "name": "MountainGraceDistance",
+          "token": 67155017
+        },
+        {
+          "name": "MountainGraceMaxProbes",
+          "token": 67155018
+        },
+        {
+          "name": "FixedSimulationStepSeconds",
+          "token": 67155019
+        },
+        {
+          "name": "MaxAcceptedRenderDeltaSeconds",
+          "token": 67155020
+        },
+        {
+          "name": "MaxFixedTicksPerRenderFrame",
+          "token": 67155021
+        },
+        {
+          "name": "FixedClockEpsilon",
+          "token": 67155022
+        },
+        {
+          "name": "_fixedClockEnabled",
+          "token": 67155023
+        },
+        {
+          "name": "_legacyUpdateAllowedFromFrame",
+          "token": 67155024
+        },
+        {
+          "name": "_fixedAccumulator",
+          "token": 67155025
+        },
+        {
+          "name": "_discardedInputRemainder",
+          "token": 67155026
+        },
+        {
+          "name": "_discardedFixedTickCount",
+          "token": 67155027
+        },
+        {
+          "name": "_clampedRenderFrameCount",
+          "token": 67155028
+        },
+        {
+          "name": "_logicTickIndex",
+          "token": 67155029
+        },
+        {
+          "name": "_actionSerial",
+          "token": 67155030
+        },
+        {
+          "name": "_hasPresentationFrames",
+          "token": 67155031
+        },
+        {
+          "name": "_snapOccurredThisTick",
+          "token": 67155032
+        },
+        {
+          "name": "_previousFrame",
+          "token": 67155033
+        },
+        {
+          "name": "_currentFrame",
+          "token": 67155034
+        },
+        {
+          "name": "CanConsumePoi",
+          "token": 67155035
+        },
+        {
+          "name": "ShouldTriggerPortal",
+          "token": 67155036
+        },
+        {
+          "name": "OnPositionChanged",
+          "token": 67155037
+        },
+        {
+          "name": "OnPoiConsumed",
+          "token": 67155038
+        },
+        {
+          "name": "OnPoiNearbyChanged",
+          "token": 67155039
+        },
+        {
+          "name": "OnPortalReached",
+          "token": 67155040
+        },
+        {
+          "name": "OnTrajectoryProgress",
+          "token": 67155041
+        },
+        {
+          "name": "OnPathPrepared",
+          "token": 67155042
+        },
+        {
+          "name": "OnDangerExplode",
+          "token": 67155043
+        },
+        {
+          "name": "OnDangerChanged",
+          "token": 67155044
+        },
+        {
+          "name": "OnCleanseApplied",
+          "token": 67155045
+        },
+        {
+          "name": "OnSwampWarning",
+          "token": 67155046
+        },
+        {
+          "name": "OnOuterDangerEnterWarn",
+          "token": 67155047
+        },
+        {
+          "name": "OnOuterDangerPeriodicWarn",
+          "token": 67155048
+        },
+        {
+          "name": "OnAutoMoveProgress",
+          "token": 67155049
+        },
+        {
+          "name": "OnMountainBlocked",
+          "token": 67155050
+        },
+        {
+          "name": "OnOuterWallBlocked",
+          "token": 67155051
+        },
+        {
+          "name": "OnTeleportBounced",
+          "token": 67155052
+        },
+        {
+          "name": "OnCandidatePathPrepared",
+          "token": 67155053
+        },
+        {
+          "name": "OnInvestStart",
+          "token": 67155054
+        },
+        {
+          "name": "OnHoldMoveChanged",
+          "token": 67155055
+        },
+        {
+          "name": "OnActionCleared",
+          "token": 67155056
+        },
+        {
+          "name": "OnSimulationFrame",
+          "token": 67155057
+        },
+        {
+          "name": "_outerWallRadius",
+          "token": 67155058
+        },
+        {
+          "name": "FallbackAutoMovePercent",
+          "token": 67155059
+        }
+      ]
+    },
+    "Game.Logic.RefiningPills.Map.RefiningPillsPoi": {
+      "type_definition_offset": 29421668,
+      "token": 33562236,
+      "field_count": 11,
+      "fields": [
+        {
+          "name": "Id",
+          "token": 67155077
+        },
+        {
+          "name": "Type",
+          "token": 67155078
+        },
+        {
+          "name": "Element",
+          "token": 67155079
+        },
+        {
+          "name": "Tier",
+          "token": 67155080
+        },
+        {
+          "name": "EffectId",
+          "token": 67155081
+        },
+        {
+          "name": "RecipeIdIndex",
+          "token": 67155082
+        },
+        {
+          "name": "X",
+          "token": 67155083
+        },
+        {
+          "name": "Y",
+          "token": 67155084
+        },
+        {
+          "name": "RewardConfigId",
+          "token": 67155085
+        },
+        {
+          "name": "RewardQuality",
+          "token": 67155086
+        },
+        {
+          "name": "PortalConfigId",
+          "token": 67155087
+        }
+      ]
+    },
+    "Game.Logic.RefiningPills.Map.RefiningPillsPoiList": {
+      "type_definition_offset": 29421844,
+      "token": 33562238,
+      "field_count": 7,
+      "fields": [
+        {
+          "name": "<All>k__BackingField",
+          "token": 67155090
+        },
+        {
+          "name": "<RecipePois>k__BackingField",
+          "token": 67155091
+        },
+        {
+          "name": "<EffectPois>k__BackingField",
+          "token": 67155092
+        },
+        {
+          "name": "<CleansePois>k__BackingField",
+          "token": 67155093
+        },
+        {
+          "name": "<RewardPois>k__BackingField",
+          "token": 67155094
+        },
+        {
+          "name": "<PortalPois>k__BackingField",
+          "token": 67155095
+        },
+        {
+          "name": "<PortalPairs>k__BackingField",
+          "token": 67155096
+        }
+      ]
+    }
+  },
+  "methods": {
+    "teleport": {
+      "name": "TeleportTo",
+      "token": 100751271,
+      "rva": 15993440,
+      "argc": 1,
+      "returns": 1,
+      "prefix": "488bc45356574881eca00000000f2970"
+    },
+    "collect": {
+      "name": "CheckPoiConsumption",
+      "token": 100751304,
+      "rva": 15978480,
+      "argc": 0,
+      "returns": 1,
+      "prefix": "40534881ecd0000000803dd1cc600700"
+    },
+    "available": {
+      "name": "IsRecipePoiEnabled",
+      "token": 100725105,
+      "rva": 30170992,
+      "argc": 1,
+      "returns": 2,
+      "prefix": "4883ec584c8b81c00100004d85c0745d"
+    }
+  }
+}

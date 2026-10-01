@@ -1,0 +1,1045 @@
+{
+  "Game.UIManager": {
+    "type_definition_offset": 28993284,
+    "token": 33557356,
+    "field_count": 49,
+    "fields": [
+      {
+        "name": "UI_LAYER_WIDTH",
+        "token": 67124314
+      },
+      {
+        "name": "UI_LAYER_HEIGHT",
+        "token": 67124315
+      },
+      {
+        "name": "AssetReadyMarker",
+        "token": 67124316
+      },
+      {
+        "name": "s_CloseInternalMarker",
+        "token": 67124317
+      },
+      {
+        "name": "s_CloseSortingMarker",
+        "token": 67124318
+      },
+      {
+        "name": "s_UnregisterInputOrderMarker",
+        "token": 67124319
+      },
+      {
+        "name": "s_UnregisterCanvasMarker",
+        "token": 67124320
+      },
+      {
+        "name": "s_CloseVisibilityMarker",
+        "token": 67124321
+      },
+      {
+        "name": "s_CloseWillHideMarker",
+        "token": 67124322
+      },
+      {
+        "name": "s_CloseDidHideMarker",
+        "token": 67124323
+      },
+      {
+        "name": "s_CloseEventMarker",
+        "token": 67124324
+      },
+      {
+        "name": "s_RetryDeferredOpensMarker",
+        "token": 67124325
+      },
+      {
+        "name": "InstantiateCompletedMarker",
+        "token": 67124326
+      },
+      {
+        "name": "<IsWorldUiTeardown>k__BackingField",
+        "token": 67124327
+      },
+      {
+        "name": "m_IsShuttingDown",
+        "token": 67124328
+      },
+      {
+        "name": "_panelConfigs",
+        "token": 67124329
+      },
+      {
+        "name": "_panelRegistry",
+        "token": 67124330
+      },
+      {
+        "name": "_historyStack",
+        "token": 67124331
+      },
+      {
+        "name": "_visibilitySystem",
+        "token": 67124332
+      },
+      {
+        "name": "_popupManager",
+        "token": 67124333
+      },
+      {
+        "name": "_backHandler",
+        "token": 67124334
+      },
+      {
+        "name": "_guards",
+        "token": 67124335
+      },
+      {
+        "name": "_deferredOpens",
+        "token": 67124336
+      },
+      {
+        "name": "_isRetryingDeferred",
+        "token": 67124337
+      },
+      {
+        "name": "dict_Panels",
+        "token": 67124338
+      },
+      {
+        "name": "uiRoot",
+        "token": 67124339
+      },
+      {
+        "name": "_panels",
+        "token": 67124340
+      },
+      {
+        "name": "rootCanvas",
+        "token": 67124341
+      },
+      {
+        "name": "uiCamera",
+        "token": 67124342
+      },
+      {
+        "name": "uiPath",
+        "token": 67124343
+      },
+      {
+        "name": "layerRoots",
+        "token": 67124344
+      },
+      {
+        "name": "_layerCanvasGroups",
+        "token": 67124345
+      },
+      {
+        "name": "uiDict",
+        "token": 67124346
+      },
+      {
+        "name": "uiStack",
+        "token": 67124347
+      },
+      {
+        "name": "_commonFunctionRegistry",
+        "token": 67124348
+      },
+      {
+        "name": "_canvasSortingManager",
+        "token": 67124349
+      },
+      {
+        "name": "m_RenderingSuspension",
+        "token": 67124350
+      },
+      {
+        "name": "m_UICameraEnabledBeforeGlobalHide",
+        "token": 67124351
+      },
+      {
+        "name": "_panelBlockers",
+        "token": 67124352
+      },
+      {
+        "name": "LAYER_COUNT",
+        "token": 67124353
+      },
+      {
+        "name": "_layerState",
+        "token": 67124354
+      },
+      {
+        "name": "_newLayerStateCache",
+        "token": 67124355
+      },
+      {
+        "name": "_forceHiddenLayers",
+        "token": 67124356
+      },
+      {
+        "name": "_uiSceneRoot",
+        "token": 67124357
+      },
+      {
+        "name": "_sceneLayerRoots",
+        "token": 67124358
+      },
+      {
+        "name": "_sceneLayerCanvasGroups",
+        "token": 67124359
+      },
+      {
+        "name": "_sceneModeCache",
+        "token": 67124360
+      },
+      {
+        "name": "uiIntroductions",
+        "token": 67124361
+      },
+      {
+        "name": "_cachedUILayer",
+        "token": 67124362
+      }
+    ]
+  },
+  "Game.BaseUI": {
+    "type_definition_offset": 29007716,
+    "token": 33557531,
+    "field_count": 34,
+    "fields": [
+      {
+        "name": "s_HideMarker",
+        "token": 67125214
+      },
+      {
+        "name": "s_HideInputScopeMarker",
+        "token": 67125215
+      },
+      {
+        "name": "s_HideAudioMarker",
+        "token": 67125216
+      },
+      {
+        "name": "s_HideCallbackMarker",
+        "token": 67125217
+      },
+      {
+        "name": "s_HideParticlesMarker",
+        "token": 67125218
+      },
+      {
+        "name": "s_HideInputLayersMarker",
+        "token": 67125219
+      },
+      {
+        "name": "s_HideGuideMarker",
+        "token": 67125220
+      },
+      {
+        "name": "s_VisualHideMarker",
+        "token": 67125221
+      },
+      {
+        "name": "_audioConfig",
+        "token": 67125222
+      },
+      {
+        "name": "<UILayer>k__BackingField",
+        "token": 67125223
+      },
+      {
+        "name": "<ThisPanelId>k__BackingField",
+        "token": 67125224
+      },
+      {
+        "name": "<IsRootPanel>k__BackingField",
+        "token": 67125225
+      },
+      {
+        "name": "<IsAttachedAsChild>k__BackingField",
+        "token": 67125226
+      },
+      {
+        "name": "isShowing",
+        "token": 67125227
+      },
+      {
+        "name": "isInitialized",
+        "token": 67125228
+      },
+      {
+        "name": "_redDotSubscriptions",
+        "token": 67125229
+      },
+      {
+        "name": "_uiReddotViewModels",
+        "token": 67125230
+      },
+      {
+        "name": "<IsInVisualHide>k__BackingField",
+        "token": 67125231
+      },
+      {
+        "name": "bgmLayer",
+        "token": 67125232
+      },
+      {
+        "name": "_inputScopeHost",
+        "token": 67125233
+      },
+      {
+        "name": "_overlayNativeParticleAutoPresenter",
+        "token": 67125234
+      },
+      {
+        "name": "_overlayNativeParticleAutoScanCompleted",
+        "token": 67125235
+      },
+      {
+        "name": "_animation",
+        "token": 67125236
+      },
+      {
+        "name": "_exitAnimCo",
+        "token": 67125237
+      },
+      {
+        "name": "delayedShow",
+        "token": 67125238
+      },
+      {
+        "name": "_destroyOnVisualHide",
+        "token": 67125239
+      },
+      {
+        "name": "<IsInteractable>k__BackingField",
+        "token": 67125240
+      },
+      {
+        "name": "<IsPaused>k__BackingField",
+        "token": 67125241
+      },
+      {
+        "name": "<InputGroup>k__BackingField",
+        "token": 67125242
+      },
+      {
+        "name": "<RuntimeOwner>k__BackingField",
+        "token": 67125243
+      },
+      {
+        "name": "<HandleToken>k__BackingField",
+        "token": 67125244
+      },
+      {
+        "name": "childPanels",
+        "token": 67125245
+      },
+      {
+        "name": "lastUpdate01Time",
+        "token": 67125246
+      },
+      {
+        "name": "_hotkeyButtonEntries",
+        "token": 67125247
+      }
+    ]
+  },
+  "Game.PanelRegistry": {
+    "type_definition_offset": 29009124,
+    "token": 33557548,
+    "field_count": 2,
+    "fields": [
+      {
+        "name": "_instances",
+        "token": 67125310
+      },
+      {
+        "name": "_layerIndex",
+        "token": 67125311
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.MedGame.MedGameConfig": {
+    "type_definition_offset": 29219004,
+    "token": 33559932,
+    "field_count": 28,
+    "fields": [
+      {
+        "name": "UnlimitedLimit",
+        "token": 67142872
+      },
+      {
+        "name": "LevelId",
+        "token": 67142873
+      },
+      {
+        "name": "LevelSeed",
+        "token": 67142874
+      },
+      {
+        "name": "Title",
+        "token": 67142875
+      },
+      {
+        "name": "Cols",
+        "token": 67142876
+      },
+      {
+        "name": "Rows",
+        "token": 67142877
+      },
+      {
+        "name": "StartCol",
+        "token": 67142878
+      },
+      {
+        "name": "StartRow",
+        "token": 67142879
+      },
+      {
+        "name": "EndCol",
+        "token": 67142880
+      },
+      {
+        "name": "EndRow",
+        "token": 67142881
+      },
+      {
+        "name": "PathCount",
+        "token": 67142882
+      },
+      {
+        "name": "MaxPathAttempts",
+        "token": 67142883
+      },
+      {
+        "name": "TimeLimit",
+        "token": 67142884
+      },
+      {
+        "name": "RotationLimit",
+        "token": 67142885
+      },
+      {
+        "name": "StartPointName",
+        "token": 67142886
+      },
+      {
+        "name": "EndPointName",
+        "token": 67142887
+      },
+      {
+        "name": "BlockerReplacePct",
+        "token": 67142888
+      },
+      {
+        "name": "StuckReplacePct",
+        "token": 67142889
+      },
+      {
+        "name": "BonusType1Pct",
+        "token": 67142890
+      },
+      {
+        "name": "BonusType1Value",
+        "token": 67142891
+      },
+      {
+        "name": "BonusType2Pct",
+        "token": 67142892
+      },
+      {
+        "name": "BonusType2Value",
+        "token": 67142893
+      },
+      {
+        "name": "MaskPct",
+        "token": 67142894
+      },
+      {
+        "name": "ConnectedShufflePct",
+        "token": 67142895
+      },
+      {
+        "name": "DisconnectedShufflePct",
+        "token": 67142896
+      },
+      {
+        "name": "PcgRetryTimes",
+        "token": 67142897
+      },
+      {
+        "name": "TransformCharges",
+        "token": 67142898
+      },
+      {
+        "name": "RevealCharges",
+        "token": 67142899
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.MedGame.MedGamePanel": {
+    "type_definition_offset": 29220060,
+    "token": 33559941,
+    "field_count": 14,
+    "fields": [
+      {
+        "name": "_view",
+        "token": 67142926
+      },
+      {
+        "name": "_game",
+        "token": 67142927
+      },
+      {
+        "name": "m_AnalyticsSession",
+        "token": 67142928
+      },
+      {
+        "name": "_npcId",
+        "token": 67142929
+      },
+      {
+        "name": "_subId",
+        "token": 67142930
+      },
+      {
+        "name": "_gameEndCompletion",
+        "token": 67142931
+      },
+      {
+        "name": "_settlementStarted",
+        "token": 67142932
+      },
+      {
+        "name": "_settlementCompletionDelegated",
+        "token": 67142933
+      },
+      {
+        "name": "_boardLoading",
+        "token": 67142934
+      },
+      {
+        "name": "_boardLoaded",
+        "token": 67142935
+      },
+      {
+        "name": "_exitConfirmOpen",
+        "token": 67142936
+      },
+      {
+        "name": "_boardLoadCts",
+        "token": 67142937
+      },
+      {
+        "name": "_settlementDelayCts",
+        "token": 67142938
+      },
+      {
+        "name": "_inputLayer",
+        "token": 67142939
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.MedGame.MedGameViewModel": {
+    "type_definition_offset": 29221820,
+    "token": 33559953,
+    "field_count": 68,
+    "fields": [
+      {
+        "name": "MedicalInteractAttributeId",
+        "token": 67142981
+      },
+      {
+        "name": "NeedleWarningThreshold",
+        "token": 67142982
+      },
+      {
+        "name": "NeedleCriticalThreshold",
+        "token": 67142983
+      },
+      {
+        "name": "TimeWarningThreshold",
+        "token": 67142984
+      },
+      {
+        "name": "TimeCriticalThreshold",
+        "token": 67142985
+      },
+      {
+        "name": "RevealAnimationDurationMilliseconds",
+        "token": 67142986
+      },
+      {
+        "name": "RevealAnimationCommitDelayMilliseconds",
+        "token": 67142987
+      },
+      {
+        "name": "BonusFlashDurationMilliseconds",
+        "token": 67142988
+      },
+      {
+        "name": "BoardShakeDurationMilliseconds",
+        "token": 67142989
+      },
+      {
+        "name": "WinPathStepDurationMilliseconds",
+        "token": 67142990
+      },
+      {
+        "name": "UnlimitedValueText",
+        "token": 67142991
+      },
+      {
+        "name": "PulseCellHalfWidth",
+        "token": 67142992
+      },
+      {
+        "name": "PulseLeftOuterEdge",
+        "token": 67142993
+      },
+      {
+        "name": "PulseLeftHalfHeight",
+        "token": 67142994
+      },
+      {
+        "name": "PulseRightOuterEdgeOffset",
+        "token": 67142995
+      },
+      {
+        "name": "PulseRightHalfHeight",
+        "token": 67142996
+      },
+      {
+        "name": "_skillContextProvider",
+        "token": 67142997
+      },
+      {
+        "name": "_cellMap",
+        "token": 67142998
+      },
+      {
+        "name": "_connectionEdges",
+        "token": 67142999
+      },
+      {
+        "name": "_config",
+        "token": 67143000
+      },
+      {
+        "name": "_seed",
+        "token": 67143001
+      },
+      {
+        "name": "_npcId",
+        "token": 67143002
+      },
+      {
+        "name": "_needleUsed",
+        "token": 67143003
+      },
+      {
+        "name": "_bonusNeedleGained",
+        "token": 67143004
+      },
+      {
+        "name": "_passiveNeedleBonus",
+        "token": 67143005
+      },
+      {
+        "name": "_revealPct",
+        "token": 67143006
+      },
+      {
+        "name": "_medicalLevel",
+        "token": 67143007
+      },
+      {
+        "name": "_timeRemaining",
+        "token": 67143008
+      },
+      {
+        "name": "_transformLeft",
+        "token": 67143009
+      },
+      {
+        "name": "_revealLeft",
+        "token": 67143010
+      },
+      {
+        "name": "_initialConnected",
+        "token": 67143011
+      },
+      {
+        "name": "_pendingTransform",
+        "token": 67143012
+      },
+      {
+        "name": "_finished",
+        "token": 67143013
+      },
+      {
+        "name": "_hasWon",
+        "token": 67143014
+      },
+      {
+        "name": "_timerEnabled",
+        "token": 67143015
+      },
+      {
+        "name": "_paused",
+        "token": 67143016
+      },
+      {
+        "name": "_resumeTimerAfterPause",
+        "token": 67143017
+      },
+      {
+        "name": "_revealAnimating",
+        "token": 67143018
+      },
+      {
+        "name": "_closeEnabled",
+        "token": 67143019
+      },
+      {
+        "name": "_showStatusPanel",
+        "token": 67143020
+      },
+      {
+        "name": "_bonusFlashTriggered",
+        "token": 67143021
+      },
+      {
+        "name": "_boardShakeTriggered",
+        "token": 67143022
+      },
+      {
+        "name": "_revealSkillSoundTriggered",
+        "token": 67143023
+      },
+      {
+        "name": "_revealSkillSoundTriggerVersion",
+        "token": 67143024
+      },
+      {
+        "name": "_boardActualWidth",
+        "token": 67143025
+      },
+      {
+        "name": "_hasBoardActualWidth",
+        "token": 67143026
+      },
+      {
+        "name": "_boardLayoutReady",
+        "token": 67143027
+      },
+      {
+        "name": "_statusText",
+        "token": 67143028
+      },
+      {
+        "name": "_resultText",
+        "token": 67143029
+      },
+      {
+        "name": "_connectedFlowPath",
+        "token": 67143030
+      },
+      {
+        "name": "_winConnectedFlowPath",
+        "token": 67143031
+      },
+      {
+        "name": "_emptyBoardHintText",
+        "token": 67143032
+      },
+      {
+        "name": "_statusBeforePendingTransform",
+        "token": 67143033
+      },
+      {
+        "name": "_completed",
+        "token": 67143034
+      },
+      {
+        "name": "_timerCts",
+        "token": 67143035
+      },
+      {
+        "name": "_revealAnimationCts",
+        "token": 67143036
+      },
+      {
+        "name": "_bonusFlashCts",
+        "token": 67143037
+      },
+      {
+        "name": "_boardShakeCts",
+        "token": 67143038
+      },
+      {
+        "name": "_winPathAnimationCts",
+        "token": 67143039
+      },
+      {
+        "name": "CloseRequested",
+        "token": 67143040
+      },
+      {
+        "name": "<Cells>k__BackingField",
+        "token": 67143041
+      },
+      {
+        "name": "<SkillItems>k__BackingField",
+        "token": 67143042
+      },
+      {
+        "name": "<FailureReason>k__BackingField",
+        "token": 67143043
+      },
+      {
+        "name": "BoardChanged",
+        "token": 67143044
+      },
+      {
+        "name": "BoardReady",
+        "token": 67143045
+      },
+      {
+        "name": "<ConnectedCellCount>k__BackingField",
+        "token": 67143046
+      },
+      {
+        "name": "<LastRotationConnectedCellCount>k__BackingField",
+        "token": 67143047
+      },
+      {
+        "name": "ConnectionStateChanged",
+        "token": 67143048
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.MedGame.MedCellViewModel": {
+    "type_definition_offset": 29222172,
+    "token": 33559966,
+    "field_count": 35,
+    "fields": [
+      {
+        "name": "BorderStrokeWidth",
+        "token": 67143116
+      },
+      {
+        "name": "PipeStrokeWidth",
+        "token": 67143117
+      },
+      {
+        "name": "InvalidInteractionAnimationDurationMilliseconds",
+        "token": 67143118
+      },
+      {
+        "name": "_owner",
+        "token": 67143119
+      },
+      {
+        "name": "_col",
+        "token": 67143120
+      },
+      {
+        "name": "_row",
+        "token": 67143121
+      },
+      {
+        "name": "_kind",
+        "token": 67143122
+      },
+      {
+        "name": "_shape",
+        "token": 67143123
+      },
+      {
+        "name": "_variant",
+        "token": 67143124
+      },
+      {
+        "name": "_visualRotationStep",
+        "token": 67143125
+      },
+      {
+        "name": "_hidden",
+        "token": 67143126
+      },
+      {
+        "name": "_revealPending",
+        "token": 67143127
+      },
+      {
+        "name": "_revealAnimationTriggered",
+        "token": 67143128
+      },
+      {
+        "name": "_bonusAnimationTriggered",
+        "token": 67143129
+      },
+      {
+        "name": "_transformAnimationTriggered",
+        "token": 67143130
+      },
+      {
+        "name": "_invalidInteractionAnimationTriggered",
+        "token": 67143131
+      },
+      {
+        "name": "_invalidInteractionAnimationVersion",
+        "token": 67143132
+      },
+      {
+        "name": "_rotateSoundTriggered",
+        "token": 67143133
+      },
+      {
+        "name": "_connectSoundTriggered",
+        "token": 67143134
+      },
+      {
+        "name": "_lockSoundTriggered",
+        "token": 67143135
+      },
+      {
+        "name": "_revealSoundTriggered",
+        "token": 67143136
+      },
+      {
+        "name": "_transformSoundTriggered",
+        "token": 67143137
+      },
+      {
+        "name": "_soundTriggerVersion",
+        "token": 67143138
+      },
+      {
+        "name": "_connected",
+        "token": 67143139
+      },
+      {
+        "name": "_winPathIndex",
+        "token": 67143140
+      },
+      {
+        "name": "_winActivated",
+        "token": 67143141
+      },
+      {
+        "name": "_rotateCount",
+        "token": 67143142
+      },
+      {
+        "name": "_bonusValue",
+        "token": 67143143
+      },
+      {
+        "name": "_isGeneratedPath",
+        "token": 67143144
+      },
+      {
+        "name": "_solutionShape",
+        "token": 67143145
+      },
+      {
+        "name": "_solutionVariant",
+        "token": 67143146
+      },
+      {
+        "name": "_bonusClaimed",
+        "token": 67143147
+      },
+      {
+        "name": "_actualBoardCenter",
+        "token": 67143148
+      },
+      {
+        "name": "_hasActualBoardCenter",
+        "token": 67143149
+      },
+      {
+        "name": "<Role>k__BackingField",
+        "token": 67143150
+      }
+    ]
+  },
+  "System.Collections.Generic.List`1": {
+    "type_definition_offset": 29896604,
+    "token": 33556056,
+    "field_count": 6,
+    "fields": [
+      {
+        "name": "DefaultCapacity",
+        "token": 67115810
+      },
+      {
+        "name": "_items",
+        "token": 67115811
+      },
+      {
+        "name": "_size",
+        "token": 67115812
+      },
+      {
+        "name": "_version",
+        "token": 67115813
+      },
+      {
+        "name": "_syncRoot",
+        "token": 67115814
+      },
+      {
+        "name": "s_emptyArray",
+        "token": 67115815
+      }
+    ]
+  },
+  "Loxodon.Framework.Observables.ObservableList`1": {
+    "type_definition_offset": 30385620,
+    "token": 33554646,
+    "field_count": 9,
+    "fields": [
+      {
+        "name": "CountEventArgs",
+        "token": 67109432
+      },
+      {
+        "name": "IndexerEventArgs",
+        "token": 67109433
+      },
+      {
+        "name": "propertyChangedLock",
+        "token": 67109434
+      },
+      {
+        "name": "collectionChangedLock",
+        "token": 67109435
+      },
+      {
+        "name": "propertyChanged",
+        "token": 67109436
+      },
+      {
+        "name": "collectionChanged",
+        "token": 67109437
+      },
+      {
+        "name": "monitor",
+        "token": 67109438
+      },
+      {
+        "name": "items",
+        "token": 67109439
+      },
+      {
+        "name": "syncRoot",
+        "token": 67109440
+      }
+    ]
+  }
+}

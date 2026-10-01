@@ -1,28 +1,57 @@
-# 单机游戏修改器研究记录
+English | [简体中文](README_ZH.md)
 
-这里记录我因个人兴趣开展的单机游戏修改器研究、开发和修复过程，按游戏整理阶段结果、实验说明与版本文件。
+# Single-Player Trainer Research
 
-**这些内容仅作个人研究归档。** 本机测试记录只说明当时的环境与结果，不代表适用于其他人的电脑、游戏版本或 MOD 组合。对他人环境的适配情况、实际使用效果及使用造成的损失不作保证，也不承担适配、排错或售后支持责任。自行取用需自行判断并承担风险。
+A personal record of experiments, implementation work and fixes for single-player game trainers.
 
-本专区不提供问题反馈渠道，不受理功能请求，不承诺修复、更新或跟进游戏版本。后续是否继续研究，仅取决于个人兴趣与时间。
+This repository keeps selected source snapshots, development notes and versioned artifacts together. It documents what was attempted, what was observed and what remains unverified.
 
-## 项目记录
+**Research archive, provided as-is.** Results are specific to the recorded environment. Compatibility with other computers, game versions or mod combinations, and the effects of using these tools, are not guaranteed. Use is at your own risk. No user support, issue intake, feature requests or ongoing maintenance is offered.
 
-| 游戏 | 归档版本 | 研究形式 | 项目说明 | 版本文件 |
-|---|---|---|---|---|
-| 不问凡尘 / World Apart | 新V1.3（界面版本 v1.3） | 独立修改器 | [开发变更与操作记录](games/worldapart/README.md) | [归档](https://github.com/Haaaaa96/single-player-trainers/releases/tag/worldapart-v1.3-new) |
-| 吾今有世家 / House of Legacy | v0.3.0（实验版本） | 内置插件 | [功能范围与实验边界](games/house-of-legacy/README.md) | [归档](https://github.com/Haaaaa96/single-player-trainers/releases/tag/house-of-legacy-v0.3.0) |
-| 大侠立志传 / Hero's Adventure | WulinToyBox v1.1.0 | 既有插件修订 | [修复记录与依赖说明](games/wulin-toybox/README.md) | [归档](https://github.com/Haaaaa96/single-player-trainers/releases/tag/wulin-toybox-v1.1.0) |
+## Projects
 
-## 归档说明
+| Project | Archived version | Approach | Explore |
+|---|---|---|---|
+| World Apart / 不问凡尘 | v1.3, read-performance revision | Standalone Python trainer with a shared native broker | [Overview](games/worldapart/README.md) · [Source](sources/worldapart) · [Development log](games/worldapart/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/worldapart-v1.3-new) |
+| House of Legacy / 吾今有世家 | v0.3.0, experimental | C# plugin for a Unity Mono game | [Overview](games/house-of-legacy/README.md) · [Source](sources/house-of-legacy) · [Development log](games/house-of-legacy/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/house-of-legacy-v0.3.0) |
+| Hero's Adventure / 大侠立志传 | WulinToyBox v1.1.0 | Revisions to an existing IL2CPP plugin | [Overview](games/wulin-toybox/README.md) · [Source](sources/wulin-toybox) · [Development log](games/wulin-toybox/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/wulin-toybox-v1.1.0) |
 
-- 各项目分别记录实现范围、当时的实验环境、已观察到的结果和未验证事项；功能列表不等于全部场景均已验证。
-- Releases 保存确定版本的文件，SHA256 用于核对文件身份，不是安全或兼容性认证。不同项目各自编号，仓库的 Latest 标记不代表所有项目的最新版本。
-- 自动生成的 Source code（zip/tar.gz）是仓库快照；程序、插件与另附的对应源码材料在各版本的 Assets 中区分列出。
-- 既有压缩包保持归档时的原样，其中可能保留当时的分享文案或署名；这些历史文字不表示本专区提供支持服务。
+## Background
 
-如自行运行归档程序，先备份存档；遇到错误或安全告警应自行核实，不应关闭安全防护或连续重复不明操作。
+The work began with small, local changes to game values and grew into experiments with object discovery, runtime validation, native-session reuse and in-game interfaces. The notes retain failed approaches and limited evidence as well as successful changes. The purpose is to preserve the research process, not to promise a maintained product.
 
-游戏及第三方作品的权利归原权利人所有，原作者署名与许可证保留。公开归档不等于所有原创代码均已开源。
+## Technical approach
 
-[研究归档与使用边界](TERMS.md) · [第三方许可](THIRD_PARTY_NOTICES.md)
+- **World Apart:** Python/Tk UI, IL2CPP metadata and object validation, bounded memory discovery, and a shared native broker for reviewed game calls. Feature-specific checks stay separate from version hints.
+- **House of Legacy:** a BepInEx 5 plugin with guarded edits, pause ownership and input isolation while its window is open.
+- **WulinToyBox:** targeted changes to the upstream plugin's data reads, search, lists, input handling and UI. Original dependencies and licenses remain separate.
+
+## Source and development
+
+Start with a project's `BUILD.md`. These are privacy-reviewed source snapshots, not a mirror of the private working directory or its Git history. Some build inputs belong to the game or third parties and are deliberately absent; the project notes list those gaps.
+
+No game executable, game assembly, save, runtime log, credential or personal configuration is intentionally included in the source export. Source publication does not mean that a fresh build was tested this time or will reproduce an older executable byte for byte. The trainer interfaces themselves may still be Chinese.
+
+- [Source scope and build entry points](sources/README.md)
+- [Development method and lessons](docs/DEVELOPMENT.md)
+- [Privacy and provenance boundaries](docs/PRIVACY.md)
+- [Artifact checksums](releases.json)
+
+## Repository layout
+
+```text
+README.md / README_ZH.md       English and Chinese entry points
+games/<game>/                 Overview, operating notes and development log
+sources/<game>/               Selected implementation, tests and build notes
+docs/                         Development method and privacy boundaries
+third_party/                  Required licenses and source/build materials
+releases.json                 Archived artifact identities
+```
+
+Releases retain historical files. Their bundled wording may reflect an earlier publication style; it does not establish a support commitment. Automatic “Source code” downloads are repository snapshots, while named release assets identify the archived programs and separate dependency sources. A checksum identifies bytes, not safety or compatibility.
+
+## Licensing
+
+Original source is publicly readable; this publication does not silently apply a new open-source license to it. WulinToyBox and third-party components retain their existing licenses and required attribution. Game names and assets belong to their respective owners.
+
+[Archive terms](TERMS.md) · [Third-party notices](THIRD_PARTY_NOTICES.md)

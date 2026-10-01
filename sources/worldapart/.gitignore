@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+logs/
+vendor/
+*.exe
+.build-venv/
+.venv/
+build/
+release/
+release-*/
+game_runtime/*.json
+/alchemy_specs.json
+/photostone_catalog.json
+/engine_game_types.json

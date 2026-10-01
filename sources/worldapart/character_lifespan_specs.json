@@ -1,0 +1,76 @@
+{
+  "methods": {
+    "age": {
+      "name": "get_CurrentAge",
+      "token": 100744804,
+      "rva": 14446944,
+      "parameters": 0,
+      "return_kind": 8,
+      "prefix": "48895c2408574883ec20803d041d7807"
+    },
+    "max": {
+      "name": "get_MaxLifespan",
+      "token": 100744805,
+      "rva": 14447520,
+      "parameters": 0,
+      "return_kind": 8,
+      "prefix": "4883ec384883794800750733c04883c4"
+    },
+    "modify": {
+      "name": "ModifyMaxLifespan",
+      "token": 100744814,
+      "rva": 14434224,
+      "parameters": 1,
+      "return_kind": 12,
+      "prefix": "40534883ec20488bd9488b49484885c9"
+    }
+  },
+  "method_profiles": {
+    "reviewed_20260930": {
+      "age": {
+        "name": "get_CurrentAge",
+        "token": 100744876,
+        "rva": 14639904,
+        "parameters": 0,
+        "return_kind": 8,
+        "prefix": "48895c2408574883ec20803db0517607"
+      },
+      "max": {
+        "name": "get_MaxLifespan",
+        "token": 100744877,
+        "rva": 14640480,
+        "parameters": 0,
+        "return_kind": 8,
+        "prefix": "4883ec384883794800750733c04883c4"
+      },
+      "modify": {
+        "name": "ModifyMaxLifespan",
+        "token": 100744886,
+        "rva": 14627248,
+        "parameters": 1,
+        "return_kind": 12,
+        "prefix": "40534883ec20488bd9488b49484885c9"
+      }
+    }
+  },
+  "fields": {
+    "handling": {
+      "name": "m_HandlingLifespanExhaustion",
+      "token": 67151423,
+      "offset": 440,
+      "kind": 2
+    },
+    "handled_age": {
+      "name": "<LifespanExhaustionHandledAge>k__BackingField",
+      "token": 67151424,
+      "offset": 444,
+      "kind": 21
+    },
+    "handled_max": {
+      "name": "<LifespanExhaustionHandledMax>k__BackingField",
+      "token": 67151425,
+      "offset": 452,
+      "kind": 21
+    }
+  }
+}

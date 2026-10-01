@@ -1,0 +1,681 @@
+{
+  "Game.UIManager": {
+    "type_definition_offset": 28993284,
+    "token": 33557356,
+    "field_count": 49,
+    "fields": [
+      {
+        "name": "UI_LAYER_WIDTH",
+        "token": 67124314
+      },
+      {
+        "name": "UI_LAYER_HEIGHT",
+        "token": 67124315
+      },
+      {
+        "name": "AssetReadyMarker",
+        "token": 67124316
+      },
+      {
+        "name": "s_CloseInternalMarker",
+        "token": 67124317
+      },
+      {
+        "name": "s_CloseSortingMarker",
+        "token": 67124318
+      },
+      {
+        "name": "s_UnregisterInputOrderMarker",
+        "token": 67124319
+      },
+      {
+        "name": "s_UnregisterCanvasMarker",
+        "token": 67124320
+      },
+      {
+        "name": "s_CloseVisibilityMarker",
+        "token": 67124321
+      },
+      {
+        "name": "s_CloseWillHideMarker",
+        "token": 67124322
+      },
+      {
+        "name": "s_CloseDidHideMarker",
+        "token": 67124323
+      },
+      {
+        "name": "s_CloseEventMarker",
+        "token": 67124324
+      },
+      {
+        "name": "s_RetryDeferredOpensMarker",
+        "token": 67124325
+      },
+      {
+        "name": "InstantiateCompletedMarker",
+        "token": 67124326
+      },
+      {
+        "name": "<IsWorldUiTeardown>k__BackingField",
+        "token": 67124327
+      },
+      {
+        "name": "m_IsShuttingDown",
+        "token": 67124328
+      },
+      {
+        "name": "_panelConfigs",
+        "token": 67124329
+      },
+      {
+        "name": "_panelRegistry",
+        "token": 67124330
+      },
+      {
+        "name": "_historyStack",
+        "token": 67124331
+      },
+      {
+        "name": "_visibilitySystem",
+        "token": 67124332
+      },
+      {
+        "name": "_popupManager",
+        "token": 67124333
+      },
+      {
+        "name": "_backHandler",
+        "token": 67124334
+      },
+      {
+        "name": "_guards",
+        "token": 67124335
+      },
+      {
+        "name": "_deferredOpens",
+        "token": 67124336
+      },
+      {
+        "name": "_isRetryingDeferred",
+        "token": 67124337
+      },
+      {
+        "name": "dict_Panels",
+        "token": 67124338
+      },
+      {
+        "name": "uiRoot",
+        "token": 67124339
+      },
+      {
+        "name": "_panels",
+        "token": 67124340
+      },
+      {
+        "name": "rootCanvas",
+        "token": 67124341
+      },
+      {
+        "name": "uiCamera",
+        "token": 67124342
+      },
+      {
+        "name": "uiPath",
+        "token": 67124343
+      },
+      {
+        "name": "layerRoots",
+        "token": 67124344
+      },
+      {
+        "name": "_layerCanvasGroups",
+        "token": 67124345
+      },
+      {
+        "name": "uiDict",
+        "token": 67124346
+      },
+      {
+        "name": "uiStack",
+        "token": 67124347
+      },
+      {
+        "name": "_commonFunctionRegistry",
+        "token": 67124348
+      },
+      {
+        "name": "_canvasSortingManager",
+        "token": 67124349
+      },
+      {
+        "name": "m_RenderingSuspension",
+        "token": 67124350
+      },
+      {
+        "name": "m_UICameraEnabledBeforeGlobalHide",
+        "token": 67124351
+      },
+      {
+        "name": "_panelBlockers",
+        "token": 67124352
+      },
+      {
+        "name": "LAYER_COUNT",
+        "token": 67124353
+      },
+      {
+        "name": "_layerState",
+        "token": 67124354
+      },
+      {
+        "name": "_newLayerStateCache",
+        "token": 67124355
+      },
+      {
+        "name": "_forceHiddenLayers",
+        "token": 67124356
+      },
+      {
+        "name": "_uiSceneRoot",
+        "token": 67124357
+      },
+      {
+        "name": "_sceneLayerRoots",
+        "token": 67124358
+      },
+      {
+        "name": "_sceneLayerCanvasGroups",
+        "token": 67124359
+      },
+      {
+        "name": "_sceneModeCache",
+        "token": 67124360
+      },
+      {
+        "name": "uiIntroductions",
+        "token": 67124361
+      },
+      {
+        "name": "_cachedUILayer",
+        "token": 67124362
+      }
+    ]
+  },
+  "Game.BaseUI": {
+    "type_definition_offset": 29007716,
+    "token": 33557531,
+    "field_count": 34,
+    "fields": [
+      {
+        "name": "s_HideMarker",
+        "token": 67125214
+      },
+      {
+        "name": "s_HideInputScopeMarker",
+        "token": 67125215
+      },
+      {
+        "name": "s_HideAudioMarker",
+        "token": 67125216
+      },
+      {
+        "name": "s_HideCallbackMarker",
+        "token": 67125217
+      },
+      {
+        "name": "s_HideParticlesMarker",
+        "token": 67125218
+      },
+      {
+        "name": "s_HideInputLayersMarker",
+        "token": 67125219
+      },
+      {
+        "name": "s_HideGuideMarker",
+        "token": 67125220
+      },
+      {
+        "name": "s_VisualHideMarker",
+        "token": 67125221
+      },
+      {
+        "name": "_audioConfig",
+        "token": 67125222
+      },
+      {
+        "name": "<UILayer>k__BackingField",
+        "token": 67125223
+      },
+      {
+        "name": "<ThisPanelId>k__BackingField",
+        "token": 67125224
+      },
+      {
+        "name": "<IsRootPanel>k__BackingField",
+        "token": 67125225
+      },
+      {
+        "name": "<IsAttachedAsChild>k__BackingField",
+        "token": 67125226
+      },
+      {
+        "name": "isShowing",
+        "token": 67125227
+      },
+      {
+        "name": "isInitialized",
+        "token": 67125228
+      },
+      {
+        "name": "_redDotSubscriptions",
+        "token": 67125229
+      },
+      {
+        "name": "_uiReddotViewModels",
+        "token": 67125230
+      },
+      {
+        "name": "<IsInVisualHide>k__BackingField",
+        "token": 67125231
+      },
+      {
+        "name": "bgmLayer",
+        "token": 67125232
+      },
+      {
+        "name": "_inputScopeHost",
+        "token": 67125233
+      },
+      {
+        "name": "_overlayNativeParticleAutoPresenter",
+        "token": 67125234
+      },
+      {
+        "name": "_overlayNativeParticleAutoScanCompleted",
+        "token": 67125235
+      },
+      {
+        "name": "_animation",
+        "token": 67125236
+      },
+      {
+        "name": "_exitAnimCo",
+        "token": 67125237
+      },
+      {
+        "name": "delayedShow",
+        "token": 67125238
+      },
+      {
+        "name": "_destroyOnVisualHide",
+        "token": 67125239
+      },
+      {
+        "name": "<IsInteractable>k__BackingField",
+        "token": 67125240
+      },
+      {
+        "name": "<IsPaused>k__BackingField",
+        "token": 67125241
+      },
+      {
+        "name": "<InputGroup>k__BackingField",
+        "token": 67125242
+      },
+      {
+        "name": "<RuntimeOwner>k__BackingField",
+        "token": 67125243
+      },
+      {
+        "name": "<HandleToken>k__BackingField",
+        "token": 67125244
+      },
+      {
+        "name": "childPanels",
+        "token": 67125245
+      },
+      {
+        "name": "lastUpdate01Time",
+        "token": 67125246
+      },
+      {
+        "name": "_hotkeyButtonEntries",
+        "token": 67125247
+      }
+    ]
+  },
+  "Game.PanelRegistry": {
+    "type_definition_offset": 29009124,
+    "token": 33557548,
+    "field_count": 2,
+    "fields": [
+      {
+        "name": "_instances",
+        "token": 67125310
+      },
+      {
+        "name": "_layerIndex",
+        "token": 67125311
+      }
+    ]
+  },
+  "System.Collections.Generic.List`1": {
+    "type_definition_offset": 29896604,
+    "token": 33556056,
+    "field_count": 6,
+    "fields": [
+      {
+        "name": "DefaultCapacity",
+        "token": 67115810
+      },
+      {
+        "name": "_items",
+        "token": 67115811
+      },
+      {
+        "name": "_size",
+        "token": 67115812
+      },
+      {
+        "name": "_version",
+        "token": 67115813
+      },
+      {
+        "name": "_syncRoot",
+        "token": 67115814
+      },
+      {
+        "name": "s_emptyArray",
+        "token": 67115815
+      }
+    ]
+  },
+  "Loxodon.Framework.Observables.ObservableList`1": {
+    "type_definition_offset": 30385620,
+    "token": 33554646,
+    "field_count": 9,
+    "fields": [
+      {
+        "name": "CountEventArgs",
+        "token": 67109432
+      },
+      {
+        "name": "IndexerEventArgs",
+        "token": 67109433
+      },
+      {
+        "name": "propertyChangedLock",
+        "token": 67109434
+      },
+      {
+        "name": "collectionChangedLock",
+        "token": 67109435
+      },
+      {
+        "name": "propertyChanged",
+        "token": 67109436
+      },
+      {
+        "name": "collectionChanged",
+        "token": 67109437
+      },
+      {
+        "name": "monitor",
+        "token": 67109438
+      },
+      {
+        "name": "items",
+        "token": 67109439
+      },
+      {
+        "name": "syncRoot",
+        "token": 67109440
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.DualCultivate.DualCultivatePanel": {
+    "type_definition_offset": 29238892,
+    "token": 33560156,
+    "field_count": 16,
+    "fields": [
+      {
+        "name": "m_View",
+        "token": 67144688
+      },
+      {
+        "name": "m_ViewModel",
+        "token": 67144689
+      },
+      {
+        "name": "m_Game",
+        "token": 67144690
+      },
+      {
+        "name": "m_AnalyticsSession",
+        "token": 67144691
+      },
+      {
+        "name": "m_ActionOnGameEnd",
+        "token": 67144692
+      },
+      {
+        "name": "m_SettlementStarted",
+        "token": 67144693
+      },
+      {
+        "name": "m_ResultCallbackInvoked",
+        "token": 67144694
+      },
+      {
+        "name": "m_PendingResultIsWin",
+        "token": 67144695
+      },
+      {
+        "name": "m_NpcId",
+        "token": 67144696
+      },
+      {
+        "name": "m_DualCultivateId",
+        "token": 67144697
+      },
+      {
+        "name": "m_CinematicPlayer",
+        "token": 67144698
+      },
+      {
+        "name": "m_PresentationController",
+        "token": 67144699
+      },
+      {
+        "name": "m_InputLayer",
+        "token": 67144700
+      },
+      {
+        "name": "m_QPressed",
+        "token": 67144701
+      },
+      {
+        "name": "m_WPressed",
+        "token": 67144702
+      },
+      {
+        "name": "m_EPressed",
+        "token": 67144703
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.DualCultivate.DualCultivateGameViewModel": {
+    "type_definition_offset": 29239684,
+    "token": 33560168,
+    "field_count": 16,
+    "fields": [
+      {
+        "name": "UrgentTimeThreshold",
+        "token": 67144750
+      },
+      {
+        "name": "TrackVisualHeight",
+        "token": 67144751
+      },
+      {
+        "name": "m_Config",
+        "token": 67144752
+      },
+      {
+        "name": "m_NpcId",
+        "token": 67144753
+      },
+      {
+        "name": "m_DualCultivateId",
+        "token": 67144754
+      },
+      {
+        "name": "m_TimeRemaining",
+        "token": 67144755
+      },
+      {
+        "name": "m_TickAccumulator",
+        "token": 67144756
+      },
+      {
+        "name": "m_Resonance",
+        "token": 67144757
+      },
+      {
+        "name": "m_Phase",
+        "token": 67144758
+      },
+      {
+        "name": "m_VideoState",
+        "token": 67144759
+      },
+      {
+        "name": "m_IsPresentationReady",
+        "token": 67144760
+      },
+      {
+        "name": "m_ToggledSlotIndex",
+        "token": 67144761
+      },
+      {
+        "name": "m_Completed",
+        "token": 67144762
+      },
+      {
+        "name": "m_VideoStateChanged",
+        "token": 67144763
+      },
+      {
+        "name": "<Slots>k__BackingField",
+        "token": 67144764
+      },
+      {
+        "name": "RunStarted",
+        "token": 67144765
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.DualCultivate.DualCultivateSlotViewModel": {
+    "type_definition_offset": 29239772,
+    "token": 33560169,
+    "field_count": 9,
+    "fields": [
+      {
+        "name": "AssetRoot",
+        "token": 67144766
+      },
+      {
+        "name": "m_Owner",
+        "token": 67144767
+      },
+      {
+        "name": "m_ResonanceMin",
+        "token": 67144768
+      },
+      {
+        "name": "m_ResonanceMax",
+        "token": 67144769
+      },
+      {
+        "name": "m_Value",
+        "token": 67144770
+      },
+      {
+        "name": "m_IsPressed",
+        "token": 67144771
+      },
+      {
+        "name": "<Index>k__BackingField",
+        "token": 67144772
+      },
+      {
+        "name": "<KeyText>k__BackingField",
+        "token": 67144773
+      },
+      {
+        "name": "<NameText>k__BackingField",
+        "token": 67144774
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.DualCultivate.DualCultivateGameConfig": {
+    "type_definition_offset": 29239860,
+    "token": 33560170,
+    "field_count": 13,
+    "fields": [
+      {
+        "name": "DefaultTickSeconds",
+        "token": 67144775
+      },
+      {
+        "name": "TimeLimitSec",
+        "token": 67144776
+      },
+      {
+        "name": "ResonanceMin",
+        "token": 67144777
+      },
+      {
+        "name": "ResonanceMax",
+        "token": 67144778
+      },
+      {
+        "name": "GuideRate",
+        "token": 67144779
+      },
+      {
+        "name": "DecayRate",
+        "token": 67144780
+      },
+      {
+        "name": "ResonanceGrowthRate",
+        "token": 67144781
+      },
+      {
+        "name": "RequiredResonance",
+        "token": 67144782
+      },
+      {
+        "name": "InitValue",
+        "token": 67144783
+      },
+      {
+        "name": "IdleMinDwellSeconds",
+        "token": 67144784
+      },
+      {
+        "name": "ResonanceMinDwellSeconds",
+        "token": 67144785
+      },
+      {
+        "name": "DamagedMinDwellSeconds",
+        "token": 67144786
+      },
+      {
+        "name": "TickSeconds",
+        "token": 67144787
+      }
+    ]
+  }
+}

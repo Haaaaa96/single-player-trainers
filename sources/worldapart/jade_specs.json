@@ -1,0 +1,1154 @@
+{
+  "Game.UIManager": {
+    "type_definition_offset": 28993284,
+    "token": 33557356,
+    "field_count": 49,
+    "fields": [
+      {
+        "name": "UI_LAYER_WIDTH",
+        "token": 67124314
+      },
+      {
+        "name": "UI_LAYER_HEIGHT",
+        "token": 67124315
+      },
+      {
+        "name": "AssetReadyMarker",
+        "token": 67124316
+      },
+      {
+        "name": "s_CloseInternalMarker",
+        "token": 67124317
+      },
+      {
+        "name": "s_CloseSortingMarker",
+        "token": 67124318
+      },
+      {
+        "name": "s_UnregisterInputOrderMarker",
+        "token": 67124319
+      },
+      {
+        "name": "s_UnregisterCanvasMarker",
+        "token": 67124320
+      },
+      {
+        "name": "s_CloseVisibilityMarker",
+        "token": 67124321
+      },
+      {
+        "name": "s_CloseWillHideMarker",
+        "token": 67124322
+      },
+      {
+        "name": "s_CloseDidHideMarker",
+        "token": 67124323
+      },
+      {
+        "name": "s_CloseEventMarker",
+        "token": 67124324
+      },
+      {
+        "name": "s_RetryDeferredOpensMarker",
+        "token": 67124325
+      },
+      {
+        "name": "InstantiateCompletedMarker",
+        "token": 67124326
+      },
+      {
+        "name": "<IsWorldUiTeardown>k__BackingField",
+        "token": 67124327
+      },
+      {
+        "name": "m_IsShuttingDown",
+        "token": 67124328
+      },
+      {
+        "name": "_panelConfigs",
+        "token": 67124329
+      },
+      {
+        "name": "_panelRegistry",
+        "token": 67124330
+      },
+      {
+        "name": "_historyStack",
+        "token": 67124331
+      },
+      {
+        "name": "_visibilitySystem",
+        "token": 67124332
+      },
+      {
+        "name": "_popupManager",
+        "token": 67124333
+      },
+      {
+        "name": "_backHandler",
+        "token": 67124334
+      },
+      {
+        "name": "_guards",
+        "token": 67124335
+      },
+      {
+        "name": "_deferredOpens",
+        "token": 67124336
+      },
+      {
+        "name": "_isRetryingDeferred",
+        "token": 67124337
+      },
+      {
+        "name": "dict_Panels",
+        "token": 67124338
+      },
+      {
+        "name": "uiRoot",
+        "token": 67124339
+      },
+      {
+        "name": "_panels",
+        "token": 67124340
+      },
+      {
+        "name": "rootCanvas",
+        "token": 67124341
+      },
+      {
+        "name": "uiCamera",
+        "token": 67124342
+      },
+      {
+        "name": "uiPath",
+        "token": 67124343
+      },
+      {
+        "name": "layerRoots",
+        "token": 67124344
+      },
+      {
+        "name": "_layerCanvasGroups",
+        "token": 67124345
+      },
+      {
+        "name": "uiDict",
+        "token": 67124346
+      },
+      {
+        "name": "uiStack",
+        "token": 67124347
+      },
+      {
+        "name": "_commonFunctionRegistry",
+        "token": 67124348
+      },
+      {
+        "name": "_canvasSortingManager",
+        "token": 67124349
+      },
+      {
+        "name": "m_RenderingSuspension",
+        "token": 67124350
+      },
+      {
+        "name": "m_UICameraEnabledBeforeGlobalHide",
+        "token": 67124351
+      },
+      {
+        "name": "_panelBlockers",
+        "token": 67124352
+      },
+      {
+        "name": "LAYER_COUNT",
+        "token": 67124353
+      },
+      {
+        "name": "_layerState",
+        "token": 67124354
+      },
+      {
+        "name": "_newLayerStateCache",
+        "token": 67124355
+      },
+      {
+        "name": "_forceHiddenLayers",
+        "token": 67124356
+      },
+      {
+        "name": "_uiSceneRoot",
+        "token": 67124357
+      },
+      {
+        "name": "_sceneLayerRoots",
+        "token": 67124358
+      },
+      {
+        "name": "_sceneLayerCanvasGroups",
+        "token": 67124359
+      },
+      {
+        "name": "_sceneModeCache",
+        "token": 67124360
+      },
+      {
+        "name": "uiIntroductions",
+        "token": 67124361
+      },
+      {
+        "name": "_cachedUILayer",
+        "token": 67124362
+      }
+    ]
+  },
+  "Game.BaseUI": {
+    "type_definition_offset": 29007716,
+    "token": 33557531,
+    "field_count": 34,
+    "fields": [
+      {
+        "name": "s_HideMarker",
+        "token": 67125214
+      },
+      {
+        "name": "s_HideInputScopeMarker",
+        "token": 67125215
+      },
+      {
+        "name": "s_HideAudioMarker",
+        "token": 67125216
+      },
+      {
+        "name": "s_HideCallbackMarker",
+        "token": 67125217
+      },
+      {
+        "name": "s_HideParticlesMarker",
+        "token": 67125218
+      },
+      {
+        "name": "s_HideInputLayersMarker",
+        "token": 67125219
+      },
+      {
+        "name": "s_HideGuideMarker",
+        "token": 67125220
+      },
+      {
+        "name": "s_VisualHideMarker",
+        "token": 67125221
+      },
+      {
+        "name": "_audioConfig",
+        "token": 67125222
+      },
+      {
+        "name": "<UILayer>k__BackingField",
+        "token": 67125223
+      },
+      {
+        "name": "<ThisPanelId>k__BackingField",
+        "token": 67125224
+      },
+      {
+        "name": "<IsRootPanel>k__BackingField",
+        "token": 67125225
+      },
+      {
+        "name": "<IsAttachedAsChild>k__BackingField",
+        "token": 67125226
+      },
+      {
+        "name": "isShowing",
+        "token": 67125227
+      },
+      {
+        "name": "isInitialized",
+        "token": 67125228
+      },
+      {
+        "name": "_redDotSubscriptions",
+        "token": 67125229
+      },
+      {
+        "name": "_uiReddotViewModels",
+        "token": 67125230
+      },
+      {
+        "name": "<IsInVisualHide>k__BackingField",
+        "token": 67125231
+      },
+      {
+        "name": "bgmLayer",
+        "token": 67125232
+      },
+      {
+        "name": "_inputScopeHost",
+        "token": 67125233
+      },
+      {
+        "name": "_overlayNativeParticleAutoPresenter",
+        "token": 67125234
+      },
+      {
+        "name": "_overlayNativeParticleAutoScanCompleted",
+        "token": 67125235
+      },
+      {
+        "name": "_animation",
+        "token": 67125236
+      },
+      {
+        "name": "_exitAnimCo",
+        "token": 67125237
+      },
+      {
+        "name": "delayedShow",
+        "token": 67125238
+      },
+      {
+        "name": "_destroyOnVisualHide",
+        "token": 67125239
+      },
+      {
+        "name": "<IsInteractable>k__BackingField",
+        "token": 67125240
+      },
+      {
+        "name": "<IsPaused>k__BackingField",
+        "token": 67125241
+      },
+      {
+        "name": "<InputGroup>k__BackingField",
+        "token": 67125242
+      },
+      {
+        "name": "<RuntimeOwner>k__BackingField",
+        "token": 67125243
+      },
+      {
+        "name": "<HandleToken>k__BackingField",
+        "token": 67125244
+      },
+      {
+        "name": "childPanels",
+        "token": 67125245
+      },
+      {
+        "name": "lastUpdate01Time",
+        "token": 67125246
+      },
+      {
+        "name": "_hotkeyButtonEntries",
+        "token": 67125247
+      }
+    ]
+  },
+  "Game.PanelRegistry": {
+    "type_definition_offset": 29009124,
+    "token": 33557548,
+    "field_count": 2,
+    "fields": [
+      {
+        "name": "_instances",
+        "token": 67125310
+      },
+      {
+        "name": "_layerIndex",
+        "token": 67125311
+      }
+    ]
+  },
+  "System.Collections.Generic.List`1": {
+    "type_definition_offset": 29896604,
+    "token": 33556056,
+    "field_count": 6,
+    "fields": [
+      {
+        "name": "DefaultCapacity",
+        "token": 67115810
+      },
+      {
+        "name": "_items",
+        "token": 67115811
+      },
+      {
+        "name": "_size",
+        "token": 67115812
+      },
+      {
+        "name": "_version",
+        "token": 67115813
+      },
+      {
+        "name": "_syncRoot",
+        "token": 67115814
+      },
+      {
+        "name": "s_emptyArray",
+        "token": 67115815
+      }
+    ]
+  },
+  "Loxodon.Framework.Observables.ObservableList`1": {
+    "type_definition_offset": 30385620,
+    "token": 33554646,
+    "field_count": 9,
+    "fields": [
+      {
+        "name": "CountEventArgs",
+        "token": 67109432
+      },
+      {
+        "name": "IndexerEventArgs",
+        "token": 67109433
+      },
+      {
+        "name": "propertyChangedLock",
+        "token": 67109434
+      },
+      {
+        "name": "collectionChangedLock",
+        "token": 67109435
+      },
+      {
+        "name": "propertyChanged",
+        "token": 67109436
+      },
+      {
+        "name": "collectionChanged",
+        "token": 67109437
+      },
+      {
+        "name": "monitor",
+        "token": 67109438
+      },
+      {
+        "name": "items",
+        "token": 67109439
+      },
+      {
+        "name": "syncRoot",
+        "token": 67109440
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.GambleStone.UPFGambleStonePanel": {
+    "type_definition_offset": 29226308,
+    "token": 33560013,
+    "field_count": 21,
+    "fields": [
+      {
+        "name": "GENERATED_TEXTURE_SIZE",
+        "token": 67143593
+      },
+      {
+        "name": "s_BindViewMarker",
+        "token": 67143594
+      },
+      {
+        "name": "s_BindDrawerMarker",
+        "token": 67143595
+      },
+      {
+        "name": "s_ResolveScratchSurfaceMarker",
+        "token": 67143596
+      },
+      {
+        "name": "m_ViewModel",
+        "token": 67143597
+      },
+      {
+        "name": "m_View",
+        "token": 67143598
+      },
+      {
+        "name": "m_ViewBound",
+        "token": 67143599
+      },
+      {
+        "name": "m_ScratchSurface",
+        "token": 67143600
+      },
+      {
+        "name": "m_ScratchPath",
+        "token": 67143601
+      },
+      {
+        "name": "m_SourcePreviewSurface",
+        "token": 67143602
+      },
+      {
+        "name": "m_SourcePreviewPath",
+        "token": 67143603
+      },
+      {
+        "name": "m_GeneratedBaseTexture",
+        "token": 67143604
+      },
+      {
+        "name": "m_GeneratedSkinTexture",
+        "token": 67143605
+      },
+      {
+        "name": "m_PreferredStoneInstanceId",
+        "token": 67143606
+      },
+      {
+        "name": "m_StoneItemsPresenter",
+        "token": 67143607
+      },
+      {
+        "name": "m_DrawerExpander",
+        "token": 67143608
+      },
+      {
+        "name": "m_texGenCts",
+        "token": 67143609
+      },
+      {
+        "name": "m_ScratchStage",
+        "token": 67143610
+      },
+      {
+        "name": "m_ScratchInputArea",
+        "token": 67143611
+      },
+      {
+        "name": "m_ScratchEffectLayer",
+        "token": 67143612
+      },
+      {
+        "name": "m_InputLayer",
+        "token": 67143613
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.GambleStone.UPFGambleStonePanelViewModel": {
+    "type_definition_offset": 29227012,
+    "token": 33560017,
+    "field_count": 84,
+    "fields": [
+      {
+        "name": "FINE_BRUSH_WIDTH",
+        "token": 67143631
+      },
+      {
+        "name": "WIDE_BRUSH_WIDTH",
+        "token": 67143632
+      },
+      {
+        "name": "RESTORE_SURFACE_SIZE",
+        "token": 67143633
+      },
+      {
+        "name": "LOGICAL_SURFACE_SIZE",
+        "token": 67143634
+      },
+      {
+        "name": "FLOAT_COMMON_WIDTH",
+        "token": 67143635
+      },
+      {
+        "name": "FLOAT_FEATURE_WIDTH",
+        "token": 67143636
+      },
+      {
+        "name": "FLOAT_HEIGHT",
+        "token": 67143637
+      },
+      {
+        "name": "SCRATCH_SETTLEMENT_INTERVAL",
+        "token": 67143638
+      },
+      {
+        "name": "SCRATCH_AUDIO_IDLE_TIMEOUT",
+        "token": 67143639
+      },
+      {
+        "name": "SCRATCH_FINE_LOOP_ACTION",
+        "token": 67143640
+      },
+      {
+        "name": "SCRATCH_WIDE_LOOP_ACTION",
+        "token": 67143641
+      },
+      {
+        "name": "SCRATCH_FINE_STOP_ACTION",
+        "token": 67143642
+      },
+      {
+        "name": "SCRATCH_WIDE_STOP_ACTION",
+        "token": 67143643
+      },
+      {
+        "name": "SEEN_INFO_BLOOM_FACTOR_FORMAT",
+        "token": 67143644
+      },
+      {
+        "name": "s_RefreshMarker",
+        "token": 67143645
+      },
+      {
+        "name": "s_SelectStoneMarker",
+        "token": 67143646
+      },
+      {
+        "name": "m_SelectedStone",
+        "token": 67143647
+      },
+      {
+        "name": "m_SelectedStoneItem",
+        "token": 67143648
+      },
+      {
+        "name": "m_DrawerStonesBound",
+        "token": 67143649
+      },
+      {
+        "name": "m_SelectedExchangeTarget",
+        "token": 67143650
+      },
+      {
+        "name": "m_ExchangeDetailTip",
+        "token": 67143651
+      },
+      {
+        "name": "m_SelectedStoneName",
+        "token": 67143652
+      },
+      {
+        "name": "m_StoneSelectionPulse",
+        "token": 67143653
+      },
+      {
+        "name": "m_RevealProgressPulse",
+        "token": 67143654
+      },
+      {
+        "name": "m_CurrentValuePulse",
+        "token": 67143655
+      },
+      {
+        "name": "m_CurrentValueDecreasePulse",
+        "token": 67143656
+      },
+      {
+        "name": "m_SeenInfoCountPulse",
+        "token": 67143657
+      },
+      {
+        "name": "m_ScrapValuePulse",
+        "token": 67143658
+      },
+      {
+        "name": "m_CurrentValueMotion",
+        "token": 67143659
+      },
+      {
+        "name": "m_RevealValueMotion",
+        "token": 67143660
+      },
+      {
+        "name": "m_SelectedStoneMeta",
+        "token": 67143661
+      },
+      {
+        "name": "m_CurrentValueText",
+        "token": 67143662
+      },
+      {
+        "name": "m_RevealText",
+        "token": 67143663
+      },
+      {
+        "name": "m_PhaseText",
+        "token": 67143664
+      },
+      {
+        "name": "m_NoticeText",
+        "token": 67143665
+      },
+      {
+        "name": "m_ExchangeHintText",
+        "token": 67143666
+      },
+      {
+        "name": "m_ResultSummaryText",
+        "token": 67143667
+      },
+      {
+        "name": "m_StonePath",
+        "token": 67143668
+      },
+      {
+        "name": "m_JadeFillColor",
+        "token": 67143669
+      },
+      {
+        "name": "m_JadeStrokeColor",
+        "token": 67143670
+      },
+      {
+        "name": "m_SkinFillColor",
+        "token": 67143671
+      },
+      {
+        "name": "m_StoneTextureSeed",
+        "token": 67143672
+      },
+      {
+        "name": "m_StoneShapeIndex",
+        "token": 67143673
+      },
+      {
+        "name": "m_StoneSelectionVersion",
+        "token": 67143674
+      },
+      {
+        "name": "m_FloatTextSerial",
+        "token": 67143675
+      },
+      {
+        "name": "m_FloatRandom",
+        "token": 67143676
+      },
+      {
+        "name": "m_Stones",
+        "token": 67143677
+      },
+      {
+        "name": "m_ScratchStrokes",
+        "token": 67143678
+      },
+      {
+        "name": "m_CrackShadowStrokes",
+        "token": 67143679
+      },
+      {
+        "name": "m_CrackCoreStrokes",
+        "token": 67143680
+      },
+      {
+        "name": "m_CrackHighlightStrokes",
+        "token": 67143681
+      },
+      {
+        "name": "m_CanScratch",
+        "token": 67143682
+      },
+      {
+        "name": "m_CanExchange",
+        "token": 67143683
+      },
+      {
+        "name": "m_ExchangeChoiceVisible",
+        "token": 67143684
+      },
+      {
+        "name": "m_ExchangeResultVisible",
+        "token": 67143685
+      },
+      {
+        "name": "m_CurrentBrushWidth",
+        "token": 67143686
+      },
+      {
+        "name": "m_OnSelectStone",
+        "token": 67143687
+      },
+      {
+        "name": "m_OnToggleDrawer",
+        "token": 67143688
+      },
+      {
+        "name": "m_MouseBrush",
+        "token": 67143689
+      },
+      {
+        "name": "m_MouseX",
+        "token": 67143690
+      },
+      {
+        "name": "m_MouseY",
+        "token": 67143691
+      },
+      {
+        "name": "m_IsMouseHover",
+        "token": 67143692
+      },
+      {
+        "name": "m_ScratchSessionActive",
+        "token": 67143693
+      },
+      {
+        "name": "m_HasStartedScratch",
+        "token": 67143694
+      },
+      {
+        "name": "m_ScratchDirty",
+        "token": 67143695
+      },
+      {
+        "name": "m_HasPendingScratchSettlement",
+        "token": 67143696
+      },
+      {
+        "name": "m_NextScratchSettlementTime",
+        "token": 67143697
+      },
+      {
+        "name": "m_PendingScratchValueBefore",
+        "token": 67143698
+      },
+      {
+        "name": "m_PendingScratchPoint",
+        "token": 67143699
+      },
+      {
+        "name": "m_ScratchAudioService",
+        "token": 67143700
+      },
+      {
+        "name": "m_ScratchAudioHandle",
+        "token": 67143701
+      },
+      {
+        "name": "m_ScratchAudioStopAction",
+        "token": 67143702
+      },
+      {
+        "name": "m_LastScratchAudioTime",
+        "token": 67143703
+      },
+      {
+        "name": "m_DrawerExpanded",
+        "token": 67143704
+      },
+      {
+        "name": "<SeenInfos>k__BackingField",
+        "token": 67143705
+      },
+      {
+        "name": "<ExchangeTargets>k__BackingField",
+        "token": 67143706
+      },
+      {
+        "name": "<ScrapRewards>k__BackingField",
+        "token": 67143707
+      },
+      {
+        "name": "<ResultRewards>k__BackingField",
+        "token": 67143708
+      },
+      {
+        "name": "<ResultScrapRewards>k__BackingField",
+        "token": 67143709
+      },
+      {
+        "name": "<FloatTexts>k__BackingField",
+        "token": 67143710
+      },
+      {
+        "name": "<ExchangeMaterials>k__BackingField",
+        "token": 67143711
+      },
+      {
+        "name": "<BloomRevealTemplate>k__BackingField",
+        "token": 67143712
+      },
+      {
+        "name": "BloomRevealed",
+        "token": 67143713
+      },
+      {
+        "name": "<ExchangePassiveEffects>k__BackingField",
+        "token": 67143714
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.GambleStone.GambleStoneInstance": {
+    "type_definition_offset": 29228772,
+    "token": 33560044,
+    "field_count": 23,
+    "fields": [
+      {
+        "name": "InstanceId",
+        "token": 67143906
+      },
+      {
+        "name": "ItemId",
+        "token": 67143907
+      },
+      {
+        "name": "Name",
+        "token": 67143908
+      },
+      {
+        "name": "Seed",
+        "token": 67143909
+      },
+      {
+        "name": "Template",
+        "token": 67143910
+      },
+      {
+        "name": "Flesh",
+        "token": 67143911
+      },
+      {
+        "name": "OpenFloat",
+        "token": 67143912
+      },
+      {
+        "name": "RevealRatio",
+        "token": 67143913
+      },
+      {
+        "name": "SeenFlesh",
+        "token": 67143914
+      },
+      {
+        "name": "Exchanged",
+        "token": 67143915
+      },
+      {
+        "name": "ExchangedPrototypeId",
+        "token": 67143916
+      },
+      {
+        "name": "CurrentValue",
+        "token": 67143917
+      },
+      {
+        "name": "SourceItem",
+        "token": 67143918
+      },
+      {
+        "name": "SaveRecord",
+        "token": 67143919
+      },
+      {
+        "name": "DetailsRestored",
+        "token": 67143920
+      },
+      {
+        "name": "ScratchMaskSize",
+        "token": 67143921
+      },
+      {
+        "name": "ScratchMask",
+        "token": 67143922
+      },
+      {
+        "name": "ScratchMaskOpenCount",
+        "token": 67143923
+      },
+      {
+        "name": "ScratchShapeMask",
+        "token": 67143924
+      },
+      {
+        "name": "ScratchShapeCellCount",
+        "token": 67143925
+      },
+      {
+        "name": "ScratchVisualStrokes",
+        "token": 67143926
+      },
+      {
+        "name": "Blooms",
+        "token": 67143927
+      },
+      {
+        "name": "Cracks",
+        "token": 67143928
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.GambleStone.GambleStoneBloomInstance": {
+    "type_definition_offset": 29229036,
+    "token": 33560047,
+    "field_count": 5,
+    "fields": [
+      {
+        "name": "<Config>k__BackingField",
+        "token": 67143935
+      },
+      {
+        "name": "<RevealAt>k__BackingField",
+        "token": 67143936
+      },
+      {
+        "name": "<Seen>k__BackingField",
+        "token": 67143937
+      },
+      {
+        "name": "<X>k__BackingField",
+        "token": 67143938
+      },
+      {
+        "name": "<Y>k__BackingField",
+        "token": 67143939
+      }
+    ]
+  },
+  "Game.UI.UPFLogic.GambleStone.GambleStoneCrackInstance": {
+    "type_definition_offset": 29229124,
+    "token": 33560048,
+    "field_count": 7,
+    "fields": [
+      {
+        "name": "<Config>k__BackingField",
+        "token": 67143940
+      },
+      {
+        "name": "<RevealAt>k__BackingField",
+        "token": 67143941
+      },
+      {
+        "name": "<X>k__BackingField",
+        "token": 67143942
+      },
+      {
+        "name": "<Y>k__BackingField",
+        "token": 67143943
+      },
+      {
+        "name": "<Radius>k__BackingField",
+        "token": 67143944
+      },
+      {
+        "name": "<Angle>k__BackingField",
+        "token": 67143945
+      },
+      {
+        "name": "<Seen>k__BackingField",
+        "token": 67143946
+      }
+    ]
+  },
+  "Game.Model.Player.Components.GambleStoneSaveRecord": {
+    "type_definition_offset": 29394476,
+    "token": 33561927,
+    "field_count": 26,
+    "fields": [
+      {
+        "name": "<InstanceId>k__BackingField",
+        "token": 67153433
+      },
+      {
+        "name": "<SourceItemId>k__BackingField",
+        "token": 67153434
+      },
+      {
+        "name": "<Seed>k__BackingField",
+        "token": 67153435
+      },
+      {
+        "name": "<GenerationPending>k__BackingField",
+        "token": 67153436
+      },
+      {
+        "name": "<OpenFloat>k__BackingField",
+        "token": 67153437
+      },
+      {
+        "name": "<FleshQualityId>k__BackingField",
+        "token": 67153438
+      },
+      {
+        "name": "<BloomIds>k__BackingField",
+        "token": 67153439
+      },
+      {
+        "name": "<BloomRevealAt>k__BackingField",
+        "token": 67153440
+      },
+      {
+        "name": "<BloomSeen>k__BackingField",
+        "token": 67153441
+      },
+      {
+        "name": "<CrackIds>k__BackingField",
+        "token": 67153442
+      },
+      {
+        "name": "<CrackRevealAt>k__BackingField",
+        "token": 67153443
+      },
+      {
+        "name": "<CrackSeen>k__BackingField",
+        "token": 67153444
+      },
+      {
+        "name": "<CrackX>k__BackingField",
+        "token": 67153445
+      },
+      {
+        "name": "<CrackY>k__BackingField",
+        "token": 67153446
+      },
+      {
+        "name": "<CrackRadius>k__BackingField",
+        "token": 67153447
+      },
+      {
+        "name": "<CrackAngle>k__BackingField",
+        "token": 67153448
+      },
+      {
+        "name": "<RevealRatio>k__BackingField",
+        "token": 67153449
+      },
+      {
+        "name": "<SeenFlesh>k__BackingField",
+        "token": 67153450
+      },
+      {
+        "name": "<CurrentValue>k__BackingField",
+        "token": 67153451
+      },
+      {
+        "name": "<ScratchMaskSize>k__BackingField",
+        "token": 67153452
+      },
+      {
+        "name": "<ScratchMaskRle>k__BackingField",
+        "token": 67153453
+      },
+      {
+        "name": "<ScratchVisualStrokes>k__BackingField",
+        "token": 67153454
+      },
+      {
+        "name": "<Exchanged>k__BackingField",
+        "token": 67153455
+      },
+      {
+        "name": "<ExchangedPrototypeId>k__BackingField",
+        "token": 67153456
+      },
+      {
+        "name": "<CreatedAt>k__BackingField",
+        "token": 67153457
+      },
+      {
+        "name": "<UpdatedAt>k__BackingField",
+        "token": 67153458
+      }
+    ]
+  },
+  "Game.Model.Components.GambleStoneBagItem": {
+    "type_definition_offset": 29402044,
+    "token": 33562013,
+    "field_count": 1,
+    "fields": [
+      {
+        "name": "<StoneInstanceId>k__BackingField",
+        "token": 67153921
+      }
+    ]
+  }
+}
