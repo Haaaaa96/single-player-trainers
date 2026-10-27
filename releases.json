@@ -37,5 +37,18 @@
     "bytes": 773421,
     "sha256": "7485a194c1446b75c5d5198f1d0443bea5d01e1edcf956e9a5778ab6f21d8aa9",
     "kind": "source"
+  },
+  {
+    "game": "zaohua",
+    "version": "0.12.0-alpha.51",
+    "filename": "ZaohuaTrainer-v0.12.0-alpha.51-full-win64.zip",
+    "bytes": 2333741,
+    "sha256": "4abb6e47e58b257b873b733f392116c4e93e33e7d31bae1f65a9f8ab80043005",
+    "kind": "experimental-full-loader-bundle",
+    "tag": "zaohua-v0.12.0-alpha.51",
+    "reference_steam_build": "25847133",
+    "payload_sha256": {
+      "BepInEx/plugins/ZaohuaTrainer/ZaohuaTrainer.dll": "a899cd1c79d398eb50093ac95e1f58cf895a4a4fef75ce4c501abd7cbbb15a6f"
+    }
   }
 ]

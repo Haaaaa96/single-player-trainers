@@ -27,3 +27,9 @@ HaxxToyBox is derived from Haxx / neeetman's [WuLinToyBoxMod](https://github.com
 The earlier integration referenced masterZP.'s package and the EnhanceGameplay module attributed to 630444540 / gmhaxx. Those dependencies are not made part of the HaxxToyBox license. The public plugin package does not redistribute the loader, EnhanceGameplay, UniverseLib or Unity game libraries. Exact prerequisites remain in the [project notes](games/wulin-toybox/GUIDE.md).
 
 The helper tools under `third_party/` retain their [existing MIT license](third_party/TOOL_LICENSE.txt); this is not a blanket license for all trainer source.
+
+## ZaohuaTrainer
+
+The [alpha.51 full bundle](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.51) includes BepInEx 6.0.0-be.788+5b766a3, UnityDoorstop and loader dependencies. Its `ThirdParty` directory preserves upstream copyright notices, licenses, pinned sources and build/replacement information. Corresponding source archives are inside the package; no separate source download is required for these bundled materials.
+
+BepInEx and UnityDoorstop's LGPL rights and each dependency's own license remain in force. This is not a new license for ZaohuaTrainer or game files. The trainer implementation and game assemblies are not included as source in this publication.
