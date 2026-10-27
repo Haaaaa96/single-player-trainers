@@ -2,13 +2,15 @@ English | [简体中文](README_ZH.md)
 
 # ZaohuaTrainer — Destiny of Immortal / 造化仙缘
 
-**v0.12.0-alpha.51 · experimental archive · 2026-10-28**
+**v0.12.0-alpha.52 · experimental archive · 2026-10-28**
 
-[Full Windows x64 package](https://github.com/Haaaaa96/single-player-trainers/releases/download/zaohua-v0.12.0-alpha.51/ZaohuaTrainer-v0.12.0-alpha.51-full-win64.zip) · [Release page](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.51) · [Development notes](DEVLOG.md)
+[Full Windows x64 package](https://github.com/Haaaaa96/single-player-trainers/releases/download/zaohua-v0.12.0-alpha.52/ZaohuaTrainer-v0.12.0-alpha.52-full-win64.zip) · [Release page](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.52) · [Development notes](DEVLOG.md)
 
 The package includes the plugin, BepInEx loader, Chinese usage notes and third-party license/source materials. No separate loader download is needed. The interface is Chinese.
 
 ## Included features
+
+- **New in alpha.52:** one click adds 95 native best-quality permanent attribute pills, 100 of each (9,500 total), including speed, combat stats, eight roots, cultivation efficiency, dantian, mind, luck and lifespan. Blood-evil pills are excluded. It adds inventory only; it does not consume pills or change tolerance. Ordinary-only and temporary recovery pills are excluded. The single-item amount does not affect the batch; each click adds another full set.
 
 - Search and add items by category and grade. Add a standard breakthrough bundle: 18 items across 10 types, excluding blood-path pills; it does not consume items or trigger a breakthrough.
 - Set the amount of spirit stones to add or remove, from 1 to 100,000,000 per operation. Adjust character attributes and alchemy, talisman or crafting experience/levels.
@@ -27,7 +29,7 @@ Save normally after changes. Save before applying a layout: layout backups canno
 
 ## Evidence and scope
 
-Reference environment: Steam Windows x64 build **25847133**, BepInEx **6.0.0-be.788+5b766a3**. This release reuses the existing alpha.51 binary without rebuilding it. Package contents and identities were checked; prior targeted offline checks remain tied to that binary. Actual alpha.51 game effects, Unity/menu lifecycle, normal restart and save/reload have not been verified by this publication. Other versions and mod combinations are unverified.
+Reference environment: Steam Windows x64 build **25847133**, BepInEx **6.0.0-be.788+5b766a3**. The alpha.52 candidate was compiled against the actual reference assemblies: 146 inputs matched. Thirteen new batch checks and nine existing breakthrough checks passed offline. Packaging reuses that exact binary without rebuilding it. Package identities were checked; actual alpha.52 game effects, Unity/menu lifecycle, normal restart and save/reload remain unverified. Other versions and mod combinations are unverified.
 
 Personal research archive, provided as-is. No compatibility or outcome guarantee, issue intake, user support or continuing maintenance commitment.
 
@@ -35,9 +37,9 @@ The trainer implementation source is not included in this publication. GitHub's 
 
 ## File identity and licenses
 
-- ZIP: `ZaohuaTrainer-v0.12.0-alpha.51-full-win64.zip` — 2,333,741 bytes
-- ZIP SHA256: `4abb6e47e58b257b873b733f392116c4e93e33e7d31bae1f65a9f8ab80043005`
-- Plugin SHA256: `a899cd1c79d398eb50093ac95e1f58cf895a4a4fef75ce4c501abd7cbbb15a6f`
+- ZIP: `ZaohuaTrainer-v0.12.0-alpha.52-full-win64.zip` — 2,336,336 bytes
+- ZIP SHA256: `9b882b2e9a22652136e1d387c677070c0e5fbdb3c6dcf75d97103a02f3d3ca71`
+- Plugin SHA256: `8c9ade1d274afaf5945d40c8630c247c06afa302af986c9ff437a58b40d5dffa`
 
 Preserve the complete `ThirdParty` directory, including notices, licenses, sources and replacement/build notes. BepInEx, UnityDoorstop and their dependencies retain their upstream rights; archive terms do not restrict those licenses or grant rights over game files. Developed with Codex assistance.
 

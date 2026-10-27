@@ -15,7 +15,7 @@
 | 不问凡尘 / World Apart | v1.3，同版本读取优化 | Python 独立修改器与共用原生后台 | [项目说明](games/worldapart/README_ZH.md) · [源码](sources/worldapart) · [开发记录](games/worldapart/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/worldapart-v1.3-new) |
 | 吾今有世家 / House of Legacy | v0.3.0，实验版本 | Unity Mono 游戏中的 C# 插件 | [项目说明](games/house-of-legacy/README_ZH.md) · [源码](sources/house-of-legacy) · [开发记录](games/house-of-legacy/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/house-of-legacy-v0.3.0) |
 | 大侠立志传 / Hero's Adventure | WulinToyBox v1.1.0 | 既有 IL2CPP 插件的定向修订 | [项目说明](games/wulin-toybox/README_ZH.md) · [源码](sources/wulin-toybox) · [开发记录](games/wulin-toybox/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/wulin-toybox-v1.1.0) |
-| 造化仙缘 / Destiny of Immortal | ZaohuaTrainer v0.12.0-alpha.51，测试版 | BepInEx 6 插件，附完整加载器 | [项目说明](games/zaohua/README_ZH.md) · [开发记录](games/zaohua/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.51) |
+| 造化仙缘 / Destiny of Immortal | ZaohuaTrainer v0.12.0-alpha.52，测试版 | BepInEx 6 插件，附完整加载器 | [项目说明](games/zaohua/README_ZH.md) · [开发记录](games/zaohua/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.52) |
 
 ## 背景
 

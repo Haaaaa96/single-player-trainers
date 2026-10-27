@@ -15,7 +15,7 @@ This repository keeps selected source snapshots, development notes and versioned
 | World Apart / 不问凡尘 | v1.3, read-performance revision | Standalone Python trainer with a shared native broker | [Overview](games/worldapart/README.md) · [Source](sources/worldapart) · [Development log](games/worldapart/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/worldapart-v1.3-new) |
 | House of Legacy / 吾今有世家 | v0.3.0, experimental | C# plugin for a Unity Mono game | [Overview](games/house-of-legacy/README.md) · [Source](sources/house-of-legacy) · [Development log](games/house-of-legacy/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/house-of-legacy-v0.3.0) |
 | Hero's Adventure / 大侠立志传 | WulinToyBox v1.1.0 | Revisions to an existing IL2CPP plugin | [Overview](games/wulin-toybox/README.md) · [Source](sources/wulin-toybox) · [Development log](games/wulin-toybox/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/wulin-toybox-v1.1.0) |
-| Destiny of Immortal / 造化仙缘 | ZaohuaTrainer v0.12.0-alpha.51, experimental | BepInEx 6 plugin; full loader bundle | [Overview](games/zaohua/README.md) · [Development log](games/zaohua/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.51) |
+| Destiny of Immortal / 造化仙缘 | ZaohuaTrainer v0.12.0-alpha.52, experimental | BepInEx 6 plugin; full loader bundle | [Overview](games/zaohua/README.md) · [Development log](games/zaohua/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.52) |
 
 ## Background
 

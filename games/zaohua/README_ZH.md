@@ -2,13 +2,15 @@
 
 # 造化仙缘 · ZaohuaTrainer
 
-**v0.12.0-alpha.51 · 测试版归档 · 2026-10-28**
+**v0.12.0-alpha.52 · 测试版归档 · 2026-10-28**
 
-[下载完整包](https://github.com/Haaaaa96/single-player-trainers/releases/download/zaohua-v0.12.0-alpha.51/ZaohuaTrainer-v0.12.0-alpha.51-full-win64.zip) · [版本页面](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.51) · [开发记录](DEVLOG_ZH.md)
+[下载完整包](https://github.com/Haaaaa96/single-player-trainers/releases/download/zaohua-v0.12.0-alpha.52/ZaohuaTrainer-v0.12.0-alpha.52-full-win64.zip) · [版本页面](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.52) · [开发记录](DEVLOG_ZH.md)
 
 完整包已包含修改器、BepInEx 加载器、中文使用说明和第三方许可／源码资料，无需另下加载器。修改器界面为中文。
 
 ## 功能
+
+- **alpha.52新增：**一键添加95种极品永久属性丹，每种100颗，共9500颗。包括速度、攻防、气血、护甲／护罩、八灵根、修炼效率、丹田、神魂、气运和寿元；不含血煞丹。仅添加到背包，不自动服用或改耐药。没有极品版本及临时恢复丹不纳入；单项数量框不影响套装，每点击一次再加一套。
 
 - **物品添加：**分类、品阶查找并添加物品；一键添加常规突破套装，共10种18件，不含血道丹，不自动服用或突破。
 - **灵石与主角：**自定义每次增减1～1亿灵石；调整主角属性及炼丹、制符、炼器经验或等级。
@@ -27,7 +29,7 @@
 
 ## 验证与范围
 
-参考环境：Steam Windows 64位 build **25847133**，BepInEx **6.0.0-be.788+5b766a3**。本次原样归档已有alpha.51二进制，没有重编。包内文件和身份已核验，既有相关离线检查绑定该成品；本次未验证alpha.51实际游戏效果、Unity／菜单生命周期、正常重启及保存重载，其它版本和MOD组合也未验证。
+参考环境：Steam Windows 64位 build **25847133**，BepInEx **6.0.0-be.788+5b766a3**。alpha.52候选已按实际游戏引用编译，146项构建输入匹配，13组新批处理检查和9组原突破套装检查离线通过。打包直接使用该二进制，没有再次重编；包内文件身份已核验。alpha.52实际游戏效果、Unity／菜单生命周期、正常重启及保存重载仍待实测，其它版本和MOD组合也未验证。
 
 仅作个人研究归档，按现状提供，不保证兼容或使用效果，不提供问题受理、使用支持或持续维护承诺。
 
@@ -35,9 +37,9 @@
 
 ## 文件与许可
 
-- ZIP：`ZaohuaTrainer-v0.12.0-alpha.51-full-win64.zip`，2,333,741字节
-- ZIP SHA256：`4abb6e47e58b257b873b733f392116c4e93e33e7d31bae1f65a9f8ab80043005`
-- 插件 SHA256：`a899cd1c79d398eb50093ac95e1f58cf895a4a4fef75ce4c501abd7cbbb15a6f`
+- ZIP：`ZaohuaTrainer-v0.12.0-alpha.52-full-win64.zip`，2,336,336字节
+- ZIP SHA256：`9b882b2e9a22652136e1d387c677070c0e5fbdb3c6dcf75d97103a02f3d3ca71`
+- 插件 SHA256：`8c9ade1d274afaf5945d40c8630c247c06afa302af986c9ff437a58b40d5dffa`
 
 请完整保留 `ThirdParty` 目录中的署名、许可证、来源、源码及构建／替换说明。BepInEx、UnityDoorstop及其依赖保留上游许可权利；本仓库归档约定不限制这些权利，也不授予游戏文件再分发许可。由Codex辅助开发。
 
