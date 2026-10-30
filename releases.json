@@ -63,5 +63,22 @@
     "payload_sha256": {
       "BepInEx/plugins/ZaohuaTrainer/ZaohuaTrainer.dll": "8c9ade1d274afaf5945d40c8630c247c06afa302af986c9ff437a58b40d5dffa"
     }
+  },
+  {
+    "game": "probably-stolen",
+    "version": "1.9.4",
+    "build": "1.9.4-20261030a",
+    "filename": "ProbablyStolenTrainer-v1.9.4.zip",
+    "bytes": 111985,
+    "sha256": "78d1d22c5d97f85013921dda499f988f8487c42073bc9efa49e2fe12b11ab86b",
+    "kind": "native-game-mod",
+    "tag": "probably-stolen-v1.9.4",
+    "reference_steam_build": "26284217",
+    "package_revision": "readme-sync-20261030-084300",
+    "payload_sha256": {
+      "Mods/ProbablyStolenTrainer/ProbablyStolenTrainer.dll": "570bb2ec784ff8cca872fe099113ac4eb418fa2929acae416044dfc79d6f0130",
+      "Mods/ProbablyStolenTrainer/manifest.xml": "a0ce5e0e96d42c637190217b913ebdbb0506abe7205383ebe87ced14eafce77b",
+      "README-v1.9.4.txt": "6fa3079b5c7862d719286f9923cb7f4f57c170f68513319a543a30e8dc534fce"
+    }
   }
 ]
