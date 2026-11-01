@@ -1,13 +1,13 @@
 English | [简体中文](GUIDE_ZH.md)
 
-# V1.9.4 installation and use
+# V1.9.8 installation and use
 
 [Project overview](README.md) · [Development notes](DEVLOG.md)
 
 ## Install or upgrade
 
 1. Save normally and **fully exit the game**. Back up the save beforehand.
-2. Extract the ZIP and merge its `Mods` folder into the game installation directory. Replace matching files when upgrading; **V1.3 can be upgraded in place without uninstalling**.
+2. Extract the ZIP and merge its `Mods` folder into the game installation directory. Replace matching files when upgrading; **local V1.3 or later versions can be upgraded in place without uninstalling**.
 3. Check this path:
 
    ```text
@@ -18,9 +18,13 @@ English | [简体中文](GUIDE_ZH.md)
 4. Enable the trainer in the game's native MOD menu and restart when prompted.
 5. Load a shop save and press **F4**. F4 toggles the menu; Esc also closes it. The hotkey can be changed and is saved between sessions.
 
-No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.9.4.txt`.
+No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.9.8.txt`.
 
 To uninstall, fully exit the game and delete **only** `<game directory>/Mods/ProbablyStolenTrainer`. Do not delete the entire `Mods` folder or game saves. Reinstall by extracting the package again. Uninstalling does not undo cash, items or other changes already saved.
+
+## Local package and Workshop
+
+Use one distribution at a time. Unsubscribe from this trainer's Workshop item when using the local package. To switch to Workshop, save and fully exit the game, move the entire local `Mods/ProbablyStolenTrainer` folder outside `Mods`, then subscribe. A local copy with the same MOD ID can shadow the Workshop copy; disabling it alone is insufficient. Preserve `ModData/ProbablyStolenTrainer` under the save location to keep hotkeys, favourites and alert settings. Enable the MOD again if the game requests it.
 
 ## Common controls and quantities
 
@@ -34,6 +38,14 @@ Hotkeys pause during text entry. With a Chinese input method, confirm the candid
 - Favourite presets are shared across saves; current stock is counted in the active save.
 - Deletion removes all units of the selected instance, gives no refund and has no undo within the trainer. Maintenance applies to owned shop items; charging observes power outages and native battery restrictions.
 
+## Item attributes and maintenance
+
+In inventory management, select an owned item, choose durability, armour or charge, enter the final current value and limit, and apply. The list identifies real supported attributes and offers an attribute-only filter. One-click repair and recharge remain available. Supported storage and unlocked installed accessories use the same ownership checks.
+
+The current value must be between zero and its limit; the limit is 1–21,474,836, with further restrictions from armour efficiency and native battery valuation. Raising ordinary durability above its base limit also raises that base and displayed durability. Armour keeps its base value, and depleted 0/0 armour can receive a new limit. Battery capacity does not change output bandwidth or automatic charging speed. Custom charge editing does not require shop power; one-click recharge still checks power.
+
+Only attributes actually present on the item are editable. UV filters have no ordinary durability; one-use power sources, converters and hypertech batteries use different mechanisms. Locked, working or trade-area items are rejected. Native item callbacks may later recalculate values; this feature does not freeze them.
+
 ## Water
 
 Six water qualities are available in 250, 450, 750, 2000 and 6000 ml containers. Each generated unit is one full container. Restocking counts actual water quality and full-container size; half-full bottles do not count, and labels do not change the real quality.
@@ -42,11 +54,11 @@ Existing-bottle operations keep the container. Filling mixes with its contents; 
 
 ## Machine assembly
 
-**Basic completion** supplies missing batteries and the three general module types, preserving existing parts and positions without replacing or charging existing power sources.
+Both modes support 24 registered machine/device profiles with their actual slots. **Basic completion** supplies missing eligible parts while preserving existing parts. **Recommended strongest setup** chooses a machine-specific configuration, adds eligible ordinary modules and expands supported standard compartments. Batteries, tanks, filters and cores are handled only where the native device exposes those slots. Neural cores remain opt-in.
 
-The **recommended strongest setup** supports 12 machine types. It balances quality, output and power by machine, then fills remaining space with eligible non-negative ordinary modules. Standard compartments expand through the game's two upgrade levels; non-standard compartments do not receive that expansion. Replaced general modules and power sources return to the main inventory, so leave room. Special modules, chips, ingredients, containers and recipes are retained. Neural cores are opt-in.
+Replaced parts and their contents return to inventory; leave enough free space. The advanced booster, hypertech booster and Aug scanner now accept battery completion through both modes. Water-device assembly accepts omitted zero-valued liquid components in existing containers; capacity, invalid values, locking, ownership and space checks remain.
 
-These setups do not claim a global optimum, the largest part count or every cell filled. Native space, adjacency, air, container capacity, ingredients and attribute caps still apply. Neither mode starts machines or advances production. If safe values or effects cannot be established, the operation stops with a reason; basic completion remains available. If the result is marked uncertain, inspect the native parts compartment before taking another action.
+These setups do not claim a global optimum, the largest part count or every cell filled. Native space, adjacency, air, container capacity, ingredients and attribute caps still apply. Neither mode starts machines or advances production. If safe values or effects cannot be established, the operation stops with a reason. If the result is marked uncertain, inspect the native parts compartment before another action; do not repeatedly click.
 
 ## Customer orders and alerts
 
