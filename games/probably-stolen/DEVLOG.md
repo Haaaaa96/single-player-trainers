@@ -1,18 +1,51 @@
 English | [简体中文](DEVLOG_ZH.md)
 
-# Development notes — V1.9.9
+# Development notes — V1.10.0
 
-2026-11-02 · Build `1.9.9-20261102a`
+2026-11-02 · Build `1.10.0-20261102a`
 
 [Project overview](README.md) · [Installation and use](GUIDE.md)
 
 ## Changes and decisions
 
+V1.10.0 adds one recommended gun-loadout action. Native metadata and targeted code inspection establish six moddable gun types, 31 compatible attachments and eight attachment positions. The recommendation compares combined gains in firepower, style, reliability, recoil control, ergonomics and accuracy, including fixed and percentage modifiers. Existing parts with an equal or better score remain. This is a practical recommendation, not a proof of a global optimum or maximum values for every attribute.
+
+Pistols have no compatible stock and shotguns have no compatible magazine. Unsupported revolvers, electric weapons and unfinished frames retain an explanation. No slots or ammunition are invented. The existing machine basic-completion workflow remains.
+
+Gun attachments can expand the occupied shape. The coordinator checks the complete conservative shape envelope and room for all returned-part trees before removing old parts. Guns in non-grid mounting slots are rejected until moved to owned grid inventory. Replaced parts and their contents return intact to the main inventory. Native acceptance is dispatched once per step and read back; uncertainty blocks repeat assembly in that session.
+
+## Verification and lifecycle
+
+- **Static/offline:** the real-reference build, 60 coordinator/scoring checks, 32 production-menu callback checks and 27 retained hotkey/host checks passed. Inventory and Unity leaves are controlled in these checks; they are not native gameplay assembly tests.
+- **Final artifact:** 315 native-reference checks, native manifest/scanner checks, direct-execution UI inspection and independent three-file ZIP extraction passed.
+- **Lifecycle:** the native `IMod` and single shared main-thread host remain. The new page reuses the existing execution lock, session generations, ownership checks and uncertain-result record. Closing, navigation, changed search/selection and save changes invalidate stale callbacks. No new loader, bridge, injected backend or external process was introduced.
+- **Targeted review:** construction callbacks are rechecked for session/object changes; non-grid mounts are rejected where whole-shape reservation cannot be established; temporary-part cleanup failure overrides apparent success and prevents retry. Offline fault injection covers these branches.
+- **Pending in game:** actual loading, disable/enable, Unity input ordering, attachment effects, normal restart, save/reload and other MOD combinations remain for the author to check. Unchanged behaviour may reuse identified prior evidence; the historical 73-key matrix is not presented as a new V1.10.0 run. Publication reuses the original package without rebuilding or installing it.
+
+## Artifact identity
+
+| Item | Recorded identity |
+| --- | --- |
+| Reference game | Steam build `26337366` |
+| Release tag | `probably-stolen-v1.10.0` |
+| ZIP | `ProbablyStolenTrainer-v1.10.0.zip` |
+| ZIP size | 130,224 bytes |
+| ZIP SHA256 | `BB1DC01C9C668C27CF25B3FC69E1E8A61D8E8FF26F348FB4D3063F01FFB00E67` |
+| DLL SHA256 | `18C4B65982447AE421B1119BB904D961237F64E620EE8FBBEFE7F75884250E3F` |
+
+Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
+
+## Historical V1.9.9 record
+
+The following is prior evidence, retained as history rather than new V1.10.0 testing.
+
+### Changes and decisions
+
 Native code inspection identified a persistent typing flag that can survive a game editor closing. The old hotkey path trusted that flag and could keep rejecting the menu key. V1.9.9 checks actual active and enabled input focus, IME composition, console focus and native key capture instead. It does not reset the game's typing flag or change another window's focus. This fixes reproducible conditions, without claiming to explain every unrecorded gameplay report.
 
 The trainer's close callback invalidates its window and operation generation, clears queued searches and releases only focus owned by that closing window. Stale callbacks cannot invalidate a newer window. After checking the current save identity, the host handles the menu toggle before automatic refresh. Single-frame dispatch, held-key suppression, exact modifiers, save-frame suppression and native key-conflict checks remain. All V1.9.8 features are retained.
 
-## Verification and lifecycle
+### Verification and lifecycle
 
 - **Offline comparison:** the same initial suite passed 17/27 on V1.9.8 and 27/27 after the fix. It compiles the production host and hotkey code plus the affected menu methods, covering stale typing state, hidden/disabled fields, IME, close/page changes, focus ownership and refresh failures.
 - **Expanded key matrix:** 73/73 total checks passed, including the original 27 and 46 additional checks for F4, custom F3/F5/BackQuote, seven Ctrl/Alt/Shift combinations on F3, left/right modifier keys, extra-modifier rejection, repeated toggles, input/page recovery, key conflicts and settings readback failures. No further production change was needed.
@@ -22,7 +55,7 @@ The trainer's close callback invalidates its window and operation generation, cl
 
 Earlier tests fixed the typing result to false and replaced some hotkey/open paths, missing the persistent flag and actual dispatch order. Future input changes retain the affected production paths and failure cases.
 
-## Artifact identity
+### Artifact identity
 
 | Item | Recorded identity |
 | --- | --- |
@@ -35,7 +68,7 @@ Earlier tests fixed the typing result to false and replaced some hotkey/open pat
 
 Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
 
-## Historical V1.9.8 record
+### Historical V1.9.8 record
 
 The following is prior evidence, retained as history rather than new V1.9.9 testing.
 

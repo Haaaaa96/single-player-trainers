@@ -1,12 +1,12 @@
 English | [简体中文](README_ZH.md)
 
-# Probably Stolen Multi-function Trainer V1.9.9
+# Probably Stolen Multi-function Trainer V1.10.0
 
 A personal development and research archive for the native MOD for **Probably Stolen** (深空当铺：可能是偷的). This release contains the trainer binary and documentation; implementation source is not included.
 
-[Release and ZIP](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.9.9) · [Installation and use](GUIDE.md) · [Development notes](DEVLOG.md)
+[Release and ZIP](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.10.0) · [Installation and use](GUIDE.md) · [Development notes](DEVLOG.md)
 
-- Version: **V1.9.9**, build `1.9.9-20261102a`, dated 2026-11-02.
+- Version: **V1.10.0**, build `1.10.0-20261102a`, dated 2026-11-02.
 - Reference game: Steam build `26337366`.
 - Uses the game's native MOD interface. No additional loader or framework is required.
 - Default menu key: **F4**, configurable and saved between sessions; **Esc** also closes the menu.
@@ -27,13 +27,22 @@ A personal development and research archive for the native MOD for **Probably St
 12. **Unusual-person alerts:** show supported wanted, concealed-wanted and Aug markers, including disguises. Ordinary merchant identities are not alerts. Automatic notifications can be disabled.
 13. **Custom hotkey:** choose a key or Ctrl/Alt/Shift combination, save it, or restore F4.
 
+14. **Gun loadout:** select an owned gun and generate/install recommended compatible parts in one action. Covers six moddable gun types and 31 compatible attachments, preserves existing parts with an equal or better combined score, and returns replaced parts with their contents to the main inventory.
+
 ## Cumulative changes since V1.3
 
-Compared with V1.3, V1.9.9 adds: the expanded catalogue and value/size sorting; water management; machine assembly with basic completion and recommended setups; customer order preparation; unusual-person alerts; and inventory deletion.
+Compared with V1.3, V1.10.0 adds: the expanded catalogue and value/size sorting; water management; machine assembly with basic completion and recommended setups; customer order preparation; unusual-person alerts; inventory deletion; and recommended gun loadouts.
 
 Operations now run from their action button after the target and parameters are chosen. There is no mandatory preview/second-confirmation step. Internal identity, ownership, capacity and duplicate-operation checks remain. The V1.9.4 trade-reveal checks at execution time remain included.
 
-## New in V1.9.9
+## New in V1.10.0 (since V1.9.9)
+
+- Add one gun workflow: **Gun loadout → select a gun → apply recommended loadout**. Recommendations combine firepower, style, reliability, recoil control, ergonomics and accuracy; they do not maximize every attribute individually.
+- Before removing old parts, check native slot compatibility, space for the expanded gun shape, room for the complete returned-part trees, ownership and locks. Replaced parts and their contents are preserved.
+- Pistols have no compatible stock and shotguns have no compatible magazine, so those slots remain empty. Guns in non-grid mounting slots must first be moved to owned grid inventory. This action does not supply ammunition.
+- Retain machine basic completion, recommended assembly and existing features. The real-reference build and related offline checks passed; in-game assembly, effects and save/reload remain pending.
+
+## Retained V1.9.9 changes
 
 - Fix menu hotkeys remaining blocked after a game editor leaves a stale typing flag. Default F4 and saved custom keys use the same corrected input checks.
 - Continue pausing hotkeys while an active text field, IME composition, console input or native key capture needs the keyboard.
