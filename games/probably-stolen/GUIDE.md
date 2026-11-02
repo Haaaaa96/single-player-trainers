@@ -1,6 +1,6 @@
 English | [简体中文](GUIDE_ZH.md)
 
-# V1.9.8 installation and use
+# V1.9.9 installation and use
 
 [Project overview](README.md) · [Development notes](DEVLOG.md)
 
@@ -18,7 +18,7 @@ English | [简体中文](GUIDE_ZH.md)
 4. Enable the trainer in the game's native MOD menu and restart when prompted.
 5. Load a shop save and press **F4**. F4 toggles the menu; Esc also closes it. The hotkey can be changed and is saved between sessions.
 
-No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.9.8.txt`.
+No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.9.9.txt`.
 
 To uninstall, fully exit the game and delete **only** `<game directory>/Mods/ProbablyStolenTrainer`. Do not delete the entire `Mods` folder or game saves. Reinstall by extracting the package again. Uninstalling does not undo cash, items or other changes already saved.
 
@@ -30,7 +30,7 @@ Use one distribution at a time. Unsubscribe from this trainer's Workshop item wh
 
 Choose the target and parameters, then press the relevant action button to execute. Internal checks run automatically; target selection, filtering and typing do not execute changes. Goods must still be selected, manually or with automatic selection; the final trade remains manual.
 
-Hotkeys pause during text entry. With a Chinese input method, confirm the candidate text first, then press Enter to search. Enter in a search field only searches. Save normally by sleeping after operations; the trainer does not save automatically.
+Default F4 and saved custom hotkeys share the same input handling. Hotkeys pause while an active text field, IME composition, console input or native key capture needs the keyboard. Closing the trainer clears only its own selected field; existing hotkey settings remain unchanged after upgrading to V1.9.9. With a Chinese input method, confirm the candidate text first, then press Enter to search. Enter in a search field only searches. Save normally by sleeping after operations; the trainer does not save automatically.
 
 - Catalogue entries follow the current loaded registry and the game's native hidden-item rules. An unavailable entry shows a reason. Being addable does not imply it can also be maintained or deleted.
 - Reference unit value excludes event and retail markups. Actual trade prices are set by the game. Size means occupied cells in the real item shape; unknown values sort last.

@@ -1,12 +1,12 @@
 English | [简体中文](README_ZH.md)
 
-# Probably Stolen Multi-function Trainer V1.9.8
+# Probably Stolen Multi-function Trainer V1.9.9
 
 A personal development and research archive for the native MOD for **Probably Stolen** (深空当铺：可能是偷的). This release contains the trainer binary and documentation; implementation source is not included.
 
-[Release and ZIP](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.9.8) · [Installation and use](GUIDE.md) · [Development notes](DEVLOG.md)
+[Release and ZIP](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.9.9) · [Installation and use](GUIDE.md) · [Development notes](DEVLOG.md)
 
-- Version: **V1.9.8**, build `1.9.8-20261101a`, dated 2026-11-01.
+- Version: **V1.9.9**, build `1.9.9-20261102a`, dated 2026-11-02.
 - Reference game: Steam build `26337366`.
 - Uses the game's native MOD interface. No additional loader or framework is required.
 - Default menu key: **F4**, configurable and saved between sessions; **Esc** also closes the menu.
@@ -29,11 +29,18 @@ A personal development and research archive for the native MOD for **Probably St
 
 ## Cumulative changes since V1.3
 
-Compared with V1.3, V1.9.8 adds: the expanded catalogue and value/size sorting; water management; machine assembly with basic completion and recommended setups; customer order preparation; unusual-person alerts; and inventory deletion.
+Compared with V1.3, V1.9.9 adds: the expanded catalogue and value/size sorting; water management; machine assembly with basic completion and recommended setups; customer order preparation; unusual-person alerts; and inventory deletion.
 
 Operations now run from their action button after the target and parameters are chosen. There is no mandatory preview/second-confirmation step. Internal identity, ownership, capacity and duplicate-operation checks remain. The V1.9.4 trade-reveal checks at execution time remain included.
 
-## New in V1.9.8
+## New in V1.9.9
+
+- Fix menu hotkeys remaining blocked after a game editor leaves a stale typing flag. Default F4 and saved custom keys use the same corrected input checks.
+- Continue pausing hotkeys while an active text field, IME composition, console input or native key capture needs the keyboard.
+- Clear only the trainer window’s own focus when it closes, and handle the toggle before automatic refresh so queued searches or refresh errors cannot swallow that toggle.
+- Keep all V1.9.8 features and existing hotkey settings. The recorded 73 checks are offline results; in-game input and restart acceptance remain pending.
+
+## Retained V1.9.8 changes
 
 - Edit durability, armour, battery charge and their limits from the inventory-management page; repair and recharge buttons remain available.
 - Fix assembly rejection for water collectors and related water devices when an existing container omits a zero-valued liquid component. Basic completion and recommended setup both have offline regression coverage.

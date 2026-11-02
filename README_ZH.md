@@ -16,7 +16,7 @@
 | 吾今有世家 / House of Legacy | v0.3.0，实验版本 | Unity Mono 游戏中的 C# 插件 | [项目说明](games/house-of-legacy/README_ZH.md) · [源码](sources/house-of-legacy) · [开发记录](games/house-of-legacy/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/house-of-legacy-v0.3.0) |
 | 大侠立志传 / Hero's Adventure | WulinToyBox v1.1.0 | 既有 IL2CPP 插件的定向修订 | [项目说明](games/wulin-toybox/README_ZH.md) · [源码](sources/wulin-toybox) · [开发记录](games/wulin-toybox/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/wulin-toybox-v1.1.0) |
 | 造化仙缘 / Destiny of Immortal | ZaohuaTrainer v0.12.0-alpha.52，测试版 | BepInEx 6 插件，附完整加载器 | [项目说明](games/zaohua/README_ZH.md) · [开发记录](games/zaohua/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.52) |
-| 深空当铺：可能是偷的 / Probably Stolen | ProbablyStolenTrainer v1.9.8 | Unity Mono 原生 MOD，无需额外加载器 | [项目说明](games/probably-stolen/README_ZH.md) · [开发记录](games/probably-stolen/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.9.8) |
+| 深空当铺：可能是偷的 / Probably Stolen | ProbablyStolenTrainer v1.9.9 | Unity Mono 原生 MOD，无需额外加载器 | [项目说明](games/probably-stolen/README_ZH.md) · [开发记录](games/probably-stolen/DEVLOG_ZH.md) · [版本文件](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.9.9) |
 
 ## 背景
 

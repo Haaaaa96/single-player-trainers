@@ -1,12 +1,45 @@
 English | [简体中文](DEVLOG_ZH.md)
 
-# Development notes — V1.9.8
+# Development notes — V1.9.9
 
-2026-11-01 · Build `1.9.8-20261101a`
+2026-11-02 · Build `1.9.9-20261102a`
 
 [Project overview](README.md) · [Installation and use](GUIDE.md)
 
 ## Changes and decisions
+
+Native code inspection identified a persistent typing flag that can survive a game editor closing. The old hotkey path trusted that flag and could keep rejecting the menu key. V1.9.9 checks actual active and enabled input focus, IME composition, console focus and native key capture instead. It does not reset the game's typing flag or change another window's focus. This fixes reproducible conditions, without claiming to explain every unrecorded gameplay report.
+
+The trainer's close callback invalidates its window and operation generation, clears queued searches and releases only focus owned by that closing window. Stale callbacks cannot invalidate a newer window. After checking the current save identity, the host handles the menu toggle before automatic refresh. Single-frame dispatch, held-key suppression, exact modifiers, save-frame suppression and native key-conflict checks remain. All V1.9.8 features are retained.
+
+## Verification and lifecycle
+
+- **Offline comparison:** the same initial suite passed 17/27 on V1.9.8 and 27/27 after the fix. It compiles the production host and hotkey code plus the affected menu methods, covering stale typing state, hidden/disabled fields, IME, close/page changes, focus ownership and refresh failures.
+- **Expanded key matrix:** 73/73 total checks passed, including the original 27 and 46 additional checks for F4, custom F3/F5/BackQuote, seven Ctrl/Alt/Shift combinations on F3, left/right modifier keys, extra-modifier rejection, repeated toggles, input/page recovery, key conflicts and settings readback failures. No further production change was needed.
+- **Final artifact:** build against real game references, 308 native-reference checks, final-DLL operation inspection, the native manifest/scanner and independent three-file extraction passed.
+- **Lifecycle:** the existing native `IMod` main-thread host remains. Affected reset, destruction, repeated enable and menu lifecycle paths have offline coverage, including 2,000 toggles, 50 scene changes and 30 disable/enable cycles in the initial suite. No new loader, injected backend or external process was added.
+- **Not claimed:** these are not gameplay tests. Actual Unity event ordering, in-game loading and hotkeys, normal restart, gameplay effects and save/reload remain for the author to check. The follow-up did not retest real search submission, system focus switching or overlay key interception. Publication reuses the original package without rebuilding or installing it.
+
+Earlier tests fixed the typing result to false and replaced some hotkey/open paths, missing the persistent flag and actual dispatch order. Future input changes retain the affected production paths and failure cases.
+
+## Artifact identity
+
+| Item | Recorded identity |
+| --- | --- |
+| Reference game | Steam build `26337366` |
+| Release tag | `probably-stolen-v1.9.9` |
+| ZIP | `ProbablyStolenTrainer-v1.9.9.zip` |
+| ZIP size | 124,514 bytes |
+| ZIP SHA256 | `EB4683726973F5165E03128BDC53D80767A36FEAD269201A1F41B152D53C739F` |
+| DLL SHA256 | `28A1204BDDFA268C40D262EF73364108D1D9C7B4D159825306B8BD40C97795B3` |
+
+Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
+
+## Historical V1.9.8 record
+
+The following is prior evidence, retained as history rather than new V1.9.9 testing.
+
+### Changes and decisions
 
 This binary-and-documentation archive adds editable current values and limits for native durability, armour and ordinary battery charge. It preserves repair/recharge actions, the shared ownership resolver and single-dispatch menu execution. Only actual instance attributes are exposed; special battery mechanisms are not treated as ordinary rechargeable batteries. Native recalculation and valuation limits remain relevant.
 
@@ -14,14 +47,14 @@ Water-machine assembly previously required every liquid component to exist expli
 
 Three devices with ordinary battery slots were added: advanced booster, hypertech booster and Aug scanner. The bounded native catalogue review brings the supported profile count to 24 without inventing slots for devices that have none. This release also includes V1.9.7's new-save recognition fix and intervening device, accessory and order-preparation changes.
 
-## Verification and lifecycle
+### Verification and lifecycle
 
 - **Static/offline:** 28 service cases, 18 menu callbacks, 14 host lifecycle cases and 181 related machine cases passed. The real-reference final build, 309 native-reference checks, final-DLL operation checks and native manifest/scanner checks passed. These are offline results, not 241 gameplay tests.
 - **Lifecycle:** the existing native `IMod` and shared Unity main-thread host remain. Session/window tokens, ownership, mutual exclusion and uncertain-result rejection are retained. No new loader, injected backend or external process was added. Unchanged person-alert files reuse matching prior evidence.
 - **Package:** the original three-file ZIP was inspected and independently extracted; the DLL, manifest and versioned README match the delivery hashes. Publication does not rebuild or install it.
 - **Still unverified in game for this build:** actual loading, UI/input behaviour, item and machine effects, normal restart and save/reload remain for the author to check. Static save-path evidence is not a completed persistence test.
 
-## Artifact identity
+### Artifact identity
 
 | Item | Recorded identity |
 | --- | --- |
@@ -34,7 +67,7 @@ Three devices with ordinary battery slots were added: advanced booster, hypertec
 
 Implementation source is not included. Development was assisted by OpenAI Codex. Reference-build and hash identities do not establish compatibility with other versions or MOD combinations.
 
-## Historical V1.9.4 record
+### Historical V1.9.4 record
 
 The following is the prior version's evidence, retained as history rather than a claim about V1.9.8.
 
