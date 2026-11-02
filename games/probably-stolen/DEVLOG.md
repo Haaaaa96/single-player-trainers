@@ -1,12 +1,57 @@
 English | [简体中文](DEVLOG_ZH.md)
 
-# Development notes — V1.10.0
+# Development notes — V1.10.1
 
-2026-11-02 · Build `1.10.0-20261102a`
+2026-11-02 · Build `1.10.1-20261102b`
 
 [Project overview](README.md) · [Installation and use](GUIDE.md)
 
 ## Changes and decisions
+
+V1.10.0 rejected normal guns with the changed-eight-slot-structure message. The reference game assembly was unchanged: this was a trainer defect, not evidence of a game update or damaged save. The reader treated an outer one-cell grid as the attachment slot and missed the native intake wrapper. V1.10.1 unwraps that structure, then checks direct parent links, nearest owning item, all eight unique slots and existing contents. Unknown wrappers and inconsistent identities remain rejected.
+
+The original offline tests replaced the gun-reading path and flattened the slot structure, so they missed a failure affecting all six normal gun types. The new regression enters the production reader with native-shaped controlled leaves, including initial and repeated reads. This corrects the earlier evidence boundary; static API presence and coordinator tests alone did not establish a working gun read.
+
+Manual gun assembly now keeps the gun in its reachable owned location. Sixteen verified inventory roots and owned nested contents are checked before, after and between steps. Grid positions reserve the conservative union of the current and recommended shapes; compatible non-grid mounts use native state, ownership and parent-container checks. True container locks remain distinct from a parent inventory's interface-only pickup lock.
+
+Purchase-area guns are rejected before writing while a customer trade is active, because native attachment callbacks can trigger transaction, dialogue and procurement behaviour. After the trade ends, the same position can be used. Unrelated owned positions are not rejected merely because a customer is present.
+
+## Automatic assembly during addition
+
+The shared addition path now applies recommended attachments to new supported instances during ordinary addition, target restocking and favourite presets. It completes one instance before making the next and does not upgrade existing stock. Supported equipment uses a suitable main-inventory location; the complete gun attachment shape is reserved before placement. Placed items remain when a later step fails, and uncertain results stop the batch without automatic redispatch.
+
+There are 34 conditional plans: 24 existing machine/tool profiles, six moddable guns, a water pitcher and three modular backpacks. The pitcher receives the advanced filter for its native self-repair benefit. Addable small modular backpacks receive one 12-cell general-purpose pouch; medium and large variants receive two. Their main storage stays empty. Current catalogue registration, actual slot structure, parent chains and native compatibility are checked instead of inferring availability from an old factory method.
+
+Ordinary storage and ingredient/recipe areas are not treated as attachment slots. A separate RAS tank or vending core has no child attachment slots of its own. The old technician-backpack module factories do not establish a currently registered module catalogue. Unknown plans preserve normal factory addition rather than claiming complete assembly. Existing machine basic completion remains, neural cores stay off by default, and no ammunition loading, firing, automatic production or final transaction is added.
+
+## Verification and lifecycle
+
+- **Related offline regression:** 382 checks passed: 32 addition/simple-equipment cases, 59 production gun-reader/location cases, 60 gun coordinator/scoring cases, 11 combined-shape preflights, seven new-gun placement cases, 32 menu callbacks and 181 retained machine cases. Actual production methods run with controlled native leaves; these are not 382 gameplay tests.
+- **Final artifact:** the real-reference build, 329 native-reference checks, native MOD scanner, direct-action CIL inspection and three-file release checks passed. The recorded checks bind to the final source and DLL.
+- **Package:** publication reuses the final original ZIP. It does not rebuild, install or operate the game.
+
+The native `IMod`, single main-thread host, shared execution ownership and session generations remain. The affected paths retain stale-window invalidation, ownership, native locks, space reservation, single dispatch and uncertain-result protection. No extra loader, bridge, injected backend or external process was introduced.
+
+Static wrapper/callback evidence, controlled-leaf production-code regressions, final-DLL reference checks and native gameplay are distinct. Actual UI rendering, Unity/native effects, normal restart, save/reload and other MOD combinations remain for the author to check in game. This publication uses the final package identity recorded below and does not imply local installation or game acceptance.
+
+## Artifact identity
+
+| Item | Recorded identity |
+| --- | --- |
+| Reference game | Steam build `26337366` |
+| Release tag | `probably-stolen-v1.10.1` |
+| ZIP | `ProbablyStolenTrainer-v1.10.1.zip` |
+| ZIP size | 136890 |
+| ZIP SHA256 | `5AE35404B4A71166C3B276F45F865A9189276D7D8CA4378C4E2563F8D588FC4E` |
+| DLL SHA256 | `58DEDCDAF669C4AC138F2DCC75AD130E143D122FA6548FC4AAF18088AA9474C0` |
+
+Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
+
+## Historical V1.10.0 record
+
+The following preserves the earlier record. Its offline checks missed the real gun-reading failure described above. Its restriction to grid inventory is superseded by V1.10.1 and is not current usage guidance.
+
+### Changes and decisions
 
 V1.10.0 adds one recommended gun-loadout action. Native metadata and targeted code inspection establish six moddable gun types, 31 compatible attachments and eight attachment positions. The recommendation compares combined gains in firepower, style, reliability, recoil control, ergonomics and accuracy, including fixed and percentage modifiers. Existing parts with an equal or better score remain. This is a practical recommendation, not a proof of a global optimum or maximum values for every attribute.
 
@@ -14,7 +59,7 @@ Pistols have no compatible stock and shotguns have no compatible magazine. Unsup
 
 Gun attachments can expand the occupied shape. The coordinator checks the complete conservative shape envelope and room for all returned-part trees before removing old parts. Guns in non-grid mounting slots are rejected until moved to owned grid inventory. Replaced parts and their contents return intact to the main inventory. Native acceptance is dispatched once per step and read back; uncertainty blocks repeat assembly in that session.
 
-## Verification and lifecycle
+### Verification and lifecycle
 
 - **Static/offline:** the real-reference build, 60 coordinator/scoring checks, 32 production-menu callback checks and 27 retained hotkey/host checks passed. Inventory and Unity leaves are controlled in these checks; they are not native gameplay assembly tests.
 - **Final artifact:** 315 native-reference checks, native manifest/scanner checks, direct-execution UI inspection and independent three-file ZIP extraction passed.
@@ -22,7 +67,7 @@ Gun attachments can expand the occupied shape. The coordinator checks the comple
 - **Targeted review:** construction callbacks are rechecked for session/object changes; non-grid mounts are rejected where whole-shape reservation cannot be established; temporary-part cleanup failure overrides apparent success and prevents retry. Offline fault injection covers these branches.
 - **Pending in game:** actual loading, disable/enable, Unity input ordering, attachment effects, normal restart, save/reload and other MOD combinations remain for the author to check. Unchanged behaviour may reuse identified prior evidence; the historical 73-key matrix is not presented as a new V1.10.0 run. Publication reuses the original package without rebuilding or installing it.
 
-## Artifact identity
+### Artifact identity
 
 | Item | Recorded identity |
 | --- | --- |
@@ -35,7 +80,7 @@ Gun attachments can expand the occupied shape. The coordinator checks the comple
 
 Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
 
-## Historical V1.9.9 record
+### Historical V1.9.9 record
 
 The following is prior evidence, retained as history rather than new V1.10.0 testing.
 

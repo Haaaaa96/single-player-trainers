@@ -1,6 +1,6 @@
 English | [简体中文](GUIDE_ZH.md)
 
-# V1.10.0 installation and use
+# V1.10.1 installation and use
 
 [Project overview](README.md) · [Development notes](DEVLOG.md)
 
@@ -18,7 +18,7 @@ English | [简体中文](GUIDE_ZH.md)
 4. Enable the trainer in the game's native MOD menu and restart when prompted.
 5. Load a shop save and press **F4**. F4 toggles the menu; Esc also closes it. The hotkey can be changed and is saved between sessions.
 
-No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.10.0.txt`.
+No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.10.1.txt`.
 
 To uninstall, fully exit the game and delete **only** `<game directory>/Mods/ProbablyStolenTrainer`. Do not delete the entire `Mods` folder or game saves. Reinstall by extracting the package again. Uninstalling does not undo cash, items or other changes already saved.
 
@@ -30,13 +30,25 @@ Use one distribution at a time. Unsubscribe from this trainer's Workshop item wh
 
 Choose the target and parameters, then press the relevant action button to execute. Internal checks run automatically; target selection, filtering and typing do not execute changes. Goods must still be selected, manually or with automatic selection; the final trade remains manual.
 
-Default F4 and saved custom hotkeys share the same input handling. Hotkeys pause while an active text field, IME composition, console input or native key capture needs the keyboard. Closing the trainer clears only its own selected field; existing hotkey settings remain unchanged after upgrading to V1.10.0. With a Chinese input method, confirm the candidate text first, then press Enter to search. Enter in a search field only searches. Save normally by sleeping after operations; the trainer does not save automatically.
+Default F4 and saved custom hotkeys share the same input handling. Hotkeys pause while an active text field, IME composition, console input or native key capture needs the keyboard. Closing the trainer clears only its own selected field; existing hotkey settings remain unchanged after upgrading to V1.10.1. With a Chinese input method, confirm the candidate text first, then press Enter to search. Enter in a search field only searches. Save normally by sleeping after operations; the trainer does not save automatically.
 
 - Catalogue entries follow the current loaded registry and the game's native hidden-item rules. An unavailable entry shows a reason. Being addable does not imply it can also be maintained or deleted.
 - Reference unit value excludes event and retail markups. Actual trade prices are set by the game. Size means occupied cells in the real item shape; unknown values sort last.
 - Addition counts default packages, which may contain multiple inventory units. A restock shortage smaller than one package is filled with one package. Insufficient capacity stops the operation and reports the result.
 - Favourite presets are shared across saves; current stock is counted in the active save.
 - Deletion removes all units of the selected instance, gives no refund and has no undo within the trainer. Maintenance applies to owned shop items; charging observes power outages and native battery restrictions.
+
+## Automatic assembly of newly added items
+
+Ordinary addition, target restocking and favourite presets automatically assemble supported new items. Choose the item and quantity, then execute once; no separate assembly page or second confirmation is required. Each new instance is placed and assembled before the next is created. Existing inventory is not upgraded by restocking, and attachment counts do not inflate the requested root-item quantity.
+
+There are 34 conditional plans: 24 machine/tool profiles, six moddable gun types, one water pitcher and three modular backpacks. The item and its attachments must exist in the currently loaded addable catalogue, and their actual slot layout and compatibility must pass inspection. Unrecognised items retain normal factory addition rather than receiving invented attachments.
+
+Supported equipment uses a suitable position in the main inventory. For guns, space for the complete recommended attachment shape is checked before placement. Leave enough room for the finished item and any parts that must return to inventory. If a capacity, compatibility or state check fails, the result reports what was added or assembled and why the batch stopped. Already placed items remain; an uncertain result stops the batch and is not automatically retried.
+
+Machine plans reuse the recommended setup and supported batteries, modules and internal parts. Water vending machines fill the corresponding tanks for the chosen basic, quality or pure-water option. Forbidden neural cores remain off by default. Production ingredients, recipes, faction choices and gun ammunition remain manual; no machine is automatically started and no trade is completed.
+
+Water pitchers receive an advanced self-repairing filter without adding water. Addable small modular backpacks receive one large general-purpose pouch; medium and large variants receive two. Only verified expansion slots are filled; main storage stays empty. Ordinary storage, ingredient areas and recipe slots are not attachment slots. Other ordinary-item and water-addition behaviour remains unchanged.
 
 ## Item attributes and maintenance
 
@@ -62,13 +74,17 @@ These setups do not claim a global optimum, the largest part count or every cell
 
 ## Gun loadout
 
-1. Put the gun in owned grid inventory and leave space around it plus room for returned parts in the main inventory. Remove guns from non-grid mounting slots first.
-2. Open the gun-loadout page. Owned guns appear automatically; search by name or ID and press Enter to show results only.
-3. Select a gun and apply the recommended loadout. The action generates and installs compatible parts directly; read the actual result at the top of the page.
+1. Leave room for the gun to expand at its current position and for returned parts in the main inventory. The gun remains in place; moving it to ordinary grid inventory is no longer required.
+2. Open the gun-loadout page. Reachable owned guns appear automatically; search by name or ID and press Enter to show results only.
+3. Select a gun and apply the recommended loadout. Compatible parts are generated and installed directly; read the actual result at the top of the page.
+
+The reader covers 16 verified inventory entry points and their owned nested contents, including main, storage/display/trade areas, hidden and night-time inventory, pockets/backpacks, employee inventory and compatible mounted positions. An available entry point does not imply that every gun can fit there or that every temporary location persists independently. Customer/service-order guns, unreachable roots, duplicate identities, true locks and insufficient space remain rejected.
+
+A gun in the purchase area can be assembled in place when no customer trade is active. Finish an active customer's trade first: native attachment callbacks can otherwise affect the transaction or its dialogue. A customer at the counter does not by itself block assembly in unrelated owned locations.
 
 The catalogue covers six moddable gun types and 31 compatible attachments. Recommendations combine firepower, style, reliability, recoil control, ergonomics and accuracy, including fixed and percentage modifiers. Individual attributes can involve tradeoffs. Existing parts with an equal or better combined score stay installed; replaced parts and their contents return intact to the main inventory.
 
-Before removing anything, the action conservatively reserves space for the full expanded gun shape and all returned parts. It may ask for more clearance around the gun even when a tighter layout could fit after removal. Locked, ambiguously owned or changed targets are rejected. If a result is uncertain, inspect the actual inventory before another action; do not repeatedly click.
+Grid locations reserve a conservative envelope for the original and recommended shapes before removing anything; compatible non-grid slots use native state, ownership and parent-container checks. All returned parts still need space in the main inventory. If a result is uncertain, inspect the actual inventory before another action; do not repeatedly click.
 
 Pistols have no compatible stock and shotguns have no compatible magazine, so those positions stay empty. Revolvers, electric weapons and unfinished frames show why this attachment system is unavailable. Magazines are attachments; ammunition must be supplied separately. This action does not add ammunition, fire the gun or complete a trade. Machine basic completion remains available on the machine page.
 
