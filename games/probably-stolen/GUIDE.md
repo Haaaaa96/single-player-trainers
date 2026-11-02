@@ -1,6 +1,6 @@
 English | [简体中文](GUIDE_ZH.md)
 
-# V1.10.1 installation and use
+# V1.10.2 installation and use
 
 [Project overview](README.md) · [Development notes](DEVLOG.md)
 
@@ -18,7 +18,7 @@ English | [简体中文](GUIDE_ZH.md)
 4. Enable the trainer in the game's native MOD menu and restart when prompted.
 5. Load a shop save and press **F4**. F4 toggles the menu; Esc also closes it. The hotkey can be changed and is saved between sessions.
 
-No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.10.1.txt`.
+No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.10.2.txt`.
 
 To uninstall, fully exit the game and delete **only** `<game directory>/Mods/ProbablyStolenTrainer`. Do not delete the entire `Mods` folder or game saves. Reinstall by extracting the package again. Uninstalling does not undo cash, items or other changes already saved.
 
@@ -30,7 +30,7 @@ Use one distribution at a time. Unsubscribe from this trainer's Workshop item wh
 
 Choose the target and parameters, then press the relevant action button to execute. Internal checks run automatically; target selection, filtering and typing do not execute changes. Goods must still be selected, manually or with automatic selection; the final trade remains manual.
 
-Default F4 and saved custom hotkeys share the same input handling. Hotkeys pause while an active text field, IME composition, console input or native key capture needs the keyboard. Closing the trainer clears only its own selected field; existing hotkey settings remain unchanged after upgrading to V1.10.1. With a Chinese input method, confirm the candidate text first, then press Enter to search. Enter in a search field only searches. Save normally by sleeping after operations; the trainer does not save automatically.
+Default F4 and saved custom hotkeys share the same input handling. Hotkeys pause while an active text field, IME composition, console input or native key capture needs the keyboard. Closing the trainer clears only its own selected field; existing hotkey settings remain unchanged after upgrading to V1.10.2. With a Chinese input method, confirm the candidate text first, then press Enter to search. Enter in a search field only searches. Save normally by sleeping after operations; the trainer does not save automatically.
 
 - Catalogue entries follow the current loaded registry and the game's native hidden-item rules. An unavailable entry shows a reason. Being addable does not imply it can also be maintained or deleted.
 - Reference unit value excludes event and retail markups. Actual trade prices are set by the game. Size means occupied cells in the real item shape; unknown values sort last.
@@ -95,3 +95,13 @@ Use order preparation after a buying or trading customer reaches the counter and
 Native inspection still occurs when goods reach the counter and may reveal traits or affect reputation. Reference value is neither the final price nor the customer's budget. Quoting, bargaining and completing the trade stay in the game.
 
 Unusual-person alerts display supported markers only. They continue with the trainer window closed, wait for native notices to finish, and report the same category once per visit. They do not change scan/wanted states, report or arrest anyone, or advance dialogue. An absence of supported markers is not a statement about every possible story event.
+
+## Counter-item counterfeit and quality alerts
+
+Enabled by default. Open **F4/custom key → Identification assistance** for the detailed list and the independent item-alert toggle, which is saved automatically. Person alerts retain their separate control on the person-identification page.
+
+The monitor reads both trade-counter sides every 0.5 seconds, including items inside counter containers and attached parts. It does not scan warehouse, main or display inventory outside those counter roots. Alerts identify customer goods, owned counter goods or counter goods without an active customer. The detail list shows up to 32 items and reports any remainder.
+
+Supported problems include native counterfeit cigarettes, vouchers, injectors, replicas and food; expiration, spoilage, failure, rust, dents, stuck modules and explicit low quality; damaged hands and plasma-battery casing defects. Water uses actual versus labelled quality: rust/ditch water is reported, while correctly labelled ghost water is not flagged merely for its type. Empty bottles, ordinary second-hand goods and opened packages are not automatically treated as counterfeit.
+
+The top banner stays active with the menu closed, combines item and person alerts without intercepting mouse input, and clears when affected goods leave the counter. Normal polling can take up to the next half-second interval. The monitor reads real unrevealed traits but does not reveal/discover them or change item values, prices, transactions or final trading. Only the independent alert preference is saved. Malformed, oversized or unknown data is reported as partial/uncertain; an absence of supported markers is not a guarantee that all goods are genuine. Real Unity display/input and restart acceptance remain pending for this build.

@@ -144,5 +144,21 @@
       "Mods/ProbablyStolenTrainer/manifest.xml": "941FEB896225ABF9EA7EF22E1ECD495608581959509E4B75924D66CBAAE6ECD0",
       "Mods/ProbablyStolenTrainer/ProbablyStolenTrainer.dll": "58DEDCDAF669C4AC138F2DCC75AD130E143D122FA6548FC4AAF18088AA9474C0"
     }
+  },
+  {
+    "game": "probably-stolen",
+    "version": "1.10.2",
+    "build": "1.10.2-20261102a",
+    "filename": "ProbablyStolenTrainer-v1.10.2.zip",
+    "bytes": 142684,
+    "sha256": "26977CCECC0B78FEFFEA25517A9ED24B25DB2849B13A7CBD50B5F6D2675ABB33",
+    "kind": "native-game-mod",
+    "tag": "probably-stolen-v1.10.2",
+    "reference_steam_build": "26337366",
+    "payload_sha256": {
+      "README-v1.10.2.txt": "EB3A68444B24E7B7EDF6646DE6B20698FA5B8D8787A3114F4D8C5A96DB2DF7B6",
+      "Mods/ProbablyStolenTrainer/manifest.xml": "CAC2F00937F2057FBDEF2FC0BB4C45AEEC9E102EA96364CA9ED6824666AC2551",
+      "Mods/ProbablyStolenTrainer/ProbablyStolenTrainer.dll": "F5F6DD79E69AB37CB4AE7E4A57E794BEC37BE03F25F8E75FE21E6B9DEFBDF592"
+    }
   }
 ]

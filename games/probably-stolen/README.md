@@ -1,12 +1,12 @@
 English | [简体中文](README_ZH.md)
 
-# Probably Stolen Multi-function Trainer V1.10.1
+# Probably Stolen Multi-function Trainer V1.10.2
 
 A personal development and research archive for the native MOD for **Probably Stolen** (深空当铺：可能是偷的). This release contains the trainer binary and documentation; implementation source is not included.
 
-[Release and ZIP](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.10.1) · [Installation and use](GUIDE.md) · [Development notes](DEVLOG.md)
+[Release and ZIP](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.10.2) · [Installation and use](GUIDE.md) · [Development notes](DEVLOG.md)
 
-- Version: **V1.10.1**, build `1.10.1-20261102b`, dated 2026-11-02.
+- Version: **V1.10.2**, build `1.10.2-20261102a`, dated 2026-11-02.
 - Reference game: Steam build `26337366`.
 - Uses the game's native MOD interface. No additional loader or framework is required.
 - Default menu key: **F4**, configurable and saved between sessions; **Esc** also closes the menu.
@@ -31,13 +31,22 @@ A personal development and research archive for the native MOD for **Probably St
 
 15. **Automatic new-item assembly:** newly generated supported machines, guns, water pitchers and modular backpacks receive their recommended attachments during addition, restocking and favourite presets. Only the new instances are assembled; existing stock stays unchanged.
 
+16. **Counter-item risk alerts:** continuously inspect both trade-counter sides, including contained items and installed parts, for supported counterfeit and quality defects. Read real traits without revealing them or changing prices or trades. A separate saved toggle is available on the identification-assistance page.
+
 ## Cumulative changes since V1.3
 
-Compared with V1.3, V1.10.1 adds: the expanded catalogue and value/size sorting; water management; machine assembly with basic completion and recommended setups; customer order preparation; unusual-person alerts; inventory deletion; recommended gun loadouts; and automatic assembly of supported newly added items.
+Compared with V1.3, V1.10.2 adds: the expanded catalogue and value/size sorting; water management; machine assembly with basic completion and recommended setups; customer order preparation; unusual-person alerts; inventory deletion; recommended gun loadouts; automatic assembly of supported newly added items; and continuous counter-item risk alerts.
 
 Operations now run from their action button after the target and parameters are chosen. There is no mandatory preview/second-confirmation step. Internal identity, ownership, capacity and duplicate-operation checks remain. The V1.9.4 trade-reveal checks at execution time remain included.
 
-## New in V1.10.1 (since V1.10.0)
+## New in V1.10.2 (since V1.10.1)
+
+- Inspect the front and back trade counters every 0.5 seconds, including their containers and accessories. Warehouse, main-inventory and display storage outside these roots are excluded.
+- Display the item, specific supported defect and source. Alerts continue with the trainer menu closed and clear when affected goods leave the counter; they share the existing noninteractive person-alert banner.
+- Recognize 20 exact native feature/actual-condition combinations plus water mislabelling and poor-quality water, the native Ribwich counterfeit check, damaged hands and plasma-battery casing defects. Ordinary second-hand/opened goods and correctly labelled ghost water are not flagged solely for those properties.
+- Keep a separate, saved item-alert toggle under identification assistance. This reads unrevealed real traits without exposing them, modifying item/price/trade state or completing a sale. Unknown or truncated data remains uncertain; no alert does not certify authenticity.
+
+## Retained V1.10.1 changes
 
 - Automatically apply recommended attachments to newly generated supported items during ordinary addition, target restocking and favourite presets. Complete one new item before creating the next; existing inventory is not modified by restocking.
 - Include 34 conditional plans: 24 machine/tool profiles, six moddable gun types, the water pitcher with an advanced self-repairing filter, and three modular backpacks with large general-purpose pouches. Plans require current catalogue registration, verified slots and native compatibility; this is not a claim that every plan is present in every game session.

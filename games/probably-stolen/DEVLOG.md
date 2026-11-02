@@ -1,12 +1,46 @@
 English | [简体中文](DEVLOG_ZH.md)
 
-# Development notes — V1.10.1
+# Development notes — V1.10.2
 
-2026-11-02 · Build `1.10.1-20261102b`
+2026-11-02 · Build `1.10.2-20261102a`
 
 [Project overview](README.md) · [Installation and use](GUIDE.md)
 
 ## Changes and decisions
+
+V1.10.2 adds continuous counterfeit/quality warnings for the front and back trade-counter roots and their contained items or attached parts. Native metadata and targeted code evidence distinguish real traits from displayed traits, so names, superficial replica labels and negative values alone are not treated as proof of counterfeiting. Ordinary second-hand and opened goods remain outside those assumptions.
+
+The classifier uses 20 exact feature-category/actual-condition pairs, plus native water quality buckets and mislabelling, the Ribwich counterfeit predicate, hand damage and plasma-battery casing defects. Rust/ditch water is reported; correctly labelled ghost water is not flagged solely for its type, and empty bottles do not trigger water warnings. Unknown third-party features are not universally classified.
+
+Reads avoid the game's tag helper that can lazily create missing tags. Traversal uses bounded forward paths and reference deduplication rather than an unbounded parent walk. Duplicate IDs, malformed graphs and limits are reported as partial/unknown. Scope is bounded to 4096 graph nodes, 1024 items, depth 64 and 128 features per item; absence of a supported marker is not an authenticity guarantee.
+
+## Lifecycle and verification
+
+The existing half-second refresh drives the read-only classifier and the single noninteractive item/person banner. The monitor continues with the menu closed. Context and the first displayed item's path are checked between polls; reset, scene/load changes and disable clear both monitors. The item-alert preference has its own persistent toggle in identification assistance. The existing native `IMod`, single main-thread host, hotkey priority and execution ownership remain. There is no new loader, injection, bridge, background process or game-state write channel, and no automatic reveal, pricing or trading.
+
+- **Offline service:** 24 production-service groups passed, including exact condition matrices, counterexamples, nested graphs, limits and lifecycle. Native leaves are controlled, and no lazy-tag/write interface was called.
+- **Offline UI/host:** 33 assertions passed, plus one timing observation; 73 retained hotkey cases passed. These are production-method checks with controlled leaves, not real Unity rendering or input timing tests.
+- **Final artifact:** real-reference build, 330 native-reference checks, direct-action inspection, native MOD scanner and three-file package/extraction checks passed. Unchanged gun/machine functionality references V1.10.1 evidence rather than a new full matrix run.
+- **Still pending:** actual goods appearing/leaving, simultaneous item/person rendering, native gameplay, restart preference persistence, save/reload and other MOD combinations remain for the author to check. Publication reuses the original ZIP without rebuilding, installing or operating the game.
+
+## Artifact identity
+
+| Item | Recorded identity |
+| --- | --- |
+| Reference game | Steam build `26337366` |
+| Release tag | `probably-stolen-v1.10.2` |
+| ZIP | `ProbablyStolenTrainer-v1.10.2.zip` |
+| ZIP size | 142684 bytes |
+| ZIP SHA256 | `26977CCECC0B78FEFFEA25517A9ED24B25DB2849B13A7CBD50B5F6D2675ABB33` |
+| DLL SHA256 | `F5F6DD79E69AB37CB4AE7E4A57E794BEC37BE03F25F8E75FE21E6B9DEFBDF592` |
+
+Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
+
+## Historical V1.10.1 record
+
+The following preserves the prior version's decisions and evidence; it does not claim fresh gameplay verification of V1.10.2.
+
+### Changes and decisions
 
 V1.10.0 rejected normal guns with the changed-eight-slot-structure message. The reference game assembly was unchanged: this was a trainer defect, not evidence of a game update or damaged save. The reader treated an outer one-cell grid as the attachment slot and missed the native intake wrapper. V1.10.1 unwraps that structure, then checks direct parent links, nearest owning item, all eight unique slots and existing contents. Unknown wrappers and inconsistent identities remain rejected.
 
@@ -16,7 +50,7 @@ Manual gun assembly now keeps the gun in its reachable owned location. Sixteen v
 
 Purchase-area guns are rejected before writing while a customer trade is active, because native attachment callbacks can trigger transaction, dialogue and procurement behaviour. After the trade ends, the same position can be used. Unrelated owned positions are not rejected merely because a customer is present.
 
-## Automatic assembly during addition
+### Automatic assembly during addition
 
 The shared addition path now applies recommended attachments to new supported instances during ordinary addition, target restocking and favourite presets. It completes one instance before making the next and does not upgrade existing stock. Supported equipment uses a suitable main-inventory location; the complete gun attachment shape is reserved before placement. Placed items remain when a later step fails, and uncertain results stop the batch without automatic redispatch.
 
@@ -24,7 +58,7 @@ There are 34 conditional plans: 24 existing machine/tool profiles, six moddable 
 
 Ordinary storage and ingredient/recipe areas are not treated as attachment slots. A separate RAS tank or vending core has no child attachment slots of its own. The old technician-backpack module factories do not establish a currently registered module catalogue. Unknown plans preserve normal factory addition rather than claiming complete assembly. Existing machine basic completion remains, neural cores stay off by default, and no ammunition loading, firing, automatic production or final transaction is added.
 
-## Verification and lifecycle
+### Verification and lifecycle
 
 - **Related offline regression:** 382 checks passed: 32 addition/simple-equipment cases, 59 production gun-reader/location cases, 60 gun coordinator/scoring cases, 11 combined-shape preflights, seven new-gun placement cases, 32 menu callbacks and 181 retained machine cases. Actual production methods run with controlled native leaves; these are not 382 gameplay tests.
 - **Final artifact:** the real-reference build, 329 native-reference checks, native MOD scanner, direct-action CIL inspection and three-file release checks passed. The recorded checks bind to the final source and DLL.
@@ -34,7 +68,7 @@ The native `IMod`, single main-thread host, shared execution ownership and sessi
 
 Static wrapper/callback evidence, controlled-leaf production-code regressions, final-DLL reference checks and native gameplay are distinct. Actual UI rendering, Unity/native effects, normal restart, save/reload and other MOD combinations remain for the author to check in game. This publication uses the final package identity recorded below and does not imply local installation or game acceptance.
 
-## Artifact identity
+### Artifact identity
 
 | Item | Recorded identity |
 | --- | --- |
@@ -47,11 +81,11 @@ Static wrapper/callback evidence, controlled-leaf production-code regressions, f
 
 Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
 
-## Historical V1.10.0 record
+### Historical V1.10.0 record
 
 The following preserves the earlier record. Its offline checks missed the real gun-reading failure described above. Its restriction to grid inventory is superseded by V1.10.1 and is not current usage guidance.
 
-### Changes and decisions
+#### Changes and decisions
 
 V1.10.0 adds one recommended gun-loadout action. Native metadata and targeted code inspection establish six moddable gun types, 31 compatible attachments and eight attachment positions. The recommendation compares combined gains in firepower, style, reliability, recoil control, ergonomics and accuracy, including fixed and percentage modifiers. Existing parts with an equal or better score remain. This is a practical recommendation, not a proof of a global optimum or maximum values for every attribute.
 
@@ -59,7 +93,7 @@ Pistols have no compatible stock and shotguns have no compatible magazine. Unsup
 
 Gun attachments can expand the occupied shape. The coordinator checks the complete conservative shape envelope and room for all returned-part trees before removing old parts. Guns in non-grid mounting slots are rejected until moved to owned grid inventory. Replaced parts and their contents return intact to the main inventory. Native acceptance is dispatched once per step and read back; uncertainty blocks repeat assembly in that session.
 
-### Verification and lifecycle
+#### Verification and lifecycle
 
 - **Static/offline:** the real-reference build, 60 coordinator/scoring checks, 32 production-menu callback checks and 27 retained hotkey/host checks passed. Inventory and Unity leaves are controlled in these checks; they are not native gameplay assembly tests.
 - **Final artifact:** 315 native-reference checks, native manifest/scanner checks, direct-execution UI inspection and independent three-file ZIP extraction passed.
@@ -67,7 +101,7 @@ Gun attachments can expand the occupied shape. The coordinator checks the comple
 - **Targeted review:** construction callbacks are rechecked for session/object changes; non-grid mounts are rejected where whole-shape reservation cannot be established; temporary-part cleanup failure overrides apparent success and prevents retry. Offline fault injection covers these branches.
 - **Pending in game:** actual loading, disable/enable, Unity input ordering, attachment effects, normal restart, save/reload and other MOD combinations remain for the author to check. Unchanged behaviour may reuse identified prior evidence; the historical 73-key matrix is not presented as a new V1.10.0 run. Publication reuses the original package without rebuilding or installing it.
 
-### Artifact identity
+#### Artifact identity
 
 | Item | Recorded identity |
 | --- | --- |
@@ -80,17 +114,17 @@ Gun attachments can expand the occupied shape. The coordinator checks the comple
 
 Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
 
-### Historical V1.9.9 record
+#### Historical V1.9.9 record
 
 The following is prior evidence, retained as history rather than new V1.10.0 testing.
 
-### Changes and decisions
+#### Changes and decisions
 
 Native code inspection identified a persistent typing flag that can survive a game editor closing. The old hotkey path trusted that flag and could keep rejecting the menu key. V1.9.9 checks actual active and enabled input focus, IME composition, console focus and native key capture instead. It does not reset the game's typing flag or change another window's focus. This fixes reproducible conditions, without claiming to explain every unrecorded gameplay report.
 
 The trainer's close callback invalidates its window and operation generation, clears queued searches and releases only focus owned by that closing window. Stale callbacks cannot invalidate a newer window. After checking the current save identity, the host handles the menu toggle before automatic refresh. Single-frame dispatch, held-key suppression, exact modifiers, save-frame suppression and native key-conflict checks remain. All V1.9.8 features are retained.
 
-### Verification and lifecycle
+#### Verification and lifecycle
 
 - **Offline comparison:** the same initial suite passed 17/27 on V1.9.8 and 27/27 after the fix. It compiles the production host and hotkey code plus the affected menu methods, covering stale typing state, hidden/disabled fields, IME, close/page changes, focus ownership and refresh failures.
 - **Expanded key matrix:** 73/73 total checks passed, including the original 27 and 46 additional checks for F4, custom F3/F5/BackQuote, seven Ctrl/Alt/Shift combinations on F3, left/right modifier keys, extra-modifier rejection, repeated toggles, input/page recovery, key conflicts and settings readback failures. No further production change was needed.
@@ -100,7 +134,7 @@ The trainer's close callback invalidates its window and operation generation, cl
 
 Earlier tests fixed the typing result to false and replaced some hotkey/open paths, missing the persistent flag and actual dispatch order. Future input changes retain the affected production paths and failure cases.
 
-### Artifact identity
+#### Artifact identity
 
 | Item | Recorded identity |
 | --- | --- |
@@ -113,11 +147,11 @@ Earlier tests fixed the typing result to false and replaced some hotkey/open pat
 
 Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
 
-### Historical V1.9.8 record
+#### Historical V1.9.8 record
 
 The following is prior evidence, retained as history rather than new V1.9.9 testing.
 
-### Changes and decisions
+#### Changes and decisions
 
 This binary-and-documentation archive adds editable current values and limits for native durability, armour and ordinary battery charge. It preserves repair/recharge actions, the shared ownership resolver and single-dispatch menu execution. Only actual instance attributes are exposed; special battery mechanisms are not treated as ordinary rechargeable batteries. Native recalculation and valuation limits remain relevant.
 
@@ -125,14 +159,14 @@ Water-machine assembly previously required every liquid component to exist expli
 
 Three devices with ordinary battery slots were added: advanced booster, hypertech booster and Aug scanner. The bounded native catalogue review brings the supported profile count to 24 without inventing slots for devices that have none. This release also includes V1.9.7's new-save recognition fix and intervening device, accessory and order-preparation changes.
 
-### Verification and lifecycle
+#### Verification and lifecycle
 
 - **Static/offline:** 28 service cases, 18 menu callbacks, 14 host lifecycle cases and 181 related machine cases passed. The real-reference final build, 309 native-reference checks, final-DLL operation checks and native manifest/scanner checks passed. These are offline results, not 241 gameplay tests.
 - **Lifecycle:** the existing native `IMod` and shared Unity main-thread host remain. Session/window tokens, ownership, mutual exclusion and uncertain-result rejection are retained. No new loader, injected backend or external process was added. Unchanged person-alert files reuse matching prior evidence.
 - **Package:** the original three-file ZIP was inspected and independently extracted; the DLL, manifest and versioned README match the delivery hashes. Publication does not rebuild or install it.
 - **Still unverified in game for this build:** actual loading, UI/input behaviour, item and machine effects, normal restart and save/reload remain for the author to check. Static save-path evidence is not a completed persistence test.
 
-### Artifact identity
+#### Artifact identity
 
 | Item | Recorded identity |
 | --- | --- |
@@ -145,11 +179,11 @@ Three devices with ordinary battery slots were added: advanced booster, hypertec
 
 Implementation source is not included. Development was assisted by OpenAI Codex. Reference-build and hash identities do not establish compatibility with other versions or MOD combinations.
 
-### Historical V1.9.4 record
+#### Historical V1.9.4 record
 
 The following is the prior version's evidence, retained as history rather than a claim about V1.9.8.
 
-### Scope and implementation
+#### Scope and implementation
 
 This release archives the binary and bilingual project documentation, without implementation source. The cumulative additions since V1.3 cover the expanded catalogue, water, machine assembly, order preparation, person alerts and deletion.
 
@@ -157,14 +191,14 @@ V1.9.4 checks the complete menu flow for direct execution. It removes a stale �
 
 The existing native `IMod` and main-thread architecture is retained. No extra loader, injection path or external background component was introduced.
 
-### Evidence and remaining checks
+#### Evidence and remaining checks
 
 - **Static/offline:** the build against the real game references passed. Related trade, menu and catalogue checks passed; final-DLL inspection covered all 12 menu pages and the affected execution paths. Native reference signatures and visibility were checked, with targeted IL inspection of the final reveal callback.
 - **Lifecycle checks, offline:** window closure, page changes/recreation, repeated entry, state changes during callbacks and uncertain-result rejection were covered. These are not a claim of an in-game restart test.
 - **Installation:** the build was installed while the game was closed, after backing up the prior version and saves. The later release-package revision changed only its README; the DLL and manifest stayed unchanged. It was not a new gameplay test or a reinstall of the revised ZIP.
 - **In-game acceptance:** actual UI behaviour, gameplay effects, normal restart and save/reload for this build remain for the author to check. They are not marked as passed here.
 
-### Artifact identity
+#### Artifact identity
 
 | Item | Recorded identity |
 | --- | --- |
