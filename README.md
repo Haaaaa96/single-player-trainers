@@ -16,7 +16,7 @@ This repository keeps selected source snapshots, development notes and versioned
 | House of Legacy / 吾今有世家 | v0.3.0, experimental | C# plugin for a Unity Mono game | [Overview](games/house-of-legacy/README.md) · [Source](sources/house-of-legacy) · [Development log](games/house-of-legacy/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/house-of-legacy-v0.3.0) |
 | Hero's Adventure / 大侠立志传 | WulinToyBox v1.1.0 | Revisions to an existing IL2CPP plugin | [Overview](games/wulin-toybox/README.md) · [Source](sources/wulin-toybox) · [Development log](games/wulin-toybox/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/wulin-toybox-v1.1.0) |
 | Destiny of Immortal / 造化仙缘 | ZaohuaTrainer v0.12.0-alpha.52, experimental | BepInEx 6 plugin; full loader bundle | [Overview](games/zaohua/README.md) · [Development log](games/zaohua/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.52) |
-| Probably Stolen / 深空当铺：可能是偷的 | ProbablyStolenTrainer v1.10.2 | Native Unity Mono mod; no extra loader | [Overview](games/probably-stolen/README.md) · [Development log](games/probably-stolen/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.10.2) |
+| Probably Stolen / 深空当铺：可能是偷的 | ProbablyStolenTrainer v1.10.3 | Native Unity Mono mod; no extra loader | [Overview](games/probably-stolen/README.md) · [Development log](games/probably-stolen/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.10.3) |
 
 ## Background
 

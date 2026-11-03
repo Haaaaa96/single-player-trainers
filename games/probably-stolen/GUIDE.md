@@ -1,6 +1,6 @@
 English | [简体中文](GUIDE_ZH.md)
 
-# V1.10.2 installation and use
+# V1.10.3 installation and use
 
 [Project overview](README.md) · [Development notes](DEVLOG.md)
 
@@ -18,7 +18,7 @@ English | [简体中文](GUIDE_ZH.md)
 4. Enable the trainer in the game's native MOD menu and restart when prompted.
 5. Load a shop save and press **F4**. F4 toggles the menu; Esc also closes it. The hotkey can be changed and is saved between sessions.
 
-No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.10.2.txt`.
+No extra loader or framework is needed. Avoid `Mods/Mods` nesting and duplicate old trainer folders inside `Mods`; keep any backup outside that folder. The release ZIP contains the DLL, `manifest.xml` and `README-v1.10.3.txt`.
 
 To uninstall, fully exit the game and delete **only** `<game directory>/Mods/ProbablyStolenTrainer`. Do not delete the entire `Mods` folder or game saves. Reinstall by extracting the package again. Uninstalling does not undo cash, items or other changes already saved.
 
@@ -30,7 +30,7 @@ Use one distribution at a time. Unsubscribe from this trainer's Workshop item wh
 
 Choose the target and parameters, then press the relevant action button to execute. Internal checks run automatically; target selection, filtering and typing do not execute changes. Goods must still be selected, manually or with automatic selection; the final trade remains manual.
 
-Default F4 and saved custom hotkeys share the same input handling. Hotkeys pause while an active text field, IME composition, console input or native key capture needs the keyboard. Closing the trainer clears only its own selected field; existing hotkey settings remain unchanged after upgrading to V1.10.2. With a Chinese input method, confirm the candidate text first, then press Enter to search. Enter in a search field only searches. Save normally by sleeping after operations; the trainer does not save automatically.
+Default F4 and saved custom hotkeys share the same input handling. Hotkeys pause while an active text field, IME composition, console input or native key capture needs the keyboard. Closing the trainer clears only its own selected field; existing hotkey settings remain unchanged after upgrading to V1.10.3. With a Chinese input method, confirm the candidate text first, then press Enter to search. Enter in a search field only searches. Save normally by sleeping after operations; the trainer does not save automatically.
 
 - Catalogue entries follow the current loaded registry and the game's native hidden-item rules. An unavailable entry shows a reason. Being addable does not imply it can also be maintained or deleted.
 - Reference unit value excludes event and retail markups. Actual trade prices are set by the game. Size means occupied cells in the real item shape; unknown values sort last.
@@ -72,13 +72,27 @@ Replaced parts and their contents return to inventory; leave enough free space. 
 
 These setups do not claim a global optimum, the largest part count or every cell filled. Native space, adjacency, air, container capacity, ingredients and attribute caps still apply. Neither mode starts machines or advances production. If safe values or effects cannot be established, the operation stops with a reason. If the result is marked uncertain, inspect the native parts compartment before another action; do not repeatedly click.
 
-## Gun loadout
+## Customer service gun assembly
+
+The gun-loadout page has **Customer service guns** above **Owned guns**. The service section is independent of the owned-gun search.
+
+1. Wait until the customer's dialogue ends and the actual service gun appears on the front or back trade counter. Open the gun-loadout page and review its name, ID and required/bonus conditions.
+2. Leave room around the gun for its assembled shape, then press the order-assembly action once. Missing compatible parts are generated and installed; all existing parts remain in place.
+3. Read the actual result and complete delivery manually in the original game interface. The trainer does not complete the order, settle cash or add ammunition.
+
+Only the current customer's modification service gun is eligible. Ordinary incoming guns, purchase orders and past customers are excluded. If the customer, order, gun or counter position changes, old actions expire; reopen the page to refresh.
+
+Planning prioritizes all required conditions, then bonuses and legal slot filling, using the game's strict attribute comparisons and calibre equality. Existing attachments and ownership remain unchanged. Incompatible, locked or condition-breaking slots may remain empty; if existing parts prevent a valid plan, handle those parts in the game first. Search is bounded and does not claim a global optimum or every slot filled. Base quality is not changed.
+
+The complete expanded shape and native slot acceptance are checked before execution. State changes stop the operation, and an uncertain result is not retried automatically. Inspect the actual gun before issuing another action.
+
+## Owned-gun loadout
 
 1. Leave room for the gun to expand at its current position and for returned parts in the main inventory. The gun remains in place; moving it to ordinary grid inventory is no longer required.
 2. Open the gun-loadout page. Reachable owned guns appear automatically; search by name or ID and press Enter to show results only.
 3. Select a gun and apply the recommended loadout. Compatible parts are generated and installed directly; read the actual result at the top of the page.
 
-The reader covers 16 verified inventory entry points and their owned nested contents, including main, storage/display/trade areas, hidden and night-time inventory, pockets/backpacks, employee inventory and compatible mounted positions. An available entry point does not imply that every gun can fit there or that every temporary location persists independently. Customer/service-order guns, unreachable roots, duplicate identities, true locks and insufficient space remain rejected.
+The reader covers 16 verified inventory entry points and their owned nested contents, including main, storage/display/trade areas, hidden and night-time inventory, pockets/backpacks, employee inventory and compatible mounted positions. An available entry point does not imply that every gun can fit there or that every temporary location persists independently. The owned-gun action rejects customer/service-order guns, unreachable roots, duplicate identities, true locks and insufficient space. Use the separate service section only for an eligible current service order.
 
 A gun in the purchase area can be assembled in place when no customer trade is active. Finish an active customer's trade first: native attachment callbacks can otherwise affect the transaction or its dialogue. A customer at the counter does not by itself block assembly in unrelated owned locations.
 

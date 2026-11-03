@@ -1,12 +1,12 @@
 English | [简体中文](README_ZH.md)
 
-# Probably Stolen Multi-function Trainer V1.10.2
+# Probably Stolen Multi-function Trainer V1.10.3
 
 A personal development and research archive for the native MOD for **Probably Stolen** (深空当铺：可能是偷的). This release contains the trainer binary and documentation; implementation source is not included.
 
-[Release and ZIP](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.10.2) · [Installation and use](GUIDE.md) · [Development notes](DEVLOG.md)
+[Release and ZIP](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.10.3) · [Installation and use](GUIDE.md) · [Development notes](DEVLOG.md)
 
-- Version: **V1.10.2**, build `1.10.2-20261102a`, dated 2026-11-02.
+- Version: **V1.10.3**, build `1.10.3-20261103a`, dated 2026-11-03.
 - Reference game: Steam build `26337366`.
 - Uses the game's native MOD interface. No additional loader or framework is required.
 - Default menu key: **F4**, configurable and saved between sessions; **Esc** also closes the menu.
@@ -33,13 +33,22 @@ A personal development and research archive for the native MOD for **Probably St
 
 16. **Counter-item risk alerts:** continuously inspect both trade-counter sides, including contained items and installed parts, for supported counterfeit and quality defects. Read real traits without revealing them or changing prices or trades. A separate saved toggle is available on the identification-assistance page.
 
+17. **Customer service guns:** a separate section on the gun-loadout page generates compatible parts for the current service order. Prioritize required conditions, then bonuses and legal empty-slot filling; preserve existing attachments and ownership. Final delivery remains manual.
+
 ## Cumulative changes since V1.3
 
-Compared with V1.3, V1.10.2 adds: the expanded catalogue and value/size sorting; water management; machine assembly with basic completion and recommended setups; customer order preparation; unusual-person alerts; inventory deletion; recommended gun loadouts; automatic assembly of supported newly added items; and continuous counter-item risk alerts.
+Compared with V1.3, V1.10.3 adds: the expanded catalogue and value/size sorting; water management; machine assembly with basic completion and recommended setups; customer order preparation; unusual-person alerts; inventory deletion; recommended gun loadouts; automatic assembly of supported newly added items; continuous counter-item risk alerts; and order-based assembly of customer service guns.
 
 Operations now run from their action button after the target and parameters are chosen. There is no mandatory preview/second-confirmation step. Internal identity, ownership, capacity and duplicate-operation checks remain. The V1.9.4 trade-reveal checks at execution time remain included.
 
-## New in V1.10.2 (since V1.10.1)
+## New in V1.10.3 (since V1.10.2)
+
+- Separate **Customer service guns** from **Owned guns** on the gun-loadout page. The service section shows the current gun, ID and required/bonus conditions, independently of owned-gun search.
+- Generate and install missing compatible attachments with one action. Required conditions take priority, followed by bonus conditions and legal slot filling. Existing parts stay installed, and the gun remains owned by the customer.
+- Use the native condition comparisons and compatibility rules. Incompatible, locked or condition-breaking slots may remain empty; this is not a promise to fill every slot or find a global optimum.
+- Bind the action to the current customer, order, gun and counter position; reject stale actions after those change. Report the actual result, then leave final delivery to the player. No automatic settlement, ammunition loading or base-quality change is added.
+
+## Retained V1.10.2 changes
 
 - Inspect the front and back trade counters every 0.5 seconds, including their containers and accessories. Warehouse, main-inventory and display storage outside these roots are excluded.
 - Display the item, specific supported defect and source. Alerts continue with the trainer menu closed and clear when affected goods leave the counter; they share the existing noninteractive person-alert banner.
@@ -52,12 +61,12 @@ Operations now run from their action button after the target and parameters are 
 - Include 34 conditional plans: 24 machine/tool profiles, six moddable gun types, the water pitcher with an advanced self-repairing filter, and three modular backpacks with large general-purpose pouches. Plans require current catalogue registration, verified slots and native compatibility; this is not a claim that every plan is present in every game session.
 - Fix normal guns being rejected as having a changed eight-slot structure. The reader now unwraps the native grid/intake layers before checking the actual slots.
 - Assemble owned guns in place across 16 verified inventory entry points and their owned nested contents, including compatible installed positions. The gun no longer has to be moved into ordinary grid inventory.
-- A gun in the purchase area must wait until the active customer trade ends because attachment changes invoke native trade callbacks. Customer/service-order guns, true locks and insufficient space remain rejected.
+- A gun in the purchase area must wait until the active customer trade ends because attachment changes invoke native trade callbacks. The owned-gun action still rejects customer/service-order guns, true locks and insufficient space; V1.10.3 handles the current service gun in its separate order section.
 - Keep one recommended gun action, existing machine basic completion and automatic internal checks. No extra confirmation, forbidden neural cores by default, ammunition loading, firing or automatic final trade is added.
 
 ## Retained V1.10.0 features
 
-- One gun workflow: **Gun loadout → select a gun → apply recommended loadout**. Compare firepower, style, reliability, recoil control, ergonomics and accuracy together, without claiming every attribute is individually maximal.
+- The owned-gun workflow remains **Gun loadout → select an owned gun → apply recommended loadout**. Compare firepower, style, reliability, recoil control, ergonomics and accuracy together, without claiming every attribute is individually maximal.
 - Preserve existing parts with an equal or better combined score and return replaced parts with their contents to the main inventory.
 - Pistols have no compatible stock and shotguns have no compatible magazine, so those positions remain empty.
 
