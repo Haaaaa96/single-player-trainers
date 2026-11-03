@@ -25,7 +25,7 @@ The existing native `IMod`, single trainer host, main thread, shared machine/ass
 - **Offline checks:** 295 relevant assertions passed: 53 planner, 25 service, 20 assembly-control, 53 menu and 144 retained-channel/order-routing checks. Production logic is exercised with controlled external game objects, rendering and native leaves; these are not in-game results.
 - **Final artifact:** build against real game references, 349 native-reference checks, direct-action inspection, native manifest/metadata scanning and three-file package checks passed. Independent extraction matched all payload hashes.
 - **Retained scope:** owned-gun loadouts, automatic new-item assembly and machine basic completion remain. Unchanged features reuse existing evidence; this release does not claim a fresh full gameplay regression.
-- **Still pending:** actual Unity display, native callbacks, front/back-counter assembly, manual delivery, Workshop upgrade, normal restart and save/reload remain for the author to check. Publication reuses the original ZIP without rebuilding or operating the game.
+- **Still pending:** actual Unity display, native callbacks, front/back-counter assembly, manual delivery, Workshop upgrade, normal restart and save/reload remain for the author to check. Package revision r2 repackages a wording-only change to the bundled README. The DLL, manifest, version and build are unchanged; no compilation, installation or gameplay testing was performed.
 
 ## Artifact identity
 
@@ -34,8 +34,9 @@ The existing native `IMod`, single trainer host, main thread, shared machine/ass
 | Reference game | Steam build `26337366` |
 | Release tag | `probably-stolen-v1.10.3` |
 | ZIP | `ProbablyStolenTrainer-v1.10.3.zip` |
-| ZIP size | 152245 bytes |
-| ZIP SHA256 | `DDB11BDD4C03ADCD08FCA5E5CF1AC6B92F14B52B947EE42EB465A35ED6A3AB5B` |
+| Package revision | r2, README-only repack |
+| ZIP size | 152215 bytes |
+| ZIP SHA256 | `05E4D691473BD8FA495269CB116FADB7BE81BC7B219B309E1BA4E06E4D8409B8` |
 | DLL SHA256 | `5C18A1E0137371B16591A6604E517E60024923F7FB9F2E84A03F4DDE3DC25DC7` |
 
 Implementation source is not included. Reference identities do not establish compatibility with other versions or MOD combinations.
