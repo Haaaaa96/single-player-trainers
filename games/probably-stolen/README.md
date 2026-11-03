@@ -91,5 +91,3 @@ Save normally and fully exit the game, then merge the ZIP's `Mods` folder into t
 The final build passed the recorded static and offline checks. This publication reuses the verified package without rebuilding or installing it. Actual UI behaviour, gameplay effects, normal restart and save/reload for this build remain for the author to check in game. See the [development notes](DEVLOG.md) for the distinction between these results.
 
 This archive records personal experiments and versioned results. It does not promise compatibility with other computers, game versions, saves or MOD combinations, or ongoing support, fixes or updates. Use is at your own discretion and risk. The package contains no game assemblies or assets; game names and associated marks belong to their respective rights holders.
-
-Development was assisted by OpenAI Codex.

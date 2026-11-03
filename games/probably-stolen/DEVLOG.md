@@ -38,7 +38,7 @@ The existing native `IMod`, single trainer host, main thread, shared machine/ass
 | ZIP SHA256 | `DDB11BDD4C03ADCD08FCA5E5CF1AC6B92F14B52B947EE42EB465A35ED6A3AB5B` |
 | DLL SHA256 | `5C18A1E0137371B16591A6604E517E60024923F7FB9F2E84A03F4DDE3DC25DC7` |
 
-Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
+Implementation source is not included. Reference identities do not establish compatibility with other versions or MOD combinations.
 
 ## Historical V1.10.2 record
 
@@ -72,7 +72,7 @@ The existing half-second refresh drives the read-only classifier and the single 
 | ZIP SHA256 | `26977CCECC0B78FEFFEA25517A9ED24B25DB2849B13A7CBD50B5F6D2675ABB33` |
 | DLL SHA256 | `F5F6DD79E69AB37CB4AE7E4A57E794BEC37BE03F25F8E75FE21E6B9DEFBDF592` |
 
-Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
+Implementation source is not included. Reference identities do not establish compatibility with other versions or MOD combinations.
 
 ### Historical V1.10.1 record
 
@@ -117,7 +117,7 @@ Static wrapper/callback evidence, controlled-leaf production-code regressions, f
 | ZIP SHA256 | `5AE35404B4A71166C3B276F45F865A9189276D7D8CA4378C4E2563F8D588FC4E` |
 | DLL SHA256 | `58DEDCDAF669C4AC138F2DCC75AD130E143D122FA6548FC4AAF18088AA9474C0` |
 
-Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
+Implementation source is not included. Reference identities do not establish compatibility with other versions or MOD combinations.
 
 #### Historical V1.10.0 record
 
@@ -150,7 +150,7 @@ Gun attachments can expand the occupied shape. The coordinator checks the comple
 | ZIP SHA256 | `BB1DC01C9C668C27CF25B3FC69E1E8A61D8E8FF26F348FB4D3063F01FFB00E67` |
 | DLL SHA256 | `18C4B65982447AE421B1119BB904D961237F64E620EE8FBBEFE7F75884250E3F` |
 
-Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
+Implementation source is not included. Reference identities do not establish compatibility with other versions or MOD combinations.
 
 ##### Historical V1.9.9 record
 
@@ -183,7 +183,7 @@ Earlier tests fixed the typing result to false and replaced some hotkey/open pat
 | ZIP SHA256 | `EB4683726973F5165E03128BDC53D80767A36FEAD269201A1F41B152D53C739F` |
 | DLL SHA256 | `28A1204BDDFA268C40D262EF73364108D1D9C7B4D159825306B8BD40C97795B3` |
 
-Implementation source is not included. Development was assisted by OpenAI Codex. Reference identities do not establish compatibility with other versions or MOD combinations.
+Implementation source is not included. Reference identities do not establish compatibility with other versions or MOD combinations.
 
 ##### Historical V1.9.8 record
 
@@ -215,7 +215,7 @@ Three devices with ordinary battery slots were added: advanced booster, hypertec
 | ZIP SHA256 | `C15FE660ADCAFEB4F2BF0811961BE31FF39B5D5712E97E4C6C4944727D23D813` |
 | DLL SHA256 | `63E967D66BB7A181C80AFD6867B387E9AB4C473EE7F4328BD259D1F8F65B0A2B` |
 
-Implementation source is not included. Development was assisted by OpenAI Codex. Reference-build and hash identities do not establish compatibility with other versions or MOD combinations.
+Implementation source is not included. Reference-build and hash identities do not establish compatibility with other versions or MOD combinations.
 
 ##### Historical V1.9.4 record
 
