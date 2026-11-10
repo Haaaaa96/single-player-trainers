@@ -7,6 +7,7 @@ English | [简体中文](README_ZH.md)
 | World Apart | [Source](worldapart) · [Build](worldapart/BUILD.md) | Some game-derived inputs are intentionally omitted; read the exact list before attempting a build. |
 | House of Legacy | [Source](house-of-legacy) · [Build](house-of-legacy/BUILD.md) | Requires local game and BepInEx assemblies, which are not redistributed here. |
 | WulinToyBox | [Source](wulin-toybox) · [Build](wulin-toybox/BUILD.md) | Requires the original loader and generated interop dependencies; upstream Apache-2.0 notices remain. |
+| NX2naviTrainer | [Source](nx2navi) · [Build](nx2navi/BUILD.md) | Requires the NX2navi 0.6.1 Windows build kit and retained cache from the matching Switch 2 v1.1.1 game. |
 
 The export includes implementation files and selected existing tests. Tests are code for inspection, not evidence that all tests or game scenarios were rerun during this publication. Personal defaults were sanitized only in these copies. File manifests identify what is present; per-project build notes describe exclusions.
 
