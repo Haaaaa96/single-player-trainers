@@ -33,3 +33,7 @@ The helper tools under `third_party/` retain their [existing MIT license](third_
 The [alpha.51 full bundle](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.51) includes BepInEx 6.0.0-be.788+5b766a3, UnityDoorstop and loader dependencies. Its `ThirdParty` directory preserves upstream copyright notices, licenses, pinned sources and build/replacement information. Corresponding source archives are inside the package; no separate source download is required for these bundled materials.
 
 BepInEx and UnityDoorstop's LGPL rights and each dependency's own license remain in force. This is not a new license for ZaohuaTrainer or game files. The trainer implementation and game assemblies are not included as source in this publication.
+
+## HookshotTrainer
+
+Hookshot v2.3.1 and the affected Eden shader translator code use GPL-3.0-or-later. The inventory catalog adapter uses research from Traiver’s MIT-licensed OOT-SW2SE. The source package includes the relevant license texts. The build uses locally supplied game files. The NVIDIA DLSS SDK has separate distribution terms. [Hookshot license](sources/hookshot/notices/Hookshot-COPYING.txt) · [OOT-SW2SE license](sources/hookshot/notices/OOT-SW2SE-LICENSE.txt)

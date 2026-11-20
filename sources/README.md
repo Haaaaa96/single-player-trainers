@@ -8,6 +8,7 @@ English | [简体中文](README_ZH.md)
 | House of Legacy | [Source](house-of-legacy) · [Build](house-of-legacy/BUILD.md) | Requires local game and BepInEx assemblies, which are not redistributed here. |
 | WulinToyBox | [Source](wulin-toybox) · [Build](wulin-toybox/BUILD.md) | Requires the original loader and generated interop dependencies; upstream Apache-2.0 notices remain. |
 | NX2naviTrainer | [Source](nx2navi) · [Build](nx2navi/BUILD.md) | Requires the NX2navi 0.6.1 Windows build kit and retained cache from the matching Switch 2 v1.1.1 game. |
+| HookshotTrainer | [Source and build instructions](hookshot/) | Requires Hookshot v2.3.1 and retained build files from the matching Switch 2 game v1.1.1. |
 
 The export includes implementation files and selected existing tests. Tests are code for inspection, not evidence that all tests or game scenarios were rerun during this publication. Personal defaults were sanitized only in these copies. File manifests identify what is present; per-project build notes describe exclusions.
 

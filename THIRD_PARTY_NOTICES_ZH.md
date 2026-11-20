@@ -29,3 +29,7 @@ HaxxToyBox 原作 Haxx / neeetman，公开源码采用 Apache-2.0；EnhanceGamep
 [alpha.51完整包](https://github.com/Haaaaa96/single-player-trainers/releases/tag/zaohua-v0.12.0-alpha.51)包含BepInEx 6.0.0-be.788+5b766a3、UnityDoorstop及加载器依赖。`ThirdParty`目录保留上游版权、许可证、锁定来源及构建／替换说明，对应源码归档已随包提供，无需另取这些材料。
 
 BepInEx与UnityDoorstop的LGPL权利，以及各依赖自身许可继续有效，不因本仓库归档约定受限；这些许可不自动授予ZaohuaTrainer或游戏文件新的权利。本次未公开修改器实现源码或游戏程序集。
+
+## HookshotTrainer
+
+Hookshot v2.3.1 及本项目涉及的 Eden 着色器翻译代码采用 GPL-3.0-or-later。物品目录适配器参考了 Traiver 的 OOT-SW2SE，遵循其 MIT 许可。源码包保留相关许可文本。构建使用本地提供的游戏文件，NVIDIA DLSS SDK 另有分发条款。[Hookshot 许可](sources/hookshot/notices/Hookshot-COPYING.txt) · [OOT-SW2SE 许可](sources/hookshot/notices/OOT-SW2SE-LICENSE.txt)
