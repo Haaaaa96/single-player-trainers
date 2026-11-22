@@ -33,3 +33,7 @@ BepInEx与UnityDoorstop的LGPL权利，以及各依赖自身许可继续有效�
 ## HookshotTrainer
 
 Hookshot v2.3.1 及本项目涉及的 Eden 着色器翻译代码采用 GPL-3.0-or-later。物品目录适配器参考了 Traiver 的 OOT-SW2SE，遵循其 MIT 许可。源码包保留相关许可文本。构建使用本地提供的游戏文件，NVIDIA DLSS SDK 另有分发条款。[Hookshot 许可](sources/hookshot/notices/Hookshot-COPYING.txt) · [OOT-SW2SE 许可](sources/hookshot/notices/OOT-SW2SE-LICENSE.txt)
+
+## RiseAloneTrainer
+
+V1.8.2 完整包包含 [BepInEx 6.0.0-be.793](https://github.com/BepInEx/BepInEx/tree/dbc82f05b8ea34833de5b6a723eb60dd8398e0b1)、Doorstop、.NET 运行时和上游 Unity 基础库。随附的第三方许可及对应源码归档位于包内 `BepInEx/licenses`，各组件沿用其原有条款。

@@ -19,6 +19,7 @@ This repository keeps selected source snapshots, development notes and versioned
 | Probably Stolen / 深空当铺：可能是偷的 | ProbablyStolenTrainer v1.10.3 | Native Unity Mono mod; no extra loader | [Overview](games/probably-stolen/README.md) · [Development log](games/probably-stolen/DEVLOG.md) · [Artifacts](https://github.com/Haaaaa96/single-player-trainers/releases/tag/probably-stolen-v1.10.3) |
 | The Legend of Zelda: Ocarina of Time (Switch 2) | NX2naviTrainer v0.1.1 | In-game trainer built with NX2navi v0.6.1 for Windows x64 | [Overview](games/nx2navi/README.md) · [Build](sources/nx2navi/BUILD.md) · [Development log](games/nx2navi/DEVLOG.md) · [Release](https://github.com/Haaaaa96/single-player-trainers/releases/tag/nx2navi-v0.1.1) |
 | The Legend of Zelda: Ocarina of Time (Switch 2) | HookshotTrainer 0.2.25-dev | In-game trainer for Hookshot v2.3.1 on Windows x64 | [Overview](games/hookshot/README.md) · [Source](sources/hookshot/) · [Development log](games/hookshot/DEVLOG.md) · [Release](https://github.com/Haaaaa96/single-player-trainers/releases/tag/hookshot-v0.2.25-dev) |
+| 重生2我独自逆袭 | RiseAloneTrainer V1.8.2 | BepInEx 6 IL2CPP in-game plugin | [Overview](games/rise-alone/README.md) · [Source](sources/rise-alone/README.md) · [Development log](games/rise-alone/DEVLOG.md) · [Release](https://github.com/Haaaaa96/single-player-trainers/releases/tag/rise-alone-v1.8.2) |
 
 ## Background
 

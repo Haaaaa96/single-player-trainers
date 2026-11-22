@@ -188,5 +188,18 @@
     "tag": "hookshot-v0.2.25-dev",
     "upstream": "Hookshot v2.3.1",
     "reference_game_version": "1.1.1"
+  },
+  {
+    "game": "rise-alone",
+    "version": "1.8.2",
+    "filename": "RiseAloneTrainer-v1.8.2-win64.7z",
+    "bytes": 27741387,
+    "sha256": "46e5d9df958c01fc8dee23ed80ba7ba7d230989864dc7cced3ac913a7a70e1f8",
+    "kind": "complete",
+    "tag": "rise-alone-v1.8.2",
+    "reference_steam_build": "26669300",
+    "payload_sha256": {
+      "BepInEx/plugins/RiseAlonePlugin.dll": "b9db0b78287ef3b70c790b59e3d517115babde3be3f43725679cef4f2d8d8aa2"
+    }
   }
 ]

@@ -37,3 +37,7 @@ BepInEx and UnityDoorstop's LGPL rights and each dependency's own license remain
 ## HookshotTrainer
 
 Hookshot v2.3.1 and the affected Eden shader translator code use GPL-3.0-or-later. The inventory catalog adapter uses research from Traiver’s MIT-licensed OOT-SW2SE. The source package includes the relevant license texts. The build uses locally supplied game files. The NVIDIA DLSS SDK has separate distribution terms. [Hookshot license](sources/hookshot/notices/Hookshot-COPYING.txt) · [OOT-SW2SE license](sources/hookshot/notices/OOT-SW2SE-LICENSE.txt)
+
+## RiseAloneTrainer
+
+The V1.8.2 complete package includes [BepInEx 6.0.0-be.793](https://github.com/BepInEx/BepInEx/tree/dbc82f05b8ea34833de5b6a723eb60dd8398e0b1), Doorstop, the .NET runtime and upstream Unity reference libraries. Bundled notices and corresponding source archives are under `BepInEx/licenses` inside the release. Each dependency retains its own terms.
